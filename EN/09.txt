@@ -1,0 +1,414 @@
+#add_scroll_notify=添加滚动通知
+add_scroll_notify=Add a scroll notification
+#add_emergency_notify=添加紧急通知
+add_emergency_notify=Add emergency notification
+#notify_type=通知类型
+notify_type=Notification type
+#room_num=房间号
+room_num=房间号
+#notify_content=通知内容
+notify_content=Notification content
+#starttime_and_endtime=开始时间/截止时间
+starttime_and_endtime=Start Time/Deadline
+#exptime2=有效期
+exptime2=valid
+#td_notify_type=通知类型：
+td_notify_type=Notification type:
+#td_select_user_group=选择用户组：
+td_select_user_group=Select user group:
+#td_notify_content=通知内容：
+td_notify_content=Notification content:
+#td_room_num=房间号：
+td_room_num=Room number:
+#tip_td_room_num=多个之间用逗号隔开，为空表示不限，如: <span class="hot">201-205,301</span>
+tip_td_room_num=Multiple spaces are separated by commas. Space is unlimited, such as: <span class="hot">201-205,301</span>
+#td_effective_time=生效时间：
+td_effective_time=Effective time:
+#warn_notify_no_user_group=请选择用户组！
+warn_notify_no_user_group=Please select a user group!
+#warn_notify_content_limited=通知内容字数超出限制！
+warn_notify_content_limited=Notification content exceeds the limit!
+#warn_notify_endtime=截止时间不能小于开始时间！
+warn_notify_endtime=The deadline cannot be less than the start time!
+#please_select_notify_for_del=请选择要删除的通知！
+please_select_notify_for_del=Please select the notification to delete!
+#confirm_del_notify=确认删除吗？
+confirm_del_notify=Confirm delete?
+#del_notify=删除通知
+del_notify=Delete notification
+#deleting_notify=正在删除通知，请稍候…
+deleting_notify=Deleting notifications, please wait...
+
+#general_settings=通用配置
+general_settings=General Configuration
+#td_notify_count=最大通知条数：
+td_notify_count=Maximum number of notifications:
+#tip_notify_count=范围：10-10000，超出后系统会自动清理已过期的通知
+tip_notify_count=Range: 10-10000. After the violation, the system will automatically clear expired notifications
+#td_notify_update_interval=通知更新间隔：
+td_notify_update_interval=Notify update interval:
+#tip_notify_update_interval=检查更新的时间，不得低于2秒，默认5秒
+tip_notify_update_interval=Check update time, no less than 2 seconds, default 5 seconds
+#scroll_notify_settings=滚动通知配置
+scroll_notify_settings=Scroll notification configuration
+#emergency_notify_settings=紧急通知配置
+emergency_notify_settings=Emergency Notification Configuration
+
+#td_notify_add_interval=通知提交间隔：
+td_notify_add_interval=Notification submission interval:
+#td_notify_font_size=通知文本大小：
+td_notify_font_size=Notification text size:
+#td_notify_bgcolor=通知背景颜色：
+td_notify_bgcolor=Notify background color:
+#td_notify_color=通知文本颜色：
+td_notify_color=Notify text color:
+#td_notify_exptime=通知有效时间：
+td_notify_exptime=Notification effective time:
+#td_notify_opacity=通知透明设置：
+td_notify_opacity=Notification transparent setting:
+#td_notify_scroll_speed=通知滚动速度：
+td_notify_scroll_speed=Notify scroll speed:
+#td_notify_def_content=通知默认内容：
+td_notify_def_content=Notify default content:
+
+#tip_scroll_notify_add_interval=不得低于1秒，默认5秒
+tip_scroll_notify_add_interval=not less than 1 second, default 5 seconds
+#tip_scroll_notify_font_size=范围：30-100，默认50
+tip_scroll_notify_font_size=Range: 30-100, Default 50
+#tip_notify_preview=通知预览！The notification preview !
+tip_notify_preview=Notification preview! The notification preview !
+#tip_scroll_notify_exptime=不得低于1秒，默认3600秒，未指定截止时间时生效
+tip_scroll_notify_exptime=not to be less than 1 second, default 3600 seconds, effective when no deadline is specified
+#tip_notify_scroll_speed=范围：1-9，值越大滚动越快，默认为2
+tip_notify_scroll_speed=Range: 1-9, the faster the value, the faster the scroll, the default is 2
+#td_scroll_notify_show_interval=通知显示时长：
+td_scroll_notify_show_interval=Notification display duration:
+#tip_scroll_notify_show_interval=不低于1分钟，默认为1
+tip_scroll_notify_show_interval=not less than 1 minute, default is 1
+#td_scroll_notify_hide_interval=通知停顿时长：
+td_scroll_notify_hide_interval=Notification pause duration:
+#tip_scroll_notify_hide_interval=不低于1分钟，默认为1
+tip_scroll_notify_hide_interval=not less than 1 minute, default is 1
+
+#tip_emergency_notify_add_interval=不得低于1秒，默认60秒
+tip_emergency_notify_add_interval=not less than 1 second, default 60 seconds
+#tip_emergency_notify_font_size=范围：30-100，默认60
+tip_emergency_notify_font_size=Range: 30-100, Default 60
+#tip_emergency_notify_exptime=不得低于1秒，默认600秒，未指定截止时间时生效
+tip_emergency_notify_exptime=not to be less than 1 second, 600 seconds by default, effective when no deadline is specified
+#tip_emergency_notify_def_content=100字以内
+tip_emergency_notify_def_content=100 words or less
+
+#app_vod_mq=本地影院 <span class="mark">（需用户自备片源）</span>
+app_vod_mq=Local Theater <span class="mark">(Requires User-Supplied Source)</span>
+#app_vod_vip=VIP影院 <span class="mark">（片源联系官方）</span>
+app_vod_vip=VIP Cinema <span class="mark">(Source Contact Official)</span>
+
+#desc_app_upgrade_push0=<span class="hot">此处上传的APP名称（安装后的显示名称）要与自定义图片中设置的APP名称相对应</span>，当小区APP检测到客户机未安装相应APP时，会从此处下载并安装。
+desc_app_upgrade_push0=<span class="hot">The uploaded APP name (installed display name) should correspond to the APP name set in the custom picture</span>, when the cell APP detects that the client is not installed accordingly When APP is downloaded and installed from here.
+#desc_app_upgrade_push_for_dl=<a class="link" href="{0}" target="_blank">点此下载APP</a>，
+desc_app_upgrade_push_for_dl=<a class="link" href="{0}" target="_blank">Click here to download the APP</a>.
+#desc_app_upgrade_push1_for_itv=APP名称与版本号之间用下划线分隔，比如酒店APP_<span class="hot">24</span>.apk，在上传时，程序可自动获取规范命名APP的版本号。<br>
+desc_app_upgrade_push1_for_itv=The APP name and the version number are separated by an underscore, such as the hotel APP_<span class="hot">24</span>.apk. At the time of uploading, the program can automatically obtain the version number of the named and named APP. <br>
+#desc_app_upgrade_push1_for_iptv=APP名称与版本号之间用下划线分隔，比如小区APP_<span class="hot">337</span>.apk，在上传时，程序可自动获取规范命名APP的版本号。<br>
+desc_app_upgrade_push1_for_iptv=The APP name and version number are separated by an underscore, for example, the cell APP_<span class="hot">337</span>.apk. When uploading, the program can automatically obtain the version number of the specification and naming APP. <br>
+#desc_app_upgrade_push2=<span class="hot">APP支持在线配置</span>，选择推送或配置后，将自动从官网下载APP并写入到推送数据。<br>
+desc_app_upgrade_push2=<span class="hot">APP supports online configuration</span>. After selecting push or configuration, it will automatically download the app from the official website and write it to the push data. <br>
+#desc_app_upgrade_push3_for_itv=APP支持播放启动视频，只需将要播放的视频传到共享根目录，并重命名为 <span class="hot">hotel_start.mp4</span> 即可（<span class="hot">不得超过300MB，否则无法播放</span>）。
+desc_app_upgrade_push3_for_itv=APP支持播放启动视频，只需将要播放的视频传到共享根目录，并重命名为 <span class="hot">hotel_start.mp4</span> 即可（<span class="hot">不得超过300MB，否则无法播放</span>）。
+#desc_app_upgrade_push3_for_iptv=APP支持播放启动视频，只需将要播放的视频传到共享根目录，并重命名为 <span class="hot">start.mp4</span> 即可（<span class="hot">不得超过300MB，否则无法播放</span>）。
+desc_app_upgrade_push3_for_iptv=APP supports playing start video. Just transfer the video to be played to the shared root directory and rename it to <span class="hot">start.mp4</span> (<span class="hot"> More than 300MB, otherwise it will not play </span>).
+
+#third_party_vod_app_config=第三方点播APP配置
+third_party_vod_app_config=Third-party on-demand APP configuration
+#td_def_file=默认文件：
+td_def_file=Default file:
+#view_file=查看文件
+view_file=View Files
+#fixed_image1_app_config=固定图片1APP配置
+fixed_image1_app_config=Fixed Image 1APP Configuration
+#fixed_image2_app_config=固定图片2APP配置
+fixed_image2_app_config=Fixed Image 2APP Configuration
+#enable_force_update=启用强制更新
+enable_force_update=Enable Forced Update
+#app_upgrade_config_method=配置方式
+app_upgrade_config_method=Configuration
+#app_upgrade_config_by_push=在线配置
+app_upgrade_config_by_push=Online configuration
+#app_upgrade_config_by_upload=本地上传
+app_upgrade_config_by_upload=Local Upload
+#hotel_app_upgrade=酒店APP推送
+hotel_app_upgrade=Hotel APP Push
+#td_current_version=当前版本：
+td_current_version=Current Version:
+#td_push_version=推送版本：
+td_push_version=Push version:
+#push_app_checking=检测中
+push_app_checking=In detection
+#push_app_log=推送日志：
+push_app_log=Push log:
+#app_push=推送
+app_push=Push
+#td_upgrade_file=升级文件：
+td_upgrade_file=Upgrade file:
+#how_to_get_app_ver=如何获取版本号
+how_to_get_app_ver=How to get the version number
+#player_app_upgrade=播放器APP推送
+player_app_upgrade=player APP push
+#select_hd_cinema=选择本地影院
+select_hd_cinema=Select Local Theater
+#vod_vip_app_upgrade=VIP影院APP配置
+vod_vip_app_upgrade=VIP Cinema APP Configuration
+#td_server_ip=服务器IP：
+td_server_ip=Server IP:
+#net_vod_app_upgrade=网络视频APP配置
+net_vod_app_upgrade=Network Video APP Configuration
+#td_current_app=当前APP：
+td_current_app=Current APP:
+#td_config_app=配置APP：
+td_config_app=Configure APP:
+#td_app_name=APP名称：
+td_app_name=APP name:
+#music_app_upgrade=音乐APP配置
+music_app_upgrade=Music APP configuration
+#config=配置
+config=Configuration
+#iptv_app_upgrade=小区APP推送
+iptv_app_upgrade=Public APP push
+#edu_app_upgrade=教学APP推送
+edu_app_upgrade=Teaching APP App Push
+#iptv_launcher_app_upgrade=小区APP（启动桌面）推送
+iptv_launcher_app_upgrade=Community APP (Start Desktop) Push
+#tip_app_upgrade_rweb=远程协助时不支持本地上传APP！
+tip_app_upgrade_rweb=Local Upload APP is not supported during Remote Assistance!
+#please_set_hotel_app=请配置酒店APP！
+please_set_hotel_app=Please configure hotel app!
+#please_set_player_app=请配置播放器APP！
+please_set_player_app=Please configure the player APP!
+#please_set_vip_vod_app=请配置VIP影院APP！
+please_set_vip_vod_app=Please configure the VIP Cinema App!
+#please_set_iptv_app=请配置小区APP！
+please_set_iptv_app=Please configure Community APP!
+#tip_has_app_upgrade=检测到您有版本更新，请升级！
+tip_has_app_upgrade=We detected that you have a version update. Please upgrade!
+#failed_check_file=文件校验失败
+failed_check_file=File verification failed
+#app_downloaded=已完成
+app_downloaded=Completed
+#app_downloading=下载中
+app_downloading=Downloading
+#warn_failed_check_file=文件校验失败,请稍候重试！
+warn_failed_check_file=File verification failed. Please try again later!
+#confirm_config_app_upgrade=确认配置 <span class="hot">{0}</span> 吗？确认后将从官网下载APP，并写入到推送数据。
+confirm_config_app_upgrade=Confirm configuration <span class="hot">{0}</span> ? After confirming, the APP will be downloaded from the official website and written to the push data.
+#confirm_push_app_upgrade=确认推送 <span class="hot">{0}</span> 吗？确认后将从官网下载APP，并写入到推送数据。
+confirm_push_app_upgrade=Confirm Push <span class="hot">{0}</span> ? After confirming, the APP will be downloaded from the official website and written to the push data.
+#version=版本
+version=version
+#no_push_data=无推送数据
+no_push_data=No push data
+#no_uploaded_file=尚未上传文件
+no_uploaded_file=Files have not been uploaded
+#del_file=删除文件
+del_file=Delete file
+#confirm_del_file=确认删除该文件吗？
+confirm_del_file=Confirm delete this file?
+#deleting_file=正在删除文件，请稍候…
+deleting_file=Deleting file, please wait...
+#failed_get_app_push_data=数据获取失败
+failed_get_app_push_data=Data acquisition failed
+
+#hotel_mgr=酒店管理
+hotel_mgr=Hotel Management
+#desc_hotel_welcome=若要APP对不同的房间显示不同的称呼，<a class="link show-desc-wl-param" href="images/demo/welcome_with_parameter.png" target="_blank">点此查看使用方法</a>，需酒店APP在V52及以上。
+desc_hotel_welcome=If App wants to display different names for different rooms, <a class="link show-desc-wl-param" href="images/demo/welcome_with_parameter.png" target="_blank">click here to see how to use </a>, Hotel APP is required on V52 and above.
+#td_hotel_name=酒店名称：
+td_hotel_name=Hotel Name:
+#td_hotel_name_en=英文名称：
+td_hotel_name_en=English name:
+#td_hotel_area=所在地区：
+td_hotel_area=Location:
+#tip_hotel_area=用于显示天气
+tip_hotel_area=Use to show the weather
+#td_hotel_welcome_cn=中文欢迎词：
+td_hotel_welcome_cn=Chinese Welcome:
+#td_hotel_welcome_en=英文欢迎词：
+td_hotel_welcome_en=English welcome words:
+#tip_hotel_welcome=可嵌入变量以显示不同的称呼
+tip_hotel_welcome=Can embed variables to show different titles
+#customer_name=客户名称
+customer_name=customer name
+#customer_intime=入住时间
+customer_intime=Check-in time
+#customer_gender=客户性别
+customer_gender=Customer Gender
+#see_app_room_mgr=见APP房间管理
+see_app_room_mgr=See APP Room Management
+#please_select_city=请选择城市
+please_select_city=Please select a city
+
+#desc_hotel_background=建议的图片大小为：<span class="hot">1920x1080（px），格式为png或jpg</span>。
+desc_hotel_background=The recommended image size is: <span class="hot">1920x1080(px) in png or jpg</span> format.
+
+#desc_hotel_service_menu=1. 需要酒店APP版本不低于19，酒店APP版本在18及以下的 <a class="link need-reload" href="{0}">点此配置菜单</a><br>2. 最多允许添加6个服务菜单。若服务名称包含<span class="green">订餐</span>2字，APP会跳转到在线订餐页面（需酒店APP在V52及以上）。<a class="link set-name hide">点此可修改“{1}”名称</a>
+desc_hotel_service_menu=1. <a class="link need-reload" href="{0}">Click here to configure menus</a><br> for hotel app version no less than 19 and hotel app version no more than 18. 2. Allow up to 6 service menus to be added. If the service name contains the <span class="green">Ordering</span> 2 word, the APP will jump to the online ordering page (requires the hotel APP on V52 and above). <a class="link set-name hide">Click here to edit the "{1}" name</a>
+#add_service_menu=添加服务菜单
+add_service_menu=Add Service Menu
+#set_service_menu=添加服务菜单
+set_service_menu=Add Service Menu
+#the_menu_already_at_top=菜单 <span class="hot">{0}</span> 已在最上面！
+the_menu_already_at_top=Menu <span class="hot">{0}</span> is on top!
+#the_menu_already_at_bottom=菜单 <span class="hot">{0}</span> 已在最下面！
+the_menu_already_at_bottom=Menu <span class="hot">{0}</span> is at the bottom!
+
+#hotel_service_name=服务名称
+hotel_service_name=Service Name
+#hotel_service_name_en=英文名称
+hotel_service_name_en=English name
+#move_up_one=上移一位
+move_up_one=Move up one bit
+#move_down_one=下移一位
+move_down_one=move down one
+#change_app_module_name=更改“{0}”名称
+change_app_module_name=Change '{0}' name
+#td_menu_name=菜单名称：
+td_menu_name=Menu Name:
+#td_menu_name_en=英文名称：
+td_menu_name_en=English name:
+#td_service_name=服务名称：
+td_service_name=Service Name:
+#td_service_name_en=英文名称：
+td_service_name_en=English name:
+#td_service_confirm=确认信息：
+td_service_confirm=Confirmation information:
+#td_service_confirm_en=英文确认：
+td_service_confirm_en=English confirmation:
+#td_menu_notice=提示内容：
+td_menu_notice=Prompt content:
+#td_menu_notice_en=英文提示：
+td_menu_notice_en=English Tips:
+#warn_service_menu_num=最多允许添加6个菜单！
+warn_service_menu_num=Allows you to add up to 6 menus!
+#confirm_del_menu=您确认删除菜单 {0} 吗？
+confirm_del_menu=Are you sure to delete menu {0}?
+#confirm_del_menu2=该菜单下的子菜单会被一并删除。
+confirm_del_menu2=Submenus under this menu will be deleted.
+
+#desc_hotel_about_menu=1. 需要酒店APP版本不低于19，酒店APP版本在18及以下的 <a class="link need-reload" href="{0}">点此配置菜单</a><br>2. 最多允许添加6个一级菜单。每个一级菜单最多允许添加10个二级菜单。<a class="link set-name hide">点此可修改“关于我们”名称</a><br>3. 建议的图片大小为：<span class="hot">1920x1080（px），格式为png或jpg</span>。
+desc_hotel_about_menu=1. <a class="link need-reload" href="{0}">Click here to configure menus</a><br> for hotel app version no less than 19, hotel app version no more than 18. 2. It is allowed to add up to 6 first-level menus. A maximum of 10 secondary menus per primary menu are allowed. <a class="link set-name hide">Click here to edit the "about us" name</a><br>3. The recommended image size is: <span class="hot">1920x1080(px), format Png or jpg</span>.
+#add_main_menu=添加主菜单
+add_main_menu=Add main menu
+#set_main_menu=修改主菜单
+set_main_menu=Modify main menu
+#add_sub_menu=添加子菜单
+add_sub_menu=Add submenu
+#set_sub_menu=修改子菜单
+set_sub_menu=Modify submenu
+#main_menu=主菜单
+main_menu=main menu
+#sub_menu=子菜单
+sub_menu=Submenu
+#chane_about_us_name=更改“关于我们”名称
+chane_about_us_name=Change "about us" name
+#upload=上传
+upload=upload
+#td_parent_menu=上级菜单：
+td_parent_menu=Advanced menu:
+#td_menu_desc=页面内容：
+td_menu_desc=Page content:
+#td_menu_desc_en=英文内容：
+td_menu_desc_en=English content:
+#td_menu_images=页面图片：
+td_menu_images=Page image:
+#warn_main_menu_num=最多允许添加6个主菜单！
+warn_main_menu_num=Allows you to add up to 6 main menus!
+#warn_sub_menu_num=最多允许添加10个子菜单！
+warn_sub_menu_num=Allows you to add up to 10 submenus!
+#del_menu=删除菜单
+del_menu=Delete menu
+
+#desc_hotel_menu=建议的图片大小为：<span class="hot">1920x1080（px），格式为png或jpg</span>。
+desc_hotel_menu=The recommended image size is: <span class="hot">1920x1080(px) in png or jpg</span> format.
+
+#desc_hotel_food_menu=此功能需酒店APP在V52及以上。
+desc_hotel_food_menu=This feature requires the hotel app to be on V52 and above.
+#add_food=添加菜品
+add_food=Add Dishes
+#set_food=修改菜品
+set_food=Modify dishes
+#clear_food=清空菜品
+clear_food=Clear dishes
+#serving_time=供应时间
+serving_time=supply time
+#tip_food_search=输入名称
+tip_food_search=Enter the name
+#money_symbol=￥
+money_symbol=¥
+#td_food_name=菜名：
+td_food_name=Vegetable name:
+#td_food_images=图片：
+td_food_images=Pictures:
+#td_food_price=价格：
+td_food_price=Price:
+#td_serving_time=供应时间：
+td_serving_time=supply time:
+#td_food_sort_id=排序编号：
+td_food_sort_id=Sorting number:
+#tip_food_sort_id=0-10000，值小的排在前面
+tip_food_sort_id=0-10000, small value comes first
+#td_food_desc=简介：
+td_food_desc=Introduction:
+#please_select_food_for_del=请选择要删除的菜品！
+please_select_food_for_del=Please select the dish you want to delete!
+#confirm_del_food=确认删除以下菜品吗？
+confirm_del_food=Confirm the deletion of the following items?
+#del_food=删除菜品
+del_food=Delete dishes
+#deleting_food=正在删除菜品，请稍候…
+deleting_food=Deleting dishes, please wait...
+#confirm_clear_food=确认清空所有菜品吗？
+confirm_clear_food=Confirm Clear All Dishes?
+#clear_food=清空菜品
+clear_food=Clear dishes
+#clearing_food=正在清空菜品，请稍候…
+clearing_food=Closing dishes, please wait...
+#food_list=菜品列表
+food_list=List of dishes
+#td_select_money=选择月份：
+td_select_money=Select month:
+#food_order_time=订单时间
+food_order_time=Order Time
+#tip_food_order_search=输入房间号
+tip_food_order_search=Enter room number
+#food_order_state0=待受理
+food_order_state0=Pending
+#food_order_state1=已受理
+food_order_state1=Already accepted
+#food_order_state2=已派送
+food_order_state2=Delivered
+#food_order_state8=已取消
+food_order_state8=Cancelled
+#food_order_state9=已完成
+food_order_state9=Completed
+#orderid=订单号
+orderid=order number
+#order_detail=订单详情
+order_detail=order details
+#order_money=订单金额
+order_money=Order Amount
+#order_state=订单状态
+order_state=order status
+#client_ip=客户机IP
+client_ip=Client IP
+#addtime=添加时间
+addtime=Add time
+#tip_set_order_state=点此修改订单状态
+tip_set_order_state=Click here to modify the order status
+#food_order_list=订单列表
+food_order_list=Order list
+#year_and_month={0}年{1}月
+year_and_month={0}year {1} month
+#td_orderid=订单号：
+td_orderid=Order number:
+#td_order_detail=订单详情：
+td_order_detail=Order details:

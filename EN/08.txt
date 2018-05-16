@@ -1,0 +1,411 @@
+#warn_user_group_not_found=您尚未配置用户组！
+warn_user_group_not_found=You have not configured a user group!
+#auto_add_nonexisting_user_group=自动添加不存在的用户组
+auto_add_nonexisting_user_group=Automatically add nonexistent user groups
+#invalid_data_format=数据格式不正确！
+invalid_data_format=Incorrect data format!
+
+#desc_user_group=此处可以设置用户组和对应的频道。默认用户组为（<span class="green">10000</span>），若系统检测到默认用户组不存在，会自动创建默认用户组。
+desc_user_group=User groups and corresponding channels can be set here. The default user group is (<span class="green">10000</span>). If the system detects that the default user group does not exist, the default user group is automatically created.
+#add_user_group=添加用户组
+add_user_group=Add user group
+#set_user_group=修改用户组
+set_user_group=Modify user group
+#whole_channels=全部频道
+whole_channels=All Channels
+#user_group_id=用户组ID
+user_group_id=user group ID
+#user_group_name=用户组名称
+user_group_name=user group name
+#apphome=APP桌面
+apphome=APP desktop
+#please_select_user_group_for_del=请指定要删除的用户组！
+please_select_user_group_for_del=Please specify the user group to delete!
+#confirm_del_user_group=您确认删除以下用户组吗？
+confirm_del_user_group=Are you sure you want to delete the following user groups?
+#deleting_user_group=正在删除用户组,请稍候…
+deleting_user_group=Deleting user groups, please wait...
+#user_group_mgr=用户组管理
+user_group_mgr=user group management
+#td_user_group_id=用户组ID：
+td_user_group_id=User group ID:
+#tip_user_group_id=长度为5，添加后不允许修改
+tip_user_group_id=Length 5, not allowed to modify after adding
+#td_user_group_name=用户组名称：
+td_user_group_name=user group name:
+#td_select_apphome=选择APP桌面：
+td_select_apphome=Select APP desktop:
+#td_channel_list=频道列表：
+td_channel_list=List of channels:
+#warn_user_group_exists=已存在相同的用户组ID！
+warn_user_group_exists=The same user group ID already exists!
+#warn_please_select_channels=您尚未选择频道！
+warn_please_select_channels=You have not selected a channel!
+
+#user_group_level0=只读账号
+user_group_level0=Read-only account
+#user_group_level1=一级用户
+user_group_level1=Level 1 user
+#user_group_level2=二级用户
+user_group_level2=Secondary users
+#user_group_level3=三级用户
+user_group_level3=Three users
+#user_group_level4=四级用户
+user_group_level4=four users
+#user_group_level5=五级用户
+user_group_level5=Level 5 users
+#user_group_level6=六级用户
+user_group_level6=six users
+
+#desc_live_operator=账号操作员有且仅有管理直播用户的权限，仅限于该账号创建的直播用户。<a class="link" href="{0}" target="_blank">账号操作员入口</a>
+desc_live_operator=The account operator has only the rights to manage live users and is limited to the live users created by the account. <a class="link" href="{0}" target="_blank">Account Operator Portal</a>
+#add_live_operator=添加账号
+add_live_operator=Add Account
+#set_live_operator=修改账号
+set_live_operator=Modify Account
+#tip_live_operator_search=输入用户名、备注搜索
+tip_live_operator_search=Enter user name, comment search
+#search_by_mac=按MAC搜索
+search_by_mac=Search by MAC
+#search_by_ip=按IP搜索
+search_by_ip=Search by IP
+#search_by_account=按用户账号搜索
+search_by_account=Search by User Account
+#search_by_hotel_id=按酒店编号搜索
+search_by_hotel_id=Search by Hotel ID
+#search_by_room=按房间号搜索
+search_by_room=Search by Room Number
+
+#client_type_app=APP
+client_type_app=APP
+#client_type_web=Web播放器
+client_type_web=Web Player
+#client_type_pc=PC客户端
+client_type_pc=PC client
+#desc_client_list_for_itv=此功能需酒店APP在V52及以上且播放器APP在V168及以上。
+desc_client_list_for_itv=This function requires the hotel app to be on V52 and above and the player APP on V168 and above.
+#desc_client_list_for_live=此功能需小区APP在V360及以上且播放器APP在V168及以上。
+desc_client_list_for_live=This function requires the cell APP to be at V360 and above and the player APP at V168 and above.
+#select_client_type=选择设备类型
+select_client_type=Select device type
+#tip_client_list_search=输入MAC或账号搜索
+tip_client_list_search=Enter MAC or Account Search
+#device_type=设备类型
+device_type=Device Type
+#device_model=设备型号
+device_model=device model
+#live_account=用户账号
+live_account=Live Account
+#app_version=APP版本
+app_version=APP version
+#playing=正在播放
+playing= playing
+#logtime=存活时间
+logtime=live time
+#client_list=设备列表
+client_list=Device List
+#please_select_client_for_del=请选择要删除的设备！
+please_select_client_for_del=Please select the device to be deleted!
+#confirm_del_client=确认删除以下设备吗？
+confirm_del_client=Confirm to delete the following devices?
+#del_client=删除设备
+del_client=Delete device
+#deleting_client=正在删除设备，请稍候…
+deleting_client=Deleting device, please wait...
+#confirm_clear_app_client=确认清空所有数据吗？
+confirm_clear_app_client=Confirm Clear All Data?
+
+#service=服务
+service=service
+#room_service=客房服务
+room_service=Room Service
+#select_image=选择图片
+select_image=Select picture
+#select_image_and_upload=选择图片并上传
+select_image_and_upload=Select image and upload
+#select_bg_image=选择背景图片
+select_bg_image=Select background image
+#edit_config=编辑配置
+edit_config=Edit configuration
+
+#desc_oldapp_home_for_newapp=<span class="hot">此处仅支持小区APP在V400以下的版本，<a class="link need-reload" href="{0}">点此配置新版APP桌面</a>。</span><br>
+desc_oldapp_home_for_newapp=<span class="hot">This only supports versions with community apps under V400. <a class="link need-reload" href="{0}">Click here to configure the new app desktops</a> . </span><br>
+#desc_oldapp_home=1. 此处可上传直播APP中使用的图片，<span class="hot">点击图片可调用APP程序、直播、点播或打开网址</span>。若是网址，请输入完整的地址（不能省略 http://），eg：<span class="hot">http://www.baidu.com</span><br>2. <span class="hot">单独修改APP名称或链接前必须先上传图片</span>。APP名称必须是<span class="hot">安装后的名称</span>（不是文件名）,若APP名称为<span class="hot">秒开本地影院</span>，则会调用秒开点播APP。<br>3. APP链接支持调用直播和点播资源（<span class="hot">需小区APP 311及以上且播放器APP 111及以上</span>），以<span class="hot">直播@</span>、<span class="hot">点播@</span>开头，如：<span class="hot">直播@CCTV1</span>、<span class="hot">点播@射雕英雄传</span>
+desc_oldapp_home=1. Here you can upload the pictures used in the live APP, <span class="hot">Click the picture to call the APP program, broadcast, on-demand or open the web site</span>. If it is a web address, please enter the complete address (cannot be omitted http://), eg:<span class="hot">http://www.baidu.com</span><br>2. <span class=" Hot">The image must be uploaded before modifying the app name or link</span>. APP name must be <span class="hot">installed name</span> (not a file name). If the app name is <span class="hot">secondary local theater</span>, it will be called Seconds on demand APP. <br> 3. APP link supports calling live and on-demand resources (<span class="hot">requires community APP 311 and above and player APP 111 and above</span>) to <span class="hot"> Live @</span>, <span class="hot">On Demand@</span>, eg <span class="hot">Live @CCTV1</span>, <span class="hot">On Demand @ Eagle Shooting Heroes </span>
+#carousel_images=轮播图片
+carousel_images=Carousel Image
+#vod=点播
+vod=On-demand
+#carousel=轮播
+carousel=Carousel
+#fixed_image1=固定图片1
+fixed_image1=Fixed image 1
+#fixed_image2=固定图片2
+fixed_image2=Fixed image 2
+#successful_upload=上传成功！
+successful_upload=Uploaded successfully!
+#failed_upload=上传失败！
+failed_upload=Upload failed!
+#please_input_app_name_or_link=请输入APP名称或链接：
+please_input_app_name_or_link=Please enter the APP name or link:
+#background=背景
+background=background
+#doc_library=文库
+doc_library=Library
+#digital_tv=数字电视
+digital_tv=Digital TV
+#private_wifi=私人WiFi
+private_wifi=Private WiFi
+#net_vod=网络点播
+net_vod=Network On Demand
+#hd_cinema=本地影院
+hd_cinema=Local cinema
+#room_service=客房服务
+room_service=Room Service
+#about_us=关于我们
+about_us=About us
+#music_hall=音乐厅
+music_hall=Concert Hall
+#online_food=在线订餐
+online_food=Order online
+#background_music=背景音乐
+background_music=background music
+#usefull_for_app_first_run=仅对初次安装的APP生效
+usefull_for_app_first_run=Only applies to the first installed APP
+#desc_app_settings_general_for_iptv=天气城市配置需APP版本在V390及以上。
+desc_app_settings_general_for_iptv=The weather city configuration requires APP version V390 and above.
+#desc_app_settings_general_for_itv=欢迎页支持播放背景音乐，只需将要播放的音乐传到共享根目录，并重命名为 bgm.mp3 即可，需APP版本在V100及以上。
+desc_app_settings_general_for_itv=欢迎页支持播放背景音乐，只需将要播放的音乐传到共享根目录，并重命名为 bgm.mp3 即可，需APP版本在V100及以上。
+#main_module_config=主界面模块配置
+main_module_config=Main Interface Module Configuration
+#main_app_config=主界面APP配置
+main_app_config=Main Interface APP Configuration
+#click_to_set_app_module_name=点此修改APP上的显示名称
+click_to_set_app_module_name=Click here to modify the display name on the APP
+#use_new_hotel_ui=使用新APP界面
+use_new_hotel_ui=Use the new APP interface
+#tip_use_new_hotel_ui=需APP版本在V105及以上
+tip_use_new_hotel_ui=App version required is V105 and above
+#auto_check_upgrade=自动检测更新
+auto_check_upgrade=Automatically Detect Updates
+#auto_goto_live=自动进入直播
+auto_goto_live=Automatically enter live
+#disable_private_wifi=禁用私人WiFi
+disable_private_wifi=Disable private WiFi
+#def_enable_private_wifi=默认开启WiFi
+def_enable_private_wifi=Enable WiFi by default
+#tip_def_enable_private_wifi=启动酒店APP自动开启私人WiFi
+tip_def_enable_private_wifi=Starting the hotel app automatically opens private WiFi
+#td_password_for_app_config=登录配置密码：
+td_password_for_app_config=Login configuration password:
+#tip_password_for_hotel_app_config=0、1、2分别表示遥控器上、下、右键，左键表示清除
+tip_password_for_hotel_app_config=0, 1, 2 indicates the remote controller up, down, right, and the left button indicates clear
+#tip_password_for_live_app_config=修改APP登录配置时输入的密码
+tip_password_for_live_app_config=Password entered when modifying APP login configuration
+#td_private_wifi_name=WiFi名称配置：
+td_private_wifi_name=WiFi name configuration:
+#tip_private_wifi_name=不超过16个字符，以@开头表示WiFi前缀，名称会自动加上房间号
+tip_private_wifi_name=Up to 16 characters, starting with @ indicates the WiFi prefix, the name is automatically added to the room number
+#td_private_wifi_password=WiFi密码配置：
+td_private_wifi_password=WiFi password configuration:
+#tip_private_wifi_password=@表示随机密码，为空表示不设密码，密码长度为8-32位
+tip_private_wifi_password=@ indicates a random password, null indicates no password, and the password is 8-32 bits long
+#td_room_service_interval=服务提交间隔：
+td_room_service_interval=Service submission interval:
+#tip_room_service_interval=同一类型服务提交的时间间隔，为0表示不限
+tip_room_service_interval=The time interval for the same type of service submission, 0 means unlimited
+#td_hotel_app_bottom_text=APP底部文字：
+td_hotel_app_bottom_text=APP bottom text:
+#tip_hotel_app_bottom_text=比如：客服电话：88888888
+tip_hotel_app_bottom_text=Example: Customer Service Phone: 88888888
+#live_app_config=直播APP配置
+live_app_config=Live APP configuration
+#live_change_channel=上减下加换台
+live_change_channel=up and down exchange station
+#enable_line_by_line_scan=启用逐行扫描
+enable_line_by_line_scan=Enable progressive scan
+#enable_hardware_decode=启用硬件解码
+enable_hardware_decode=Enable hardware decoding
+#enable_sleep_detect=启用休眠检测
+enable_sleep_detect=Enable hibernation detection
+#td_subtitle_bgcolor=字幕背景颜色：
+td_subtitle_bgcolor=Caption background color:
+#td_subtitle_color=字幕文本颜色：
+td_subtitle_color=Caption text color:
+#tip_preview_subtitle=字幕预览！The subtitle preview !
+tip_preview_subtitle=Caption preview! The subtitle preview !
+#td_def_live_channel=默认直播频道：
+td_def_live_channel=Default live channel:
+#tip_def_live_channel=如：<span class="hot">CCTV1</span>
+tip_def_live_channel=Example: <span class="hot">CCTV1</span>
+#set_app_module_name=更改APP模块名称
+set_app_module_name=Change APP module name
+#chinese_name=中文名称
+chinese_name=Chinese name
+#english_name=英文名称
+english_name=English name
+#td_weather_city=天气城市配置：
+td_weather_city=Weather City Configuration:
+
+#desc_app_settings_playing_ad=直播或点播播放时，在右下角显示图片广告（jpg、gif、png）。此功能需播放器APP在V170及以上。
+desc_app_settings_playing_ad=直播或点播播放时，在右下角显示图片广告（jpg、gif、png）。此功能需播放器APP在V170及以上。
+#playing_ad_config=播放广告配置
+playing_ad_config=Play advertisement configuration
+#td_usage_scene=启用场景：
+td_usage_scene=Enable scenes:
+#td_image_width=图片宽度：
+td_image_width=Image width:
+#td_image_height=图片高度：
+td_image_height=Image Height:
+#td_right_margin=右边距：
+td_right_margin=right margin:
+#td_bottom_margin=下边距：
+td_bottom_margin=Bottom margin:
+#td_starttime=开始时间：
+td_starttime=Start time:
+#td_endtime=截止时间：
+td_endtime=Deadline:
+#td_ad_show_intervavl=显示时长：
+td_ad_show_intervavl=Display duration:
+#tip_ad_show_intervavl=，不低于1，默认为1
+tip_ad_show_intervavl=, not less than 1, default is 1
+#td_ad_hide_intervavl=停顿时长：
+td_ad_hide_intervavl=Pause Duration:
+#tip_ad_hide_intervavl=，不低于1，默认为10
+tip_ad_hide_intervavl=, not less than 1, defaults to 10
+#td_ad_image=广告图片：
+td_ad_image=Ad Image:
+
+#desc_app_home_list_for_oldapp=<span class="hot">此处仅支持小区APP在V500及以上的版本，<a class="link need-reload" href="{0}">点此配置老版APP桌面</a>。</span><br>
+desc_app_home_list_for_oldapp=<span class="hot">This only supports the version of community APP in V500 and above. <a class="link need-reload" href="{0}">Click here to configure the old version of the APP desktop. a>. </span><br>
+#desc_app_home_list=1. 一般只需创建1个APP桌面即可，若要实现权限管理，可创建多个桌面，然后在<a class="link" href="{0}">用户组管理</a>对用户组与桌面进行关联。对于未设置的用户组，将默认返回第1个桌面。<br>2. <span class="hot">请先在<a class="link need-reload" href="{1}">APP上传管理</a>和<a class="link need-reload" href="{2}">图片上传管理</a>上传相关APP和图片</span>，然后在此处选择图片和配置APP。显示效果以APP为准。
+desc_app_home_list=1. Generally, you only need to create one APP desktop. To achieve rights management, create multiple desktops and then <a class="link" href="{0}">user group management</a > Associate user groups with desktops. For unset user groups, the first desktop is returned by default. <br>2. <span class="hot">Please first <a class="link need-reload" href="{1}">APP upload management</a> and <a class="link need- Reload" href="{2}">Image Upload Manager</a> Upload related apps and images</span>, then select pictures and configure apps here. The display effect is based on the APP.
+#add_app_home=添加桌面
+add_app_home=Add Desktop
+#adding_app_home=正在添加桌面，请稍候…
+adding_app_home=Adding desktop, please wait...
+#num_of_large_display={0}个大显示位
+num_of_large_display={0} large display bits
+#num_of_small_display={0}个小显示位
+num_of_small_display={0} small display bits
+#click_to_select_logo=点此选择LOGO
+click_to_select_logo=Click here to choose LOGO
+#select_logo=选择LOGO
+select_logo=Select LOGO
+#custom_name=自定义名称
+custom_name=custom name
+#custom_info=自定义信息
+custom_info=Custom Information
+#app_home=桌面
+app_home=Desktop
+#review=回看
+review=Review
+#live_channel=直播频道
+live_channel=Live Channel
+#vod_channel=点播频道
+vod_channel=On-demand channel
+#third_party_app=第三方APP
+third_party_app=Third-party APP
+#website_link=网址链接
+website_link=URL link
+#all_apps=全部应用
+all_apps=All apps
+#app_settings=应用设置
+app_settings=Application Settings
+#system_settings=系统设置
+system_settings=System Settings
+#tip_live_channel=例如：<span class="hot">CCTV1</span>
+tip_live_channel=Example: <span class="hot">CCTV1</span>
+#tip_vod_channel=例如：<span class="hot">射雕英雄传</span>
+tip_vod_channel=Example: <span class="hot">Shooting Heroes</span>
+#tip_website_link=请输入完整的网址，如<span class="hot">https://www.baidu.com</span>
+tip_website_link=Please enter the full URL, such as <span class="hot">https://www.baidu.com</span>
+#app_config=APP设置
+app_config=APP settings
+#td_app_type=类型：
+td_app_type=Type:
+#td_app_name_or_link=APP名称或链接：
+td_app_name_or_link=APP name or link:
+#td_app_select=选择APP：
+td_app_select=Select APP:
+#td_app_rtop_text=右上角文字：
+td_app_rtop_text=Top right text:
+#td_app_bottom_text=底部文字：
+td_app_bottom_text=Bottom text:
+#td_app_rtop_bgcolor=右上角背景颜色：
+td_app_rtop_bgcolor=Background color in the top right corner:
+#td_app_rtop_color=右上角文本颜色：
+td_app_rtop_color=Text color in upper right corner:
+#td_app_bottom_bgcolor=底部背景颜色：
+td_app_bottom_bgcolor=Bottom background color:
+#td_app_bottom_color=底部文本颜色：
+td_app_bottom_color=Bottom text color:
+#select_app=选择APP
+select_app=Select APP
+#tip_app_rtop_text=为空则不显示
+tip_app_rtop_text= is empty and does not show
+#text_preview=文字预览
+text_preview=Text Preview
+#tip_app_bottom_text=为空则不显示
+tip_app_bottom_text=is empty and not displayed
+#click_to_select_color=点此选择颜色
+click_to_select_color=Click here to select color
+#warn_app_home_name_exists=桌面名称不能重复！
+warn_app_home_name_exists=The desktop name cannot be duplicated!
+#confirm_del_app_home=确认删除桌面 {0} 吗？
+confirm_del_app_home=Confirm desktop delete {0}?
+#del_app_home=删除桌面
+del_app_home=Delete Desktop
+#deleting_app_home=正在删除数据，请稍候…
+deleting_app_home=Deleting data, please wait...
+#please_upload_images_before_select=<span class="hot">请先在<a class="link need-reload" href="{0}">图片上传管理</a>上传所需图片。</span>
+please_upload_images_before_select=<span class="hot">Please upload the required image in <a class="link need-reload" href="{0}">image upload management</a> first. </span>
+#no_image=无图片
+no_image=No picture
+#no_app_name=请设置APP名称
+no_app_name=Please set APP name
+
+#desc_app_upload_list=必须是.apk文件且不超过200MB，请保证系统盘有足够的空间。
+desc_app_upload_list= must be a .apk file and does not exceed 200MB. Please ensure that the system disk has enough space.
+#upload_app=上传APP
+upload_app=Upload APP
+#app_name=APP名称
+app_name=APP name
+#file_name=文件名称
+file_name=file name
+#click_to_download=点此下载
+click_to_download=Click here to download
+#set_app_name=设置APP名称
+set_app_name=Set APP Name
+#please_select_app_for_del=请选择要删除的APP！
+please_select_app_for_del=Please select the app you want to delete!
+#confirm_del_app=确认删除以下APP吗？
+confirm_del_app=Confirm to delete the following app?
+#del_app=删除APP
+del_app=Delete APP
+#deleting_app=正在删除APP，请稍候…
+deleting_app=Deleting APP, please wait...
+
+#desc_image_upload_list=<span class="hot">1. 必须是.jpg、.png、.gif文件且不超过2MB。</span><br>2. APP桌面背景图片建议<span class="hot">1920x1080px</span>；logo图片建议<span class="hot">150x150px</span>；大显示位图片建议<span class="hot">571x800px</span>；小显示位图片建议<span class="hot">700x525px</span>。
+desc_image_upload_list=<span class="hot">1. Must be a .jpg, .png, .gif file and no more than 2MB in size. </span><br>2. APP desktop background image suggestion <span class="hot">1920x1080px</span>;logo image suggestion <span class="hot">150x150px</span>; large display bit image suggestion <span class="hot">571x800px</span>; small display image suggestion <span class="hot">700x525px</span>.
+#upload_image=上传图片
+upload_image=Upload image
+#please_select_image_for_del=请选择要删除的图片！
+please_select_image_for_del=Please select the picture you want to delete!
+#confirm_del_image=确认删除以下图片吗？
+confirm_del_image=Confirm to delete the following picture?
+#del_image=删除图片
+del_image=Delete picture
+#deleting_image=正在删除图片，请稍候…
+deleting_image=Deleting picture, please wait...
+
+#desc_app_notify_list=<span class="hot">1. 此功能需小区APP在V342及以上或酒店APP在V44及以上。</span><br>2. 每条通知内容在100字以内。通知发布后一般约5秒生效，<a class="link need-reload" href="{0}">点此修改更新间隔</a>，但基于性能考虑，不建议将此值设的过小。
+desc_app_notify_list=<span class="hot">1. This function requires the community APP to be at V342 and above or the hotel APP at V44 and above. </span><br>2. Each notification is within 100 words. Generally about 5 seconds after the notification is released, <a class="link need-reload" href="{0}">Click here to modify the update interval</a>, but based on performance considerations, this value is not recommended small.
+#desc_app_notify_list_own=<span class="hot">1. 此功能需小区APP在V342及以上或酒店APP在V44及以上。</span><br>2. 每条通知内容在100字以内。
+desc_app_notify_list_own=<span class="hot">1. This function requires the community APP to be on V342 and above or the hotel APP on V44 and above. </span><br>2. Each notification is within 100 words.
+#desc_app_notify_list_mq=<br>3. <a class="link" href="{0}" target="_blank">点此联系官方购买指定硬件</a>，提供一键紧急通知功能。
+desc_app_notify_list_mq=<br>3. <a class="link" href="{0}" target="_blank">Click here to contact the official purchaser of the specified hardware</a> to provide one-button emergency notification.
+#scroll_notify=滚动通知
+scroll_notify=Scroll notification
+#emergency_notify=紧急通知
+emergency_notify=Emergency notification

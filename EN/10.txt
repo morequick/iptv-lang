@@ -1,0 +1,411 @@
+#td_order_state=订单状态：
+td_order_state=Order Status:
+#set_order_state=修改订单状态
+set_order_state=Modify order status
+#setting_order_state=正在修改订单状态，请稍候…
+setting_order_state=Modifying order status, please wait...
+#please_select_order_for_del=请选择要删除的订单！
+please_select_order_for_del=Please select the order to be deleted!
+#confirm_del_order=确认删除以下订单吗？
+confirm_del_order=Confirm to delete the following order?
+#del_order=删除订单
+del_order=Delete Order
+#deleting_order=正在删除订单，请稍候…
+deleting_order=Deleting order, please wait...
+
+#desc_hotel_room_list=1. <span class="hot">APP绑定房间号后，会自动出现在此列表。</span><br>2. 若要在APP启动界面显示不同称呼，请<a class="link need-reload" href="{0}">在欢迎词中嵌入称呼变量</a>。
+desc_hotel_room_list=1. <span class="hot">After the APP binds the room number, it will automatically appear in this list. </span><br>2. To display a different name in the APP launch interface, <a class="link need-reload" href="{0}">embed the title variable in the welcome word</a>.
+#tip_room_list_search=输入房间号
+tip_room_list_search=Enter room number
+#click_to_update_intime=点此更新入住时间为当前时间
+click_to_update_intime=Click here to update the check-in time to the current time
+#click_update=一键更新
+click_update=One-click update
+#room_list=房间列表
+room_list=Room List
+#please_select_room_for_del=请选择要删除的房间！
+please_select_room_for_del=Please select the room you want to delete!
+#confirm_del_room_data=确认删除以下房间数据吗？
+confirm_del_room_data=Confirm to delete the following room data?
+#del_room_data=删除房间数据
+del_room_data=Delete Room Data
+#deleting_room_data=正在删除房间数据，请稍候…
+deleting_room_data=Deleting room data, please wait...
+
+#db_oracle=Oracle
+db_oracle=Oracle
+#db_mysql=MySQL
+db_mysql=MySQL
+#db_mssql=SQL Server
+db_mssql=SQL Server
+
+#td_enable_data_query=启用数据对接：
+td_enable_data_query=Enable data docking:
+#td_db_type=数据库类型：
+td_db_type=Database type:
+#td_db_host=数据库主机：
+td_db_host=Database host:
+#td_db_port=数据库端口：
+td_db_port=Database port:
+#td_db_username=数据库登录名：
+td_db_username=Database login name:
+#td_db_password=数据库密码：
+td_db_password=Database password:
+#td_db_name=数据库名称：
+td_db_name=Database name:
+#td_db_table_name=表或视图名：
+td_db_table_name=Table or view name:
+#td_prop_room=房间号字段名：
+td_prop_room=The room number field name:
+#td_prop_name=客户名称字段名：
+td_prop_name=Customer Name Field Name:
+#td_prop_gender=客户性别字段名：
+td_prop_gender=Customer gender field name:
+#td_prop_intime=客户入住时间字段名：
+td_prop_intime=Customer check-in time field name:
+#tip_db_host=必填,eg: <span class="green">127.0.0.1</span>
+tip_db_host=Required, eg: <span class="green">127.0.0.1</span>
+#tip_db_port=必填,eg: <span class="green">3306</span>
+tip_db_port=Required, eg: <span class="green">3306</span>
+#tip_db_username=必填,eg: <span class="green">root</span>
+tip_db_username=Required, eg: <span class="green">root</span>
+#tip_db_password=必填,eg: <span class="green">admin</span>
+tip_db_password=Required, eg: <span class="green">admin</span>
+#tip_db_name=必填,eg: <span class="green">hotel</span>
+tip_db_name=required, eg: <span class="green">hotel</span>
+#tip_db_table_name=必填,eg: <span class="green">hospital</span>
+tip_db_table_name=Required, eg: <span class="green">hospital</span>
+#tip_db_prop_room=必填,eg: <span class="green">roomid</span>
+tip_db_prop_room=required, eg: <span class="green">roomid</span>
+#tip_db_prop_name=必填,eg: <span class="green">name</span>
+tip_db_prop_name=required, eg: <span class="green">name</span>
+#tip_db_prop_gender=可选,eg: <span class="green">gender</span>
+tip_db_prop_gender=Optional, eg: <span class="green">gender</span>
+#tip_db_prop_intime=可选,eg: <span class="green">intime</span>
+tip_db_prop_intime=Optional, eg: <span class="green">intime</span>
+#test_db_conn=测试连接
+test_db_conn=Test connection
+#test_db_data=测试数据
+test_db_data=Test data
+#testing_db_conn=正在测试数据库连接，请稍候…
+testing_db_conn=Testing database connection, please wait...
+#successful_db_conn=连接成功！
+successful_db_conn=Connection is successful!
+#please_input_room_num=请输入房间号：
+please_input_room_num=Please enter room number:
+#getting_db_data=正在获取房间数据，请稍候…
+getting_db_data=Geting room data, please wait...
+
+#warn_player_browser=您的浏览器版本过低，不支持在线播放，请使用谷歌内核（比如<a class="link" href="http://chrome.360.cn/" target="_blank">360</a>、<a class="link" href="http://ie.sogou.com/" target="_blank">搜狗</a>、<a class="link" href="http://browser.qq.com/" target="_blank">QQ</a>等浏览器极速模式）、<a class="link" href="https://www.mozilla.org/zh-CN/firefox/new/" target="_blank">火狐</a>、IE10及以上浏览器播放！
+warn_player_browser=Your browser is too old to play online. Please use the Google kernel (eg <a class="link" href="http://chrome.360.cn/" target="_blank">360< /a>, <a class="link" href="http://ie.sogou.com/" target="_blank">Sogou</a>, <a class="link" href="http:/ /browser.qq.com/" target="_blank">QQ SuperSpeed ​​Browser</a> and <a class="link" href="https://www.mozilla.org/en-US/ Firefox/new/" target="_blank">Firefox</a>, IE10 and above browser play!
+#warn_player_rweb=远程协助时不支持播放。
+warn_player_rweb=Playback is not supported during remote assistance.
+#warn_player_invalid_format=您的浏览器不支持播放该格式。
+warn_player_invalid_format=Your browser does not support playing this format.
+#please_input_live_account=请输入直播账号
+please_input_live_account=Please enter live account
+#error_live_account=登录账号不正确，请重新输入
+error_live_account=The login account is incorrect, please re-enter
+#error_live_account_mac=账号与设备MAC不匹配，请重新输入
+error_live_account_mac=The account and device MAC do not match, please re-enter
+#error_live_account_expired=账号已过期，请重新输入
+error_live_account_expired=The account has expired. Please enter it again.
+#click_to_set_user_account=点此配置直播账号
+click_to_set_user_account=Click here to configure the live account
+#error_load_playlist_logon_limit=直播列表加载失败，该账号已达最大登录人数，请换个账号重试！
+error_load_playlist_logon_limit=Loading of the live list failed. The account has reached the maximum number of logins. Please try again with another account!
+#error_load_playlist=直播列表加载失败！
+error_load_playlist=Live List Loading Failed!
+#tvlist=节目单
+tvlist=program list
+#goback=返回
+goback=Back
+#settings=设置
+settings=settings
+#tip_live_player_settings=点此修改直播账号
+tip_live_player_settings=Click here to modify the live account
+#tip_nodata_for_vod_search=您搜索的视频不存在！
+tip_nodata_for_vod_search=The video you searched for does not exist!
+#tip_nodata_for_vod=没有点播数据！
+tip_nodata_for_vod=No on demand data!
+#loading_video_types=正在加载视频分类…
+loading_video_types=Loading Video Category...
+#vod_play_list=选集
+vod_play_list=Selection
+
+#account_unactive=未激活
+account_unactive=Inactive
+#account_ok=正常
+account_ok=normal
+#account_disabled=已禁用
+account_disabled=Disabled
+#account_locked=已禁用
+account_locked=Disabled
+#account_tel=手机号
+account_tel=Phone number
+#account_name=客户姓名
+account_name=Customer Name
+#account_qq=QQ号码
+account_qq=QQ number
+#account_email=邮箱
+account_email=Mailbox
+
+#desc_account_list=1. 手机号可<a class="link" target="_blank" href="{0}">登录Web后台</a>并管理用户账号（需配置用户组权限），<span class="hot">直播账号用于Web播放器直播或小区APP、酒店APP登录。</span><br>2. <span class="hot">导入Excel</span>功能可批量添加或更新账号。
+desc_account_list=1. The phone number can be <a class="link" target="_blank" href="{0}">Login to the web backend</a> and manage user accounts (user group permissions need to be configured),<span class= "hot"> Live accounts are used for web player live or community APP, hotel APP login. </span><br>2. The <span class="hot">Import Excel</span> feature can batch add or update accounts.
+#add_account=添加账号
+add_account=Add Account
+#set_account=修改账号
+set_account=Modify Account
+#tip_search_account=输入手机号、姓名、备注等
+tip_search_account=Enter phone number, name, notes, etc.
+#account_status=账号状态
+account_status=account status
+#account_name_and_tel=姓名/手机号
+account_name_and_tel=name/phone number
+#account_group_and_live=用户组/直播账号
+account_group_and_live=user group/live account
+#live_account=直播账号
+live_account=Live Account
+#parent_account=上级账号
+parent_account=advanced account
+#account_hotel=管理的酒店
+account_hotel=managed hotel
+#account_detail=账号信息
+account_detail=Account information
+#td_account_tel=手机号：
+td_account_tel=Mobile phone number:
+#td_account_name=客户姓名：
+td_account_name=Customer Name:
+#td_parent_account=上级账号：
+td_parent_account=Upgrade account:
+#td_account_hotel=选择管理的酒店：
+td_account_hotel=Select Managed Hotels:
+#td_account_password=登录密码：
+td_account_password=Login Password:
+#td_reset_password=重置密码：
+td_reset_password=Reset password:
+#td_account_max_live_login=最大直播登录人数：
+td_account_max_live_login=Maximum number of live logins:
+#td_account_live_exptime=直播到期时间：
+td_account_live_exptime=Live broadcast expiration time:
+#td_account_status=账号状态：
+td_account_status=Account status:
+#tip_account_password=若无需修改密码，请留空
+tip_account_password=Please leave blank if you do not need to change your password
+#tip_account_max_live_login=为0表示不限
+tip_account_max_live_login=0 means unlimited
+#tip_account_hotel=仅用于后台管理，以使不同的账号管理不同的酒店，请先在用户组中配置权限。
+tip_account_hotel= is used only for background management so that different accounts can manage different hotels. Please configure permissions in the user group first.
+#tip_account_live_exptime=为空表示不限时间
+tip_account_live_exptime=empty for unlimited time
+#please_select_user_group=请选择用户组
+please_select_user_group=Please select a user group
+#confirm_del_account=您确认删除该账户吗？
+confirm_del_account=Are you sure you want to delete this account?
+#enable_account=启用账号
+enable_account=Enable account
+#disable_account=禁用账号
+disable_account=Disable account
+#confirm_enable_account=确认启用账号 - {0} 吗？
+confirm_enable_account=Confirm account activation - {0}?
+#confirm_disable_account=确认禁用账号 - {0} 吗？
+confirm_disable_account=Confirm disabled account - {0}?
+#auto_get_live_account=自动计算
+auto_get_live_account=Automatically calculate
+
+#account_level=用户级别
+account_level=user level
+#channels=频道
+channels=channel
+#td_account_level=用户级别：
+td_account_level=User level:
+#tip_account_level=用户级别：1-99
+tip_account_level=User Level: 1-99
+#td_drive_def_size=网盘初始容量：
+td_drive_def_size=net disk initial capacity:
+#tip_drive_def_size=单位:MB
+tip_drive_def_size=Units: MB
+#td_drive_upload_file_size=允许上传文件的大小：
+td_drive_upload_file_size=Allow the size of the uploaded file:
+#tip_drive_upload_file_size=-1表示无限,单位:MB
+tip_drive_upload_file_size=-1 means unlimited, unit: MB
+#td_drive_folders_count=允许拥有的文件夹数量：
+td_drive_folders_count=Number of allowed folders:
+#tip_drive_folders_count=-1表示无限
+tip_drive_folders_count=-1 means infinite
+#td_drive_files_count=允许拥有的文件数量：
+td_drive_files_count=Number of files allowed to have:
+#tip_drive_files_count=-1表示无限
+tip_drive_files_count=-1 means infinite
+#td_drive_public_folders_count=允许公开的文件夹数量：
+td_drive_public_folders_count=Number of folders allowed to be exposed:
+#tip_drive_public_folders_count=-1表示无限
+tip_drive_public_folders_count=-1 means infinite
+#td_drive_public_files_count=允许公开的文件数量：
+td_drive_public_files_count=Number of files allowed to be published:
+#tip_drive_public_files_count=-1表示无限
+tip_drive_public_files_count=-1 means infinite
+#td_drive_upload_file_format=允许上传的文件类型
+td_drive_upload_file_format=Allowed file types to upload
+#tip_drive_upload_file_format=多个之间用逗号隔开，如：<span class="green">.zip,.doc,.rar</span>，为<span class="green">*</span>表示不限
+tip_drive_upload_file_format=Multiple separated by commas, such as: <span class="green">.zip,.doc,.rar</span>, indicates no for <span class="green">*</span> limit
+#warn_account_level_exists=用户级别不能重复！
+warn_account_level_exists=User level cannot be duplicated!
+#td_grants_list=权限列表：
+td_grants_list=Permission List:
+#grants_mgr=权限管理
+grants_mgr=Permissions Management
+#all_grants=所有权限
+all_grants=All permissions
+#channels_mgr=频道管理
+channels_mgr=Channel Management
+#confirm_del_account_group=您确认删除该用户组吗？
+confirm_del_account_group=Are you sure to delete this user group?
+
+#td_full_name=姓名：
+td_full_name=Name:
+#td_account_qq=QQ：
+td_account_qq=QQ:
+#td_account_email=邮箱：
+td_account_email=Mailbox:
+#warn_invalid_old_account_password=旧密码不正确！
+warn_invalid_old_account_password=Old password is incorrect!
+#successful_for_account_password=修改成功，请重新登录！
+successful_for_account_password=Modified successfully. Please login again!
+
+#folder_name=文件夹名称
+folder_name=folder name
+#folder_ctime=创建时间
+folder_ctime=Created
+#folder_flag=文件夹星标
+folder_flag=Folder star
+#folder_smode=共享
+folder_smode=Share
+
+#file_name_asc=按文件名升序
+file_name_asc=ascending order by file name
+#file_name_desc=按文件名降序
+file_name_desc=Descending order by file name
+#file_ctime=创建时间
+file_ctime=Created
+#file_ext=扩展名
+file_ext=extension
+#file_flag=文件星标
+file_flag=file star
+#file_smode=共享
+file_smode=Share
+#file_atime=最后访问时间
+file_atime=last access time
+#file_mtime=最后修改时间
+file_mtime=last modification time
+#file_acount=访问次数
+file_acount=Visits
+#file_dcount=下载次数
+file_dcount=Downloads
+
+#no_support_file_preview=不支持该文件预览
+no_support_file_preview=This file preview is not supported
+#upload_file=上传文件
+upload_file=Upload file
+#create_folder=新建文件夹
+create_folder=Create New Folder
+#create_text_file=新建文本文档
+create_text_file=New text document
+#share=分享
+share=Share
+#download=下载
+download=download
+#moveto=移动到
+moveto=move to
+#rename=重命名
+rename=rename
+#tip_search_doc=输入文件名称
+tip_search_doc=Enter file name
+#all_files=全部文件
+all_files=All files
+#click_sort_by_name=点此按名称排序
+click_sort_by_name=Click here to sort by name
+#click_sort_by_filesize=点此按大小排序
+click_sort_by_filesize=Click here to sort by size
+#click_sort_by_mtime=点此按修改时间排序
+click_sort_by_mtime=Click here to sort by modified time
+#click_sort_by_acount=点此按访问次数排序
+click_sort_by_acount=Click here to sort by visits
+#click_sort_by_dcount=点此按下载次数排序
+click_sort_by_dcount=Click here to sort by downloads
+#size=大小
+size=size
+#mtime=修改时间
+mtime=modification time
+#join_the_song=加入歌单
+join_the_song=Add song list
+#please_select_doc_for_move=请选择要移动的文件或文件夹！
+please_select_doc_for_move=Please select the file or folder to move!
+#warn_moveto_self=不能移动到自身或其子目录！
+warn_moveto_self=Cannot move to itself or its subdirectories!
+#warn_moveto_has_same_name=移动的位置已经包含了同名的文件（夹）：
+warn_moveto_has_same_name=The moved location already contains the file (folder) with the same name:
+#moving_files_or_folders=正在移动文件夹或文件，请稍候…
+moving_files_or_folders=Moving folders or files, please wait...
+#share_access_url=共享地址
+share_access_url=shared address
+#etc_files_folders=等文件(夹)
+etc_files_folders= and other files (folders)
+#permanent=永久有效
+permanent=永久有效
+#share_mode=分享形式
+share_mode=Sharing
+#share_as_encrypt=加密
+share_as_encrypt=Encryption
+#tip_share_as_encrypt=仅限拥有密码者可查看，更加隐私安全
+tip_share_as_encrypt=Persons with a password are only allowed to view, more privacy safe
+#share_as_public=公开
+share_as_public=public
+#tip_share_as_public=任何人可查看或下载
+tip_share_as_public=Anyone can view or download
+#td_share_link=链接地址：
+td_share_link=Link Address:
+#td_share_code=提取码：
+td_share_code=Extract code:
+#create_share_link=创建链接
+create_share_link=Create link
+#copy_share_link=复制链接
+copy_share_link=Copy link
+#please_select_doc_for_share=请选择要分享的文件或文件夹！
+please_select_doc_for_share=Please select the file or folder to share!
+#creating_share_link=正在生成链接，请稍候…
+creating_share_link=Creating link, please wait...
+#successful_for_copy=复制成功！
+successful_for_copy=Copy success!
+#td_doc_current=当前：
+td_doc_current=Current:
+#return_parent=返回上级
+return_parent=Return to superior
+#doc_selected_files=本次共选中 {0} 个文件（夹）
+doc_selected_files=This time a total of {0} files were selected (clips)
+#no_share_of_selected_item=选中的项中没有共享的文件夹和文件！
+no_share_of_selected_item=There are no shared folders and files in the selected item!
+#confirm_cancel_doc_share=本次共选中 {0} 个文件（夹），{1}个已经共享，确认取消共享吗？
+confirm_cancel_doc_share=Confirm to cancel sharing? This sharing link will no longer be accessible after cancellation.
+#no_doc_files_or_folders_for_del=没有需要删除的文件夹和文件！
+no_doc_files_or_folders_for_del=No folders and files to delete!
+#no_doc_files_or_folders_for_share=没有需要共享的文件夹和文件！
+no_doc_files_or_folders_for_share=No folders and files to share!
+#confirm_docs_share_as_public=本次共选中 {0} 个文件（夹），{1}个已经共享，剩余 {2} 个可共享，确认本次操作吗？
+confirm_docs_share_as_public=This time a total of {0} files (folders) have been selected, {1} have been shared, and the remaining {2} can be shared. Confirm this operation?
+#confirm_docs_to_trash=本次共选中 {0} 个文件（夹），确认删除这些文件吗？
+confirm_docs_to_trash=This time a total of {0} files (folders) have been selected. Are you sure to delete these files?
+#confirm_doc_to_trash=您确认删除 {0} 吗？
+confirm_doc_to_trash=Are you sure to delete {0}?
+#please_select_doc_for_download=请选择要下载的项！
+please_select_doc_for_download=Please select the item to download!
+#please_input_folder_name=<span class="green">请输入文件夹名称</span>：
+please_input_folder_name=<span class="green">Please enter a folder name</span>:
+#please_input_file_name=<span class="green">请输入文本文档名称</span>：
+please_input_file_name=<span class="green">Please enter a text document name</span>:
+#invalid_doc_name=文件名不能含以下字符：<span class="hot">\/\:*?"<>|</span>
+invalid_doc_name=File name cannot contain the following characters: <span class="hot">\/\:*?"<>|</span>
+#trash_doc=删除文档
+trash_doc=Delete Document
+#trashing_doc=正在删除文档，请稍候…
+trashing_doc=Deleting documents, please wait...
