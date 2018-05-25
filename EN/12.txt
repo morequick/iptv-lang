@@ -1,3 +1,36 @@
+#td_boot_animation_jpg=多张JPG图片（单图片不超过1M）
+td_boot_animation_jpg=Multiple JPG pictures (single picture does not exceed 1M)
+#td_boot_animation_png=多张PNG图片（单图片不超过1M）
+td_boot_animation_png=Multiple PNG pictures (single picture does not exceed 1M)
+#build_boot_animation=生成开机动画
+build_boot_animation=Generate boot animation
+#building_boot_animation=正在生成开机动画，请稍候…
+building_boot_animation=Creating a boot animation, please wait...
+#builded_boot_animation=开机动画已生成
+builded_boot_animation=Boot animation generated
+#down_boot_animation=下载开机动画文件
+down_boot_animation=Download the boot animation file
+#please_add_boot_animation_file=请先添加动画文件
+please_add_boot_animation_file=Please add animation files first
+
+#desc_app_config_mgr_for_itv=在此处配置APP服务器IP、账号、酒店编号、房间号等参数，需酒店APP在V156及以上。
+desc_app_config_mgr_for_itv=Configure the APP server IP, account number, hotel number, room number and other parameters here. The hotel APP must be V156 or above.
+#desc_app_config_mgr_for_live=在此处配置APP服务器IP、账号等参数，需小区APP在V406及以上。
+desc_app_config_mgr_for_live=Configure the APP server IP, account, and other parameters here. The cell APP must be at V405 or above.
+#clear_config=清空配置
+clear_config=Empty configuration
+#clearing_config=正在清空配置，请稍候…
+clearing_config=Clearing configuration, please wait...
+#server_ip=服务器IP
+server_ip=server IP
+#hotel_id=酒店编号
+hotel_id=hotel number
+#tip_current_live_account=当前直播账号：{0}
+tip_current_live_account=Current Live Account: {0}
+#tip_current_hotel_id=当前酒店编号：{0}
+tip_current_hotel_id=Current Hotel ID: {0}
+#tip_current_room=当前房间号：{0}
+tip_current_room=Current room number: {0}
 #confirm_clear_app_config=确认清空所有配置吗？
 confirm_clear_app_config=Confirm Clear All Configurations?
 
@@ -11,6 +44,15 @@ del_background_music=Delete background music
 deleting_background_music=Deleting background music, please wait...
 #confirm_del_background_music=确认删除背景音乐吗？
 confirm_del_background_music=Are you sure to delete background music?
+
+#desc_app_ac_mgr=1. WiFi名称不超过16个字符，以@开头表示WiFi前缀，名称会自动加上房间号。<br>2. WiFi密码长度为8-32位，@表示随机密码，为空表示不设密码。
+desc_app_ac_mgr=1. WiFi名称不超过16个字符，以@开头表示WiFi前缀，名称会自动加上房间号。<br>2. WiFi密码长度为8-32位，@表示随机密码，为空表示不设密码。
+#wifi_name=WiFi名称
+wifi_name=WiFi名称
+#wifi_passwd=WiFi密码
+wifi_passwd=WiFi密码
+#wifi_state=启用WiFi
+wifi_state=启用WiFi
 
 #player_play=播放
 player_play=Play
@@ -304,6 +346,12 @@ errcode163=User group number cannot be duplicated!
 
 #errcode201=点播数据加载失败！
 errcode201=On-demand data loading failed!
+#errcode202=点播目录不存在！
+errcode202=点播目录不存在！
+#errcode203=视频类型或名称不存在！
+errcode203=视频类型或名称不存在！
+#errcode204=视频文件必须位于二级目录！
+errcode204=视频文件必须位于二级目录！
 
 #errcode301=通知添加失败！
 errcode301=Notify adding failed!

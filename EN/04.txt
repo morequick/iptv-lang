@@ -1,3 +1,5 @@
+#account_exists=账号已存在！
+account_exists=Account already exists!
 #account=帐号
 account=account
 #please_select_account=请先选择要操作的账号！
@@ -410,5 +412,3 @@ fail=failed
 td_console_login=The console login needs to be verified:
 #td_console_password=控制台登录密码：
 td_console_password=Console login password:
-#tip_console_password=若不修改密码，请留空
-tip_console_password=Please leave blank if you do not change your password

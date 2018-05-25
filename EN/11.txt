@@ -1,3 +1,25 @@
+#no_doc_files_or_folders_for_del=没有需要删除的文件夹和文件！
+no_doc_files_or_folders_for_del=No folders and files to delete!
+#no_doc_files_or_folders_for_share=没有需要共享的文件夹和文件！
+no_doc_files_or_folders_for_share=No folders and files to share!
+#confirm_docs_share_as_public=本次共选中 {0} 个文件（夹），{1}个已经共享，剩余 {2} 个可共享，确认本次操作吗？
+confirm_docs_share_as_public=This time a total of {0} files (folders) have been selected, {1} have been shared, and the remaining {2} can be shared. Confirm this operation?
+#confirm_docs_to_trash=本次共选中 {0} 个文件（夹），确认删除这些文件吗？
+confirm_docs_to_trash=This time a total of {0} files (folders) have been selected. Are you sure to delete these files?
+#confirm_doc_to_trash=您确认删除 {0} 吗？
+confirm_doc_to_trash=Are you sure to delete {0}?
+#please_select_doc_for_download=请选择要下载的项！
+please_select_doc_for_download=Please select the item to download!
+#please_input_folder_name=<span class="green">请输入文件夹名称</span>：
+please_input_folder_name=<span class="green">Please enter a folder name</span>:
+#please_input_file_name=<span class="green">请输入文本文档名称</span>：
+please_input_file_name=<span class="green">Please enter a text document name</span>:
+#invalid_doc_name=文件名不能含以下字符：<span class="hot">\/\:*?"<>|</span>
+invalid_doc_name=File name cannot contain the following characters: <span class="hot">\/\:*?"<>|</span>
+#trash_doc=删除文档
+trash_doc=Delete Document
+#trashing_doc=正在删除文档，请稍候…
+trashing_doc=Deleting documents, please wait...
 #successful_trash_doc=删除成功，可以在回收站查看删除的文件！
 successful_trash_doc=Deleted successfully. You can view deleted files in the recycle bin!
 #please_input_new_name=新名称：
@@ -320,8 +342,14 @@ confirm_del_module=Confirm to delete module (<span class="hot">{0}</span>)?
 please_select_app=Please select APP!
 #please_upload_icon=请上传图标！
 please_upload_icon=Please upload icon!
+#change_logo=更改酒店LOGO
+change_logo=更改酒店LOGO
 #change_background_image=更改背景图片
 change_background_image=Change background image
+#desc_hotel_logo=图片会自动缩放为合适的尺寸，具体以APP显示为准。
+desc_hotel_logo=图片会自动缩放为合适的尺寸，具体以APP显示为准。
+#confirm_del_hotel_logo=确认删除酒店LOGO吗？
+confirm_del_hotel_logo=确认删除酒店LOGO吗？
 #multi_screen=多屏互动
 multi_screen=Multi-screen interaction
 #dlna_app_upgrade=多屏互动APP配置
@@ -368,6 +396,10 @@ td_boot_animation_height=Show Height:
 td_boot_animation_speed=Frame Rate:
 #td_boot_animation_time=时长：
 td_boot_animation_time=Time:
+#td_boot_animation_count=播放次数：
+td_boot_animation_count=播放次数：
+#tip_boot_animation_count=0-10,为0表示循环播放
+tip_boot_animation_count=0-10,为0表示循环播放
 #tip_boot_animation_width=100-3840px
 tip_boot_animation_width=100-3840px
 #tip_boot_animation_height=100-2160px
@@ -380,36 +412,3 @@ tip_boot_animation_time=Video clipped, 1-10 seconds
 td_boot_animation_mp4=One MP4 file (up to 50M)
 #td_boot_animation_gif=一个GIF图片（不超过10M）
 td_boot_animation_gif=a GIF image (up to 10M)
-#td_boot_animation_jpg=多张JPG图片（单图片不超过1M）
-td_boot_animation_jpg=Multiple JPG pictures (single picture does not exceed 1M)
-#td_boot_animation_png=多张PNG图片（单图片不超过1M）
-td_boot_animation_png=Multiple PNG pictures (single picture does not exceed 1M)
-#build_boot_animation=生成开机动画
-build_boot_animation=Generate boot animation
-#building_boot_animation=正在生成开机动画，请稍候…
-building_boot_animation=Creating a boot animation, please wait...
-#builded_boot_animation=开机动画已生成
-builded_boot_animation=Boot animation generated
-#down_boot_animation=下载开机动画文件
-down_boot_animation=Download the boot animation file
-#please_add_boot_animation_file=请先添加动画文件
-please_add_boot_animation_file=Please add animation files first
-
-#desc_app_config_mgr_for_itv=在此处配置APP服务器IP、账号、酒店编号、房间号等参数，需酒店APP在V156及以上。
-desc_app_config_mgr_for_itv=Configure the APP server IP, account number, hotel number, room number and other parameters here. The hotel APP must be V156 or above.
-#desc_app_config_mgr_for_live=在此处配置APP服务器IP、账号等参数，需小区APP在V405及以上。
-desc_app_config_mgr_for_live=Configure the APP server IP, account, and other parameters here. The cell APP must be at V405 or above.
-#clear_config=清空配置
-clear_config=Empty configuration
-#clearing_config=正在清空配置，请稍候…
-clearing_config=Clearing configuration, please wait...
-#server_ip=服务器IP
-server_ip=server IP
-#hotel_id=酒店编号
-hotel_id=hotel number
-#tip_current_live_account=当前直播账号：{0}
-tip_current_live_account=Current Live Account: {0}
-#tip_current_hotel_id=当前酒店编号：{0}
-tip_current_hotel_id=Current Hotel ID: {0}
-#tip_current_room=当前房间号：{0}
-tip_current_room=Current room number: {0}

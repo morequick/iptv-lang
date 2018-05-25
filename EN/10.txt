@@ -1,3 +1,25 @@
+#orderid=订单号
+orderid=order number
+#order_detail=订单详情
+order_detail=order details
+#order_money=订单金额
+order_money=Order Amount
+#order_state=订单状态
+order_state=order status
+#client_ip=客户机IP
+client_ip=Client IP
+#addtime=添加时间
+addtime=Add time
+#tip_set_order_state=点此修改订单状态
+tip_set_order_state=Click here to modify the order status
+#food_order_list=订单列表
+food_order_list=Order list
+#year_and_month={0}年{1}月
+year_and_month={0}year {1} month
+#td_orderid=订单号：
+td_orderid=Order number:
+#td_order_detail=订单详情：
+td_order_detail=Order details:
 #td_order_state=订单状态：
 td_order_state=Order Status:
 #set_order_state=修改订单状态
@@ -387,25 +409,3 @@ doc_selected_files=This time a total of {0} files were selected (clips)
 no_share_of_selected_item=There are no shared folders and files in the selected item!
 #confirm_cancel_doc_share=本次共选中 {0} 个文件（夹），{1}个已经共享，确认取消共享吗？
 confirm_cancel_doc_share=Confirm to cancel sharing? This sharing link will no longer be accessible after cancellation.
-#no_doc_files_or_folders_for_del=没有需要删除的文件夹和文件！
-no_doc_files_or_folders_for_del=No folders and files to delete!
-#no_doc_files_or_folders_for_share=没有需要共享的文件夹和文件！
-no_doc_files_or_folders_for_share=No folders and files to share!
-#confirm_docs_share_as_public=本次共选中 {0} 个文件（夹），{1}个已经共享，剩余 {2} 个可共享，确认本次操作吗？
-confirm_docs_share_as_public=This time a total of {0} files (folders) have been selected, {1} have been shared, and the remaining {2} can be shared. Confirm this operation?
-#confirm_docs_to_trash=本次共选中 {0} 个文件（夹），确认删除这些文件吗？
-confirm_docs_to_trash=This time a total of {0} files (folders) have been selected. Are you sure to delete these files?
-#confirm_doc_to_trash=您确认删除 {0} 吗？
-confirm_doc_to_trash=Are you sure to delete {0}?
-#please_select_doc_for_download=请选择要下载的项！
-please_select_doc_for_download=Please select the item to download!
-#please_input_folder_name=<span class="green">请输入文件夹名称</span>：
-please_input_folder_name=<span class="green">Please enter a folder name</span>:
-#please_input_file_name=<span class="green">请输入文本文档名称</span>：
-please_input_file_name=<span class="green">Please enter a text document name</span>:
-#invalid_doc_name=文件名不能含以下字符：<span class="hot">\/\:*?"<>|</span>
-invalid_doc_name=File name cannot contain the following characters: <span class="hot">\/\:*?"<>|</span>
-#trash_doc=删除文档
-trash_doc=Delete Document
-#trashing_doc=正在删除文档，请稍候…
-trashing_doc=Deleting documents, please wait...

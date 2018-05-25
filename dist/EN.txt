@@ -96,6 +96,8 @@ tab_room_mgr=Room Management
 tab_room_list=Room List
 tab_dock_with_db=Database Query Settings
 
+tab_app_ac_mgr=APP AC 管理
+
 tab_app_order_online=Online Food
 tab_food_list=Vegetable Management
 tab_food_order=Order Management
@@ -133,8 +135,8 @@ tab_tools_nslookup=Domain Query
 tab_tools_tracert=Route Tracert
 tab_tools_dns_check=DNS Self Check
 tab_tools_powermgr=Power Management
-tab_tools_remote_web=Remote Assistance
-tab_tools_remote_debug=Remote Debugging
+tab_tools_remote_web=Remote Web Access
+tab_tools_remote_debug=Remote Debug
 tab_tools_sniffer=Realtime Capture
 tab_tools_settings=Configuration Management
 tab_tools_settings_import_export=Configuration Import and Export
@@ -162,24 +164,24 @@ uptime=Startup Time
 time_units=d,h,m,s
 
 dialog=Popup
-box_alert=tip information
-box_confirm=Confirmation information
-box_prompt=Enter information
+box_alert=Alert
+box_confirm=Confirm
+box_prompt=Prompt
 box_close=Click to close
 box_submit=OK
 box_cancel=Cancel
 load_data=Load data
 loading_data=Loading data, please wait...
 
-warning=warning
+warning=Warning
 cancel=Cancel
 
-pager_prev_page=&lt;previous page
-pager_next_page=nextpage&gt;
+pager_prev_page=&lt;Prev
+pager_next_page=Next&gt;
 pager_page_size={0} per page
-pager_total_count=A total of {0} data
+pager_total_count=total {0} records
 
-upload_state_ready=In preparation
+upload_state_ready=Ready
 upload_state_processing=Uploading
 upload_state_complete=Completed
 upload_state_skip=Skipped
@@ -189,14 +191,14 @@ upload_state_error=Failed
 reset_zoom=Back
 reset_zoom_title=1:1 Zoom
 
-login=user login
-account_login=Account Operator Login
-reboot=Reboot the system
+login=User Login
+account_login=Operator Login
+reboot=Reboot
 poweroff=Power off
-logout=safe exit
+logout=Exit
 sign_in=Login
 user_login=Personal User Login
-admin_login=Admin login
+admin_login=Admin Login
 
 confirm_logout=Confirm exit?
 confirm_reboot=Are you sure to reboot the system? It takes about 1-2 minutes to restart.
@@ -205,18 +207,18 @@ confirm_poweroff=Confirm power off?
 poweroffing_device=Powering off, takes about 30~60 seconds, please wait...
 
 login_name=Login account
-login_password=password
-logining=Login, please wait...
+login_password=Password
+logining=Logging in, please wait...
 login_failed=Login failed!
 api_error=Server or network error, please try again later!
 login_tip_in_demo=Tip: Initial user name and password are both admin
 
-guest=visitor
+guest=Guest
 sys_admin=System Administrator
 sys_operator=Account Operator
 sys_guest=Guests
 
-grant=permission
+grant=Permission
 no_grant=No permission
 no_grant_access_page=You do not have permission to access any page
 
@@ -234,99 +236,99 @@ successful_operate=Operation successful!
 none=No
 
 live=Live
-live_top10=Live List
+live_top10=Live Top 10
 playing= playing
-app_down=APP download
-one_click_internet_diag=One click to detect internet
+app_down=Download APP
+one_click_internet_diag=Internet Detection
 ping_pong=Live Ping-Pong Test
 goto_old_ui=Return to the old UI
 link_qq_title=Click here to send me a message
 mq_support=Online Technical Support
 mq_purchase=Consult Purchase
-mq_pre_after_sale=Sale before sale
-mq_qq_group=Official QQ group
+mq_pre_after_sale=Pre And After Sale
+mq_qq_group=Official QQ Group
 
-internet_diag=Internet detection
+internet_diag=Internet Detection
 tip_internet_diag=Checking Internet information. This process takes about 10-60 seconds. Please wait...
 
 web_player=Intranet Web Player
 live_web_player=Intranet Web Player
 vod_web_player=Intranet Web Player
 
-cpu_usage=CPU usage
-mem_usage=Memory usage
-sum_time=statistical time
-in_percent= percentage
+cpu_usage=CPU Usage
+mem_usage=Memory Usage
+sum_time=Statistical Time
+in_percent= Percentage
 
-traffic_in=occupied traffic
+traffic_in=Traffic
 traffic_out=Service Traffic
 
 traffic_chart_title=Network Card Traffic (Mbps)
 
-hit_traffic=hit traffic
-hit_traffic_chart= Hit live traffic graph
-hit_traffic_y=hit traffic (Mbps)
+hit_traffic=Hit Traffic
+hit_traffic_chart= Hit Real-time Traffic Graph
+hit_traffic_y=Hit Traffic (Mbps)
 traffic_unit=Traffic (bytes)
-save_traffic=Saving traffic
-mirror_traffic=Mirror port traffic
-mirror_traffic_chart=Mirror port real-time traffic graph
-mirror_traffic_y=Mirror port traffic (Mbps)
+save_traffic=Saving Traffic
+mirror_traffic=Mirror Traffic
+mirror_traffic_chart=Mirror Real-time Traffic Graph
+mirror_traffic_y=Mirror Traffic (Mbps)
 
-live_users=Viewing users
+live_users=Viewing Users
 
 update_in=Updated on
-update_time=update time
+update_time=Update Time
 
 live_status_starting=Starting
 live_status_error=Waiting
-live_status_nodata=Program source failure
-live_status_stopped=Discontinued
-live_status_running=In operation
+live_status_nodata=No data
+live_status_stopped=Stopped
+live_status_running=Running
 
-click_view_log=Click here to view the log
-view_log=View log
+click_view_log=Click to view the log
+view_log=View Log
 
 current_live_users=Current Viewing Users
 save_traffic_from_boot=Saved traffic since boot
 restart_nodata_channel=Reboot failed channel
 restart_all_channel=Restart all channels
-one_click_restart_nodata_channel=Reboot all dataless channels with one click
-one_click_restart_all_channel=Reboot all channels in one click
+one_click_restart_nodata_channel=Reboot all failed channels
+one_click_restart_all_channel=Reboot all channels
 
-channel_name=Channel name
+channel_name=Channel Name
 channel_id=Channel ID
 live_port=Port
-live_user=Viewing users
+live_user=Viewing Users
 send_pkgs=Send Packets
 channel_outtype=Output Type
 channel_status=status
-operate=operation
-edit=edit
-modify=modify
+operate=Operation
+edit=Edit
+modify=Modify
 delete=Delete
 save=Save
 live_start=Start
-live_stop=Broadcast
+live_stop=Stop
 live_user_detail=Details
 channel_outtype_http=Unicast
 channel_outtype_udp=Multicast
 collect_channel=Favorites
-one_click_collect_channel=One key added to private source
-restart=restart
-desc_restart_channel=Restart the channel broadcast agent
-this_channel=this channel
+one_click_collect_channel=Add to private source
+restart=Restart
+desc_restart_channel=Restart the channel
+this_channel=This channel
 
 invalid_data=Data Abnormal!
 wait_prev_operate=Please wait for the previous operation to complete!
 enabled_channel_not_found=No enabled channel was found
-restart_live_channel=Restart the live broadcast agent
+restart_live_channel=Restart channel
 restarting_live_channel=Restarting live stream, please wait...
-live_channel_operate=Live Broadcast Operation
+live_channel_operate=Live Operation
 startting_live_channel=Starting live stream agent, please wait...
 stopping_live_channel=Stopping the live stream, please wait...
 warn_stop_live_channel=A user is currently watching the channel. If it stops, it may cause the user to watch the card!
 confirm_stop_live_channel=Are you confirming to stop the live stream agent for channel {0}?
-live_source_exists=Live Source already exists!
+live_source_exists=Live source already exists!
 update_live_source=Modify the live source
 append_to_private_source=Live source already exists, appends to private source {0}, please wait...
 successful_update_live_source=Live source modified successfully!
@@ -338,11 +340,11 @@ confirm_restart_live_channel=Are you sure to restart the following live broadcas
 confirm_restart_all_live_channel=Are you sure you want to restart all Live Broadcast Agents?
 
 user_list=user list
-user=user
+user=User
 ip=IP
 mac=MAC
-port=port
-watch_time=Viewing duration
+port=Port
+watch_time=Watch time
 days=day
 hours=hour
 mintues=minute
@@ -355,19 +357,19 @@ warn_internet_err=The system cannot connect to the Internet. Please check the ne
 warn_on_no_register=You have not registered an authorization or the authorization has expired, which may result in the product being unavailable!
 view_register_info=View Registration Information
 warn_on_no_storage=Incorrect detection of your disk settings may result in some features being unavailable!
-click_set_disk=Click here to set up the disk
+click_set_disk=Click to config the disk
 no_prompt=No longer prompt
 warn_on_no_netbind=You have not yet bound a network card!
-click_bind_net=Click here to bind the network card
+click_bind_net=Click to bind the network card
 booting_system=System startup, please wait...
 warn_bad_hdd=<span class="hot">A problem was detected on the disk <span class="color4">{0}</span> file system or partition! </span> <a class="link">Details Click</a>
 disk_error_info=Disk Error Information
 warn_memlow=Insufficient system memory was detected, which may result in partial malfunction or abnormality!
 
-hotel_app_name=Hotel Interactive TV App
-live_app_name=Cell APP
-player_app_name=player APP
-netvod_app_name=Network Video App
+hotel_app_name=Hotel Interactive TV APP
+live_app_name=IPTV APP
+player_app_name=Player APP
+netvod_app_name=Network Video APP
 app_and_player=APP and Player Plugin
 warn_on_no_app=You have not configured {0}!
 click_to_config=Click here to configure
@@ -376,23 +378,23 @@ tip_upgrade=New version {0} published ({1})
 def_live_group_name=Default
 def_live_user_name=Default Account
 
-sys_run_status=status statistics
+sys_run_status=Status Statistics
 
-chart_traffic_out=Output flow graph
+chart_traffic_out=Output Flow Graph
 chart_live_user=View User Trends Online
-chart_cpu_usage=CPU usage graph
-chart_mem_usage=Memory usage graph
+chart_cpu_usage=CPU Usage Graph
+chart_mem_usage=Memory Usage Graph
 
-error_log=Error log
+error_log=Error Log
 
-nic_hit=hits
-nic_mirror=Mirror port
-nic_wan=WAN port
-nic_lan=LAN port
-nic_feedback=backport
-nic_multicast=Multicast output
-link_detect_yes=inserted network cable
-link_detect_no=No cable was inserted
+nic_hit=NIC-Hit
+nic_mirror=NIC-Mirror
+nic_wan=NIC-WAN
+nic_lan=NIC-LAN
+nic_feedback=NIC-Feedback
+nic_multicast=Multicast Output
+link_detect_yes=Cable already plugged in
+link_detect_no=Network cable not connected
 nic_not_found=No network card available
 nicbind_not_found=Unbound NIC
 
@@ -410,20 +412,20 @@ hash_policy2=layer 2 + 3 (default)
 
 hit_mode_normal=Normal mode
 hit_mode_bonding=Aggregation mode (select at least 2 network cards)
-hit_mode_bridge=bridge mode (select at least 2 network cards)
+hit_mode_bridge=Bridge mode (select at least 2 network cards)
 
 add_nicbind=Add NIC binding
 set_nicbind=Modify NIC bindings
 del_nicbind=Delete NIC binding
 
 bind_type=Binding Type
-select_bind_mode=Select mode
-select_bonding=Aggregation mode
-select_hash_policy=Transfer hash policy
-select_nic=Select network card
+select_bind_mode=Select Mode
+select_bonding=Aggregation Mode
+select_hash_policy=Transfer Hash Policy
+select_nic=Select Network Card
 
-td_ip=IP address:
-td_netmask=Subnet mask:
+td_ip=IP Address:
+td_netmask=Subnet Mask:
 td_gateway=Gateway IP:
 td_mac_clone=MAC Address Cloning:
 please_select_nic=Please select a network card!
@@ -434,10 +436,10 @@ alert_bind_mirrors=<span class="hot">In the multi-mirror collection environment,
 skip=ignore
 
 desc_nicbind=1. WAN port: If you use a separate external line to access the Internet, you need to add a WAN port. <br> 2. LAN port: generally do not bind this port, in a multi-machine cluster, using the LAN port as a disk communication port.
-device_name=device name
-netmask=subnet mask
-pci_id=device number
-vendor=NIC model
+device_name=Device Name
+netmask=Subnet Mask
+pci_id=Device Number
+vendor=NIC Model
 link_status=Network Status
 tip_bonding_mode=(Aggregation-mode {0})
 tip2_bonding_mode=Aggregation (Mode {0})
@@ -447,19 +449,19 @@ confirm_del_nicbind=Are you sure you want to delete the NIC binding for <span cl
 confirm_bind_gateway_mac=Do you confirm the binding gateway MAC? The gateway MAC you are binding to is: {0}
 confirm_unbind_gateway_mac=Are you sure to cancel gateway MAC binding?
 
-bind_gateway_mac=Click here to bind
+bind_gateway_mac=Click to Bind
 unbind_gateway_mac=Unbind
 
-check_dns=detection
-checking_dns=Inspection, please wait...
+check_dns=Detect
+checking_dns=Detecting, please wait...
 
 work_mode_mirror=Mirror
 work_mode_bridge=Bridge
-work_mode_bypass=bypass
+work_mode_bypass=Bypass
 
-td_public_ip=public IP:
+td_public_ip=Public IP:
 td_nic=Network Card:
-td_nic_work_mode=Network Card Operation Mode:
+td_nic_work_mode=Network Card Work Mode:
 td_def_gateway=Default Gateway IP:
 td_bind_gateway_mac=Binding Gateway MAC:
 td_mac_clone=MAC Address Cloning:
@@ -1294,6 +1296,8 @@ privated_source2=Private Source Address 2
 tip_support_source=Supported private source format is as follows (the same below):
 format_as_m3u8=m3u8 source
 change_ua=Switch UA
+source_cast=源地址下发
+tip_source_cast=只下发组播接收地址，系统不转发
 live_out_mult=Multicast output
 live_out_mult2=Multicast output (non-shared source)
 live_out_unicast=Unicast output
@@ -1438,7 +1442,9 @@ td_vod_share_password=Share Access Password:
 tip_vod_share_password=Can be empty if you do not need to change your password
 upload_video=Upload video
 scan_video=Scan video
+scan_video_info=扫描简介
 scanning_video=Scanning video, please wait...
+scanning_video_info=正在扫描视频简介，请稍候…
 scan_is_over=Scan has ended!
 desc_vod_upload_web=1. It is recommended to use shared upload first. The supported upload format here is <span class="hot">.avi,.f4v,.mkv,.mp4,.rm,.rmvb,.ts,.mpg,.jpg,.png,.txt</span ><br>2. After uploading, click <span class="hot">Scan Video</span> to take effect.
 vod_video_upload=Video upload on demand
@@ -1469,6 +1475,12 @@ td_director=Director:
 td_performer=Starring:
 td_release_date=release date:
 td_brief=Introduction:
+video_brief=影片简介
+td_video_name=视频名称：
+search_in_douban=豆瓣搜索
+td_doubanid=豆瓣编号：
+tip_doubanid=填写豆瓣编号，系统可自动生成简介及海报
+how_to_get_doubanid=如何获取豆瓣编号
 all_video=All videos
 please_ensure_one_sort_value=Please fill in at least one sort value
 count=quantity
@@ -2342,7 +2354,10 @@ module_custom=Custom Module
 confirm_del_module=Confirm to delete module (<span class="hot">{0}</span>)?
 please_select_app=Please select APP!
 please_upload_icon=Please upload icon!
+change_logo=更改酒店LOGO
 change_background_image=Change background image
+desc_hotel_logo=图片会自动缩放为合适的尺寸，具体以APP显示为准。
+confirm_del_hotel_logo=确认删除酒店LOGO吗？
 multi_screen=Multi-screen interaction
 dlna_app_upgrade=Multi-screen interactive APP configuration
 
@@ -2368,6 +2383,8 @@ td_boot_animation_width=Display width:
 td_boot_animation_height=Show Height:
 td_boot_animation_speed=Frame Rate:
 td_boot_animation_time=Time:
+td_boot_animation_count=播放次数：
+tip_boot_animation_count=0-10,为0表示循环播放
 tip_boot_animation_width=100-3840px
 tip_boot_animation_height=100-2160px
 tip_boot_animation_speed=1-30
@@ -2398,6 +2415,11 @@ upload_background_music=Upload background music
 del_background_music=Delete background music
 deleting_background_music=Deleting background music, please wait...
 confirm_del_background_music=Are you sure to delete background music?
+
+desc_app_ac_mgr=1. WiFi名称不超过16个字符，以@开头表示WiFi前缀，名称会自动加上房间号。<br>2. WiFi密码长度为8-32位，@表示随机密码，为空表示不设密码。
+wifi_name=WiFi名称
+wifi_passwd=WiFi密码
+wifi_state=启用WiFi
 
 player_play=Play
 player_pause=pause
@@ -2554,6 +2576,9 @@ errcode162=User group already exists!
 errcode163=User group number cannot be duplicated!
 
 errcode201=On-demand data loading failed!
+errcode202=点播目录不存在！
+errcode203=视频类型或名称不存在！
+errcode204=视频文件必须位于二级目录！
 
 errcode301=Notify adding failed!
 

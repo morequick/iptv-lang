@@ -1,3 +1,5 @@
+#td_bind_gateway_mac=绑定网关MAC：
+td_bind_gateway_mac=Binding Gateway MAC:
 #td_mac_clone=MAC 地址克隆：
 td_mac_clone=MAC Address Cloning:
 #td_vlanid=VLAN ID：
@@ -414,5 +416,3 @@ td_remark=Note:
 td_enable=Enabled or not:
 #tip_password=若不修改,请留空
 tip_password=Please leave blank if you do not modify
-#account_exists=账号已存在！
-account_exists=Account already exists!

@@ -96,6 +96,8 @@ tab_room_mgr=APP房间管理
 tab_room_list=房间管理
 tab_dock_with_db=数据对接
 
+tab_app_ac_mgr=APP AC 管理
+
 tab_app_order_online=APP在线订餐
 tab_food_list=菜品管理
 tab_food_order=订单管理
@@ -1294,6 +1296,8 @@ privated_source2=私有源地址2
 tip_support_source=支持的私有源格式如下（下同）：
 format_as_m3u8=m3u8源
 change_ua=切换UA
+source_cast=源地址下发
+tip_source_cast=只下发组播接收地址，系统不转发
 live_out_mult=组播输出
 live_out_mult2=组播输出（非共享源）
 live_out_unicast=单播输出
@@ -1438,7 +1442,9 @@ td_vod_share_password=共享访问密码：
 tip_vod_share_password=若无需修改密码，可为空
 upload_video=上传视频
 scan_video=扫描视频
+scan_video_info=扫描简介
 scanning_video=正在扫描视频，请稍候…
+scanning_video_info=正在扫描视频简介，请稍候…
 scan_is_over=扫描已结束！
 desc_vod_upload_web=1. 建议优先使用共享上传。此处支持的上传格式为 <span class="hot">.avi,.f4v,.mkv,.mp4,.rm,.rmvb,.ts,.mpg,.jpg,.png,.txt</span><br>2. 上传完毕后点击<span class="hot">扫描视频</span>生效。
 vod_video_upload=点播视频上传
@@ -1469,6 +1475,12 @@ td_director=导演：
 td_performer=主演：
 td_release_date=上映：
 td_brief=简介：
+video_brief=影片简介
+td_video_name=视频名称：
+search_in_douban=豆瓣搜索
+td_doubanid=豆瓣编号：
+tip_doubanid=填写豆瓣编号，系统可自动生成简介及海报
+how_to_get_doubanid=如何获取豆瓣编号
 all_video=所有视频
 please_ensure_one_sort_value=请至少填写一个排序值
 count=数量
@@ -2342,7 +2354,10 @@ module_custom=自定义模块
 confirm_del_module=确认删除模块( <span class="hot">{0}</span> ) 吗？
 please_select_app=请选择APP！
 please_upload_icon=请上传图标！
+change_logo=更改酒店LOGO
 change_background_image=更改背景图片
+desc_hotel_logo=图片会自动缩放为合适的尺寸，具体以APP显示为准。
+confirm_del_hotel_logo=确认删除酒店LOGO吗？
 multi_screen=多屏互动
 dlna_app_upgrade=多屏互动APP配置
 
@@ -2368,6 +2383,8 @@ td_boot_animation_width=显示宽度：
 td_boot_animation_height=显示高度：
 td_boot_animation_speed=帧速：
 td_boot_animation_time=时长：
+td_boot_animation_count=播放次数：
+tip_boot_animation_count=0-10,为0表示循环播放
 tip_boot_animation_width=100-3840px
 tip_boot_animation_height=100-2160px
 tip_boot_animation_speed=1-30
@@ -2383,7 +2400,7 @@ down_boot_animation=下载开机动画文件
 please_add_boot_animation_file=请先添加动画文件
 
 desc_app_config_mgr_for_itv=在此处配置APP服务器IP、账号、酒店编号、房间号等参数，需酒店APP在V156及以上。
-desc_app_config_mgr_for_live=在此处配置APP服务器IP、账号等参数，需小区APP在V405及以上。
+desc_app_config_mgr_for_live=在此处配置APP服务器IP、账号等参数，需小区APP在V406及以上。
 clear_config=清空配置
 clearing_config=正在清空配置，请稍候…
 server_ip=服务器IP
@@ -2398,6 +2415,11 @@ upload_background_music=上传背景音乐
 del_background_music=删除背景音乐
 deleting_background_music=正在删除背景音乐，请稍候…
 confirm_del_background_music=确认删除背景音乐吗？
+
+desc_app_ac_mgr=1. WiFi名称不超过16个字符，以@开头表示WiFi前缀，名称会自动加上房间号。<br>2. WiFi密码长度为8-32位，@表示随机密码，为空表示不设密码。
+wifi_name=WiFi名称
+wifi_passwd=WiFi密码
+wifi_state=启用WiFi
 
 player_play=播放
 player_pause=暂停
@@ -2554,6 +2576,9 @@ errcode162=用户组已存在！
 errcode163=用户组编号不能重复！
 
 errcode201=点播数据加载失败！
+errcode202=点播目录不存在！
+errcode203=视频类型或名称不存在！
+errcode204=视频文件必须位于二级目录！
 
 errcode301=通知添加失败！
 
