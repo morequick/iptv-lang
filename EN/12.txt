@@ -1,3 +1,5 @@
+#td_boot_animation_gif=一个GIF图片（不超过10M）
+td_boot_animation_gif=a GIF image (up to 10M)
 #td_boot_animation_jpg=多张JPG图片（单图片不超过1M）
 td_boot_animation_jpg=Multiple JPG pictures (single picture does not exceed 1M)
 #td_boot_animation_png=多张PNG图片（单图片不超过1M）

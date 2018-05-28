@@ -1,3 +1,5 @@
+#deleting_app=正在删除APP，请稍候…
+deleting_app=Deleting APP, please wait...
 
 #desc_image_upload_list=<span class="hot">1. 必须是.jpg、.png、.gif文件且不超过2MB。</span><br>2. APP桌面背景图片建议<span class="hot">1920x1080px</span>；logo图片建议<span class="hot">150x150px</span>；大显示位图片建议<span class="hot">571x800px</span>；小显示位图片建议<span class="hot">700x525px</span>。
 desc_image_upload_list=<span class="hot">1. Must be a .jpg, .png, .gif file and no more than 2MB in size. </span><br>2. APP desktop background image suggestion <span class="hot">1920x1080px</span>;logo image suggestion <span class="hot">150x150px</span>; large display bit image suggestion <span class="hot">571x800px</span>; small display image suggestion <span class="hot">700x525px</span>.
@@ -412,5 +414,3 @@ food_order_state1=Already accepted
 food_order_state2=Delivered
 #food_order_state8=已取消
 food_order_state8=Cancelled
-#food_order_state9=已完成
-food_order_state9=Completed

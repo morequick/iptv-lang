@@ -1,7 +1,3 @@
-#account_exists=账号已存在！
-account_exists=Account already exists!
-#account=帐号
-account=account
 #please_select_account=请先选择要操作的账号！
 please_select_account=Please select the account you want to operate!
 
@@ -395,8 +391,8 @@ tip_enable_guest=Guest account only has browse permission
 #tip_guest_name=修改账号名称时，请重新设置密码！
 tip_guest_name=When changing your account name, please reset your password!
 
-#login_name=登录账号
-login_name=Login account
+#login_account=登录账号
+login_account=Login account
 #visitor_ip=访问者IP
 visitor_ip=Visitor IP
 #login_time=登录时间
@@ -412,3 +408,8 @@ fail=failed
 td_console_login=The console login needs to be verified:
 #td_console_password=控制台登录密码：
 td_console_password=Console login password:
+#tip_console_password=若不修改密码，请留空
+tip_console_password=Please leave blank if you do not change your password
+
+#once=一次性
+once=disposable

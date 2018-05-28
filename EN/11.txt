@@ -1,3 +1,5 @@
+#confirm_cancel_doc_share=本次共选中 {0} 个文件（夹），{1}个已经共享，确认取消共享吗？
+confirm_cancel_doc_share=Confirm to cancel sharing? This sharing link will no longer be accessible after cancellation.
 #no_doc_files_or_folders_for_del=没有需要删除的文件夹和文件！
 no_doc_files_or_folders_for_del=No folders and files to delete!
 #no_doc_files_or_folders_for_share=没有需要共享的文件夹和文件！
@@ -410,5 +412,3 @@ tip_boot_animation_speed=1-30
 tip_boot_animation_time=Video clipped, 1-10 seconds
 #td_boot_animation_mp4=一个MP4文件（不超过50M）
 td_boot_animation_mp4=One MP4 file (up to 50M)
-#td_boot_animation_gif=一个GIF图片（不超过10M）
-td_boot_animation_gif=a GIF image (up to 10M)

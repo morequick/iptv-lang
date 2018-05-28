@@ -237,7 +237,7 @@ none=無
 
 live=直播
 live_top10=直播排行榜
-playing=正在播放:
+td_playing=正在播放:
 app_down=APP下載
 one_click_internet_diag=一鍵檢測上網
 ping_pong=直播 Ping-Pong 測試
@@ -395,7 +395,7 @@ nic_feedback=回傳口
 nic_multicast=組播輸出
 link_detect_yes=已插入網線
 link_detect_no=未插入網線
-nic_not_found=網卡不存在
+nic_not_found=沒有可用的網卡
 nicbind_not_found=未綁定網卡
 
 bond_mode0=模式0 - 平衡掄迴圈策略
@@ -464,7 +464,6 @@ td_nic=網卡：
 td_nic_work_mode=網卡工作模式：
 td_def_gateway=預設閘道器IP：
 td_bind_gateway_mac=綁定閘道MAC：
-td_mac_clone=MAC 地址克隆：
 td_vlanid=VLAN ID：
 normal=普通
 tip_hit_ip=Web管理位址，修改此IP需重啟系統
@@ -486,7 +485,6 @@ desc_same_route=同路由<span class="mark">（使用者網路和本機所屬同
 desc_cross_route=跨路由<span class="mark">（使用者網路和本機不在同一路由區域內，獨立的BRAS系統，且BRAS上無NAT）</span>
 desc_has_pppoe=是否加入PPPoE層<span class="mark">（回包時強制加入PPPoE資料層）</span>
 desc_has_vlan=是否加入VLAN層<span class="mark">（加包時強制加入VLAN資料層）</span>
-nic_not_found=沒有可用的網卡
 actived=已啟動
 unactive=未啟動
 name=名稱
@@ -886,7 +884,7 @@ td_guest_name=帳號名稱：
 tip_enable_guest=Guest 帳號只有流覽許可權
 tip_guest_name=修改帳號名稱時，請重新設置密碼！
 
-login_name=登錄帳號
+login_account=登錄帳號
 visitor_ip=訪問者IP
 login_time=登錄時間
 login_status=登錄狀態
@@ -1209,7 +1207,7 @@ has_upgrading=升級已開始，請等待升級完成！
 suchas=例如
 
 td_rule_ver=當前規則庫版本：
-td_channels=頻道數：
+td_channels=共用源數量：
 td_latest_time=最後更新時間：
 
 h3_mainboard=#主機板設備
@@ -1627,6 +1625,9 @@ vod=點播
 carousel=輪播
 fixed_image1=固定圖片1
 fixed_image2=固定圖片2
+tip_carousel_image=建議的圖片大小為：840x394（px），格式為png
+tip_fixed_image=建議的圖片大小為：412x672（px），格式為png
+tip_live_vod_image=建議的圖片大小為：404x246（px），格式為png
 successful_upload=上傳成功！
 failed_upload=上傳失敗！
 please_input_app_name_or_link=請輸入APP名稱或連結：

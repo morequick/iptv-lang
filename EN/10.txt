@@ -1,3 +1,5 @@
+#food_order_state9=已完成
+food_order_state9=Completed
 #orderid=订单号
 orderid=order number
 #order_detail=订单详情
@@ -407,5 +409,3 @@ return_parent=Return to superior
 doc_selected_files=This time a total of {0} files were selected (clips)
 #no_share_of_selected_item=选中的项中没有共享的文件夹和文件！
 no_share_of_selected_item=There are no shared folders and files in the selected item!
-#confirm_cancel_doc_share=本次共选中 {0} 个文件（夹），{1}个已经共享，确认取消共享吗？
-confirm_cancel_doc_share=Confirm to cancel sharing? This sharing link will no longer be accessible after cancellation.
