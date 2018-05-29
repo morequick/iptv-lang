@@ -700,7 +700,7 @@ confirm_kick_user=确认将以下用户踢下线吗？
 
 td_enable_static_route=是否启用静态路由：
 add_rule=添加规则
-set_rule=添加规则
+set_rule=修改规则
 batch_delete=批量删除
 current_route_table_status=当前路由表状态
 h3_current_route_table_status=#当前路由表状态
@@ -715,7 +715,7 @@ desc_static_route_dev=可选（如 eth1 或 eth1.10 表示VLAN）
 enable_static_route=开启静态路由
 disable_static_route=关闭静态路由
 confirm_enable_static_route=确认开启静态路由吗？
-confirm_disable_static_route=确认开启静态路由吗？
+confirm_disable_static_route=确认关闭静态路由吗？
 confirm_del_static_route=确认删除选择的规则吗？
 please_select_item=请先选择要操作的项!
 
@@ -839,7 +839,7 @@ Hardware_ECC_Recovered=硬件ECC校验恢复次数
 Head_Flying_Hours=磁头飞行时间
 
 disk_sync_server=服务端
-disk_sync_client=服务端
+disk_sync_client=客户端
 desc_disk_sync=1. 客户端：通过网络从其他服务器上同步数据到本地磁盘。<br>2. 服务端：将本地磁盘作为同步数据源，对外提供数据同步服务。
 select_disk_sync_type=选择同步角色：
 set_disk_sync_server_ip=指定服务端IP：
