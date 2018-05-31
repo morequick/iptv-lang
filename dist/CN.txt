@@ -2361,6 +2361,8 @@ desc_hotel_logo=图片会自动缩放为合适的尺寸，具体以APP显示为�
 confirm_del_hotel_logo=确认删除酒店LOGO吗？
 multi_screen=多屏互动
 dlna_app_upgrade=多屏互动APP配置
+reset_modules=重置为默认模块
+confirm_reset_modules=确认重置吗？重置后，将恢复为默认模块。
 
 desc_boot_video_settings=1. APP启动时可以播放一段视频，此功能需要硬盘支持<span class="need-admin">，<a class="link" href="{0}">点此配置存储磁盘</a></span>。格式为mp4且不得超过300MB，否则可能无法播放。<br>2. 启动视频更改或删除后，需要重启2次APP才会生效。
 upload_boot_video=上传启动视频

@@ -2361,6 +2361,8 @@ desc_hotel_logo=圖片會自動縮放為合適的尺寸，具體以APP顯示為�
 confirm_del_hotel_logo=確認刪除酒店LOGO嗎？
 multi_screen=多屏互動
 dlna_app_upgrade=多屏互動APP配置
+reset_modules=重置為預設模組
+confirm_reset_modules=確認重置嗎？重置後，將恢復為預設模組。
 
 desc_boot_video_settings=1. APP啟動時可以播放一段視頻，此功能需要硬碟支援<span class="need-admin">，<a class="link" href="{0}">點此配置存儲磁片</a></span>。格式為mp4且不得超過300MB，否則可能無法播放。<br>2. 啟動視頻更改或刪除後，需要重啟2次APP才會生效。
 upload_boot_video=上傳啟動視頻

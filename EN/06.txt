@@ -219,9 +219,9 @@ ls_filter6=Custom Channel
 #ls_filter7=非自定义频道
 ls_filter7=Non-custom channels
 #ls_filter8=有回看的频道
-ls_filter8=The back-watch channel
+ls_filter8=The Live-Record channel
 #ls_filter9=无回看的频道
-ls_filter9=Non-back-watch channel
+ls_filter9=Non-Live-Record channel
 
 #channel_type0=其它
 channel_type0=Other
@@ -249,7 +249,7 @@ channel_type10=Recommended
 all_channel_type=All categories
 
 #desc_live_source=1. 本系统支持HTTP、UDP、RTP、RTSP、RTMP格式节目源，支持单播输出或组播输出（非共享源），支持回看（非轮播）。<br>2. 回看功能需要硬盘支持<span class="need-admin">，<a class="link" href="{0}">点此配置存储磁盘</a></span>。占用硬盘大小视直播源码流而定，以8Mbps为例，每个频道每天约需占用80G。<br>3. 内网Web播放器只支持H.264+AAC编码的源，建议使用电脑客户端或APP播放。
-desc_live_source=1. This system supports HTTP, UDP, RTP, RTSP, RTMP format source, support unicast output or multicast output (non-shared source), support look back (non-rotation). <br>2. Review function requires hard disk support <span class="need-admin">,<a class="link" href="{0}">Click here to configure storage disk</a></span> . The size of the occupied hard disk depends on the live source stream. Taking 8 Mbps as an example, each channel needs about 80 G per day. <br> 3. The intranet web player only supports H.264+AAC encoding source, it is recommended to use computer client or APP player.
+desc_live_source=1. This system supports HTTP, UDP, RTP, RTSP, RTMP format source, support unicast output or multicast output (non-shared source), support Live-Record (non-carousel). <br>2. Review function requires hard disk support <span class="need-admin">,<a class="link" href="{0}">Click here to configure storage disk</a></span> . The size of the occupied hard disk depends on the live source stream. Taking 8 Mbps as an example, each channel needs about 80 G per day. <br> 3. The intranet web player only supports H.264+AAC encoding source, it is recommended to use computer client or APP player.
 #td_enable_live_cache=启用智能识别频道并加速：
 td_enable_live_cache=Enable Live Cache:
 #td_max_hls=最大启动的直播频道数量：
@@ -311,9 +311,9 @@ select_multi_source=Select multicast source
 #select_vod_source=选择轮播源
 select_vod_source=Select carousel source
 #tip_channel_id=自定义频道无节目单；<a class="change-ccid">更改频道ID</a>会清空回看数据。
-tip_channel_id=No channel for custom channel; <a class="change-ccid">change channel ID</a> will empty to see data.
+tip_channel_id=No playlist for custom channel; <a class="change-ccid">change channel ID</a> will empty Live-Record data.
 #title_channel_id=1. 自定义频道无节目单&#10;2. 更改频道ID，会清空回看数据
-title_channel_id=1. Custom channel without program list&#10;2. Change channel ID, it will empty to see data
+title_channel_id=1. Custom channel without program list&#10;2. Change channel ID, it will empty the Live-Record data
 #tip_set_channel_id=4位数字 eg：<span class="hot">live1001</span>
 tip_set_channel_id=4 digits eg:<span class="hot">live1001</span>
 #channel_type=频道分类
@@ -371,7 +371,7 @@ live_souce_queue_len=Queue Length
 #tip_live_souce_queue_len=占用内存≈队列长度*400KB
 tip_live_souce_queue_len=Memory Queue Length*400KB
 #live_save_days=回看天数
-live_save_days=Look-bak Days
+live_save_days=Live-Record Days
 #tip_live_save_days=0-30天，<span class="hot">为0时将清空回看数据</span>，
 tip_live_save_days=0-30 days, <span class="hot">0 will clear the data</span>,
 #click_to_set_storage=点此配置存储磁盘
