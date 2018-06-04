@@ -1,12 +1,10 @@
-#error_sn_email=邮箱格式不正确，请重新输入！
-error_sn_email=Email format is incorrect, please re-enter!
 #preparing_data=正在准备数据，请稍候…
 preparing_data=Preparing data, please wait...
 #please_input_delete_code=请输入解除码：
 please_input_delete_code=Please enter the unlock code:
 
 #apply_sn_try=申请商业试用授权（缓存、直播-IPTV、酒店互动电视）
-apply_sn_try=Apply for commercial license trial
+apply_sn_try=Apply for Commercial License Trial
 #select_prov=选择省份
 select_prov=Select Province
 #select_city=选择城市
@@ -246,7 +244,7 @@ channel_type9=Game
 #channel_type10=推荐
 channel_type10=Recommended
 #all_channel_type=所有分类
-all_channel_type=All categories
+all_channel_type=All Categories
 
 #desc_live_source=1. 本系统支持HTTP、UDP、RTP、RTSP、RTMP格式节目源，支持单播输出或组播输出（非共享源），支持回看（非轮播）。<br>2. 回看功能需要硬盘支持<span class="need-admin">，<a class="link" href="{0}">点此配置存储磁盘</a></span>。占用硬盘大小视直播源码流而定，以8Mbps为例，每个频道每天约需占用80G。<br>3. 内网Web播放器只支持H.264+AAC编码的源，建议使用电脑客户端或APP播放。
 desc_live_source=1. This system supports HTTP, UDP, RTP, RTSP, RTMP format source, support unicast output or multicast output (non-shared source), support Live-Record (non-carousel). <br>2. Review function requires hard disk support <span class="need-admin">,<a class="link" href="{0}">Click here to configure storage disk</a></span> . The size of the occupied hard disk depends on the live source stream. Taking 8 Mbps as an example, each channel needs about 80 G per day. <br> 3. The intranet web player only supports H.264+AAC encoding source, it is recommended to use computer client or APP player.
@@ -261,17 +259,17 @@ td_filter=Filter:
 #all_channel=所有频道
 all_channel=All Channels
 #add_channel=添加频道
-add_channel=Add Channel
+add_channel=Add
 #set_channel=修改频道
 set_channel=Modify Channel
 #import_preset_channel=导入预置频道
-import_preset_channel=Import Preset Channels
+import_preset_channel=Preset Channels
 #edits=批量编辑
-edits=Bulk Edit
+edits=Edits
 #deletes=批量删除
-deletes=Bulk Delete
+deletes=Deletes
 #ctype_mgr=分类管理
-ctype_mgr=Manage Live Type
+ctype_mgr=Categories
 #import_data=导入数据
 import_data=Import Data
 #export_data=导出数据
@@ -293,7 +291,7 @@ warn_shared_source=[{0}] Share Source Please select the corresponding channel ID
 #please_select_channel_for_del=请指定要删除的频道！
 please_select_channel_for_del=Please specify the channel to delete!
 #confirm_del_channel=您确认删除以下频道吗？
-confirm_del_channel=Are you sure you want to delete the following channel?
+confirm_del_channel=Are you sure to delete the following channel?
 #channel_operate=频道操作
 channel_operate=Channel Operation
 #deleting_channel=正在删除频道,请稍候…
@@ -317,15 +315,15 @@ title_channel_id=1. Custom channel without program list&#10;2. Change channel ID
 #tip_set_channel_id=4位数字 eg：<span class="hot">live1001</span>
 tip_set_channel_id=4 digits eg:<span class="hot">live1001</span>
 #channel_type=频道分类
-channel_type=Channel Category
+channel_type=Category
 #source_type=源类型
 source_type=Source Type
 #tip_source_type=若选择共享源，则必须配置频道ID
 tip_source_type=If you choose to share the source, you must configure the channel ID
 #privated_source1=私有源地址1
-privated_source1=Private Source Address 1
+privated_source1=Private Source 1
 #privated_source2=私有源地址2
-privated_source2=Private Source Address 2
+privated_source2=Private Source 2
 #tip_support_source=支持的私有源格式如下（下同）：
 tip_support_source=Supported private source format is as follows (the same below):
 #format_as_m3u8=m3u8源
@@ -408,3 +406,5 @@ td_subtitle=Subtitles:
 enable_live_source=Enable Channel
 #warn_privated_source_format=私有源地址格式不正确，必须以<span class="hot">http、https、udp、rtp、rtsp、rtmp、play</span>开头，且路径中间不能包含<span class="hot">://</span>。
 warn_privated_source_format=Private source address format is incorrect, must start with <span class="hot">http, https, udp, rtp, rtsp, rtmp, play</span>, and the path cannot contain <span class="hot" >://</span>.
+#suggest_privated_source=请替换为以下地址试试：
+suggest_privated_source=Please try replacing with the following address:

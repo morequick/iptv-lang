@@ -1,5 +1,3 @@
-#deleting_app=正在删除APP，请稍候…
-deleting_app=Deleting APP, please wait...
 
 #desc_image_upload_list=<span class="hot">1. 必须是.jpg、.png、.gif文件且不超过2MB。</span><br>2. APP桌面背景图片建议<span class="hot">1920x1080px</span>；logo图片建议<span class="hot">150x150px</span>；大显示位图片建议<span class="hot">571x800px</span>；小显示位图片建议<span class="hot">700x525px</span>。
 desc_image_upload_list=<span class="hot">1. Must be a .jpg, .png, .gif file and no more than 2MB in size. </span><br>2. APP desktop background image suggestion <span class="hot">1920x1080px</span>;logo image suggestion <span class="hot">150x150px</span>; large display bit image suggestion <span class="hot">571x800px</span>; small display image suggestion <span class="hot">700x525px</span>.
@@ -150,7 +148,7 @@ third_party_vod_app_config=Third-Party Video APP
 #td_def_file=默认文件：
 td_def_file=Default File:
 #view_file=查看文件
-view_file=View Files
+view_file=View
 #fixed_image1_app_config=固定图片1APP配置
 fixed_image1_app_config=Fixed Image 1 APP Configuration
 #fixed_image2_app_config=固定图片2APP配置
@@ -198,7 +196,7 @@ td_app_name=APP Name:
 #music_app_upgrade=音乐APP配置
 music_app_upgrade=Music APP Configuration
 #config=配置
-config=Configuration
+config=Config
 #iptv_app_upgrade=小区APP推送
 iptv_app_upgrade=Village APP Push
 #edu_app_upgrade=教学APP推送
@@ -236,7 +234,7 @@ no_push_data=No push data
 #no_uploaded_file=尚未上传文件
 no_uploaded_file=Files have not been uploaded
 #del_file=删除文件
-del_file=Delete File
+del_file=Delete
 #confirm_del_file=确认删除该文件吗？
 confirm_del_file=Confirm delete this file?
 #deleting_file=正在删除文件，请稍候…
@@ -277,7 +275,7 @@ please_select_city=Please select a city
 desc_hotel_background=The recommended image size is: <span class="hot">1920x1080(px) in png or jpg</span> format.
 
 #desc_hotel_service_menu=1. 需要酒店APP版本不低于19，酒店APP版本在18及以下的 <a class="link need-reload" href="{0}">点此配置菜单</a><br>2. 最多允许添加6个服务菜单。若服务名称包含<span class="green">订餐</span>2字，APP会跳转到在线订餐页面（需酒店APP在V52及以上）。<a class="link set-name hide">点此可修改“{1}”名称</a>
-desc_hotel_service_menu=1. <a class="link need-reload" href="{0}">Click here to configure menus</a><br> for hotel app version no less than 19 and hotel app version no more than 18. 2. Allow up to 6 service menus to be added. If the service name contains the <span class="green">Ordering</span> 2 word, the APP will jump to the online ordering page (requires the hotel APP on V52 and above). <a class="link set-name hide">Click here to edit the "{1}" name</a>
+desc_hotel_service_menu=1. <a class="link need-reload" href="{0}">Click here to configure menus</a> for hotel app version no less than 19 and hotel app version no more than 18. <br>2. Allow up to 6 service menus to be added. If the service name contains the <span class="green">Order</span> word, the APP will jump to the online ordering page (requires the hotel APP on V52 and above). <a class="link set-name hide">Click here to edit the "{1}" name</a>
 #add_service_menu=添加服务菜单
 add_service_menu=Add Service Menu
 #set_service_menu=添加服务菜单
@@ -298,7 +296,7 @@ move_down_one=Move Down
 #change_app_module_name=更改“{0}”名称
 change_app_module_name=Change '{0}' name
 #td_menu_name=菜单名称：
-td_menu_name=Menu Name:
+td_menu_name=Chinese Name:
 #td_menu_name_en=英文名称：
 td_menu_name_en=English Name:
 #td_service_name=服务名称：
@@ -321,7 +319,7 @@ confirm_del_menu=Are you sure to delete menu {0}?
 confirm_del_menu2=Submenus under this menu will be deleted.
 
 #desc_hotel_about_menu=1. 需要酒店APP版本不低于19，酒店APP版本在18及以下的 <a class="link need-reload" href="{0}">点此配置菜单</a><br>2. 最多允许添加6个一级菜单。每个一级菜单最多允许添加10个二级菜单。<a class="link set-name hide">点此可修改“关于我们”名称</a><br>3. 建议的图片大小为：<span class="hot">1920x1080（px），格式为png或jpg</span>。
-desc_hotel_about_menu=1. <a class="link need-reload" href="{0}">Click here to configure menus</a><br> for hotel app version no less than 19, hotel app version no more than 18. 2. It is allowed to add up to 6 first-level menus. A maximum of 10 secondary menus per primary menu are allowed. <a class="link set-name hide">Click here to edit the "about us" name</a><br>3. The recommended image size is: <span class="hot">1920x1080(px), format Png or jpg</span>.
+desc_hotel_about_menu=1. <a class="link need-reload" href="{0}">Click here to configure menus</a> for hotel app version no less than 19, hotel app version no more than 18. <br>2. It is allowed to add up to 6 first-level menus. A maximum of 10 secondary menus per primary menu are allowed. <a class="link set-name hide">Click here to edit the "about us" name</a><br>3. The recommended image size is: <span class="hot">1920x1080(px), format Png or jpg</span>.
 #add_main_menu=添加主菜单
 add_main_menu=Add Main Menu
 #set_main_menu=修改主菜单
@@ -403,7 +401,7 @@ food_list=List of Dishes
 #td_select_money=选择月份：
 td_select_money=Select Month:
 #food_order_time=订单时间
-food_order_time=Order Time
+food_order_time=Order Time 
 #tip_food_order_search=输入房间号
 tip_food_order_search=Enter room number
 #food_order_state0=待受理
@@ -414,3 +412,5 @@ food_order_state1=Accepted
 food_order_state2=Delivered
 #food_order_state8=已取消
 food_order_state8=Cancelled
+#food_order_state9=已完成
+food_order_state9=Completed

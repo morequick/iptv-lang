@@ -42,9 +42,9 @@ tip_internet_diag=Checking Internet information. This process takes about 10-60 
 #web_player=内网Web播放器
 web_player=Intranet Web Player
 #live_web_player=内网Web播放器
-live_web_player=Intranet Web Player
+live_web_player=Live Web Player
 #vod_web_player=内网Web播放器
-vod_web_player=Intranet Web Player
+vod_web_player=Video Web Player
 
 #cpu_usage=CPU使用
 cpu_usage=CPU Usage
@@ -72,7 +72,7 @@ hit_traffic_y=Hit Traffic (Mbps)
 #traffic_unit=流量（字节）
 traffic_unit=Traffic (bytes)
 #save_traffic=节省流量
-save_traffic=Saving Traffic
+save_traffic=Saved Traffic
 #mirror_traffic=镜像口流量
 mirror_traffic=Mirror Traffic
 #mirror_traffic_chart=镜像口实时流量图
@@ -81,7 +81,7 @@ mirror_traffic_chart=Mirror Real-time Traffic Graph
 mirror_traffic_y=Mirror Traffic (Mbps)
 
 #live_users=观看用户数
-live_users=Viewing Users
+live_users=Users
 
 #update_in=更新于
 update_in=Updated on
@@ -104,10 +104,8 @@ click_view_log=Click to view the log
 #view_log=查看日志
 view_log=View Log
 
-#current_live_users=当前观看用户数
-current_live_users=Current Viewing Users
-#save_traffic_from_boot=自开机以来节省的流量
-save_traffic_from_boot=Saved traffic since boot
+#current_status_statistics=当前观看用户数: {0}, <span title="自开机以来节省的流量">节省流量: {1}</span>
+current_status_statistics=Current users: {0}, <span title="Saved traffic since boot">saved traffic: {1}</span>
 #restart_nodata_channel=重启故障频道
 restart_nodata_channel=Reboot failed channel
 #restart_all_channel=重启所有频道
@@ -124,15 +122,15 @@ channel_id=Channel ID
 #live_port=端口
 live_port=Port
 #live_user=观看用户
-live_user=Viewing Users
+live_user=Users
 #send_pkgs=发送包数量
 send_pkgs=Send Packets
 #channel_outtype=输出类型
 channel_outtype=Output Type
 #channel_status=状态
-channel_status=status
+channel_status=Status
 #operate=操作
-operate=Operation
+operate=Operations
 #edit=编辑
 edit=Edit
 #modify=修改
@@ -160,7 +158,7 @@ restart=Restart
 #desc_restart_channel=重启该频道直播代理
 desc_restart_channel=Restart the channel
 #this_channel=该频道
-this_channel=This channel
+this_channel= the channel
 
 #invalid_data=数据异常！
 invalid_data=Data Abnormal!
@@ -199,12 +197,12 @@ successful_add_live_source=Live source added successfully!
 #failed_add_live_source=直播源添加失败！
 failed_add_live_source=Failed to add live source!
 #confirm_restart_live_channel=您确认重启以下直播代理吗？
-confirm_restart_live_channel=Are you sure to restart the following live broadcasters?
+confirm_restart_live_channel=Are you sure to restart the following live channels?
 #confirm_restart_all_live_channel=您确认重启所有直播代理吗？
-confirm_restart_all_live_channel=Are you sure you want to restart all Live Broadcast Agents?
+confirm_restart_all_live_channel=Are you sure to restart all live channels?
 
 #user_list=用户列表
-user_list=user list
+user_list=User List
 #user=用户
 user=User
 #ip=IP
@@ -216,11 +214,11 @@ port=Port
 #watch_time=观看时长
 watch_time=Watch time
 #days=天
-days=day
+days=days
 #hours=小时
-hours=hour
+hours=hours
 #mintues=分
-mintues=minute
+mintues=minutes
 #minutes=分
 minutes=minutes
 #minutes2=分钟
@@ -283,7 +281,7 @@ sys_run_status=Status Statistics
 #chart_traffic_out=输出流量图
 chart_traffic_out=Output Flow Graph
 #chart_live_user=在线观看用户趋势图
-chart_live_user=View User Trends Online
+chart_live_user=View User Trends Graph
 #chart_cpu_usage=CPU使用情况图
 chart_cpu_usage=CPU Usage Graph
 #chart_mem_usage=内存使用情况图
@@ -293,7 +291,7 @@ chart_mem_usage=Memory Usage Graph
 error_log=Error Log
 
 #nic_hit=命中口
-nic_hit=NIC-Hit
+nic_hit=NIC-HIT
 #nic_mirror=镜像口
 nic_mirror=NIC-Mirror
 #nic_wan=WAN口
@@ -358,7 +356,7 @@ select_bonding=Aggregation Mode
 #select_hash_policy=传输哈希策略
 select_hash_policy=Transfer Hash Policy
 #select_nic=选择网卡
-select_nic=Select Network Card
+select_nic=Select NIC
 
 #td_ip=IP地址：
 td_ip=IP Address:
@@ -382,7 +380,7 @@ alert_bind_mirrors=<span class="hot">In the multi-mirror collection environment,
 skip=ignore
 
 #desc_nicbind=1. WAN口：如果使用独立的外线上网，则需要添加WAN口。<br>2. LAN口：一般不用绑定此端口，在多机集群时，使用LAN口做为磁盘通信端口。
-desc_nicbind=1. WAN port: If you use a separate external line to access the Internet, you need to add a WAN port. <br> 2. LAN port: generally do not bind this port, in a multi-machine cluster, using the LAN port as a disk communication port.
+desc_nicbind=1. NIC-WAN: If you use a separate external line to access the Internet, you need to add a WAN. <br> 2. NIC-LAN: generally do not bind this port, in a multi-machine cluster, using the LAN as a disk communication port.
 #device_name=设备名
 device_name=Device Name
 #netmask=子网掩码
@@ -400,7 +398,7 @@ tip2_bonding_mode=Aggregation (Mode {0})
 #tip_bridge=（网桥）
 tip_bridge=(bridge)
 #confirm_del_nicbind=确认删除 <span class="hot">{0}</span> 的网卡绑定吗？
-confirm_del_nicbind=Are you sure you want to delete the NIC binding for <span class="hot">{0}</span>?
+confirm_del_nicbind=Are you sure to delete the NIC binding for <span class="hot">{0}</span>?
 
 #confirm_bind_gateway_mac=您确认绑定网关MAC吗？您要绑定的网关MAC为：{0}
 confirm_bind_gateway_mac=Do you confirm the binding gateway MAC? The gateway MAC you are binding to is: {0}
@@ -432,3 +430,5 @@ td_nic=Network Card:
 td_nic_work_mode=Network Card Work Mode:
 #td_def_gateway=默认网关IP：
 td_def_gateway=Default Gateway IP:
+#td_bind_gateway_mac=绑定网关MAC：
+td_bind_gateway_mac=Binding Gateway MAC:

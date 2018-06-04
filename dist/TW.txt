@@ -288,8 +288,7 @@ live_status_running=運行中
 click_view_log=點此查看日誌
 view_log=查看日誌
 
-current_live_users=當前觀看用戶數
-save_traffic_from_boot=自開機以來節省的流量
+current_status_statistics=當前觀看用戶數: {0}, <span title="自開機以來節省的流量">節省流量: {1}</span>
 restart_nodata_channel=重啟故障頻道
 restart_all_channel=重啟所有頻道
 one_click_restart_nodata_channel=一鍵重啟所有無數據的頻道
@@ -929,7 +928,7 @@ mem_use=記憶體使用
 
 sys_avg_load_chart=系統平均負載曲線圖
 avg_load=平均負載
-desc_sys_avg_load=平均負載是衡量系統壓力的綜合指標，通常大於5表示高負荷，1~5 中等，小於1輕度，正常情況下平均負載應該小於2。<br>磁片IO是CPU負載中的一部分，如果長期大於30%表示系統對磁片的讀寫異常，或磁片本身有問題。
+desc_sys_avg_load=1. 平均負載是衡量系統壓力的綜合指標，通常大於5表示高負荷，1~5 中等，小於1輕度，正常情況下平均負載應該小於2。<br>2. 磁片IO是CPU負載中的一部分，如果長期大於30%表示系統對磁片的讀寫異常，或磁片本身有問題。
 
 loading_data_by_date=正在載入{0}資料，請稍候…
 select_date=選擇日期
@@ -2051,7 +2050,7 @@ vod_play_list=選集
 account_unactive=未啟動
 account_ok=正常
 account_disabled=已禁用
-account_locked=已禁用
+account_locked=已鎖定
 account_tel=手機號
 account_name=客戶姓名
 account_qq=QQ號碼

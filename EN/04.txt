@@ -1,5 +1,3 @@
-#please_select_account=请先选择要操作的账号！
-please_select_account=Please select the account you want to operate!
 
 #active_user=启用帐号
 active_user=Enable Account
@@ -15,7 +13,7 @@ confirm_active_user=Are you sure enable the following account?
 #confirm_deactive_user=您确认禁用以下帐号吗？
 confirm_deactive_user=Are you sure disable the following account?
 #confirm_del_user=您确认删除以下帐号吗？
-confirm_del_user=Are you sure delete the following account?
+confirm_del_user=Are you sure to delete the following account?
 #confirm_reset_passwd=您确认重置以下帐号的密码吗？
 confirm_reset_passwd=Are you sure reset the password for the following account?
 
@@ -115,7 +113,7 @@ resize_disk=Extend Capacity
 #click_to_rom=一键刷机
 click_to_rom=Flash ROM
 #init_pool=初始化
-init_pool=Initiate Pool
+init_pool=Initiate Storage Pool
 #scan_newdisk=扫描硬盘
 scan_newdisk=Scan Hard Disk
 #td_status=状态：
@@ -360,9 +358,9 @@ td_confirm_passwd=Confirm Password:
 #td_menu_config=菜单配置：
 td_menu_config=Menu Configuration:
 #click_to_config_menu=点此配置菜单
-click_to_config_menu=Click to config menu
+click_to_config_menu=Click to Config Menu
 #tip_enable_operator=操作员不能修改关键的参数：命中口IP、重启关机、系统升级
-tip_enable_operator=The operator cannot modify key parameters: NIC-Hit IP, reboot, shutdown, system upgrade
+tip_enable_operator=The operator cannot modify key parameters: NIC-HIT IP, reboot, shutdown, system upgrade
 #tip_operator_name=修改账号名称时，请重新设置密码！
 tip_operator_name=When changing your account name, please reset your password!
 #tip_set_password=若无需修改密码，可为空
@@ -413,3 +411,5 @@ tip_console_password=Please leave blank if you do not change your password
 
 #once=一次性
 once=Once
+#daily=每天
+daily= Daily

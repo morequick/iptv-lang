@@ -288,8 +288,7 @@ live_status_running=运行中
 click_view_log=点此查看日志
 view_log=查看日志
 
-current_live_users=当前观看用户数
-save_traffic_from_boot=自开机以来节省的流量
+current_status_statistics=当前观看用户数: {0}, <span title="自开机以来节省的流量">节省流量: {1}</span>
 restart_nodata_channel=重启故障频道
 restart_all_channel=重启所有频道
 one_click_restart_nodata_channel=一键重启所有无数据的频道
@@ -929,7 +928,7 @@ mem_use=内存使用
 
 sys_avg_load_chart=系统平均负载曲线图
 avg_load=平均负载
-desc_sys_avg_load=平均负载是衡量系统压力的综合指标，通常大于5表示高负荷，1~5 中等，小于1轻度，正常情况下平均负载应该小于2。<br>磁盘IO是CPU负载中的一部分，如果长期大于30%表示系统对磁盘的读写异常，或磁盘本身有问题。
+desc_sys_avg_load=1. 平均负载是衡量系统压力的综合指标，通常大于5表示高负荷，1~5 中等，小于1轻度，正常情况下平均负载应该小于2。<br>2. 磁盘IO是CPU负载中的一部分，如果长期大于30%表示系统对磁盘的读写异常，或磁盘本身有问题。
 
 loading_data_by_date=正在加载{0}数据，请稍候…
 select_date=选择日期
@@ -2051,7 +2050,7 @@ vod_play_list=选集
 account_unactive=未激活
 account_ok=正常
 account_disabled=已禁用
-account_locked=已禁用
+account_locked=已锁定
 account_tel=手机号
 account_name=客户姓名
 account_qq=QQ号码
