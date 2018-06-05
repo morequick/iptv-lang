@@ -125,7 +125,7 @@ tab_text=Document
 tab_image=Picture
 tab_video=Video
 tab_music=Music
-tab_myshare=My Share
+tab_myshare=My Share Link
 tab_trash=Trash
 tab_mydocvod=My Episode
 tab_share_to_me=Share To Me
@@ -1504,7 +1504,7 @@ td_user_exptime=Expires:
 td_enable_user=Enable Account:
 tip_wireless_iface_mac=Optional, box's wireless NIC MAC
 tip_wired_iface_mac=Optional, box wired NIC MAC
-add_live_user=Add User
+add_live_user=Add
 set_live_user=Modify User
 td_live_user_id=User ID:
 tip_live_user_id=Length is 6, repeat not allowed
@@ -1535,7 +1535,7 @@ lu_exp_filter2=Expires in 3 days
 lu_exp_filter3=Expires in 7 days
 lu_exp_filter4=Unexpired
 
-desc_live_user=1. Please add user groups in the user group management and select the corresponding channel. The user group ID length is 5, such as <span class="green">10000</span>; the user ID length is 6, such as <span class="color4">100001</span>. <br>2. The user who uses the network set-top box to watch TV is called user group ID and user ID. For example: if the user group ID is <span class="green">10000</span> and the user ID is <span class="color4">100001</span>, the login user name is <span class="green"> 10000</span><span class="color4">100001</span><br>3. The default user account is (<span class="green">10000</span><span class="color4">100001 </span>) If the system detects that the default account does not exist, it will automatically create a default account. If you do not want to enable this account, you can disable it.
+desc_live_user=1. Please add user groups and select the corresponding channel. The user group ID length is 5, such as <span class="green">10000</span>; the user ID length is 6, such as <span class="color4">100001</span>. <br>2. APP login name equals user group ID + user ID. For example: if the user group ID is <span class="green">10000</span> and the user ID is <span class="color4">100001</span>, the login user name is <span class="green"> 10000</span><span class="color4">100001</span><br>3. The default user account is (<span class="green">10000</span><span class="color4">100001 </span>) If the system detects that the default account does not exist, it will automatically create a default account. If you do not want to enable this account, you can disable it.
 clear_data=Clear Data
 tip_live_user_search=Enter user ID, MAC, memo search
 all_user_group=All User Groups
@@ -1554,11 +1554,11 @@ auto_add_nonexisting_user_group=Automatically add nonexistent user groups
 invalid_data_format=Incorrect data format!
 
 desc_user_group=User groups and corresponding channels can be set here. The default user group is (<span class="green">10000</span>). If the system detects that the default user group does not exist, the default user group is automatically created.
-add_user_group=Add User Group
+add_user_group=Add
 set_user_group=Modify User Group
 whole_channels=All Channels
-user_group_id=User Group ID
-user_group_name=User Group Name
+user_group_id=Group ID
+user_group_name=Group Name
 apphome=APP Desktop
 please_select_user_group_for_del=Please specify the user group to delete!
 confirm_del_user_group=Are you sure to delete the following user groups?
@@ -1566,7 +1566,7 @@ deleting_user_group=Deleting user groups, please wait...
 user_group_mgr=User Group Management
 td_user_group_id=User group ID:
 tip_user_group_id=Length 5, not allowed to modify after adding
-td_user_group_name=User Group Name:
+td_user_group_name=Group Name:
 td_select_apphome=Select APP Desktop:
 td_channel_list=Channel List:
 warn_user_group_exists=The same user group ID already exists!
@@ -1618,7 +1618,7 @@ select_bg_image=Select Background Image
 edit_config=Edit Configuration
 
 desc_oldapp_home_for_newapp=<span class="hot">This only supports versions with community apps under V400. <a class="link need-reload" href="{0}">Click here to configure the new app desktops</a> . </span><br>
-desc_oldapp_home=1. Here you can upload the pictures used in the live APP, <span class="hot">Click the picture to call the APP program, broadcast, on-demand or open the web site</span>. If it is a web address, please enter the complete address (cannot be omitted http://), eg:<span class="hot">http://www.baidu.com</span><br>2. <span class=" Hot">The image must be uploaded before modifying the app name or link</span>. APP name must be <span class="hot">installed name</span> (not a file name). If the app name is <span class="hot">secondary local theater</span>, it will be called Seconds on demand APP. <br> 3. APP link supports calling live and on-demand resources (<span class="hot">requires community APP 311 and above and player APP 111 and above</span>) to <span class="hot"> Live @</span>, <span class="hot">On Demand@</span>, eg <span class="hot">Live @CCTV1</span>, <span class="hot">On Demand @ Eagle Shooting Heroes </span>
+desc_oldapp_home=1. Here you can upload the pictures used in the live APP, <span class="hot">Click the picture to call the APP program, broadcast, on-demand or open the web site</span>. If it is a web address, please enter the complete address (cannot be omitted http://), eg:<span class="hot">http://www.baidu.com</span><br>2. <span class=" Hot">The image must be uploaded before modifying the app name or link</span>. APP name must be <span class="hot">installed name</span> (not a file name). If the app name is <span class="hot">secondary local theater</span>, it will be called Seconds on demand APP. <br> 3. APP link supports calling live and on-demand resources (<span class="hot">requires community APP 311 and above and player APP 111 and above</span>) to <span class="hot"> LIVE@</span>, <span class="hot">VOD@</span>, eg <span class="hot">LIVE@CCTV1</span>, <span class="hot">VOD@My Video</span>
 carousel_images=Carousel Image
 vod=Local Video
 carousel=Carousel
@@ -2056,7 +2056,8 @@ account_name=Customer Name
 account_qq=QQ Number
 account_email=Mailbox
 
-desc_account_list=1. The phone number can be <a class="link" target="_blank" href="{0}">Login to the web backend</a> and manage user accounts (user group permissions need to be configured),<span class= "hot"> Live accounts are used for web player live or community APP, hotel APP login. </span><br>2. The <span class="hot">Import Excel</span> feature can batch add or update accounts.
+desc_account_list=1. The phone number can be <a class="link" target="_blank" href="{0}">Login to the web page</a> and manage user accounts (need to configure user group permissions),<span class= "hot"> Live accounts are used for web player live or community APP, hotel APP login. </span><br>2. The <span class="hot">Import Excel</span> feature can batch add or update accounts.
+desc_account_list_for_doc=1. Mobile phone can <a class="link" target="_blank" href="{0}">Login to the web page</a> and manage user account (need to configure user group permissions), <span class="hot">please use mobile phone number + password login app</span>,<span class= "hot"> Live accounts are used for intranet web player</span><br>2. The <span class="hot">import Excel</span> feature allows you to add or update accounts in batches.
 add_account=Add
 set_account=Modify Account
 tip_search_account=Enter phone, name, memo, etc.
@@ -2094,7 +2095,7 @@ td_account_level=User Level:
 tip_account_level=User level: 1-99
 td_drive_def_size=Driver initial capacity:
 tip_drive_def_size=Units: MB
-td_drive_upload_file_size=Allow the size of the uploaded file:
+td_drive_upload_file_size=Max Upload File Size:
 tip_drive_upload_file_size=-1 means unlimited, unit: MB
 td_drive_folders_count=Number of allowed folders:
 tip_drive_folders_count=-1 means infinite
@@ -2104,9 +2105,10 @@ td_drive_public_folders_count=Number of folders allowed to be exposed:
 tip_drive_public_folders_count=-1 means infinite
 td_drive_public_files_count=Number of files allowed to be published:
 tip_drive_public_files_count=-1 means infinite
-td_drive_upload_file_format=Allowed file types to upload
+td_drive_upload_file_format=Allowed Upload File Types 
 tip_drive_upload_file_format=Multiple separated by commas, such as: <span class="green">.zip,.doc,.rar</span>, indicates no for <span class="green">*</span> limit
 warn_account_level_exists=User level cannot be duplicated!
+warn_account_name_exists=User group name cannot be duplicated!
 td_grants_list=Permission List:
 grants_mgr=Permissions Management
 all_grants=All Permissions
@@ -2205,10 +2207,10 @@ doc_owner=Owner
 doc_share_name=Share File
 doc_share_acount=Visits
 doc_share_dcount=Downloads
-doc_share_ctime=Share time
-doc_share_exptime=Expires time
+doc_share_ctime=Share Time
+doc_share_exptime=Expires Time
 click_sort_by_share_time=Click to sort by share time
-click_sort_by_share_exptime=Click to sort by expires
+click_sort_by_share_exptime=Click to sort by expires time
 cancel_doc_share=Cancel
 etc=...etc
 doc_share_name_not_found=This file has been deleted

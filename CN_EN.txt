@@ -237,8 +237,8 @@ tab_image=Picture
 tab_video=Video
 #tab_music=音乐
 tab_music=Music
-#tab_myshare=我的分享
-tab_myshare=My Share
+#tab_myshare=我的分享链接
+tab_myshare=My Share Link
 #tab_trash=回收站
 tab_trash=Trash
 #tab_mydocvod=我的点播剧集
@@ -2871,7 +2871,7 @@ tip_wireless_iface_mac=Optional, box's wireless NIC MAC
 #tip_wired_iface_mac=可选，盒子的有线网卡MAC
 tip_wired_iface_mac=Optional, box wired NIC MAC
 #add_live_user=添加用户
-add_live_user=Add User
+add_live_user=Add
 #set_live_user=修改用户
 set_live_user=Modify User
 #td_live_user_id=用户ID：
@@ -2930,7 +2930,7 @@ lu_exp_filter3=Expires in 7 days
 lu_exp_filter4=Unexpired
 
 #desc_live_user=1. 请先在用户组管理添加用户组并选择对应频道。用户组ID长度为5，如<span class="green">10000</span>；用户ID长度为6，如<span class="color4">100001</span>。<br>2. 使用网络机顶盒看电视时用于登录的用户名为用户组ID和用户ID的组合。例如：用户组ID为<span class="green">10000</span>，用户ID为<span class="color4">100001</span>，那么登录用户名为<span class="green">10000</span><span class="color4">100001</span><br>3. 默认用户账号为（<span class="green">10000</span><span class="color4">100001</span>），若系统检测到默认账号不存在，会自动创建默认账号。若不想启用该账号，您可以禁用该账号。
-desc_live_user=1. Please add user groups in the user group management and select the corresponding channel. The user group ID length is 5, such as <span class="green">10000</span>; the user ID length is 6, such as <span class="color4">100001</span>. <br>2. The user who uses the network set-top box to watch TV is called user group ID and user ID. For example: if the user group ID is <span class="green">10000</span> and the user ID is <span class="color4">100001</span>, the login user name is <span class="green"> 10000</span><span class="color4">100001</span><br>3. The default user account is (<span class="green">10000</span><span class="color4">100001 </span>) If the system detects that the default account does not exist, it will automatically create a default account. If you do not want to enable this account, you can disable it.
+desc_live_user=1. Please add user groups and select the corresponding channel. The user group ID length is 5, such as <span class="green">10000</span>; the user ID length is 6, such as <span class="color4">100001</span>. <br>2. APP login name equals user group ID + user ID. For example: if the user group ID is <span class="green">10000</span> and the user ID is <span class="color4">100001</span>, the login user name is <span class="green"> 10000</span><span class="color4">100001</span><br>3. The default user account is (<span class="green">10000</span><span class="color4">100001 </span>) If the system detects that the default account does not exist, it will automatically create a default account. If you do not want to enable this account, you can disable it.
 #clear_data=清空数据
 clear_data=Clear Data
 #tip_live_user_search=输入用户ID、MAC、备注搜索
@@ -2967,15 +2967,15 @@ invalid_data_format=Incorrect data format!
 #desc_user_group=此处可以设置用户组和对应的频道。默认用户组为（<span class="green">10000</span>），若系统检测到默认用户组不存在，会自动创建默认用户组。
 desc_user_group=User groups and corresponding channels can be set here. The default user group is (<span class="green">10000</span>). If the system detects that the default user group does not exist, the default user group is automatically created.
 #add_user_group=添加用户组
-add_user_group=Add User Group
+add_user_group=Add
 #set_user_group=修改用户组
 set_user_group=Modify User Group
 #whole_channels=全部频道
 whole_channels=All Channels
 #user_group_id=用户组ID
-user_group_id=User Group ID
+user_group_id=Group ID
 #user_group_name=用户组名称
-user_group_name=User Group Name
+user_group_name=Group Name
 #apphome=APP桌面
 apphome=APP Desktop
 #please_select_user_group_for_del=请指定要删除的用户组！
@@ -2991,7 +2991,7 @@ td_user_group_id=User group ID:
 #tip_user_group_id=长度为5，添加后不允许修改
 tip_user_group_id=Length 5, not allowed to modify after adding
 #td_user_group_name=用户组名称：
-td_user_group_name=User Group Name:
+td_user_group_name=Group Name:
 #td_select_apphome=选择APP桌面：
 td_select_apphome=Select APP Desktop:
 #td_channel_list=频道列表：
@@ -3090,7 +3090,7 @@ edit_config=Edit Configuration
 #desc_oldapp_home_for_newapp=<span class="hot">此处仅支持小区APP在V400以下的版本，<a class="link need-reload" href="{0}">点此配置新版APP桌面</a>。</span><br>
 desc_oldapp_home_for_newapp=<span class="hot">This only supports versions with community apps under V400. <a class="link need-reload" href="{0}">Click here to configure the new app desktops</a> . </span><br>
 #desc_oldapp_home=1. 此处可上传直播APP中使用的图片，<span class="hot">点击图片可调用APP程序、直播、点播或打开网址</span>。若是网址，请输入完整的地址（不能省略 http://），eg：<span class="hot">http://www.baidu.com</span><br>2. <span class="hot">单独修改APP名称或链接前必须先上传图片</span>。APP名称必须是<span class="hot">安装后的名称</span>（不是文件名）,若APP名称为<span class="hot">秒开本地影院</span>，则会调用秒开点播APP。<br>3. APP链接支持调用直播和点播资源（<span class="hot">需小区APP 311及以上且播放器APP 111及以上</span>），以<span class="hot">直播@</span>、<span class="hot">点播@</span>开头，如：<span class="hot">直播@CCTV1</span>、<span class="hot">点播@射雕英雄传</span>
-desc_oldapp_home=1. Here you can upload the pictures used in the live APP, <span class="hot">Click the picture to call the APP program, broadcast, on-demand or open the web site</span>. If it is a web address, please enter the complete address (cannot be omitted http://), eg:<span class="hot">http://www.baidu.com</span><br>2. <span class=" Hot">The image must be uploaded before modifying the app name or link</span>. APP name must be <span class="hot">installed name</span> (not a file name). If the app name is <span class="hot">secondary local theater</span>, it will be called Seconds on demand APP. <br> 3. APP link supports calling live and on-demand resources (<span class="hot">requires community APP 311 and above and player APP 111 and above</span>) to <span class="hot"> Live @</span>, <span class="hot">On Demand@</span>, eg <span class="hot">Live @CCTV1</span>, <span class="hot">On Demand @ Eagle Shooting Heroes </span>
+desc_oldapp_home=1. Here you can upload the pictures used in the live APP, <span class="hot">Click the picture to call the APP program, broadcast, on-demand or open the web site</span>. If it is a web address, please enter the complete address (cannot be omitted http://), eg:<span class="hot">http://www.baidu.com</span><br>2. <span class=" Hot">The image must be uploaded before modifying the app name or link</span>. APP name must be <span class="hot">installed name</span> (not a file name). If the app name is <span class="hot">secondary local theater</span>, it will be called Seconds on demand APP. <br> 3. APP link supports calling live and on-demand resources (<span class="hot">requires community APP 311 and above and player APP 111 and above</span>) to <span class="hot"> LIVE@</span>, <span class="hot">VOD@</span>, eg <span class="hot">LIVE@CCTV1</span>, <span class="hot">VOD@My Video</span>
 #carousel_images=轮播图片
 carousel_images=Carousel Image
 #vod=点播
@@ -3941,7 +3941,9 @@ account_qq=QQ Number
 account_email=Mailbox
 
 #desc_account_list=1. 手机号可<a class="link" target="_blank" href="{0}">登录Web后台</a>并管理用户账号（需配置用户组权限），<span class="hot">直播账号用于Web播放器直播或小区APP、酒店APP登录。</span><br>2. <span class="hot">导入Excel</span>功能可批量添加或更新账号。
-desc_account_list=1. The phone number can be <a class="link" target="_blank" href="{0}">Login to the web backend</a> and manage user accounts (user group permissions need to be configured),<span class= "hot"> Live accounts are used for web player live or community APP, hotel APP login. </span><br>2. The <span class="hot">Import Excel</span> feature can batch add or update accounts.
+desc_account_list=1. The phone number can be <a class="link" target="_blank" href="{0}">Login to the web page</a> and manage user accounts (need to configure user group permissions),<span class= "hot"> Live accounts are used for web player live or community APP, hotel APP login. </span><br>2. The <span class="hot">Import Excel</span> feature can batch add or update accounts.
+#desc_account_list_for_doc=1. 手机号可<a class="link" target="_blank" href="{0}">登录Web后台</a>并管理用户账号（需配置用户组权限），<span class="hot">请使用手机号+密码登录APP</span>，<span class="hot">直播账号用于Web播放器直播。<br>2. <span class="hot">导入Excel</span>功能可批量添加或更新账号。
+desc_account_list_for_doc=1. Mobile phone can <a class="link" target="_blank" href="{0}">Login to the web page</a> and manage user account (need to configure user group permissions), <span class="hot">please use mobile phone number + password login app</span>,<span class= "hot"> Live accounts are used for intranet web player</span><br>2. The <span class="hot">import Excel</span> feature allows you to add or update accounts in batches.
 #add_account=添加账号
 add_account=Add
 #set_account=修改账号
@@ -4016,7 +4018,7 @@ td_drive_def_size=Driver initial capacity:
 #tip_drive_def_size=单位:MB
 tip_drive_def_size=Units: MB
 #td_drive_upload_file_size=允许上传文件的大小：
-td_drive_upload_file_size=Allow the size of the uploaded file:
+td_drive_upload_file_size=Max Upload File Size:
 #tip_drive_upload_file_size=-1表示无限,单位:MB
 tip_drive_upload_file_size=-1 means unlimited, unit: MB
 #td_drive_folders_count=允许拥有的文件夹数量：
@@ -4036,11 +4038,13 @@ td_drive_public_files_count=Number of files allowed to be published:
 #tip_drive_public_files_count=-1表示无限
 tip_drive_public_files_count=-1 means infinite
 #td_drive_upload_file_format=允许上传的文件类型
-td_drive_upload_file_format=Allowed file types to upload
+td_drive_upload_file_format=Allowed Upload File Types 
 #tip_drive_upload_file_format=多个之间用逗号隔开，如：<span class="green">.zip,.doc,.rar</span>，为<span class="green">*</span>表示不限
 tip_drive_upload_file_format=Multiple separated by commas, such as: <span class="green">.zip,.doc,.rar</span>, indicates no for <span class="green">*</span> limit
 #warn_account_level_exists=用户级别不能重复！
 warn_account_level_exists=User level cannot be duplicated!
+#warn_account_name_exists=用户组名称不能重复！
+warn_account_name_exists=User group name cannot be duplicated!
 #td_grants_list=权限列表：
 td_grants_list=Permission List:
 #grants_mgr=权限管理
@@ -4233,13 +4237,13 @@ doc_share_acount=Visits
 #doc_share_dcount=下载次数
 doc_share_dcount=Downloads
 #doc_share_ctime=分享时间
-doc_share_ctime=Share time
+doc_share_ctime=Share Time
 #doc_share_exptime=失效时间
-doc_share_exptime=Expires time
+doc_share_exptime=Expires Time
 #click_sort_by_share_time=点此按分享时间排序
 click_sort_by_share_time=Click to sort by share time
 #click_sort_by_share_exptime=点此按失效时间排序
-click_sort_by_share_exptime=Click to sort by expires
+click_sort_by_share_exptime=Click to sort by expires time
 #cancel_doc_share=取消分享
 cancel_doc_share=Cancel
 #etc=…等

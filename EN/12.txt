@@ -1,3 +1,7 @@
+#tip_boot_animation_speed=1-30
+tip_boot_animation_speed=1-30
+#tip_boot_animation_time=截取的视频时长，1-10秒
+tip_boot_animation_time=Video clipped, 1-10 seconds
 #td_boot_animation_mp4=一个MP4文件（不超过50M）
 td_boot_animation_mp4=One MP4 file (up to 50M)
 #td_boot_animation_gif=一个GIF图片（不超过10M）

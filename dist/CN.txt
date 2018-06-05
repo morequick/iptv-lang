@@ -125,7 +125,7 @@ tab_text=文档
 tab_image=图片
 tab_video=视频
 tab_music=音乐
-tab_myshare=我的分享
+tab_myshare=我的分享链接
 tab_trash=回收站
 tab_mydocvod=我的点播剧集
 tab_share_to_me=共享给我
@@ -2057,6 +2057,7 @@ account_qq=QQ号码
 account_email=邮箱
 
 desc_account_list=1. 手机号可<a class="link" target="_blank" href="{0}">登录Web后台</a>并管理用户账号（需配置用户组权限），<span class="hot">直播账号用于Web播放器直播或小区APP、酒店APP登录。</span><br>2. <span class="hot">导入Excel</span>功能可批量添加或更新账号。
+desc_account_list_for_doc=1. 手机号可<a class="link" target="_blank" href="{0}">登录Web后台</a>并管理用户账号（需配置用户组权限），<span class="hot">请使用手机号+密码登录APP</span>，<span class="hot">直播账号用于Web播放器直播。<br>2. <span class="hot">导入Excel</span>功能可批量添加或更新账号。
 add_account=添加账号
 set_account=修改账号
 tip_search_account=输入手机号、姓名、备注等
@@ -2107,6 +2108,7 @@ tip_drive_public_files_count=-1表示无限
 td_drive_upload_file_format=允许上传的文件类型
 tip_drive_upload_file_format=多个之间用逗号隔开，如：<span class="green">.zip,.doc,.rar</span>，为<span class="green">*</span>表示不限
 warn_account_level_exists=用户级别不能重复！
+warn_account_name_exists=用户组名称不能重复！
 td_grants_list=权限列表：
 grants_mgr=权限管理
 all_grants=所有权限
