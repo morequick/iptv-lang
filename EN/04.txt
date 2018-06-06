@@ -1,3 +1,9 @@
+#account_exists=账号已存在！
+account_exists=Account already exists!
+#account=帐号
+account=Account
+#please_select_account=请先选择要操作的账号！
+please_select_account=Please select the account you want to operate!
 
 #active_user=启用帐号
 active_user=Enable Account
@@ -406,10 +412,3 @@ fail=Failed
 td_console_login=Enable Console Login Password:
 #td_console_password=控制台登录密码：
 td_console_password=Console Login Password:
-#tip_console_password=若不修改密码，请留空
-tip_console_password=Please leave blank if you do not change your password
-
-#once=一次性
-once=Once
-#daily=每天
-daily= Daily

@@ -1,3 +1,21 @@
+#food_list=菜品列表
+food_list=List of Dishes
+#td_select_money=选择月份：
+td_select_money=Select Month:
+#food_order_time=订单时间
+food_order_time=Order Time 
+#tip_food_order_search=输入房间号
+tip_food_order_search=Enter room number
+#food_order_state0=待受理
+food_order_state0=Pending
+#food_order_state1=已受理
+food_order_state1=Accepted
+#food_order_state2=已派送
+food_order_state2=Delivered
+#food_order_state8=已取消
+food_order_state8=Cancelled
+#food_order_state9=已完成
+food_order_state9=Completed
 #orderid=订单号
 orderid=Order ID
 #order_detail=订单详情
@@ -173,7 +191,7 @@ account_qq=QQ Number
 account_email=Mailbox
 
 #desc_account_list=1. 手机号可<a class="link" target="_blank" href="{0}">登录Web后台</a>并管理用户账号（需配置用户组权限），<span class="hot">直播账号用于Web播放器直播或小区APP、酒店APP登录。</span><br>2. <span class="hot">导入Excel</span>功能可批量添加或更新账号。
-desc_account_list=1. The phone number can be <a class="link" target="_blank" href="{0}">Login to the web page</a> and manage user accounts (need to configure user group permissions),<span class= "hot"> Live accounts are used for web player live or community APP, hotel APP login. </span><br>2. The <span class="hot">Import Excel</span> feature can batch add or update accounts.
+desc_account_list=1. The phone number can be <a class="link" target="_blank" href="{0}">Login to the web page</a> and manage user accounts (need to configure user group permissions),<span class= "hot"> Live accounts are used for web player live or Village APP, hotel APP login. </span><br>2. The <span class="hot">Import Excel</span> feature can batch add or update accounts.
 #desc_account_list_for_doc=1. 手机号可<a class="link" target="_blank" href="{0}">登录Web后台</a>并管理用户账号（需配置用户组权限），<span class="hot">请使用手机号+密码登录APP</span>，<span class="hot">直播账号用于Web播放器直播。<br>2. <span class="hot">导入Excel</span>功能可批量添加或更新账号。
 desc_account_list_for_doc=1. Mobile phone can <a class="link" target="_blank" href="{0}">Login to the web page</a> and manage user account (need to configure user group permissions), <span class="hot">please use mobile phone number + password login app</span>,<span class= "hot"> Live accounts are used for intranet web player</span><br>2. The <span class="hot">import Excel</span> feature allows you to add or update accounts in batches.
 #add_account=添加账号
@@ -198,12 +216,12 @@ account_hotel=Managed Hotel
 account_detail=Account Info
 #td_account_tel=手机号：
 td_account_tel=Mobile:
-#td_account_name=客户姓名：
-td_account_name=Customer Name:
 #td_parent_account=上级账号：
 td_parent_account=Parent Account:
 #td_account_hotel=选择管理的酒店：
 td_account_hotel=Select Managed Hotels:
+#select_hotel=选择酒店
+select_hotel=Select Hotel
 #td_account_password=登录密码：
 td_account_password=Login Password:
 #td_reset_password=重置密码：
@@ -391,21 +409,3 @@ share_as_public=Public
 tip_share_as_public=Anyone can view or download
 #td_share_link=链接地址：
 td_share_link=Link Address:
-#td_share_code=提取码：
-td_share_code=Extract code:
-#create_share_link=创建链接
-create_share_link=Create Link
-#copy_share_link=复制链接
-copy_share_link=Copy Link
-#please_select_doc_for_share=请选择要分享的文件或文件夹！
-please_select_doc_for_share=Please select the file or folder to share!
-#creating_share_link=正在生成链接，请稍候…
-creating_share_link=Creating link, please wait...
-#successful_for_copy=复制成功！
-successful_for_copy=Copy success!
-#td_doc_current=当前：
-td_doc_current=Current:
-#return_parent=返回上级
-return_parent=Return
-#doc_selected_files=本次共选中 {0} 个文件（夹）
-doc_selected_files=This time a total of {0} files were selected (clips)

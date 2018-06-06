@@ -188,6 +188,10 @@ upload_state_skip=已跳過
 upload_state_cancel=已取消
 upload_state_error=已失敗
 
+cubic_color=立方色
+series_color=連續色調
+gray_color=灰度等級
+
 reset_zoom=返回
 reset_zoom_title=1:1放大
 
@@ -1647,8 +1651,9 @@ desc_app_settings_general_for_itv=歡迎頁支援播放背景音樂，只需將�
 main_module_config=主介面模組配置
 main_app_config=主介面APP配置
 click_to_set_app_module_name=點此修改APP上的顯示名稱
-use_new_hotel_ui=使用新APP介面
+use_new_app_ui=使用新APP界面
 tip_use_new_hotel_ui=需APP版本在V105及以上
+tip_use_new_app_home=需APP版本在V410及以上
 auto_check_upgrade=自動檢測更新
 auto_goto_live=自動進入直播
 disable_private_wifi=禁用私人WiFi
@@ -1695,8 +1700,9 @@ td_ad_hide_intervavl=停頓時長：
 tip_ad_hide_intervavl=，不低於1，默認為10
 td_ad_image=廣告圖片：
 
-desc_app_home_list_for_oldapp=<span class="hot">此處僅支持社區APP在V500及以上的版本，<a class="link need-reload" href="{0}">點此配置老版APP桌面</a>。</span><br>
+desc_app_home_list_for_oldapp=<span class="hot">此處僅支持社區APP在V410及以上的版本，<a class="link need-reload" href="{0}">點此配置老版APP桌面</a>。</span><br>
 desc_app_home_list=1. 一般只需創建1個APP桌面即可，若要實現許可權管理，可創建多個桌面，然後在<a class="link" href="{0}">用戶組管理</a>對用戶組與桌面進行關聯。對於未設置的用戶組，將默認返回第1個桌面。<br>2. <span class="hot">請先在<a class="link need-reload" href="{1}">APP上傳管理</a>和<a class="link need-reload" href="{2}">圖片上傳管理</a>上傳相關APP和圖片</span>，然後在此處選擇圖片和配置APP。顯示效果以APP為准。
+desc_app_home_one=<span class="hot">請先在<a class="link need-reload" href="{1}">APP上傳管理</a>和<a class="link need-reload" href="{2}">圖片上傳管理</a>上傳相關APP和圖片</span>，然後在此處選擇圖片和配置APP。顯示效果以APP為准。
 add_app_home=添加桌面
 adding_app_home=正在添加桌面，請稍候…
 num_of_large_display={0}個大顯示位元
@@ -1708,7 +1714,8 @@ custom_info=自訂信息
 app_home=桌面
 review=回看
 live_channel=直播頻道
-vod_channel=點播頻道
+vod_channel=視頻名稱
+vod_category=點播分類
 third_party_app=協力廠商APP
 website_link=網址連結
 all_apps=全部應用
@@ -1716,6 +1723,7 @@ app_settings=應用設置
 system_settings=系統設置
 tip_live_channel=例如：<span class="hot">CCTV1</span>
 tip_vod_channel=例如：<span class="hot">射雕英雄傳</span>
+tip_vod_category=例如：<span class="hot">電影</span>
 tip_website_link=請輸入完整的網址，如<span class="hot">https://www.baidu.com</span>
 app_config=APP設置
 td_app_type=類型：
@@ -1885,6 +1893,8 @@ td_hotel_area=所在地區：
 tip_hotel_area=用於顯示天氣
 td_hotel_welcome_cn=中文歡迎詞：
 td_hotel_welcome_en=英文歡迎詞：
+td_hotel_welcome_fontsize=歡迎詞字體大小：
+hotel_welcome_fontsizes=24-小號,36-標準,48-中號,72-大號
 tip_hotel_welcome=可嵌入變數以顯示不同的稱呼
 customer_name=客戶名稱
 customer_intime=入住時間
@@ -2069,9 +2079,9 @@ parent_account=上級帳號
 account_hotel=管理的酒店
 account_detail=帳號信息
 td_account_tel=手機號：
-td_account_name=客戶姓名：
 td_parent_account=上級帳號：
 td_account_hotel=選擇管理的酒店：
+select_hotel=選擇酒店
 td_account_password=登錄密碼：
 td_reset_password=重置密碼：
 td_account_max_live_login=最大直播登錄人數：
@@ -2358,6 +2368,11 @@ please_select_app=請選擇APP！
 please_upload_icon=請上傳圖示！
 change_logo=更改酒店LOGO
 change_background_image=更改背景圖片
+other_settings=其它設置
+header_bgcolor=頭部背景色
+header_bgopacity=頭部背景透明度
+weather_background_image=天氣背景圖片
+tip_live_vod_image=建議的圖片大小為：650x220（px），格式為png或jpg
 desc_hotel_logo=圖片會自動縮放為合適的尺寸，具體以APP顯示為准。
 confirm_del_hotel_logo=確認刪除酒店LOGO嗎？
 multi_screen=多屏互動

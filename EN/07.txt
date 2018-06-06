@@ -1,3 +1,9 @@
+#enable_live_source=启用直播
+enable_live_source=Enable Channel
+#warn_privated_source_format=私有源地址格式不正确，必须以<span class="hot">http、https、udp、rtp、rtsp、rtmp、play</span>开头，且路径中间不能包含<span class="hot">://</span>。
+warn_privated_source_format=Private source address format is incorrect, must start with <span class="hot">http, https, udp, rtp, rtsp, rtmp, play</span>, and the path cannot contain <span class="hot" >://</span>.
+#suggest_privated_source=请替换为以下地址试试：
+suggest_privated_source=Please try replacing with the following address:
 #warn_live_cid_exists=您选择的频道ID已存在，请重新设置！
 warn_live_cid_exists=The channel ID you selected already exists. Please reset it!
 #warn_live_custom_cid_format=自定义频道ID必须以 <span class="hot">live</span> 开头且后接4位数字！
@@ -401,9 +407,3 @@ desc_live_user=1. Please add user groups and select the corresponding channel. T
 clear_data=Clear Data
 #tip_live_user_search=输入用户ID、MAC、备注搜索
 tip_live_user_search=Enter user ID, MAC, memo search
-#all_user_group=所有用户组
-all_user_group=All User Groups
-#all_user=所有用户
-all_user=All Users
-#all_exptime=所有时间
-all_exptime=All Time

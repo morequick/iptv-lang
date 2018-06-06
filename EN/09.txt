@@ -1,3 +1,17 @@
+#file_name=文件名称
+file_name=File Name
+#click_to_download=点此下载
+click_to_download=Click to Download
+#set_app_name=设置APP名称
+set_app_name=Set APP Name
+#please_select_app_for_del=请选择要删除的APP！
+please_select_app_for_del=Please select the app you want to delete!
+#confirm_del_app=确认删除以下APP吗？
+confirm_del_app=Confirm to delete the following app?
+#del_app=删除APP
+del_app=Delete APP
+#deleting_app=正在删除APP，请稍候…
+deleting_app=Deleting APP, please wait...
 
 #desc_image_upload_list=<span class="hot">1. 必须是.jpg、.png、.gif文件且不超过2MB。</span><br>2. APP桌面背景图片建议<span class="hot">1920x1080px</span>；logo图片建议<span class="hot">150x150px</span>；大显示位图片建议<span class="hot">571x800px</span>；小显示位图片建议<span class="hot">700x525px</span>。
 desc_image_upload_list=<span class="hot">1. Must be a .jpg, .png, .gif file and no more than 2MB in size. </span><br>2. APP desktop background image suggestion <span class="hot">1920x1080px</span>;logo image suggestion <span class="hot">150x150px</span>; large display bit image suggestion <span class="hot">571x800px</span>; small display image suggestion <span class="hot">700x525px</span>.
@@ -13,9 +27,9 @@ del_image=Delete Image
 deleting_image=Deleting image, please wait...
 
 #desc_app_notify_list=<span class="hot">1. 此功能需小区APP在V342及以上或酒店APP在V44及以上。</span><br>2. 每条通知内容在100字以内。通知发布后一般约5秒生效，<a class="link need-reload" href="{0}">点此修改更新间隔</a>，但基于性能考虑，不建议将此值设的过小。
-desc_app_notify_list=<span class="hot">1. This function requires the community APP to be at V342 and above or the hotel APP at V44 and above. </span><br>2. Each notification is within 100 words. Generally about 5 seconds after the notification is released, <a class="link need-reload" href="{0}">Click here to modify the update interval</a>, but based on performance considerations, this value is not recommended small.
+desc_app_notify_list=<span class="hot">1. This function requires the Village APP to be at V342 and above or the hotel APP at V44 and above. </span><br>2. Each notification is within 100 words. Generally about 5 seconds after the notification is released, <a class="link need-reload" href="{0}">Click here to modify the update interval</a>, but based on performance considerations, this value is not recommended small.
 #desc_app_notify_list_own=<span class="hot">1. 此功能需小区APP在V342及以上或酒店APP在V44及以上。</span><br>2. 每条通知内容在100字以内。
-desc_app_notify_list_own=<span class="hot">1. This function requires the community APP to be on V342 and above or the hotel APP on V44 and above. </span><br>2. Each notification is within 100 words.
+desc_app_notify_list_own=<span class="hot">1. This function requires the Village APP to be on V342 and above or the hotel APP on V44 and above. </span><br>2. Each notification is within 100 words.
 #desc_app_notify_list_mq=<br>3. <a class="link" href="{0}" target="_blank">点此联系官方购买指定硬件</a>，提供一键紧急通知功能。
 desc_app_notify_list_mq=<br>3. <a class="link" href="{0}" target="_blank">Click here to contact the official purchaser of the specified hardware</a> to provide one-button emergency notification.
 #scroll_notify=滚动通知
@@ -212,7 +226,7 @@ please_set_player_app=Please config the player APP!
 #please_set_vip_vod_app=请配置VIP影院APP！
 please_set_vip_vod_app=Please config the VIP Cinema App!
 #please_set_iptv_app=请配置小区APP！
-please_set_iptv_app=Please config Community APP!
+please_set_iptv_app=Please config Village APP!
 #tip_has_app_upgrade=检测到您有版本更新，请升级！
 tip_has_app_upgrade=We detected that you have a version update. Please upgrade!
 #failed_check_file=文件校验失败
@@ -258,6 +272,10 @@ tip_hotel_area=Use to show the weather
 td_hotel_welcome_cn=Chinese Welcome:
 #td_hotel_welcome_en=英文欢迎词：
 td_hotel_welcome_en=English Welcome:
+#td_hotel_welcome_fontsize=欢迎词字体大小：
+td_hotel_welcome_fontsize=Welcome Font Size:
+#hotel_welcome_fontsizes=24-小号,36-标准,48-中号,72-大号
+hotel_welcome_fontsizes=24-Small,36-Standard,48-Medium,72-Large
 #tip_hotel_welcome=可嵌入变量以显示不同的称呼
 tip_hotel_welcome=Can embed variables to show different titles
 #customer_name=客户名称
@@ -396,21 +414,3 @@ confirm_clear_food=Confirm Clear All Dishes?
 clear_food=Clear Dishes
 #clearing_food=正在清空菜品，请稍候…
 clearing_food=Closing dishes, please wait...
-#food_list=菜品列表
-food_list=List of Dishes
-#td_select_money=选择月份：
-td_select_money=Select Month:
-#food_order_time=订单时间
-food_order_time=Order Time 
-#tip_food_order_search=输入房间号
-tip_food_order_search=Enter room number
-#food_order_state0=待受理
-food_order_state0=Pending
-#food_order_state1=已受理
-food_order_state1=Accepted
-#food_order_state2=已派送
-food_order_state2=Delivered
-#food_order_state8=已取消
-food_order_state8=Cancelled
-#food_order_state9=已完成
-food_order_state9=Completed

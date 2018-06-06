@@ -147,7 +147,7 @@ tab_notify_mgr=Notification Management
 tab_notify_settings=Notification Settings
 
 #tab_oldapp_home=旧版APP桌面
-tab_oldapp_home=Older APP Home
+tab_oldapp_home=Old APP Home
 #tab_newapp_home=新版APP桌面
 tab_newapp_home=New APP Home
 #tab_app_home_config=APP桌面配置
@@ -353,6 +353,13 @@ upload_state_cancel=Cancel
 #upload_state_error=已失败
 upload_state_error=Failed
 
+#cubic_color=立方色
+cubic_color=Cubic color
+#series_color=连续色调
+series_color=Series color
+#gray_color=灰度等级
+gray_color=Gray color
+
 #reset_zoom=返回
 reset_zoom=Back
 #reset_zoom_title=1:1放大
@@ -423,9 +430,3 @@ saving_data=Saving data, please wait...
 saved_data=Data has been saved!
 #submiting_data=正在提交数据，请稍候……
 submiting_data=Submitting data, please wait...
-#successful_save=保存成功！
-successful_save=Saved successfully!
-#failed_save=保存失败！
-failed_save=Save failed!
-#successful_add=添加成功！
-successful_add=Add success!

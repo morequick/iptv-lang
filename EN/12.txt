@@ -1,3 +1,32 @@
+#del_boot_logo=删除开机LOGO
+del_boot_logo=Delete Boot LOGO
+#deleting_boot_logo=正在删除开机LOGO，请稍候…
+deleting_boot_logo=Deleting boot LOGO, please wait...
+#confirm_del_boot_logo=确认删除开机LOGO吗？
+confirm_del_boot_logo=Confirm delete boot LOGO?
+#boot_logo_not_found=尚未上传图片
+boot_logo_not_found=No image uploaded yet
+
+#desc_boot_animation_settings=设备启动时可以显示一段动画，此功能需要硬盘支持<span class="need-admin">，<a class="link" href="{0}">点此配置存储磁盘</a></span>。仅对支持的固件（官方机顶盒或电视）生效。
+desc_boot_animation_settings=An animation can be displayed when the device starts. This function requires hard disk support <span class="need-admin">,<a class="link" href="{0}">Click to configure the storage disk</a> </span>. Only works with supported firmware (official set-top boxes or TVs).
+#td_boot_animation_from=选择来源：
+td_boot_animation_from=Select Source:
+#td_boot_animation_width=显示宽度：
+td_boot_animation_width=Display Width:
+#td_boot_animation_height=显示高度：
+td_boot_animation_height=Display Height:
+#td_boot_animation_speed=帧速：
+td_boot_animation_speed=Frame Rate:
+#td_boot_animation_time=时长：
+td_boot_animation_time=Time:
+#td_boot_animation_count=播放次数：
+td_boot_animation_count=Play Count:
+#tip_boot_animation_count=0-10,为0表示循环播放
+tip_boot_animation_count=0-10, 0 means loop playback
+#tip_boot_animation_width=100-3840px
+tip_boot_animation_width=100-3840px
+#tip_boot_animation_height=100-2160px
+tip_boot_animation_height=100-2160px
 #tip_boot_animation_speed=1-30
 tip_boot_animation_speed=1-30
 #tip_boot_animation_time=截取的视频时长，1-10秒

@@ -1,3 +1,9 @@
+#all_user_group=所有用户组
+all_user_group=All User Groups
+#all_user=所有用户
+all_user=All Users
+#all_exptime=所有时间
+all_exptime=All Time
 #user_group=用户组
 user_group=User Group
 #user_id=用户ID
@@ -142,12 +148,12 @@ select_image_and_upload=Select Image and Upload
 #select_bg_image=选择背景图片
 select_bg_image=Select Background Image
 #edit_config=编辑配置
-edit_config=Edit Configuration
+edit_config=Configure
 
 #desc_oldapp_home_for_newapp=<span class="hot">此处仅支持小区APP在V400以下的版本，<a class="link need-reload" href="{0}">点此配置新版APP桌面</a>。</span><br>
-desc_oldapp_home_for_newapp=<span class="hot">This only supports versions with community apps under V400. <a class="link need-reload" href="{0}">Click here to configure the new app desktops</a> . </span><br>
+desc_oldapp_home_for_newapp=<span class="hot">This only supports versions with Village APPs under V400. <a class="link need-reload" href="{0}">Click here to configure the new app desktops</a> . </span><br>
 #desc_oldapp_home=1. 此处可上传直播APP中使用的图片，<span class="hot">点击图片可调用APP程序、直播、点播或打开网址</span>。若是网址，请输入完整的地址（不能省略 http://），eg：<span class="hot">http://www.baidu.com</span><br>2. <span class="hot">单独修改APP名称或链接前必须先上传图片</span>。APP名称必须是<span class="hot">安装后的名称</span>（不是文件名）,若APP名称为<span class="hot">秒开本地影院</span>，则会调用秒开点播APP。<br>3. APP链接支持调用直播和点播资源（<span class="hot">需小区APP 311及以上且播放器APP 111及以上</span>），以<span class="hot">直播@</span>、<span class="hot">点播@</span>开头，如：<span class="hot">直播@CCTV1</span>、<span class="hot">点播@射雕英雄传</span>
-desc_oldapp_home=1. Here you can upload the pictures used in the live APP, <span class="hot">Click the picture to call the APP program, broadcast, on-demand or open the web site</span>. If it is a web address, please enter the complete address (cannot be omitted http://), eg:<span class="hot">http://www.baidu.com</span><br>2. <span class=" Hot">The image must be uploaded before modifying the app name or link</span>. APP name must be <span class="hot">installed name</span> (not a file name). If the app name is <span class="hot">secondary local theater</span>, it will be called Seconds on demand APP. <br> 3. APP link supports calling live and on-demand resources (<span class="hot">requires community APP 311 and above and player APP 111 and above</span>) to <span class="hot"> LIVE@</span>, <span class="hot">VOD@</span>, eg <span class="hot">LIVE@CCTV1</span>, <span class="hot">VOD@My Video</span>
+desc_oldapp_home=1. Here you can upload the pictures used in the live APP, <span class="hot">Click the picture to call the APP program, broadcast, on-demand or open the web site</span>. If it is a web address, please enter the complete address (cannot be omitted http://), eg:<span class="hot">http://www.baidu.com</span><br>2. <span class=" Hot">The image must be uploaded before modifying the app name or link</span>. APP name must be <span class="hot">installed name</span> (not a file name). If the app name is <span class="hot">secondary local theater</span>, it will be called Seconds on demand APP. <br> 3. APP link supports calling live and on-demand resources (<span class="hot">requires Village APP 311 and above and player APP 111 and above</span>) to <span class="hot"> LIVE@</span>, <span class="hot">VOD@</span>, eg <span class="hot">LIVE@CCTV1</span>, <span class="hot">VOD@My Video</span>
 #carousel_images=轮播图片
 carousel_images=Carousel Image
 #vod=点播
@@ -204,10 +210,12 @@ main_module_config=Main UI Module Configuration
 main_app_config=Main UI APP Configuration
 #click_to_set_app_module_name=点此修改APP上的显示名称
 click_to_set_app_module_name=Click here to modify the display name on the APP
-#use_new_hotel_ui=使用新APP界面
-use_new_hotel_ui=Use new APP UI
+#use_new_app_ui=使用新APP界面
+use_new_app_ui=Use new APP UI
 #tip_use_new_hotel_ui=需APP版本在V105及以上
 tip_use_new_hotel_ui=App version required is V105 and above
+#tip_use_new_app_home=需APP版本在V410及以上
+tip_use_new_app_home=App version required is V410 and above
 #auto_check_upgrade=自动检测更新
 auto_check_upgrade=Auto Detect Updates
 #auto_goto_live=自动进入直播
@@ -298,10 +306,12 @@ tip_ad_hide_intervavl=, not less than 1, defaults to 10
 #td_ad_image=广告图片：
 td_ad_image=Ad Image:
 
-#desc_app_home_list_for_oldapp=<span class="hot">此处仅支持小区APP在V500及以上的版本，<a class="link need-reload" href="{0}">点此配置老版APP桌面</a>。</span><br>
-desc_app_home_list_for_oldapp=<span class="hot">This only supports the version of community APP in V500 and above. <a class="link need-reload" href="{0}">Click here to configure the old version of the APP desktop. a>. </span><br>
+#desc_app_home_list_for_oldapp=<span class="hot">此处仅支持小区APP在V410及以上的版本，<a class="link need-reload" href="{0}">点此配置老版APP桌面</a>。</span><br>
+desc_app_home_list_for_oldapp=<span class="hot">This only supports the version of Village APP in V410 and above. <a class="link need-reload" href="{0}">Click to configure the old APP desktop</a>. </span><br>
 #desc_app_home_list=1. 一般只需创建1个APP桌面即可，若要实现权限管理，可创建多个桌面，然后在<a class="link" href="{0}">用户组管理</a>对用户组与桌面进行关联。对于未设置的用户组，将默认返回第1个桌面。<br>2. <span class="hot">请先在<a class="link need-reload" href="{1}">APP上传管理</a>和<a class="link need-reload" href="{2}">图片上传管理</a>上传相关APP和图片</span>，然后在此处选择图片和配置APP。显示效果以APP为准。
-desc_app_home_list=1. Generally, you only need to create one APP desktop. To achieve rights management, create multiple desktops and then <a class="link" href="{0}">user group management</a > Associate user groups with desktops. For unset user groups, the first desktop is returned by default. <br>2. <span class="hot">Please first <a class="link need-reload" href="{1}">APP upload management</a> and <a class="link need- Reload" href="{2}">Image Upload Manager</a> Upload related apps and images</span>, then select pictures and configure apps here. The display effect is based on the APP.
+desc_app_home_list=1. Generally, you only need to create one APP desktop. To achieve rights management, create multiple desktops and then <a class="link" href="{0}">User Group</a > Associate user groups with desktops. For unset user groups, the first desktop is returned by default. <br>2. <span class="hot">Please first goto <a class="link need-reload" href="{1}">APP Upload Management</a> and <a class="link need- Reload" href="{2}">Image Upload Management</a> Upload related apps and images</span>, then select pictures and configure apps here. The display effect is based on the APP.
+#desc_app_home_one=<span class="hot">请先在<a class="link need-reload" href="{1}">APP上传管理</a>和<a class="link need-reload" href="{2}">图片上传管理</a>上传相关APP和图片</span>，然后在此处选择图片和配置APP。显示效果以APP为准。
+desc_app_home_one=<span class="hot">Please first goto <a class="link need-reload" href="{1}">APP Upload Management</a> and <a class="link need- Reload" href="{2}">Image Upload Management</a> Upload related apps and images</span>, then select pictures and configure apps here. The display effect is based on the APP.
 #add_app_home=添加桌面
 add_app_home=Add Desktop
 #adding_app_home=正在添加桌面，请稍候…
@@ -324,8 +334,10 @@ app_home=Desktop
 review=Live Recored
 #live_channel=直播频道
 live_channel=Live Channel
-#vod_channel=点播频道
-vod_channel=Local Video
+#vod_channel=视频名称
+vod_channel=Video Name
+#vod_category=点播分类
+vod_category=Video Category
 #third_party_app=第三方APP
 third_party_app=Third-party APP
 #website_link=网址链接
@@ -339,7 +351,9 @@ system_settings=System Settings
 #tip_live_channel=例如：<span class="hot">CCTV1</span>
 tip_live_channel=Example: <span class="hot">CCTV1</span>
 #tip_vod_channel=例如：<span class="hot">射雕英雄传</span>
-tip_vod_channel=Example: <span class="hot">Shooting Heroes</span>
+tip_vod_channel=Example: <span class="hot">Iron Man</span>
+#tip_vod_category=例如：<span class="hot">电影</span>
+tip_vod_category=Example: <span class="hot">Movie</span>
 #tip_website_link=请输入完整的网址，如<span class="hot">https://www.baidu.com</span>
 tip_website_link=Please enter the full URL, such as <span class="hot">https://www.google.com</span>
 #app_config=APP设置
@@ -393,17 +407,3 @@ desc_app_upload_list=Must be a .apk file and does not exceed 200MB. Please ensur
 upload_app=Upload APP
 #app_name=APP名称
 app_name=APP Name
-#file_name=文件名称
-file_name=File Name
-#click_to_download=点此下载
-click_to_download=Click to Download
-#set_app_name=设置APP名称
-set_app_name=Set APP Name
-#please_select_app_for_del=请选择要删除的APP！
-please_select_app_for_del=Please select the app you want to delete!
-#confirm_del_app=确认删除以下APP吗？
-confirm_del_app=Confirm to delete the following app?
-#del_app=删除APP
-del_app=Delete APP
-#deleting_app=正在删除APP，请稍候…
-deleting_app=Deleting APP, please wait...

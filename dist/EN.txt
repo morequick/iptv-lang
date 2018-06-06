@@ -75,7 +75,7 @@ tab_app_notify_mgr=APP Notification
 tab_notify_mgr=Notification Management
 tab_notify_settings=Notification Settings
 
-tab_oldapp_home=Older APP Home
+tab_oldapp_home=Old APP Home
 tab_newapp_home=New APP Home
 tab_app_home_config=APP Home Configuration
 tab_app_custom_image=Custom Images
@@ -187,6 +187,10 @@ upload_state_complete=Completed
 upload_state_skip=Skipped
 upload_state_cancel=Cancel
 upload_state_error=Failed
+
+cubic_color=Cubic color
+series_color=Series color
+gray_color=Gray color
 
 reset_zoom=Back
 reset_zoom_title=1:1 Zoom
@@ -1615,10 +1619,10 @@ room_service=Room Service
 select_image=Select Image
 select_image_and_upload=Select Image and Upload
 select_bg_image=Select Background Image
-edit_config=Edit Configuration
+edit_config=Configure
 
-desc_oldapp_home_for_newapp=<span class="hot">This only supports versions with community apps under V400. <a class="link need-reload" href="{0}">Click here to configure the new app desktops</a> . </span><br>
-desc_oldapp_home=1. Here you can upload the pictures used in the live APP, <span class="hot">Click the picture to call the APP program, broadcast, on-demand or open the web site</span>. If it is a web address, please enter the complete address (cannot be omitted http://), eg:<span class="hot">http://www.baidu.com</span><br>2. <span class=" Hot">The image must be uploaded before modifying the app name or link</span>. APP name must be <span class="hot">installed name</span> (not a file name). If the app name is <span class="hot">secondary local theater</span>, it will be called Seconds on demand APP. <br> 3. APP link supports calling live and on-demand resources (<span class="hot">requires community APP 311 and above and player APP 111 and above</span>) to <span class="hot"> LIVE@</span>, <span class="hot">VOD@</span>, eg <span class="hot">LIVE@CCTV1</span>, <span class="hot">VOD@My Video</span>
+desc_oldapp_home_for_newapp=<span class="hot">This only supports versions with Village APPs under V400. <a class="link need-reload" href="{0}">Click here to configure the new app desktops</a> . </span><br>
+desc_oldapp_home=1. Here you can upload the pictures used in the live APP, <span class="hot">Click the picture to call the APP program, broadcast, on-demand or open the web site</span>. If it is a web address, please enter the complete address (cannot be omitted http://), eg:<span class="hot">http://www.baidu.com</span><br>2. <span class=" Hot">The image must be uploaded before modifying the app name or link</span>. APP name must be <span class="hot">installed name</span> (not a file name). If the app name is <span class="hot">secondary local theater</span>, it will be called Seconds on demand APP. <br> 3. APP link supports calling live and on-demand resources (<span class="hot">requires Village APP 311 and above and player APP 111 and above</span>) to <span class="hot"> LIVE@</span>, <span class="hot">VOD@</span>, eg <span class="hot">LIVE@CCTV1</span>, <span class="hot">VOD@My Video</span>
 carousel_images=Carousel Image
 vod=Local Video
 carousel=Carousel
@@ -1647,8 +1651,9 @@ desc_app_settings_general_for_itv=The welcome page supports playing background m
 main_module_config=Main UI Module Configuration
 main_app_config=Main UI APP Configuration
 click_to_set_app_module_name=Click here to modify the display name on the APP
-use_new_hotel_ui=Use new APP UI
+use_new_app_ui=Use new APP UI
 tip_use_new_hotel_ui=App version required is V105 and above
+tip_use_new_app_home=App version required is V410 and above
 auto_check_upgrade=Auto Detect Updates
 auto_goto_live=Auto Goto Live
 disable_private_wifi=Disable Private WiFi
@@ -1695,8 +1700,9 @@ td_ad_hide_intervavl=Pause Duration:
 tip_ad_hide_intervavl=, not less than 1, defaults to 10
 td_ad_image=Ad Image:
 
-desc_app_home_list_for_oldapp=<span class="hot">This only supports the version of community APP in V500 and above. <a class="link need-reload" href="{0}">Click here to configure the old version of the APP desktop. a>. </span><br>
-desc_app_home_list=1. Generally, you only need to create one APP desktop. To achieve rights management, create multiple desktops and then <a class="link" href="{0}">user group management</a > Associate user groups with desktops. For unset user groups, the first desktop is returned by default. <br>2. <span class="hot">Please first <a class="link need-reload" href="{1}">APP upload management</a> and <a class="link need- Reload" href="{2}">Image Upload Manager</a> Upload related apps and images</span>, then select pictures and configure apps here. The display effect is based on the APP.
+desc_app_home_list_for_oldapp=<span class="hot">This only supports the version of Village APP in V410 and above. <a class="link need-reload" href="{0}">Click to configure the old APP desktop</a>. </span><br>
+desc_app_home_list=1. Generally, you only need to create one APP desktop. To achieve rights management, create multiple desktops and then <a class="link" href="{0}">User Group</a > Associate user groups with desktops. For unset user groups, the first desktop is returned by default. <br>2. <span class="hot">Please first goto <a class="link need-reload" href="{1}">APP Upload Management</a> and <a class="link need- Reload" href="{2}">Image Upload Management</a> Upload related apps and images</span>, then select pictures and configure apps here. The display effect is based on the APP.
+desc_app_home_one=<span class="hot">Please first goto <a class="link need-reload" href="{1}">APP Upload Management</a> and <a class="link need- Reload" href="{2}">Image Upload Management</a> Upload related apps and images</span>, then select pictures and configure apps here. The display effect is based on the APP.
 add_app_home=Add Desktop
 adding_app_home=Adding desktop, please wait...
 num_of_large_display={0} large display bits
@@ -1708,14 +1714,16 @@ custom_info=Custom Information
 app_home=Desktop
 review=Live Recored
 live_channel=Live Channel
-vod_channel=Local Video
+vod_channel=Video Name
+vod_category=Video Category
 third_party_app=Third-party APP
 website_link=URL Link
 all_apps=All Apps
 app_settings=App Settings
 system_settings=System Settings
 tip_live_channel=Example: <span class="hot">CCTV1</span>
-tip_vod_channel=Example: <span class="hot">Shooting Heroes</span>
+tip_vod_channel=Example: <span class="hot">Iron Man</span>
+tip_vod_category=Example: <span class="hot">Movie</span>
 tip_website_link=Please enter the full URL, such as <span class="hot">https://www.google.com</span>
 app_config=APP Settings
 td_app_type=Type:
@@ -1758,8 +1766,8 @@ confirm_del_image=Confirm to delete the following image?
 del_image=Delete Image
 deleting_image=Deleting image, please wait...
 
-desc_app_notify_list=<span class="hot">1. This function requires the community APP to be at V342 and above or the hotel APP at V44 and above. </span><br>2. Each notification is within 100 words. Generally about 5 seconds after the notification is released, <a class="link need-reload" href="{0}">Click here to modify the update interval</a>, but based on performance considerations, this value is not recommended small.
-desc_app_notify_list_own=<span class="hot">1. This function requires the community APP to be on V342 and above or the hotel APP on V44 and above. </span><br>2. Each notification is within 100 words.
+desc_app_notify_list=<span class="hot">1. This function requires the Village APP to be at V342 and above or the hotel APP at V44 and above. </span><br>2. Each notification is within 100 words. Generally about 5 seconds after the notification is released, <a class="link need-reload" href="{0}">Click here to modify the update interval</a>, but based on performance considerations, this value is not recommended small.
+desc_app_notify_list_own=<span class="hot">1. This function requires the Village APP to be on V342 and above or the hotel APP on V44 and above. </span><br>2. Each notification is within 100 words.
 desc_app_notify_list_mq=<br>3. <a class="link" href="{0}" target="_blank">Click here to contact the official purchaser of the specified hardware</a> to provide one-button emergency notification.
 scroll_notify=Scroll Notification
 emergency_notify=Emergency Notification
@@ -1861,7 +1869,7 @@ tip_app_upgrade_rweb=Local Upload APP is not supported during remote web!
 please_set_hotel_app=Please config hotel app!
 please_set_player_app=Please config the player APP!
 please_set_vip_vod_app=Please config the VIP Cinema App!
-please_set_iptv_app=Please config Community APP!
+please_set_iptv_app=Please config Village APP!
 tip_has_app_upgrade=We detected that you have a version update. Please upgrade!
 failed_check_file=File verification failed
 app_downloaded=Completed
@@ -1885,6 +1893,8 @@ td_hotel_area=Location:
 tip_hotel_area=Use to show the weather
 td_hotel_welcome_cn=Chinese Welcome:
 td_hotel_welcome_en=English Welcome:
+td_hotel_welcome_fontsize=Welcome Font Size:
+hotel_welcome_fontsizes=24-Small,36-Standard,48-Medium,72-Large
 tip_hotel_welcome=Can embed variables to show different titles
 customer_name=Customer Name
 customer_intime=Check-in Time
@@ -2056,7 +2066,7 @@ account_name=Customer Name
 account_qq=QQ Number
 account_email=Mailbox
 
-desc_account_list=1. The phone number can be <a class="link" target="_blank" href="{0}">Login to the web page</a> and manage user accounts (need to configure user group permissions),<span class= "hot"> Live accounts are used for web player live or community APP, hotel APP login. </span><br>2. The <span class="hot">Import Excel</span> feature can batch add or update accounts.
+desc_account_list=1. The phone number can be <a class="link" target="_blank" href="{0}">Login to the web page</a> and manage user accounts (need to configure user group permissions),<span class= "hot"> Live accounts are used for web player live or Village APP, hotel APP login. </span><br>2. The <span class="hot">Import Excel</span> feature can batch add or update accounts.
 desc_account_list_for_doc=1. Mobile phone can <a class="link" target="_blank" href="{0}">Login to the web page</a> and manage user account (need to configure user group permissions), <span class="hot">please use mobile phone number + password login app</span>,<span class= "hot"> Live accounts are used for intranet web player</span><br>2. The <span class="hot">import Excel</span> feature allows you to add or update accounts in batches.
 add_account=Add
 set_account=Modify Account
@@ -2069,9 +2079,9 @@ parent_account=Parent Account
 account_hotel=Managed Hotel
 account_detail=Account Info
 td_account_tel=Mobile:
-td_account_name=Customer Name:
 td_parent_account=Parent Account:
 td_account_hotel=Select Managed Hotels:
+select_hotel=Select Hotel
 td_account_password=Login Password:
 td_reset_password=Reset Password:
 td_account_max_live_login=Max Number of Logins:
@@ -2358,6 +2368,11 @@ please_select_app=Please select APP!
 please_upload_icon=Please upload icon!
 change_logo=Change Logo
 change_background_image=Change Background Image
+other_settings=Settings
+header_bgcolor=Head Bgcolor
+header_bgopacity=Head Opacity
+weather_background_image=Weather Background Image
+tip_weather_background_image=The recommended image size is: 650x220 (px), format is png or jpg
 desc_hotel_logo=The image will be automatically scaled to the appropriate size, which is based on the APP display.
 confirm_del_hotel_logo=Confirm to delete hotel LOGO?
 multi_screen=Multi-screen Interaction
