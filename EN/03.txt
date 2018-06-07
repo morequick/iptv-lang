@@ -354,7 +354,7 @@ desc_pppoe_mru=(1400~1500)
 desc_pppoe_idle=(0~172800 seconds, disconnected if exceeded)
 
 #account_name=账号名
-account_name=Customer Name
+account_name=A
 #realname=真实姓名
 realname=Real Name
 #pppoe_maxlogin=最大登录数量
