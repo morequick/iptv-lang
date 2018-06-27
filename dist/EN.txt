@@ -1256,6 +1256,7 @@ channel_type10=Recommended
 all_channel_type=All Categories
 
 desc_live_source=1. This system supports HTTP, UDP, RTP, RTSP, RTMP format source, support unicast output or multicast output (non-shared source), support Live-Record (non-carousel). <br>2. Review function requires hard disk support <span class="need-admin">,<a class="link" href="{0}">Click here to configure storage disk</a></span> . The size of the occupied hard disk depends on the live source stream. Taking 8 Mbps as an example, each channel needs about 80 G per day. <br> 3. The intranet web player only supports H.264+AAC encoding source, it is recommended to use computer client or APP player.
+desc_live_source_no_record=1. This system supports HTTP, UDP, RTP, RTSP, RTMP format source, support unicast output or multicast output (non-shared source). <br>2. The intranet web player only supports H.264+AAC encoding source, it is recommended to use computer client or APP player.
 td_enable_live_cache=Enable Live Cache:
 td_max_hls=Max number of activate channels:
 tip_max_hls=(depending on memory size, approximately 100MB of memory per channel)
@@ -1614,6 +1615,11 @@ del_client=Delete Device
 deleting_client=Deleting device, please wait...
 confirm_clear_app_client=Confirm Clear All Data?
 
+sort_by_ip=Sort by IP
+sort_by_mac=Sort by MAC
+sort_by_room=Sort by room number
+sort_by_logtime=Sort by logtime
+
 service=Service
 room_service=Room Service
 select_image=Select Image
@@ -1667,9 +1673,11 @@ tip_private_wifi_name=Up to 16 characters, starting with @ indicates the WiFi pr
 td_private_wifi_password=WiFi Password:
 tip_private_wifi_password=@ indicates a random password, null indicates no password, and the password is 8-32 bits long
 td_room_service_interval=Interval of Submit Service:
-tip_room_service_interval=The time interval for the same type of service submission, 0 means unlimited
+tip_room_service_interval=The interval for click the hotel service menu(same type), 0 means unlimited
 td_hotel_app_bottom_text=APP Bottom Text:
 tip_hotel_app_bottom_text=Example: customer service Phone: 88888888
+td_main_sleep_time=No Operation Jump Time:
+tip_main_sleep_time=No operation will jump to the screen saver interface within the specified time
 live_app_config=Live APP Configuration
 live_change_channel=Up and down exchange station
 enable_line_by_line_scan=Enable progressive scan
@@ -1752,6 +1760,7 @@ desc_app_upload_list=Must be a .apk file and does not exceed 200MB. Please ensur
 upload_app=Upload APP
 app_name=APP Name
 file_name=File Name
+td_file_name=File Name：
 click_to_download=Click to Download
 set_app_name=Set APP Name
 please_select_app_for_del=Please select the app you want to delete!
@@ -1904,7 +1913,7 @@ please_select_city=Please select a city
 
 desc_hotel_background=The recommended image size is: <span class="hot">1920x1080(px) in png or jpg</span> format.
 
-desc_hotel_service_menu=1. <a class="link need-reload" href="{0}">Click here to configure menus</a> for hotel app version no less than 19 and hotel app version no more than 18. <br>2. Allow up to 6 service menus to be added. If the service name contains the <span class="green">Order</span> word, the APP will jump to the online ordering page (requires the hotel APP on V52 and above). <a class="link set-name hide">Click here to edit the "{1}" name</a>
+desc_hotel_service_menu=1. <a class="link need-reload" href="{0}">Click here to configure menus</a> for hotel app version no less than 19 and hotel app version no more than 18. <br>2. Allow up to 6 service menus to be added. <a class="link set-name hide">Click here to edit the "{1}" name</a>
 add_service_menu=Add Service Menu
 set_service_menu=Add Service Menu
 the_menu_already_at_top=Menu <span class="hot">{0}</span> is on top!
@@ -2368,6 +2377,7 @@ please_select_app=Please select APP!
 please_upload_icon=Please upload icon!
 change_logo=Change Logo
 change_background_image=Change Background Image
+change_header_bgcolor=Change Head Bgcolor
 other_settings=Settings
 header_bgcolor=Head Bgcolor
 header_bgopacity=Head Opacity

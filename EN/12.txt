@@ -1,3 +1,24 @@
+
+#desc_boot_video_settings=1. APP启动时可以播放一段视频，此功能需要硬盘支持<span class="need-admin">，<a class="link" href="{0}">点此配置存储磁盘</a></span>。格式为mp4且不得超过300MB，否则可能无法播放。<br>2. 启动视频更改或删除后，需要重启2次APP才会生效。
+desc_boot_video_settings=1. A video can be played when the APP starts up. This function requires hard disk support <span class="need-admin">,<a class="link" href="{0}">Click to configure the storage disk</a></span>. The format is mp4 and cannot exceed 300MB, otherwise it may not be able to play. <br> 2. After starting the video change or delete, it will take two restarts to take effect.
+#upload_boot_video=上传启动视频
+upload_boot_video=Upload Startup Video
+#del_boot_video=删除启动视频
+del_boot_video=Delete Startup Video
+#deleting_boot_video=正在删除启动视频，请稍候…
+deleting_boot_video=Deleting startup video, please wait...
+#confirm_del_boot_video=确认删除启动视频吗？删除后需要重启2次APP才会生效。
+confirm_del_boot_video=Confirm delete startup video? You need to restart APP 2 times to take effect after deleting.
+
+#failed_play_audio=音频不存在或您的浏览器不支持播放该音频格式。
+failed_play_audio=The audio does not exist or your browser does not support playing the audio format.
+#failed_play_video=视频不存在或您的浏览器不支持播放该视频格式。
+failed_play_video=The video does not exist or your browser does not support playing the video format.
+
+#desc_boot_logo_settings=设备启动时可以显示LOGO图片，此功能需要硬盘支持<span class="need-admin">，<a class="link" href="{0}">点此配置存储磁盘</a></span>。格式为JPG图片，仅对支持的固件（官方机顶盒或电视）生效。
+desc_boot_logo_settings=The LOGO image can be displayed when the device starts. This function requires hard disk support <span class="need-admin">, <a class="link" href="{0}">Click to configure the storage disk</a> </span>. The format is a JPG image, valid only for the supported firmware (official set top box or TV).
+#upload_boot_logo=上传开机LOGO
+upload_boot_logo=Upload Boot LOGO
 #del_boot_logo=删除开机LOGO
 del_boot_logo=Delete Boot LOGO
 #deleting_boot_logo=正在删除开机LOGO，请稍候…
@@ -406,21 +427,3 @@ errcode503=Share has expired!
 errcode504=Library folder does not exist!
 #errcode505=文库文件不存在！
 errcode505=Library file does not exist!
-#errcode506=不支持编辑该类型的文件！
-errcode506=Editing this type of file is not supported!
-#errcode507=名称不可用,不能包含 \/:*?"<>|
-errcode507=Name is not available, cannot include \/:*?"<>|
-
-#errcode601=数据存储目录不存在
-errcode601=Data storage directory does not exist
-#errcode602=酒店不存在
-errcode602=Hotel does not exist
-#errcode603=酒店图片上传失败
-errcode603=The upload of the hotel picture failed
-#errcode604=酒店已被禁用
-errcode604=Hotel has been disabled
-
-#errcode801=Redis数据库错误
-errcode801=Redis database error
-#errcode802=授权模块不存在
-errcode802=Authorization module does not exist

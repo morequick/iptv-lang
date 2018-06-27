@@ -2379,6 +2379,8 @@ all_channel_type=All Categories
 
 #desc_live_source=1. 本系统支持HTTP、UDP、RTP、RTSP、RTMP格式节目源，支持单播输出或组播输出（非共享源），支持回看（非轮播）。<br>2. 回看功能需要硬盘支持<span class="need-admin">，<a class="link" href="{0}">点此配置存储磁盘</a></span>。占用硬盘大小视直播源码流而定，以8Mbps为例，每个频道每天约需占用80G。<br>3. 内网Web播放器只支持H.264+AAC编码的源，建议使用电脑客户端或APP播放。
 desc_live_source=1. This system supports HTTP, UDP, RTP, RTSP, RTMP format source, support unicast output or multicast output (non-shared source), support Live-Record (non-carousel). <br>2. Review function requires hard disk support <span class="need-admin">,<a class="link" href="{0}">Click here to configure storage disk</a></span> . The size of the occupied hard disk depends on the live source stream. Taking 8 Mbps as an example, each channel needs about 80 G per day. <br> 3. The intranet web player only supports H.264+AAC encoding source, it is recommended to use computer client or APP player.
+#desc_live_source_no_record=1. 本系统支持HTTP、UDP、RTP、RTSP、RTMP格式节目源，支持单播输出或组播输出（非共享源）。<br>2. 内网Web播放器只支持H.264+AAC编码的源，建议使用电脑客户端或APP播放。
+desc_live_source_no_record=1. This system supports HTTP, UDP, RTP, RTSP, RTMP format source, support unicast output or multicast output (non-shared source). <br>2. The intranet web player only supports H.264+AAC encoding source, it is recommended to use computer client or APP player.
 #td_enable_live_cache=启用智能识别频道并加速：
 td_enable_live_cache=Enable Live Cache:
 #td_max_hls=最大启动的直播频道数量：
@@ -3081,6 +3083,15 @@ deleting_client=Deleting device, please wait...
 #confirm_clear_app_client=确认清空所有数据吗？
 confirm_clear_app_client=Confirm Clear All Data?
 
+#sort_by_ip=按IP排序
+sort_by_ip=Sort by IP
+#sort_by_mac=按MAC排序
+sort_by_mac=Sort by MAC
+#sort_by_room=按房间号排序
+sort_by_room=Sort by room number
+#sort_by_logtime=按存活时间排序
+sort_by_logtime=Sort by logtime
+
 #service=服务
 service=Service
 #room_service=客房服务
@@ -3186,12 +3197,16 @@ td_private_wifi_password=WiFi Password:
 tip_private_wifi_password=@ indicates a random password, null indicates no password, and the password is 8-32 bits long
 #td_room_service_interval=服务提交间隔：
 td_room_service_interval=Interval of Submit Service:
-#tip_room_service_interval=同一类型服务提交的时间间隔，为0表示不限
-tip_room_service_interval=The time interval for the same type of service submission, 0 means unlimited
+#tip_room_service_interval=点击酒店服务菜单的间隔（同类型），为0表示不限
+tip_room_service_interval=The interval for click the hotel service menu(same type), 0 means unlimited
 #td_hotel_app_bottom_text=APP底部文字：
 td_hotel_app_bottom_text=APP Bottom Text:
 #tip_hotel_app_bottom_text=比如：客服电话：88888888
 tip_hotel_app_bottom_text=Example: customer service Phone: 88888888
+#td_main_sleep_time=无操作跳转时间：
+td_main_sleep_time=No Operation Jump Time:
+#tip_main_sleep_time=在指定时间内无操作将跳转到屏保界面
+tip_main_sleep_time=No operation will jump to the screen saver interface within the specified time
 #live_app_config=直播APP配置
 live_app_config=Live APP Configuration
 #live_change_channel=上减下加换台
@@ -3353,6 +3368,8 @@ upload_app=Upload APP
 app_name=APP Name
 #file_name=文件名称
 file_name=File Name
+#td_file_name=文件名称：
+td_file_name=File Name：
 #click_to_download=点此下载
 click_to_download=Click to Download
 #set_app_name=设置APP名称
@@ -3645,8 +3662,8 @@ please_select_city=Please select a city
 #desc_hotel_background=建议的图片大小为：<span class="hot">1920x1080（px），格式为png或jpg</span>。
 desc_hotel_background=The recommended image size is: <span class="hot">1920x1080(px) in png or jpg</span> format.
 
-#desc_hotel_service_menu=1. 需要酒店APP版本不低于19，酒店APP版本在18及以下的 <a class="link need-reload" href="{0}">点此配置菜单</a><br>2. 最多允许添加6个服务菜单。若服务名称包含<span class="green">订餐</span>2字，APP会跳转到在线订餐页面（需酒店APP在V52及以上）。<a class="link set-name hide">点此可修改“{1}”名称</a>
-desc_hotel_service_menu=1. <a class="link need-reload" href="{0}">Click here to configure menus</a> for hotel app version no less than 19 and hotel app version no more than 18. <br>2. Allow up to 6 service menus to be added. If the service name contains the <span class="green">Order</span> word, the APP will jump to the online ordering page (requires the hotel APP on V52 and above). <a class="link set-name hide">Click here to edit the "{1}" name</a>
+#desc_hotel_service_menu=1. 需要酒店APP版本不低于19，酒店APP版本在18及以下的 <a class="link need-reload" href="{0}">点此配置菜单</a><br>2. 最多允许添加6个服务菜单。<a class="link set-name hide">点此可修改“{1}”名称</a>
+desc_hotel_service_menu=1. <a class="link need-reload" href="{0}">Click here to configure menus</a> for hotel app version no less than 19 and hotel app version no more than 18. <br>2. Allow up to 6 service menus to be added. <a class="link set-name hide">Click here to edit the "{1}" name</a>
 #add_service_menu=添加服务菜单
 add_service_menu=Add Service Menu
 #set_service_menu=添加服务菜单
@@ -4548,6 +4565,8 @@ please_upload_icon=Please upload icon!
 change_logo=Change Logo
 #change_background_image=更改背景图片
 change_background_image=Change Background Image
+#change_header_bgcolor=更改头部背景色
+change_header_bgcolor=Change Head Bgcolor
 #other_settings=其它设置
 other_settings=Settings
 #header_bgcolor=头部背景色

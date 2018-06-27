@@ -254,6 +254,8 @@ all_channel_type=All Categories
 
 #desc_live_source=1. 本系统支持HTTP、UDP、RTP、RTSP、RTMP格式节目源，支持单播输出或组播输出（非共享源），支持回看（非轮播）。<br>2. 回看功能需要硬盘支持<span class="need-admin">，<a class="link" href="{0}">点此配置存储磁盘</a></span>。占用硬盘大小视直播源码流而定，以8Mbps为例，每个频道每天约需占用80G。<br>3. 内网Web播放器只支持H.264+AAC编码的源，建议使用电脑客户端或APP播放。
 desc_live_source=1. This system supports HTTP, UDP, RTP, RTSP, RTMP format source, support unicast output or multicast output (non-shared source), support Live-Record (non-carousel). <br>2. Review function requires hard disk support <span class="need-admin">,<a class="link" href="{0}">Click here to configure storage disk</a></span> . The size of the occupied hard disk depends on the live source stream. Taking 8 Mbps as an example, each channel needs about 80 G per day. <br> 3. The intranet web player only supports H.264+AAC encoding source, it is recommended to use computer client or APP player.
+#desc_live_source_no_record=1. 本系统支持HTTP、UDP、RTP、RTSP、RTMP格式节目源，支持单播输出或组播输出（非共享源）。<br>2. 内网Web播放器只支持H.264+AAC编码的源，建议使用电脑客户端或APP播放。
+desc_live_source_no_record=1. This system supports HTTP, UDP, RTP, RTSP, RTMP format source, support unicast output or multicast output (non-shared source). <br>2. The intranet web player only supports H.264+AAC encoding source, it is recommended to use computer client or APP player.
 #td_enable_live_cache=启用智能识别频道并加速：
 td_enable_live_cache=Enable Live Cache:
 #td_max_hls=最大启动的直播频道数量：
@@ -406,5 +408,3 @@ td_time=Time:
 from=from
 #to=到
 to=to
-#td_subtitle=字幕：
-td_subtitle=Subtitles:

@@ -1,3 +1,5 @@
+#td_subtitle=字幕：
+td_subtitle=Subtitles:
 #enable_live_source=启用直播
 enable_live_source=Enable Channel
 #warn_privated_source_format=私有源地址格式不正确，必须以<span class="hot">http、https、udp、rtp、rtsp、rtmp、play</span>开头，且路径中间不能包含<span class="hot">://</span>。
@@ -405,5 +407,3 @@ lu_exp_filter4=Unexpired
 desc_live_user=1. Please add user groups and select the corresponding channel. The user group ID length is 5, such as <span class="green">10000</span>; the user ID length is 6, such as <span class="color4">100001</span>. <br>2. APP login name equals user group ID + user ID. For example: if the user group ID is <span class="green">10000</span> and the user ID is <span class="color4">100001</span>, the login user name is <span class="green"> 10000</span><span class="color4">100001</span><br>3. The default user account is (<span class="green">10000</span><span class="color4">100001 </span>) If the system detects that the default account does not exist, it will automatically create a default account. If you do not want to enable this account, you can disable it.
 #clear_data=清空数据
 clear_data=Clear Data
-#tip_live_user_search=输入用户ID、MAC、备注搜索
-tip_live_user_search=Enter user ID, MAC, memo search

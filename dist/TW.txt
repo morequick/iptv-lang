@@ -1256,6 +1256,7 @@ channel_type10=推薦
 all_channel_type=所有分類
 
 desc_live_source=1. 本系統支援HTTP、UDP、RTP、RTSP、RTMP格式節目源，支援單播輸出或組播輸出（非共用源），支援回看（非輪播）。<br>2. 回看功能需要硬碟支援<span class="need-admin">，<a class="link" href="{0}">點此配置存儲磁片</a></span>。佔用硬碟大小視直播源碼流而定，以8Mbps為例，每個頻道每天約需佔用80G。<br>3. 內網Web播放機只支持H.264+AAC編碼的源，建議使用電腦用戶端或APP播放。
+desc_live_source_no_record=1. 本系統支援HTTP、UDP、RTP、RTSP、RTMP格式節目源，支援單播輸出或組播輸出（非共用源）。<br>2. 內網Web播放機只支持H.264+AAC編碼的源，建議使用電腦用戶端或APP播放。
 td_enable_live_cache=啟用智慧識別頻道並加速：
 td_max_hls=最大啟動的直播頻道數量：
 tip_max_hls=（取決於記憶體大小，每個頻道約需 100MB 記憶體）
@@ -1614,6 +1615,11 @@ del_client=刪除設備
 deleting_client=正在刪除設備，請稍候…
 confirm_clear_app_client=確認清空所有資料嗎？
 
+sort_by_ip=按IP排序
+sort_by_mac=按MAC排序
+sort_by_room=按房間號排序
+sort_by_logtime=按存活時間排序
+
 service=服務
 room_service=客房服務
 select_image=選擇圖片
@@ -1667,9 +1673,11 @@ tip_private_wifi_name=不超過16個字元，以@開頭表示WiFi首碼，名稱
 td_private_wifi_password=WiFi密碼配置：
 tip_private_wifi_password=@表示隨機密碼，為空表示不設密碼，密碼長度為8-32位
 td_room_service_interval=服務提交間隔：
-tip_room_service_interval=同一類型服務提交的時間間隔，為0表示不限
+tip_room_service_interval=點擊酒店服務功能表的間隔（同類型），為0表示不限
 td_hotel_app_bottom_text=APP底部文字：
 tip_hotel_app_bottom_text=比如：客服電話：88888888
+td_main_sleep_time=無操作跳轉時間：
+tip_main_sleep_time=在指定時間內無操作將跳轉到屏保介面
 live_app_config=直播APP配置
 live_change_channel=上減下加換台
 enable_line_by_line_scan=啟用逐行掃描
@@ -1752,6 +1760,7 @@ desc_app_upload_list=必須是.apk檔且不超過200MB，請保證系統磁片�
 upload_app=上傳APP
 app_name=APP名稱
 file_name=檔案名稱
+td_file_name=檔案名稱：
 click_to_download=點此下載
 set_app_name=設置APP名稱
 please_select_app_for_del=請選擇要刪除的APP！
@@ -1904,7 +1913,7 @@ please_select_city=請選擇城市
 
 desc_hotel_background=建議的圖片大小為：<span class="hot">1920x1080（px），格式為png或jpg</span>。
 
-desc_hotel_service_menu=1. 需要酒店APP版本不低於19，酒店APP版本在18及以下的 <a class="link need-reload" href="{0}">點此配置功能表</a><br>2. 最多允許添加6個服務功能表。若服務名稱包含<span class="green">訂餐</span>2字，APP會跳轉到線上訂餐頁面（需酒店APP在V52及以上）。<a class="link set-name hide">點此可修改“{1}”名稱</a>
+desc_hotel_service_menu=1. 需要酒店APP版本不低於19，酒店APP版本在18及以下的 <a class="link need-reload" href="{0}">點此配置功能表</a><br>2. 最多允許添加6個服務功能表。<a class="link set-name hide">點此可修改“{1}”名稱</a>
 add_service_menu=添加服務功能表
 set_service_menu=添加服務功能表
 the_menu_already_at_top=菜單 <span class="hot">{0}</span> 已在最上面！
@@ -2368,6 +2377,7 @@ please_select_app=請選擇APP！
 please_upload_icon=請上傳圖示！
 change_logo=更改酒店LOGO
 change_background_image=更改背景圖片
+change_header_bgcolor=更改頭部背景色
 other_settings=其它設置
 header_bgcolor=頭部背景色
 header_bgopacity=頭部背景透明度

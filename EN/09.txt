@@ -1,5 +1,22 @@
+#deleting_app_home=正在删除数据，请稍候…
+deleting_app_home=Deleting data, please wait...
+#please_upload_images_before_select=<span class="hot">请先在<a class="link need-reload" href="{0}">图片上传管理</a>上传所需图片。</span>
+please_upload_images_before_select=<span class="hot">Please upload the required image in <a class="link need-reload" href="{0}">image upload management</a> first. </span>
+#no_image=无图片
+no_image=No Image
+#no_app_name=请设置APP名称
+no_app_name=Please set APP name
+
+#desc_app_upload_list=必须是.apk文件且不超过200MB，请保证系统盘有足够的空间。
+desc_app_upload_list=Must be a .apk file and does not exceed 200MB. Please ensure that the system disk has enough space.
+#upload_app=上传APP
+upload_app=Upload APP
+#app_name=APP名称
+app_name=APP Name
 #file_name=文件名称
 file_name=File Name
+#td_file_name=文件名称：
+td_file_name=File Name：
 #click_to_download=点此下载
 click_to_download=Click to Download
 #set_app_name=设置APP名称
@@ -292,8 +309,8 @@ please_select_city=Please select a city
 #desc_hotel_background=建议的图片大小为：<span class="hot">1920x1080（px），格式为png或jpg</span>。
 desc_hotel_background=The recommended image size is: <span class="hot">1920x1080(px) in png or jpg</span> format.
 
-#desc_hotel_service_menu=1. 需要酒店APP版本不低于19，酒店APP版本在18及以下的 <a class="link need-reload" href="{0}">点此配置菜单</a><br>2. 最多允许添加6个服务菜单。若服务名称包含<span class="green">订餐</span>2字，APP会跳转到在线订餐页面（需酒店APP在V52及以上）。<a class="link set-name hide">点此可修改“{1}”名称</a>
-desc_hotel_service_menu=1. <a class="link need-reload" href="{0}">Click here to configure menus</a> for hotel app version no less than 19 and hotel app version no more than 18. <br>2. Allow up to 6 service menus to be added. If the service name contains the <span class="green">Order</span> word, the APP will jump to the online ordering page (requires the hotel APP on V52 and above). <a class="link set-name hide">Click here to edit the "{1}" name</a>
+#desc_hotel_service_menu=1. 需要酒店APP版本不低于19，酒店APP版本在18及以下的 <a class="link need-reload" href="{0}">点此配置菜单</a><br>2. 最多允许添加6个服务菜单。<a class="link set-name hide">点此可修改“{1}”名称</a>
+desc_hotel_service_menu=1. <a class="link need-reload" href="{0}">Click here to configure menus</a> for hotel app version no less than 19 and hotel app version no more than 18. <br>2. Allow up to 6 service menus to be added. <a class="link set-name hide">Click here to edit the "{1}" name</a>
 #add_service_menu=添加服务菜单
 add_service_menu=Add Service Menu
 #set_service_menu=添加服务菜单
@@ -398,19 +415,3 @@ td_serving_time=Supply Time:
 td_food_sort_id=Sorting Number:
 #tip_food_sort_id=0-10000，值小的排在前面
 tip_food_sort_id=0-10000, small value comes first
-#td_food_desc=简介：
-td_food_desc=Introduction:
-#please_select_food_for_del=请选择要删除的菜品！
-please_select_food_for_del=Please select the dish you want to delete!
-#confirm_del_food=确认删除以下菜品吗？
-confirm_del_food=Confirm the deletion of the following items?
-#del_food=删除菜品
-del_food=Delete Dishes
-#deleting_food=正在删除菜品，请稍候…
-deleting_food=Deleting dishes, please wait...
-#confirm_clear_food=确认清空所有菜品吗？
-confirm_clear_food=Confirm Clear All Dishes?
-#clear_food=清空菜品
-clear_food=Clear Dishes
-#clearing_food=正在清空菜品，请稍候…
-clearing_food=Closing dishes, please wait...

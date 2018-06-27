@@ -1,3 +1,19 @@
+#etc_files_folders=等文件(夹)
+etc_files_folders= and other files (folders)
+#permanent=永久有效
+permanent=Permanent
+#share_mode=分享形式
+share_mode=Share Mode
+#share_as_encrypt=加密
+share_as_encrypt=Encryption
+#tip_share_as_encrypt=仅限拥有密码者可查看，更加隐私安全
+tip_share_as_encrypt=Persons with a password are only allowed to view, more privacy safe
+#share_as_public=公开
+share_as_public=Public
+#tip_share_as_public=任何人可查看或下载
+tip_share_as_public=Anyone can view or download
+#td_share_link=链接地址：
+td_share_link=Link Address:
 #td_share_code=提取码：
 td_share_code=Extract code:
 #create_share_link=创建链接
@@ -368,6 +384,8 @@ please_upload_icon=Please upload icon!
 change_logo=Change Logo
 #change_background_image=更改背景图片
 change_background_image=Change Background Image
+#change_header_bgcolor=更改头部背景色
+change_header_bgcolor=Change Head Bgcolor
 #other_settings=其它设置
 other_settings=Settings
 #header_bgcolor=头部背景色
@@ -390,24 +408,3 @@ dlna_app_upgrade=Multi-screen Interaction APP configuration
 reset_modules=Reset to Default Module
 #confirm_reset_modules=确认重置吗？重置后，将恢复为默认模块。
 confirm_reset_modules=Confirm reset? After a reset, it will revert to the default module.
-
-#desc_boot_video_settings=1. APP启动时可以播放一段视频，此功能需要硬盘支持<span class="need-admin">，<a class="link" href="{0}">点此配置存储磁盘</a></span>。格式为mp4且不得超过300MB，否则可能无法播放。<br>2. 启动视频更改或删除后，需要重启2次APP才会生效。
-desc_boot_video_settings=1. A video can be played when the APP starts up. This function requires hard disk support <span class="need-admin">,<a class="link" href="{0}">Click to configure the storage disk</a></span>. The format is mp4 and cannot exceed 300MB, otherwise it may not be able to play. <br> 2. After starting the video change or delete, it will take two restarts to take effect.
-#upload_boot_video=上传启动视频
-upload_boot_video=Upload Startup Video
-#del_boot_video=删除启动视频
-del_boot_video=Delete Startup Video
-#deleting_boot_video=正在删除启动视频，请稍候…
-deleting_boot_video=Deleting startup video, please wait...
-#confirm_del_boot_video=确认删除启动视频吗？删除后需要重启2次APP才会生效。
-confirm_del_boot_video=Confirm delete startup video? You need to restart APP 2 times to take effect after deleting.
-
-#failed_play_audio=音频不存在或您的浏览器不支持播放该音频格式。
-failed_play_audio=The audio does not exist or your browser does not support playing the audio format.
-#failed_play_video=视频不存在或您的浏览器不支持播放该视频格式。
-failed_play_video=The video does not exist or your browser does not support playing the video format.
-
-#desc_boot_logo_settings=设备启动时可以显示LOGO图片，此功能需要硬盘支持<span class="need-admin">，<a class="link" href="{0}">点此配置存储磁盘</a></span>。格式为JPG图片，仅对支持的固件（官方机顶盒或电视）生效。
-desc_boot_logo_settings=The LOGO image can be displayed when the device starts. This function requires hard disk support <span class="need-admin">, <a class="link" href="{0}">Click to configure the storage disk</a> </span>. The format is a JPG image, valid only for the supported firmware (official set top box or TV).
-#upload_boot_logo=上传开机LOGO
-upload_boot_logo=Upload Boot LOGO

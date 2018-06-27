@@ -1256,6 +1256,7 @@ channel_type10=推荐
 all_channel_type=所有分类
 
 desc_live_source=1. 本系统支持HTTP、UDP、RTP、RTSP、RTMP格式节目源，支持单播输出或组播输出（非共享源），支持回看（非轮播）。<br>2. 回看功能需要硬盘支持<span class="need-admin">，<a class="link" href="{0}">点此配置存储磁盘</a></span>。占用硬盘大小视直播源码流而定，以8Mbps为例，每个频道每天约需占用80G。<br>3. 内网Web播放器只支持H.264+AAC编码的源，建议使用电脑客户端或APP播放。
+desc_live_source_no_record=1. 本系统支持HTTP、UDP、RTP、RTSP、RTMP格式节目源，支持单播输出或组播输出（非共享源）。<br>2. 内网Web播放器只支持H.264+AAC编码的源，建议使用电脑客户端或APP播放。
 td_enable_live_cache=启用智能识别频道并加速：
 td_max_hls=最大启动的直播频道数量：
 tip_max_hls=（取决于内存大小，每个频道约需 100MB 内存）
@@ -1614,6 +1615,11 @@ del_client=删除设备
 deleting_client=正在删除设备，请稍候…
 confirm_clear_app_client=确认清空所有数据吗？
 
+sort_by_ip=按IP排序
+sort_by_mac=按MAC排序
+sort_by_room=按房间号排序
+sort_by_logtime=按存活时间排序
+
 service=服务
 room_service=客房服务
 select_image=选择图片
@@ -1667,9 +1673,11 @@ tip_private_wifi_name=不超过16个字符，以@开头表示WiFi前缀，名称
 td_private_wifi_password=WiFi密码配置：
 tip_private_wifi_password=@表示随机密码，为空表示不设密码，密码长度为8-32位
 td_room_service_interval=服务提交间隔：
-tip_room_service_interval=同一类型服务提交的时间间隔，为0表示不限
+tip_room_service_interval=点击酒店服务菜单的间隔（同类型），为0表示不限
 td_hotel_app_bottom_text=APP底部文字：
 tip_hotel_app_bottom_text=比如：客服电话：88888888
+td_main_sleep_time=无操作跳转时间：
+tip_main_sleep_time=在指定时间内无操作将跳转到屏保界面
 live_app_config=直播APP配置
 live_change_channel=上减下加换台
 enable_line_by_line_scan=启用逐行扫描
@@ -1752,6 +1760,7 @@ desc_app_upload_list=必须是.apk文件且不超过200MB，请保证系统盘�
 upload_app=上传APP
 app_name=APP名称
 file_name=文件名称
+td_file_name=文件名称：
 click_to_download=点此下载
 set_app_name=设置APP名称
 please_select_app_for_del=请选择要删除的APP！
@@ -1904,7 +1913,7 @@ please_select_city=请选择城市
 
 desc_hotel_background=建议的图片大小为：<span class="hot">1920x1080（px），格式为png或jpg</span>。
 
-desc_hotel_service_menu=1. 需要酒店APP版本不低于19，酒店APP版本在18及以下的 <a class="link need-reload" href="{0}">点此配置菜单</a><br>2. 最多允许添加6个服务菜单。若服务名称包含<span class="green">订餐</span>2字，APP会跳转到在线订餐页面（需酒店APP在V52及以上）。<a class="link set-name hide">点此可修改“{1}”名称</a>
+desc_hotel_service_menu=1. 需要酒店APP版本不低于19，酒店APP版本在18及以下的 <a class="link need-reload" href="{0}">点此配置菜单</a><br>2. 最多允许添加6个服务菜单。<a class="link set-name hide">点此可修改“{1}”名称</a>
 add_service_menu=添加服务菜单
 set_service_menu=添加服务菜单
 the_menu_already_at_top=菜单 <span class="hot">{0}</span> 已在最上面！
@@ -2368,6 +2377,7 @@ please_select_app=请选择APP！
 please_upload_icon=请上传图标！
 change_logo=更改酒店LOGO
 change_background_image=更改背景图片
+change_header_bgcolor=更改头部背景色
 other_settings=其它设置
 header_bgcolor=头部背景色
 header_bgopacity=头部背景透明度

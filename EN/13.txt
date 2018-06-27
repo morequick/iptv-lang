@@ -1,0 +1,18 @@
+#errcode506=不支持编辑该类型的文件！
+errcode506=Editing this type of file is not supported!
+#errcode507=名称不可用,不能包含 \/:*?"<>|
+errcode507=Name is not available, cannot include \/:*?"<>|
+
+#errcode601=数据存储目录不存在
+errcode601=Data storage directory does not exist
+#errcode602=酒店不存在
+errcode602=Hotel does not exist
+#errcode603=酒店图片上传失败
+errcode603=The upload of the hotel picture failed
+#errcode604=酒店已被禁用
+errcode604=Hotel has been disabled
+
+#errcode801=Redis数据库错误
+errcode801=Redis database error
+#errcode802=授权模块不存在
+errcode802=Authorization module does not exist
