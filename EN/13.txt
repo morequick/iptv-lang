@@ -1,3 +1,5 @@
+#errcode505=文库文件不存在！
+errcode505=Library file does not exist!
 #errcode506=不支持编辑该类型的文件！
 errcode506=Editing this type of file is not supported!
 #errcode507=名称不可用,不能包含 \/:*?"<>|

@@ -2070,8 +2070,8 @@ account_unactive=未啟動
 account_ok=正常
 account_disabled=已禁用
 account_locked=已鎖定
+account_realname=客戶姓名
 account_tel=手機號
-account_name=客戶姓名
 account_qq=QQ號碼
 account_email=郵箱
 
@@ -2087,6 +2087,7 @@ live_account=直播帳號
 parent_account=上級帳號
 account_hotel=管理的酒店
 account_detail=帳號信息
+td_account_realname=客戶姓名:
 td_account_tel=手機號：
 td_parent_account=上級帳號：
 td_account_hotel=選擇管理的酒店：

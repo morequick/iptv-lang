@@ -1,3 +1,5 @@
+#share_access_url=共享地址
+share_access_url=Shared Address
 #etc_files_folders=等文件(夹)
 etc_files_folders= and other files (folders)
 #permanent=永久有效
@@ -406,5 +408,3 @@ multi_screen=Multi-screen Interaction
 dlna_app_upgrade=Multi-screen Interaction APP configuration
 #reset_modules=重置为默认模块
 reset_modules=Reset to Default Module
-#confirm_reset_modules=确认重置吗？重置后，将恢复为默认模块。
-confirm_reset_modules=Confirm reset? After a reset, it will revert to the default module.

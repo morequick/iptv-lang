@@ -648,7 +648,7 @@ desc_pppoe_mtu=(1400~1500)
 desc_pppoe_mru=(1400~1500)
 desc_pppoe_idle=(0~172800 seconds, disconnected if exceeded)
 
-account_name=Customer Name
+account_name=Account Name
 realname=Real Name
 pppoe_maxlogin=Max Number of Logins
 pppoe_active_date=Account Active Time
@@ -2070,8 +2070,8 @@ account_unactive=Inactive
 account_ok=Normal
 account_disabled=Disabled
 account_locked=Locked
+account_realname=Customer Name
 account_tel=Phone Number
-account_name=Customer Name
 account_qq=QQ Number
 account_email=Mailbox
 
@@ -2087,6 +2087,7 @@ live_account=Live Account
 parent_account=Parent Account
 account_hotel=Managed Hotel
 account_detail=Account Info
+td_account_realname=Customer Name:
 td_account_tel=Mobile:
 td_parent_account=Parent Account:
 td_account_hotel=Select Managed Hotels:
