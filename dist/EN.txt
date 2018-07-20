@@ -320,6 +320,7 @@ one_click_collect_channel=Add to private source
 restart=Restart
 desc_restart_channel=Restart the channel
 this_channel= the channel
+channel_nodata_rstime=restart after {0}:{1}
 
 invalid_data=Data Abnormal!
 wait_prev_operate=Please wait for the previous operation to complete!
@@ -1291,6 +1292,7 @@ tip_channel_id=No playlist for custom channel; <a class="change-ccid">change cha
 title_channel_id=1. Custom channel without program list&#10;2. Change channel ID, it will empty the Live-Record data
 tip_set_channel_id=4 digits eg:<span class="hot">live1001</span>
 channel_type=Category
+channel_icon=Channel Icon
 source_type=Source Type
 tip_source_type=If you choose to share the source, you must configure the channel ID
 privated_source1=Private Source 1
@@ -1434,6 +1436,7 @@ confirm_del_muilt_source=Confirm to delete the selected item?
 latest_upload=Latest Upload
 file_upload=File Upload
 select_file_and_upload=Select File and Upload
+select_folder_and_upload=Select Folder and Upload
 tip_drag_drop_upload=Drag files to this area Upload
 td_upload_dir=Directory of Upload:
 custom_dir=Custom
@@ -1896,6 +1899,8 @@ failed_get_app_push_data=Data load failed
 
 hotel_mgr=Hotel Management
 desc_hotel_welcome=If App wants to display different names for different rooms, <a class="link show-desc-wl-param" href="images/demo/welcome_with_parameter.png" target="_blank">click here to see how to use </a>, Hotel APP is required on V52 and above.
+td_hotel_id=Hotel ID:
+tip_hotel_id=Optional, cannot be repeated
 td_hotel_name=Hotel Name:
 td_hotel_name_en=English Name:
 td_hotel_area=Location:
@@ -2098,6 +2103,7 @@ td_account_max_live_login=Max Number of Logins:
 td_account_live_exptime=Expires Time:
 td_account_status=Account Status:
 tip_account_password=Please leave blank if you do not need to change your password
+tip_account_password_empty=Default is 6 digits of the tel
 tip_account_max_live_login=0 means unlimited
 tip_account_hotel= Used only for web management so that different accounts can manage different hotels. Please configure permissions in the user group first.
 tip_account_live_exptime=Empty for unlimited time
@@ -2480,78 +2486,80 @@ mejs.captions-chapters=Sections
 mejs.none=None
 
 account_grant_1=View all account details
-account_grant_2=Add Account
+account_grant_2=Add account
 account_grant_3=Modify all accounts
 account_grant_4=Delete all accounts
-account_grant_5=All account List
-account_grant_6=Modify Live Configuration
-account_grant_7=Modify personal information
+account_grant_5=All account list
+account_grant_6=Modify live settings
+account_grant_7=Modify personal info
 
 account_grant_11=View user group details
-account_grant_12=Add User Group
-account_grant_13=Modify User Group
-account_grant_14=Delete User Group
-account_grant_15=User Group List
-account_grant_16=Modify user group permissions
-account_grant_17=Modify user group channel
+account_grant_12=Add user group
+account_grant_13=Modify user group
+account_grant_14=Delete user group
+account_grant_15=User group list
+account_grant_16=Modify permissions
+account_grant_17=Modify channels
 
 account_grant_21=View all folder details
 account_grant_22=Add folder
 account_grant_23=Modify all folders
 account_grant_24=Delete all folders
-account_grant_25=All Folder Lists
+account_grant_25=All folder list
 account_grant_26=Upload folder
-account_grant_27=Move All Folders
-account_grant_28=Discover all folders
+account_grant_27=Move all folders
+account_grant_28=Publish all folders
 account_grant_29=Rename all folders
 
 account_grant_31=View all file details
 account_grant_32=Add file
 account_grant_33=Modify all files
 account_grant_34=Delete all files
-account_grant_35=All File Lists
+account_grant_35=All file list
 account_grant_36=Upload file
 account_grant_37=Moving all files
 account_grant_38=Publish all files
 account_grant_39=Rename all files
 account_grant_40=Edit all files
 
-account_grant_41=Create Library Share
-account_grant_44=Delete All Library Shares
-account_grant_45=All libraries share list
+account_grant_41=Create document share
+account_grant_44=Delete document share
+account_grant_45=All document share list
 
-account_grant_51=See all hotel details
+account_grant_51=View all hotel details
 account_grant_52=Add hotel
-account_grant_53=Edit hotel configuration
-account_grant_54=Delete Hotel
+account_grant_53=Edit hotel settings
+account_grant_54=Delete hotel
 account_grant_55=All hotels list
 
 account_grant_62=Add notification
 account_grant_63=Modify notification
 account_grant_64=Delete notification
 account_grant_65=Notification list
+account_grant_66=Set playing ad
+account_grant_67=Set boot video
 
-account_grant_71=Management on demand classification
-account_grant_72=Management List
+account_grant_71=Manage video category
+account_grant_72=Manage video list
 
-account_grant_p1=User Management Page
-account_grant_p2=Live Video Page
-account_grant_p3=Video on Demand page
-account_grant_p4=Library Management Page
-account_grant_p5=Log Management Page
-account_grant_p6=Hotel Configuration Page
-account_grant_p7=On-demand management page
-account_grant_p8=Personal Center page
+account_grant_p1=User page
+account_grant_p2=My live page
+account_grant_p3=My video page
+account_grant_p4=Document page
+account_grant_p5=Log page
+account_grant_p6=Hotel page
+account_grant_p7=Video page
+account_grant_p8=Personal page
 account_grant_p9=Advertisement page
 
 account_grant_type1=Page View
-account_grant_type2=User account
-account_grant_type3=user group
-account_grant_type4=Folder operation
-account_grant_type5=File Operations
-account_grant_type6=Library Share
-account_grant_type7=Hotel configuration
-account_grant_type8=On-demand management
+account_grant_type2=User Account
+account_grant_type3=User Group
+account_grant_type4=Folder Operate
+account_grant_type5=File Operate
+account_grant_type6=Document Share
+account_grant_type7=Hotel Configuration
+account_grant_type8=Video Management
 account_grant_type9=Advertising
 
 errcode1=Parameter error!
@@ -2626,6 +2634,7 @@ errcode601=Data storage directory does not exist
 errcode602=Hotel does not exist
 errcode603=The upload of the hotel picture failed
 errcode604=Hotel has been disabled
+errcode605=Hotel ID already exists
 
 errcode801=Redis database error
 errcode802=Authorization module does not exist

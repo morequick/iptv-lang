@@ -1,3 +1,22 @@
+#errcode203=视频类型或名称不存在！
+errcode203=Video type or name does not exist!
+#errcode204=视频文件必须位于二级目录！
+errcode204=The video file must be in level two directory!
+
+#errcode301=通知添加失败！
+errcode301=Notify adding failed!
+
+#errcode401=不允许取消订单！
+errcode401=Cannot cancel orders!
+
+#errcode501=分享不存在！
+errcode501=Share does not exist!
+#errcode502=提取码不正确！
+errcode502=The extraction code is incorrect!
+#errcode503=分享已过期！
+errcode503=Share has expired!
+#errcode504=文库文件夹不存在！
+errcode504=Library folder does not exist!
 #errcode505=文库文件不存在！
 errcode505=Library file does not exist!
 #errcode506=不支持编辑该类型的文件！
@@ -13,6 +32,8 @@ errcode602=Hotel does not exist
 errcode603=The upload of the hotel picture failed
 #errcode604=酒店已被禁用
 errcode604=Hotel has been disabled
+#errcode605=酒店编号已存在
+errcode605=Hotel ID already exists
 
 #errcode801=Redis数据库错误
 errcode801=Redis database error

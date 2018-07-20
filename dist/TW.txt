@@ -320,6 +320,7 @@ one_click_collect_channel=一鍵添加到私有源
 restart=重啟
 desc_restart_channel=重啟該頻道直播代理
 this_channel=該頻道
+channel_nodata_rstime={0}分{1}秒後重啟
 
 invalid_data=數據異常！
 wait_prev_operate=請等待上一個操作完成！
@@ -1291,6 +1292,7 @@ tip_channel_id=自訂頻道無節目單；<a class="change-ccid">更改頻道ID<
 title_channel_id=1. 自訂頻道無節目單&#10;2. 更改頻道ID，會清空回看資料
 tip_set_channel_id=4位元數字 eg：<span class="hot">live1001</span>
 channel_type=頻道分類
+channel_icon=頻道圖示
 source_type=源類型
 tip_source_type=若選擇共用源，則必須配置頻道ID
 privated_source1=私有源地址1
@@ -1434,6 +1436,7 @@ confirm_del_muilt_source=確認刪除選擇的項嗎？
 latest_upload=最新上傳
 file_upload=文件上傳
 select_file_and_upload=選擇檔並上傳
+select_folder_and_upload=選擇文件夾並上傳
 tip_drag_drop_upload=將檔拖拽到此區域上傳
 td_upload_dir=上傳目錄：
 custom_dir=自訂
@@ -1896,6 +1899,8 @@ failed_get_app_push_data=資料獲取失敗
 
 hotel_mgr=酒店管理
 desc_hotel_welcome=若要APP對不同的房間顯示不同的稱呼，<a class="link show-desc-wl-param" href="images/demo/welcome_with_parameter.png" target="_blank">點此查看使用方法</a>，需酒店APP在V52及以上。
+td_hotel_id=酒店編號：
+tip_hotel_id=不能重複，為空則自動生成酒店編號
 td_hotel_name=酒店名稱：
 td_hotel_name_en=英文名稱：
 td_hotel_area=所在地區：
@@ -2098,6 +2103,7 @@ td_account_max_live_login=最大直播登錄人數：
 td_account_live_exptime=直播到期時間：
 td_account_status=帳號狀態：
 tip_account_password=若無需修改密碼，請留空
+tip_account_password_empty=默認為手機號後6位
 tip_account_max_live_login=為0表示不限
 tip_account_hotel=僅用於後臺管理，以使不同的帳號管理不同的酒店，請先在使用者組中配置許可權。
 tip_account_live_exptime=為空表示不限時間
@@ -2530,6 +2536,8 @@ account_grant_62=添加通知
 account_grant_63=修改通知
 account_grant_64=刪除通知
 account_grant_65=通知列表
+account_grant_66=配置播放廣告
+account_grant_67=配置啟動視頻
 
 account_grant_71=管理點播分類
 account_grant_72=管理點播列表
@@ -2626,6 +2634,7 @@ errcode601=資料存儲目錄不存在
 errcode602=酒店不存在
 errcode603=酒店圖片上傳失敗
 errcode604=酒店已被禁用
+errcode605=酒店編號已存在
 
 errcode801=Redis資料庫錯誤
 errcode802=授權模組不存在

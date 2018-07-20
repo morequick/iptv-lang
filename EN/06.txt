@@ -1,3 +1,5 @@
+#error_sn_contact_way=请至少填写一种联系方式（联系电话、QQ、Email）
+error_sn_contact_way=Please fill in at least one contact (Phone, QQ, Email)
 #error_sn_tel=电话号码格式不正确，请重新输入！
 error_sn_tel=The phone number format is incorrect, please re-enter!
 #error_sn_qq=QQ格式不正确，请重新输入！
@@ -324,6 +326,8 @@ title_channel_id=1. Custom channel without program list&#10;2. Change channel ID
 tip_set_channel_id=4 digits eg:<span class="hot">live1001</span>
 #channel_type=频道分类
 channel_type=Category
+#channel_icon=频道图标
+channel_icon=Channel Icon
 #source_type=源类型
 source_type=Source Type
 #tip_source_type=若选择共享源，则必须配置频道ID
@@ -404,7 +408,3 @@ tip_live_auto_hit=If enabled, live channels are recognized and accelerated
 live_subtitle=Rolling Captions
 #td_time=时间：
 td_time=Time:
-#from=从
-from=from
-#to=到
-to=to

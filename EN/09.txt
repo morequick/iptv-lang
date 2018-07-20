@@ -1,3 +1,9 @@
+#warn_app_home_name_exists=桌面名称不能重复！
+warn_app_home_name_exists=The desktop name cannot be duplicated!
+#confirm_del_app_home=确认删除桌面 {0} 吗？
+confirm_del_app_home=Confirm desktop delete {0}?
+#del_app_home=删除桌面
+del_app_home=Delete Desktop
 #deleting_app_home=正在删除数据，请稍候…
 deleting_app_home=Deleting data, please wait...
 #please_upload_images_before_select=<span class="hot">请先在<a class="link need-reload" href="{0}">图片上传管理</a>上传所需图片。</span>
@@ -277,6 +283,10 @@ failed_get_app_push_data=Data load failed
 hotel_mgr=Hotel Management
 #desc_hotel_welcome=若要APP对不同的房间显示不同的称呼，<a class="link show-desc-wl-param" href="images/demo/welcome_with_parameter.png" target="_blank">点此查看使用方法</a>，需酒店APP在V52及以上。
 desc_hotel_welcome=If App wants to display different names for different rooms, <a class="link show-desc-wl-param" href="images/demo/welcome_with_parameter.png" target="_blank">click here to see how to use </a>, Hotel APP is required on V52 and above.
+#td_hotel_id=酒店编号：
+td_hotel_id=Hotel ID:
+#tip_hotel_id=不能重复，为空则自动生成酒店编号
+tip_hotel_id=Optional, cannot be repeated
 #td_hotel_name=酒店名称：
 td_hotel_name=Hotel Name:
 #td_hotel_name_en=英文名称：
@@ -405,13 +415,3 @@ tip_food_search=Enter the Name
 money_symbol=$
 #td_food_name=菜名：
 td_food_name=Vegetable Name:
-#td_food_images=图片：
-td_food_images=Images:
-#td_food_price=价格：
-td_food_price=Price:
-#td_serving_time=供应时间：
-td_serving_time=Supply Time:
-#td_food_sort_id=排序编号：
-td_food_sort_id=Sorting Number:
-#tip_food_sort_id=0-10000，值小的排在前面
-tip_food_sort_id=0-10000, small value comes first

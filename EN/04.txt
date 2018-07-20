@@ -1,3 +1,5 @@
+#tip_password=若不修改,请留空
+tip_password=Leave blank if do not modify
 #account_exists=账号已存在！
 account_exists=Account already exists!
 #account=帐号
@@ -410,5 +412,3 @@ fail=Failed
 
 #td_console_login=控制台登录需要验证：
 td_console_login=Enable Console Login Password:
-#td_console_password=控制台登录密码：
-td_console_password=Console Login Password:

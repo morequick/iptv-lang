@@ -1,3 +1,5 @@
+#td_nic=网卡：
+td_nic=Network Card:
 #td_nic_work_mode=网卡工作模式：
 td_nic_work_mode=Network Card Work Mode:
 #td_def_gateway=默认网关IP：
@@ -414,5 +416,3 @@ td_expire_date=Account Expire Time:
 td_remark=Remark:
 #td_enable=是否启用：
 td_enable=Enabled or Not:
-#tip_password=若不修改,请留空
-tip_password=Leave blank if do not modify

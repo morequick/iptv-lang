@@ -1,3 +1,10 @@
+#lu_exp_filter4=未到期
+lu_exp_filter4=Unexpired
+
+#desc_live_user=1. 请先在用户组管理添加用户组并选择对应频道。用户组ID长度为5，如<span class="green">10000</span>；用户ID长度为6，如<span class="color4">100001</span>。<br>2. 使用网络机顶盒看电视时用于登录的用户名为用户组ID和用户ID的组合。例如：用户组ID为<span class="green">10000</span>，用户ID为<span class="color4">100001</span>，那么登录用户名为<span class="green">10000</span><span class="color4">100001</span><br>3. 默认用户账号为（<span class="green">10000</span><span class="color4">100001</span>），若系统检测到默认账号不存在，会自动创建默认账号。若不想启用该账号，您可以禁用该账号。
+desc_live_user=1. Please add user groups and select the corresponding channel. The user group ID length is 5, such as <span class="green">10000</span>; the user ID length is 6, such as <span class="color4">100001</span>. <br>2. APP login name equals user group ID + user ID. For example: if the user group ID is <span class="green">10000</span> and the user ID is <span class="color4">100001</span>, the login user name is <span class="green"> 10000</span><span class="color4">100001</span><br>3. The default user account is (<span class="green">10000</span><span class="color4">100001 </span>) If the system detects that the default account does not exist, it will automatically create a default account. If you do not want to enable this account, you can disable it.
+#clear_data=清空数据
+clear_data=Clear Data
 #tip_live_user_search=输入用户ID、MAC、备注搜索
 tip_live_user_search=Enter user ID, MAC, memo search
 #all_user_group=所有用户组
@@ -401,9 +408,3 @@ text_preview=Text Preview
 tip_app_bottom_text=is empty and not displayed
 #click_to_select_color=点此选择颜色
 click_to_select_color=Click to Select Color
-#warn_app_home_name_exists=桌面名称不能重复！
-warn_app_home_name_exists=The desktop name cannot be duplicated!
-#confirm_del_app_home=确认删除桌面 {0} 吗？
-confirm_del_app_home=Confirm desktop delete {0}?
-#del_app_home=删除桌面
-del_app_home=Delete Desktop

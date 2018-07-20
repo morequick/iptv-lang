@@ -165,6 +165,8 @@ restart=Restart
 desc_restart_channel=Restart the channel
 #this_channel=该频道
 this_channel= the channel
+#channel_nodata_rstime={0}分{1}秒后重启
+channel_nodata_rstime=restart after {0}:{1}
 
 #invalid_data=数据异常！
 invalid_data=Data Abnormal!
@@ -430,5 +432,3 @@ work_mode_bypass=Bypass
 
 #td_public_ip=公网IP：
 td_public_ip=Public IP:
-#td_nic=网卡：
-td_nic=Network Card:
