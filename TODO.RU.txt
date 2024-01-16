@@ -1,0 +1,63 @@
+01.txt
+-------------------------------------------------------------
+  274   tab_hotel_ifacilities_mgr=酒店设施管理
+
+
+02.txt
+-------------------------------------------------------------
+  148   skip=忽略
+
+
+04.txt
+-------------------------------------------------------------
+  486   file_image=图片
+  799   device_hw_id=硬件ID
+  831   unbind=解绑
+  839   bind_hw_device2=绑定投屏
+  841   hw_device2_sn=投屏序列号
+  956   desc_oldapp_home=1. 此处可上传直播APP中使用的图片，<span class="hot">点击图片可调用APP程序、直播、点播或打开网址</span>。若是网址，请输入完整的地址（不能省略 http://），eg：<span class="hot">http://www.baidu.com</span><br>2. <span class="hot">单独修改APP名称或链接前必须先上传图片</span>。APP名称必须是<span class="hot">安装后的名称</span>（不是文件名）,若APP名称为<span class="hot"><span class="only-oem">#</span><span class="only-mq">秒开</span>本地影院</span>，则会调用点播APP。<br>3. APP链接支持调用直播和点播资源，以<span class="hot">直播@</span>、<span class="hot">点播@</span>开头，如：<span class="hot">直播@CCTV1</span>、<span class="hot">点播@射雕英雄传</span>
+
+
+05.txt
+-------------------------------------------------------------
+  779   desc_app_upgrade_push2=<span class="hot">APP支持在线配置</span>，选择推送或配置后，将自动从官网下载APP并写入到推送数据。<br>
+
+
+06.txt
+-------------------------------------------------------------
+  391   pms_zhuzher=住哲PMS API
+  393   pms_ipms=绿云PMS API
+  395   pms_ipms2=绿云PMS API v3
+  397   pms_gsstar=捷信达云PMS API
+  399   pms_tiane=金天鹅本地PMS API
+  401   pms_tiane_cloud=金天鹅云PMS API
+  403   pms_byh=别样红PMS API
+  405   pms_eastreach=瑞通PMS API
+  407   pms_sunshine_local=中煜本地PMS API
+  409   pms_chenwei=臣维PMS API
+  411   pms_luopan=罗盘PMS API
+  413   pms_aohuhis=奥狐PMS API
+  415   pms_yaduo=亚朵开放平台 API
+  417   pms_wenshu=文殊智慧平台 API
+
+
+07.txt
+-------------------------------------------------------------
+  407   td_boot_animation_format=格式：
+  753   add_facility=添加设施
+  755   set_facility=编辑设施
+  757   facility_name=名称
+  759   facility_info=内容
+  761   facility_text1=楼层
+  763   facility_text2=其它
+
+
+08.txt
+-------------------------------------------------------------
+   92   desc_app_task_screenoff_settings=<span class="hot">注：该功能需要固件支持，且APP版本在V741及以上。</span>
+   94   enable_task_screenoff=启用定时关屏
+   96   task_screenoff_type=定时关屏方式
+   98   task_screenoff_time=定时关屏时间
+  100   tip_task_time_screenoff=支持设置多个时间，每个时间相隔不得低于{0}分钟
+  168   host_hw_device2=乐播投屏授权服务器
+

@@ -1,18 +1,28 @@
 page_home=首页
-page_config=系统设置
-page_live=直播管理
-page_vod=点播管理
-page_notify=广告发布
-page_app=APP管理
-page_user=用户管理
-page_doc=文库管理
-page_mylive=直播视频
-page_myvod=点播视频
-page_tools=系统工具
-page_info=产品信息
+page_config=系统
+page_sip_voip=电话
+page_live=直播
+page_program=节目
+page_vod=点播
+page_notify=插播
+page_adpush=广告
+page_app=APP
+page_user=用户
+page_doc=文库
+page_mylive=观看直播
+page_myvod=观看点播
+page_fee_modules=付费
+page_tools=工具
+page_info=帮助
 page_myhome=个人中心
 page_myshare=共享文库
-page_myhotel=酒店配置
+page_market=超市
+page_sales=小卖部
+page_myorder=订单
+page_app_upgrade=APP升级
+
+tab_order_list=订单列表
+tab_mango_vod_settings=价格设置
 
 tab_network_bind=网卡绑定
 tab_network_hit=命中口配置
@@ -22,8 +32,10 @@ tab_network_cluster=集群配置
 tab_network_mirror=镜像口配置
 tab_network_feedback=回传口配置
 tab_network_wan=上网口配置
+tab_network_hotplay=投屏配置
 tab_dns=DNS配置
 tab_cluster=集群配置
+tab_time_server=时间服务器
 tab_dhcp=DHCP 服务
 tab_dhcp_server=DHCP配置
 tab_dhcp_lease=IP分配记录
@@ -40,6 +52,7 @@ tab_storage_sync=数据同步
 tab_login=登录管理
 tab_login_admin=超级管理员
 tab_login_operator=操作员账号
+tab_login_user=客户账号
 tab_login_guest=Guest 账号
 tab_login_log=登录日志
 tab_login_console=控制台登录
@@ -47,77 +60,217 @@ tab_task=计划任务
 tab_task_reboot=定时重启
 tab_traffic_real=输出流量图
 tab_sys_load=系统负载分析
+tab_sys_log=系统运行日志
+
+tab_sip_voip_account=账号管理
+tab_sip_voip_parameter=系统参数
+tab_sip_voip_morning_call=定时呼叫
+tab_sip_voip_morning_call_config=第三方SIP服务配置
+tab_sip_voip_morning_call_default_config=默认参数
 
 tab_live_chlist=频道管理
+tab_live_chframe=频道帧查看
 tab_live_satellite=卫星节目源
-tab_live_multicast=组播接收节目源
+tab_live_multicast=特殊组播节目源
 tab_live_vod=轮播节目源
 tab_live_status=频道状态
-tab_live_player=内网Web播放器
+tab_live_alm=应用层组播配置
+tab_live_review_settings=回看服务器配置
+tab_live_player=网页预览
 
-tab_vod_mgr=点播管理
-tab_vod_settings=点播上传配置
-tab_vod_list=点播视频列表
+tab_vod_mgr=本地视频管理
+tab_vod_upload=文件管理
+tab_vod_settings=共享访问配置
+tab_vod_tasklist=定时扫描配置
+tab_vod_list=生成的视频列表
 tab_vod_type_mgr=分类管理
 tab_vod_item_mgr=剧集管理
-tab_vod_player=内网Web播放器
+tab_vod_player=网页预览
 
 tab_app_mgr=APP管理
-tab_oldapp_mgr=旧版APP管理
+tab_oldapp_mgr=老版APP管理
 tab_newapp_mgr=新版APP管理
 tab_app_image_mgr=APP图片管理
 tab_app_settings_upgrade=APP配置与推送
-tab_app_home_mgr=APP桌面管理
+tab_app_home_mgr=桌面管理
 tab_upload_app_mgr=APP上传管理
 tab_upload_image_mgr=图片上传管理
 
-tab_app_notify_mgr=APP通知管理
-tab_notify_mgr=通知管理
-tab_notify_settings=通知配置
+tab_notify_scroll_text=插播滚动通知
+tab_notify_image=插播图片
+tab_notify_video=插播视频
+tab_notify_live=插播频道
+tab_notify_urgent_notice=插播紧急通知
+tab_notify_bgimage=插播背景图片
+tab_notify_bgvideo=插播背景视频
+tab_notify_welcome=插播欢迎词
+tab_notify_settings=通用配置
+tab_notify_app_cover=封面图片
 
-tab_oldapp_home=旧版APP桌面
+tab_oldapp_home=老版APP桌面
 tab_newapp_home=新版APP桌面
 tab_app_home_config=APP桌面配置
-tab_app_custom_image=自定义图片
+tab_app_custom_image=桌面管理
 tab_app_third_party=第三方APP配置
+tab_app_home_video=桌面视频配置
 
-tab_app_hotel_list=APP酒店管理
-tab_app_homepage=APP主页背景
+tab_app_hotel_list=酒店管理
+tab_app_lang_list=APP语言管理
+tab_app_homepage=欢迎页配置
 tab_app_welcome=欢迎词
 tab_app_background=背景图片
+tab_app_banner=横幅图片
+tab_app_poster=海报页面
 tab_app_bgm=背景音乐
+tab_app_bgvideo=背景视频
 
-tab_app_menu_config=APP菜单配置
+tab_poster_welcome=欢迎页
+tab_slider_home=主页轮播图
+tab_poster_home=主页海报
+
+tab_page_welcome=欢迎页
+tab_page_home=主页
+tab_page_service=酒店服务页
+tab_page_about=酒店简介页
+
+tab_english=英文
+
+tab_app_menu_config=服务与简介菜单
 tab_app_service_menu=服务菜单
-tab_app_about_us_menu=关于我们
+tab_app_about_us_menu=简介菜单
+tab_app_about_menu=简介菜单{0}
 tab_app_all_menu=统一管理
+
+tab_hotel_ifacilities_mgr=酒店设施管理
+
+tab_hotel_department_mgr=酒店部门管理
+
+tab_hotel_staff_mgr=酒店职员管理
+
+tab_hotel_news_mgr=酒店动态管理
+tab_hotel_news1_mgr=酒店动态
+tab_hotel_news2_mgr=酒店动态2
+
+tab_hotel_video_mgr=酒店视频管理
+tab_hotel_video1_mgr=酒店视频
+tab_hotel_video2_mgr=酒店视频2
+
+tab_hotel_products_mgr=产品展示管理
+
+tab_room_price_mgr=房价牌管理
+tab_room_price_list=房价列表
+
+tab_mq_dlna=私密投屏配置
 
 tab_room_mgr=APP房间管理
 tab_room_list=房间管理
-tab_dock_with_db=数据对接
+tab_room_pms_config=客房数据对接
+tab_room_pms_blacklist=黑名单
 
 tab_app_ac_mgr=APP AC 管理
 
-tab_app_order_online=APP在线订餐
+tab_app_task=APP 计划任务
+tab_app_boot_task=定时开机
+tab_app_shutdown_task=定时关机
+tab_app_reboot_task=定时重启
+tab_app_screen_on_task=定时开屏
+tab_app_screen_off_task=定时关屏
+
+tab_adpush_launcher=桌面APP广告
+tab_adpush_boot_logo=开机LOGO
+tab_adpush_boot_animation=开机动画
+tab_adpush_boot_video=启动视频
+tab_adpush_screensaver=屏保图片
+tab_adpush_page=页面广告
+
+tab_adpush_live=直播广告
+tab_adpush_live_boot_image=启动图片
+tab_adpush_live_change_channel=按确定键切台广告
+tab_adpush_live_change_channe2=按上下键切台广告
+tab_adpush_live_playing_ad=播放右下角广告
+
+tab_adpush_vod=点播广告
+tab_adpush_vod_boot_image=启动图片
+tab_adpush_vod_beforeplay=播放前视频广告
+tab_adpush_vod_playing_ad=播放右下角广告
+
+tab_adpush_market=酒店超市广告
+tab_adpush_market_boot_image=启动图片
+
+tab_adpush_room_price=房价牌广告
+tab_adpush_room_price_bgimage=背景图片
+tab_adpush_room_price_video=视频广告
+
+tab_adpush_settings=通用配置
+
+tab_app_general_config=APP通用配置
+tab_theme_config=界面风格与主菜单
+tab_weather_config=天气数据配置
+tab_general_config=通用配置
+tab_sn_exptips=授权提醒配置
+tab_ad_config=播放广告
+
+tab_boot_logo=开机LOGO
+tab_boot_animation=开机动画
+tab_boot_sysvideo=开机视频
+tab_boot_video=启动视频
+tab_room_price_settings=房价牌设置
+tab_room_price_bgimage=背景图片
+tab_room_price_video=视频广告
+
+tab_app_upgrade=APP推送升级
+tab_app_upgrade_settings=升级配置
+tab_app_upgrade_wlist=白名单
+tab_app_upgrade_blist=黑名单
+
+tab_backup_import_export=数据导入导出
+tab_backup_import=数据导入
+tab_backup_export=数据导出
+
+tab_app_order_online=在线订餐管理
+tab_food_type=分类管理
 tab_food_list=菜品管理
 tab_food_order=订单管理
 tab_food_order_history=历史订单
 
-tab_app_general_config=APP通用配置
-tab_theme_config=界面风格
-tab_general_config=通用配置
-tab_ad_config=播放广告
-tab_boot_logo=开机LOGO
-tab_boot_animation=开机动画
-tab_boot_video=启动视频
+tab_market_income=收入统计
+tab_market_pay_cfg=收款配置
+tab_market_food=酒店餐厅
+tab_market_food_type=分类管理
+tab_market_food_list=菜品管理
+tab_market_sales=小卖部
+tab_market_sales_type=分类管理
+tab_market_sales_list=商品管理
+tab_market_natives=土特产
+tab_market_natives_type=分类管理
+tab_market_natives_list=特产管理
+tab_market_order=订单管理
 
-tab_app_upgrade=APP推送升级
+tab_sales_settings=通用配置
+tab_sales_goods=物品管理
+tab_sales_order=订单管理
 
 tab_user_group=用户组
 tab_user_account=用户账号
 tab_user_operator=账号操作员
-tab_user_client_list=客户端列表
-tab_app_config_mgr=设备配置管理
+tab_user_client_list=终端列表
+tab_user_client_all=终端列表
+tab_user_client_online=当前在线
+tab_user_client_live=直播用户
+tab_app_config_mgr=终端配置管理
+tab_app_uninstall_mgr=终端应用卸载
+
+tab_client_login_config=登录配置
+tab_client_appconfig=其它配置
+
+tab_client_statistics=在线统计分析
+tab_client_statistics_list=在线记录
+tab_client_statistics_24h=24小时统计图
+tab_client_statistics_30d=30天统计图
+
+tab_fee_modules_settings=付费配置
+tab_fee_modules_package=套餐管理
+tab_fee_modules_sn=授权管理
 
 tab_all_files=全部文件
 tab_archive=压缩包
@@ -128,7 +281,7 @@ tab_music=音乐
 tab_myshare=我的分享链接
 tab_trash=回收站
 tab_mydocvod=我的点播剧集
-tab_share_to_me=共享给我
+tab_share_to_me=分享给我
 
 tab_tools_ping=Ping测试
 tab_tools_nslookup=域名查询
@@ -138,6 +291,7 @@ tab_tools_powermgr=电源管理
 tab_tools_remote_web=远程协助
 tab_tools_remote_debug=远程调试
 tab_tools_sniffer=实时抓包
+tab_tools_live_discover=数据包分析
 tab_tools_settings=配置管理
 tab_tools_settings_import_export=配置导入导出
 tab_tools_settings_reset=恢复出厂设置
@@ -146,6 +300,7 @@ tab_register=注册信息
 tab_sys_upgrade=系统升级
 tab_rules_upgrade=规则库升级
 tab_hwinfo=硬件信息
+tab_server_config=高级设置
 tab_agreement=许可协议
 tab_purchase=购买产品
 tab_faq=常见问题
@@ -156,12 +311,16 @@ tab_set_password=修改密码
 
 yes=是
 no=否
+auto=自动
+see=见
+refresh=刷新
 
 sys_ver=系统版本
 cpu_load=CPU负载
 mem_load=内存使用
 uptime=开机时长
 time_units=天,时,分,秒
+time_units2=天,小时,分,秒
 
 dialog=弹出框
 box_alert=提示信息
@@ -205,13 +364,15 @@ user_login=个人用户登录
 admin_login=管理员登录
 
 confirm_logout=确认退出吗？
-confirm_reboot=确认重启系统吗？重启约需1-2分钟。
-rebooting_device=正在重启系统，重启约需1~2分钟，请稍候……
+confirm_reboot=确认重启系统吗？重启约需1-3分钟。
+rebooting_device=正在重启系统，重启约需1~3分钟，请稍候……
 confirm_poweroff=确认关闭电源吗？
 poweroffing_device=正在关闭电源，约需30~60秒，请稍候……
 
 login_name=账号
 login_password=密码
+tip_login_name=请输入您的账号
+tip_login_password=请输入您的密码
 logining=登录中，请稍候……
 login_failed=登录失败！
 api_error=服务器或网络错误,请稍后重试!
@@ -219,7 +380,8 @@ login_tip_in_demo=提示：初始用户名、密码均为 admin
 
 guest=访客
 sys_admin=系统管理员
-sys_operator=账号操作员
+sys_operator=系统操作员
+sys_user=系统用户
 sys_guest=访客
 
 grant=权限
@@ -229,6 +391,7 @@ no_grant_access_page=您没有权限访问任何页面
 save_data=保存数据
 saving_data=正在保存数据，请稍候……
 saved_data=数据已保存!
+submit_data=提交数据
 submiting_data=正在提交数据，请稍候……
 successful_save=保存成功！
 failed_save=保存失败！
@@ -237,35 +400,63 @@ successful_set=修改成功！
 successful_del=删除成功！
 failed_del=删除失败！
 successful_operate=操作成功！
+custom=自定义
 none=无
+tag=标签
+
+del_data=删除数据
+reset_data=重置数据
+confirm_del_data=确认删除该数据吗？
+confirm_del_datas=确认删除以下数据吗？
+confirm_reset_data=确认重置为默认数据吗？
 
 live=直播
 live_top10=直播排行榜
+live2_top10=监管节目
+live3_top10=节目排行榜
 td_playing=正在播放:
 app_down=APP下载
 one_click_internet_diag=一键检测上网
+set_copyright=修改版权信息
+set_copyright2=修改单位信息
 ping_pong=直播 Ping-Pong 测试
 goto_old_ui=返回老版UI
 link_qq_title=点此给我发消息
-mq_support=在线技术支持
+mq_support=技术支持
 mq_purchase=咨询购买
 mq_pre_after_sale=售前售后
 mq_qq_group=官方QQ群
+contact_us=联系我们
+please_set_copyright=请输入版权信息：
+
+company_name=单位名称
+company_logo=单位LOGO
+product_name=产品名称
+copyright=版权信息
+site_link=网站链接
+service_provider=服务商
+official_website=官网
 
 internet_diag=上网检测
 tip_internet_diag=正在检测上网信息，此过程约需10-60秒，请稍等……
 
-web_player=内网Web播放器
-live_web_player=内网Web播放器
-vod_web_player=内网Web播放器
+web_player=网页播放器
+live_web_player=网页播放器
+vod_web_player=网页播放器
+
+tip_live_web_player=注：网页播放器只支持H.264+AAC编码的HTTP源，此处不能播放不表示直播源有问题，请使用APP播放。
 
 cpu_usage=CPU使用
 mem_usage=内存使用
+disk_usage=磁盘使用
 sum_time=统计时间
 in_percent=占比
 
 traffic_in=占用流量
 traffic_out=服务流量
+
+avg_traffic_in=平均占用流量
+avg_traffic_out=平均服务流量
 
 traffic_chart_title=网卡流量（Mbps）
 
@@ -273,7 +464,9 @@ hit_traffic=命中口流量
 hit_traffic_chart=命中口实时流量图
 hit_traffic_y=命中口流量（Mbps）
 traffic_unit=流量（字节）
-save_traffic=节省流量
+save_traffic=服务流量
+save_traffic2=服务流量
+total_saved_traffic=累计服务流量
 mirror_traffic=镜像口流量
 mirror_traffic_chart=镜像口实时流量图
 mirror_traffic_y=镜像口流量（Mbps）
@@ -287,12 +480,15 @@ live_status_starting=启动中
 live_status_error=等待中
 live_status_nodata=节目源故障
 live_status_stopped=已停播
-live_status_running=运行中
+live_status_running=正常
 
 click_view_log=点此查看日志
 view_log=查看日志
 
-current_status_statistics=当前观看用户数: {0}, <span title="自开机以来节省的流量">节省流量: {1}</span>
+current_status_statistics=当前授权占用: {2}, 当前观看用户: {0}, <span title="自开机以来节省的流量">服务流量: {1}</span>
+current_status_statistics_extra=, 累计服务流量: {0}
+current_status_statistics_extra2=当前终端在线: {0}, 
+current_status_statistics_extra3=, 频道数量: {0}
 restart_nodata_channel=重启故障频道
 restart_all_channel=重启所有频道
 one_click_restart_nodata_channel=一键重启所有无数据的频道
@@ -300,21 +496,29 @@ one_click_restart_all_channel=一键重启所有频道
 
 channel_name=频道名称
 channel_id=频道ID
+channel_epg_id=节目单ID
 live_port=端口
 live_user=观看用户
 send_pkgs=发送包数量
 channel_outtype=输出类型
+channel_frame=频道帧
 channel_status=状态
 operate=操作
 edit=编辑
 modify=修改
 delete=删除
 save=保存
+exclude=排除
+restore=恢复
 live_start=启动
 live_stop=停播
 live_user_detail=详情
-channel_outtype_http=单播
-channel_outtype_udp=组播
+channel_outtype_http=单播(预读)
+channel_outtype_udp=组播(UDP)
+channel_outtype_rtp=组播(RTP)
+channel_outtype_cast=源地址下发
+channel_outtype_proxy=单播(不预读)
+channel_outtype_p2p=单播(共享源)
 collect_channel=收藏
 one_click_collect_channel=一键添加到私有源
 restart=重启
@@ -357,6 +561,13 @@ minutes2=分钟
 seconds=秒
 milliseconds=毫秒
 
+lan_ip=LAN IP
+wan_ip=WAN IP
+ip_geo=IP所在地
+new_mac=新MAC
+captcha=验证码
+tip_captcha2=请输入计算结果
+
 warn_internet_err=系统无法连接到 Internet，请检查网络！
 warn_on_no_register=您未注册授权或授权已过期，可能导致产品不可用！
 view_register_info=查看注册信息
@@ -370,8 +581,8 @@ warn_bad_hdd=<span class="hot">检测到磁盘 <span class="color4">{0}</span> �
 disk_error_info=磁盘错误信息
 warn_memlow=检测到系统内存不足，可能导致部分功能失效或异常！
 
-hotel_app_name=酒店互动电视APP
-live_app_name=小区APP
+hotel_app_name=桌面APP
+live_app_name=桌面APP
 player_app_name=播放器APP
 netvod_app_name=网络视频APP
 app_and_player=APP和播放器插件
@@ -390,13 +601,15 @@ chart_cpu_usage=CPU使用情况图
 chart_mem_usage=内存使用情况图
 
 error_log=错误日志
+running_log=运行日志
 
 nic_hit=命中口
 nic_mirror=镜像口
 nic_wan=WAN口
 nic_lan=LAN口
 nic_feedback=回传口
-nic_multicast=组播输出
+nic_multicast=卫星接收输出
+nic_hotplay=投屏口
 link_detect_yes=已插入网线
 link_detect_no=未插入网线
 nic_not_found=没有可用的网卡
@@ -417,21 +630,28 @@ hash_policy2=layer 2 + 3（默认）
 hit_mode_normal=普通模式
 hit_mode_bonding=汇聚模式（至少选择2个网卡）
 hit_mode_bridge=网桥模式（至少选择2个网卡）
+tip_hit_mode_bonding=汇聚模式，交换机必须同步配置，否则可能影响网络通信。
 
 add_nicbind=添加网卡绑定
 set_nicbind=修改网卡绑定
 del_nicbind=删除网卡绑定
 
+alias_name=别名
+remark_name=备注名
 bind_type=绑定类型
 select_bind_mode=选择模式
 select_bonding=汇聚模式
 select_hash_policy=传输哈希策略
 select_nic=选择网卡
+tip_lan_ip=不能是组播IP（224.0.0.0-239.255.255.255）
+tip_mac_clone=可选
 
 td_ip=IP地址：
 td_netmask=子网掩码：
 td_gateway=网关IP：
 td_mac_clone=MAC 地址克隆：
+td_dhcp_hostname=认证名：
+td_dhcp_auth=认证码：
 please_select_nic=请选择网卡！
 alert_bonding=汇聚模式至少需要选择2个网卡！
 alert_bridge=网桥模式至少需要选择2个网卡！
@@ -561,6 +781,7 @@ wan_pppoe_vlan=PPPoE 拨号 VLAN模式
 wan_dhcp=DHCP 自动获取
 wan_dhcp_vlan=DHCP 自动获取 VLAN模式
 td_vlan_config=VLAN配置：
+td_wifi_vlan_config=WiFi VLAN配置：
 td_wan_weight=多线负载权重：
 td_uplimit=最大上行带宽：
 td_downlimit=最大下行带宽：
@@ -579,6 +800,8 @@ disconnect_all_vlan=断开所有VLAN 拨号
 confirm_connect_all_vlan=确认连接所有VLAN 拨号吗？
 confirm_disconnect_all_vlan=确认断开所有VLAN 拨号吗？
 confirm_disconnect_pppoe=是否确认断开 PPPoE 拨号？
+vlan_bytes=流量
+vlan_rx_tx_bytes=发送: <span class="color2">{0}</span><br>接收: <span class="green">{1}</span>
 
 loading_nic_data=正在加载网卡数据，请稍候……
 wan_outline=外线
@@ -594,6 +817,7 @@ total_up_traffic=上行总流量
 total_down_traffic=下行总流量
 wan_upload_per=上行负载比率
 wan_down_per=下行负载比率
+wan_allow_from_all=开放对外访问
 
 desc_network_wan=1. 命中口上网需要内网路由配合配置。<br>2. 独立上网可以让系统独立于内网环境访问外网，配置简单，速度更快，在内网起分流作用。
 td_wan_type=上网方式：
@@ -607,12 +831,99 @@ nic_wan_config=上网口配置
 select_all_or_no=全选/全不选
 tip_to_hit_config=请到命中口进行上网配置！
 
+hotplay_tv_vlanid=命中口所在VLAN
+tip_hotplay_tv_vlanid=跨VLAN时指定
+
 dns1=首选DNS
 dns2=辅选DNS
 desc_network_dns=1. 设置本地运营商DNS，如果你不如道本地DNS是多少，保持默认即可。<br>2. 若要删除DNS，将DNS置空即可。
 add_dns=添加DNS
 dns_config=DNS配置
 config_saved=配置已保存!
+
+desc_time_server=配置NTP时间同步服务器，为空时将使用默认时间服务器。
+time_server=时间同步服务器
+tip_time_server=IP或域名
+
+desc_sip_voip_parameter=免费版或授权数量过低时无法使用此功能<span class="only-mq">，有需要请 <a class="link" href="{0}" target="_blank">购买服务器</span></a>。
+enable_sip_voip=启用电话
+sip_server_ip=SIP服务器IP
+sip_port=SIP服务端口
+enable_sip=启用電話功能
+disable_sip=禁用電話功能
+confirm_enable_sip=确认启用电话功能吗？
+confirm_disable_sip=确认禁用电话功能吗？
+
+add_sip_account=添加账号
+set_sip_account=修改账号
+del_sip_account=删除账号
+sip_account=账号
+sip_passwd=密码
+tip_sip_account_for_adds=支持批量添加账号，每次最多200条。下列值必须为数字，间隔值表示起始与截止值之间每次变动的值，默认为1.
+tip_sip_passwd_for_adds=可插入<span class="hot">@</span>以表示账号值（不包括前缀和后缀）
+tip_sip_account=请输入手机账号
+tip_sip_passwd=由数字和字母组成,长度不超过32位
+warn_sip_account_existed=账号已存在！
+confirm_add_sip_accounts=确认添加以下账号吗？
+confirm_del_sip_accounts=确认删除以下账号吗？
+prefix=前缀
+suffix=后缀
+start_value=起始值
+end_value=截止值
+start_end_step=间隔值
+tip_end_value=截止值不得低于起始值！
+result_add_sip_accounts=成功数量：{0}，跳过数量：{1}
+
+call_time=呼叫时间
+call_numbers=号码列表
+call_audio=接听时播放音乐
+add_sip_morning_call=添加定时呼叫
+set_sip_morning_call=修改定时呼叫
+del_sip_morning_call=删除定时呼叫
+upload_call_audio=上传音频
+play_call_audio=播放音频
+confirm_del_sip_morning_calls=确认删除以下项吗？
+select_sip_account=选择SIP账号
+click_to_add_sip_account=点此选择号码
+tip_call_numbers=每行一个号码，例：&#10;101&#10;102
+sip_type=类型
+select_sip_type=选择类型
+sip_timed_call=定时呼叫
+sip_morning_call=电话叫早
+
+sip_max_call=重复次数
+sip_call_count={0}次
+sip_domain=被呼叫的域
+sip_domain_local=本机
+tip_sip_max_call=仅在无接听的情况下生效
+tip_sip_domain=IP或域名，为空表示默认
+change_sip_domain=更改被呼叫的域
+
+enable_sip_call_config=对接第三方SIP服务
+sip_call_src_domain=服务器地址
+sip_call_src_protocol=传输协议
+sip_call_src_user=发起呼叫的电话账号
+sip_call_src_password=发起呼叫的电话密码
+
+desc_mq_dlna_settings=1. 专为酒店环境设计，手机扫码后投屏到指定设备，私密性好。<span class="only-mq"><a href="{0}" target="_blank">点此下载私密投屏APP</a></span><br>2. 免费版或授权数量过低时无法使用此功能，请购买服务器或授权。
+enable_mq_dlna=启用投屏功能
+disable_mq_dlna=禁用投屏功能
+confirm_enable_mq_dlna=确认启用投屏功能吗？
+confirm_disable_mq_dlna=确认禁用投屏功能吗？
+mq_dlna_mode=投屏方式
+mq_dlna_mode1=用户扫码投屏，私密性好
+mq_dlna_mode2=用户无需扫码，使用方便
+mq_dlna_style=投屏风格
+mq_dlna_style1=浅色
+mq_dlna_style2=深色
+mq_dlna_style3=亚朵
+
+dlna_cast_name=投屏名称
+dlna_phoneip=扫码设备IP
+dlna_boxip1=播放设备IP
+dlna_addtime=扫码时间
+search_by_dlna_phoneip=按扫码设备IP
+search_by_dlna_boxip1=按播放设备IP
 
 td_cluster=集群：
 td_cluster_workmode=工作模式：
@@ -659,6 +970,8 @@ db_asc=升序
 db_desc=降序
 
 add=添加
+clear=清空
+clean=清理
 enable=启用
 disable=禁用
 
@@ -702,7 +1015,7 @@ kick_user=下线
 desc_kick_user=踢用户下线
 confirm_kick_user=确认将以下用户踢下线吗？
 
-td_enable_static_route=是否启用静态路由：
+td_enable_static_route=是否启用静态路由
 add_rule=添加规则
 set_rule=修改规则
 batch_delete=批量删除
@@ -737,11 +1050,16 @@ workmode=工作模式
 link_speed=连接速度
 duplex_full=全双工
 duplex_half=半双工
+net_traffic=网卡实时流量
 
-desc_disk_manager=1. 存储池存储了点播等文件信息，<span class="hot">初始化存储池会丢失所有相应数据，请谨慎操作。</span>若硬盘加入存储池失败，请先初始化（<span class="hot">操作 -> 初始化</span>）磁盘。<br>2. 本系统支持NAS网络磁盘，本地可以无需磁盘。<span class="hot">启用或禁用NAS网络磁盘后，请点保存生效！</span>
+desc_disk_manager=1. 存储池存储了本地视频等文件信息，<span class="hot">初始化存储池会丢失所有相应数据，请谨慎操作。</span>若硬盘加入存储池失败，请先初始化（<span class="hot">操作 -> 初始化</span>）磁盘。<br>2. 本系统支持NAS网络磁盘，本地可以无需磁盘。<span class="hot">启用或禁用NAS网络磁盘后，请点保存生效！</span>
 td_enable_nas=使用NAS网络磁盘：
 td_nas_ip=NAS 服务器IP：
 td_nas_dir=NAS 挂载目录：
+td_enable_nfs=启用本地磁盘NFS服务：
+td_nfs_allow_ip=允许访问的IP或网段：
+enable_nfs=启用本地磁盘NFS服务
+disable_nfs=禁用本地磁盘NFS服务
 disk_list=硬盘列表
 sys_disk=系统盘
 resize_disk=扩容
@@ -776,7 +1094,7 @@ status_online=正常
 disk=磁盘
 disk_model=型号
 disk_sn=序列号
-disk_size_info=磁盘大小（已使用 / 空闲）
+disk_size_info=磁盘大小
 disk_status=状态
 join_to_disk=加入存储池
 replace_disk=替换磁盘
@@ -841,6 +1159,9 @@ Multi_Zone_Error_Rate=多区域错误率
 Calibration_Retry_Count=磁盘校准重试次数
 Hardware_ECC_Recovered=硬件ECC校验恢复次数
 Head_Flying_Hours=磁头飞行时间
+Total_LBAs_Read=LBA读取总数
+Total_LBAs_Written=LBA写入总数
+Read_Error_Retry_Rate=读取错误重试率
 
 disk_sync_server=服务端
 disk_sync_client=客户端
@@ -853,7 +1174,7 @@ sync_data=同步数据
 
 td_username=用户名：
 td_login_port=端口：
-tip_login_port=[1~65536]
+tip_login_port=[80,800~900,1025~2200,2300~3000,5500~6500,6700~8200]
 td_easy_login=启用80端口快速登录：
 tip_easy_login=此处勾选后，访问Web管理不需加端口号
 td_old_passwd=旧密码：
@@ -864,7 +1185,7 @@ td_new_passwd=新密码：
 td_confirm_new_passwd=确认新密码：
 tip_confirm_new_passwd=确保2次输入相一致
 update_login_port=修改端口
-updating_login_port=修改端口
+updating_login_port=正在修改端口，请稍候…
 
 td_enable_operator=启用操作员账号：
 td_operator_name=账号名称：
@@ -872,7 +1193,7 @@ td_set_password=设置密码：
 td_confirm_passwd=确认密码：
 td_menu_config=菜单配置：
 click_to_config_menu=点此配置菜单
-tip_enable_operator=操作员不能修改关键的参数：命中口IP、重启关机、系统升级
+tip_enable_operator=该账号不支持修改关键的参数：命中口IP、重启关机、系统升级
 tip_operator_name=修改账号名称时，请重新设置密码！
 tip_set_password=若无需修改密码，可为空
 tip_confirm_passwd=确保2次输入相一致
@@ -882,6 +1203,8 @@ menu_list=菜单列表
 all_menu=所有菜单
 menu_config=菜单配置
 please_select_menu=请至少选择一个菜单！
+
+td_enable_user=启用客户账号：
 
 td_enable_guest=启用Guest账号：
 td_guest_name=账号名称：
@@ -929,7 +1252,6 @@ cpu_io_chart=CPU、磁盘IO负载曲线图
 cpu_io_in_percent=CPU、磁盘IO占比（%）
 
 mem_chart=内存使用情况图
-mem_use=内存使用
 
 sys_avg_load_chart=系统平均负载曲线图
 avg_load=平均负载
@@ -939,6 +1261,13 @@ loading_data_by_date=正在加载{0}数据，请稍候…
 select_date=选择日期
 cpu_used=CPU使用
 io_used=磁盘IO使用
+
+syslog_type=启动类型
+syslog_detail=详情
+syslog_time=时间
+
+syslog_boot=启动
+syslog_reboot=重启
 
 desc_tools_ping=ICMP：Internet控制报文协议，用于在IP主机、路由器之间传递控制消息<br>SYN：是TCP/IP建立连接时使用的握手信号<br>ARP：地址解析协议,根据IP地址获取物理地址
 td_ping_type=PING 类型：
@@ -955,6 +1284,7 @@ icmp=ICMP
 syn=TCP/SYN
 arp=ARP
 start=开始
+stop=停止
 reset=重置
 operate_result=操作日志
 
@@ -986,7 +1316,7 @@ check_all_dns=检测所有系统DNS服务器
 
 save_cfg_to_disk=保存所有配置到磁盘
 
-desc_rweb=1. 说明：远程Web协助，可以让您在没有直接公网IP的情况下，同时也无需在上级路由器上做端口映射，通过云登录相关技术，使得其他Internet上的用户可以访问到Web管理。<br>2. 指定唯一标识名，可让登录地址保持固定不变，以字母开头，后面的字符可以是字母、数字、下划线(_)、短横线(-)，长度不得超过32个字符。
+desc_rweb=1. 远程Web协助，可以让您在没有直接公网IP的情况下，同时也无需在上级路由器上做端口映射，通过云登录相关技术，使得其他Internet上的用户可以访问到Web管理。<br>2. 指定云登录标识，可让登录地址保持固定不变，由字母、数字、减号(-)组成，开头和结尾必须是字母或数字，长度在4-24个字符之间。
 td_rweb_status=连接状态：
 td_rweb_name=云登录标识：
 td_rweb_url=远程Web地址：
@@ -1023,20 +1353,31 @@ td_sniffer_count=数据包个数：
 td_sniffer_timeout=超时时间：
 td_sniffer_ip=IP 地址：
 tip_sniffer_port=可选，[1~65536]
-tip_sniffer_count=可选，[1~5000]，默认为30
-tip_sniffer_timeout=可选，[5~30] 单位：秒，默认为10
+tip_sniffer_count=可选，[{0}~{1}]，默认为{2}
+tip_sniffer_timeout=可选，[{0}~{1}] 单位：秒，默认为{2}
 tip_sniffer_ip=可选
 sniffer=实时抓包
 sniffering=正在抓包，请稍候……
 successful_sniffer=抓包成功！
 down_sniffer_file=点此下载抓包文件
 
+discover_ch_name=备注名称
+discover_ch_url=地址
+failed_load_discover_data=数据获取失败
+tip_export_discover_data=复制以下数据后，进入 直播 -&gt; <a class="link" href="{0}">频道管理</a> 导入数据
+running=运行中
+discover_ch_starting=正在启动数据抓取，请稍候……
+confirm_stop_discover_ch=确认停止数据抓取吗？
+confirm_clear_data=确认清空所有数据吗？
+confirm_exclude_data=确认排除该数据（{0}）吗？
+exclude_list=排除列表
+
 desc_settings_import_export=导出所有配置，包括系统配置、直播配置、酒店配置、用户配置、上传的APK文件、酒店图片等。
 export_all_settings=导出所有配置
 import_all_settings=导入所有配置
 import_settings=导入配置
 importing_settings=正在导入配置，请稍候…
-successful_importing_settings_reboot=配置导入成功，正在重启系统，重启约需1~2分钟，请稍候……
+successful_importing_settings_reboot=配置导入成功，正在重启系统，重启约需1~3分钟，请稍候……
 
 restore_system_config=恢复系统设置下的所有配置
 restore_other_config=恢复直播源配置等
@@ -1071,6 +1412,7 @@ company_type_org=机关/组织
 company_type_other=其他
 
 error_get_sn_hostlimit=授权信息获取失败，请确保网络正常
+error_disabled_sn_hostlimit=已禁用设备授权
 unit_hostlimit=台
 expire=到期
 expired=已过期
@@ -1101,15 +1443,21 @@ td_sys_status=系统运行状态：
 sn_company_info=授权给 {0} 使用
 unlimit=不限
 tip_sn_expired=功能失效，请授权后使用
+tip_sn_expired2=，授权请拨打电话 {0}
 tip_sn_ok=<span class="green">正常</span>，{0} 到期
 delete_sn=解除授权
 update_sn=更新授权
 change_sn=更换授权
 get_sn_by_qrcode=微信扫码免费激活
+get_free_sn_and_active=获取免费授权并激活
 active_by_sn=输入授权码激活
 authorization_expired=系统授权已失效
 tip_left_time=（剩余 {0} 天 {1} 小时 {2} 分 {3} 秒）
 tip_unauthorized=您的产品尚未注册，请先申请免费授权（物理机）或输入授权码激活！
+auto_register=自动注册
+tip_try_license=永久使用请拨打电话 {0}
+tip_updating_sn=正在更新授权，请稍候……
+tip_updated_sn=操作完成
 
 sn_username=用户姓名
 sn_company=授权名
@@ -1131,9 +1479,11 @@ preparing_data=正在准备数据，请稍候…
 please_input_delete_code=请输入解除码：
 
 apply_sn_try=申请商业试用授权（缓存、直播-IPTV、酒店互动电视）
+select_country=选择国家
 select_prov=选择省份
 select_city=选择城市
 select_area=选择地区
+custom_city=自定义
 
 td_apply_sn_try_type=申请试用类别：
 td_apply_sn_try_days=申请试用时长：
@@ -1150,7 +1500,7 @@ tip_company=将写入到授权信息
 tip_contact_tel=请提供可用的联系电话
 tip_qq=可选
 tip_email=可选
-tip_sn_area=注意：授权码只能在相应地区使用
+tip_sn_area=注：授权码只能在相应地区使用
 apply_sn_try=申请商业授权试用
 applying_sn_try=正在申请试用授权，请稍候……
 please_select_sn_area=请选择授权区域！
@@ -1161,7 +1511,7 @@ success_qrcode_result=扫码成功，正在获得授权码…
 sn_getted_and_reg=授权码（{0}）获取成功，正在注册……
 failed_get_sn=获取授权码失败！请稍后再试。
 
-producting_qrcode=系统正在生成二维码，请确保网络正常！
+producting_qrcode=未获取到微信二维码，请确保网络正常并稍后重试！
 reg_by_qrcode=微信扫码注册
 purchased_updating_sn=购买成功！正在更新授权，请稍候…
 please_reg_sn=请先注册授权！
@@ -1170,6 +1520,20 @@ confirm_to_free_sn=您确认转为免费授权吗？
 authorization_operate=授权操作
 converting_to_free_sn=正在转为免费授权，请稍候…
 failed_operate=操作失败！请稍候重试！
+
+get_free_sn=获取免费授权
+contact_user=联系人
+contact_tel=手机号
+sms_code=短信验证码
+get_sms_code=获取短信验证码
+send_sms_code=发送短信验证码
+sending_sms_code=正在发送短信验证码，请稍候…
+sending=发送中
+sms_code_retry_time={0}秒后重试
+
+sms_auth=短信验证
+desc_sms_auth=为了保证关键数据安全，您需要进行短信验证。
+tip_sms_tel=请指定短信接收手机号
 
 upgrade_web=在线升级
 upgrade_local=本地上传升级
@@ -1200,7 +1564,7 @@ td_latest_ver=最新版本：
 td_upgrade_info=更新说明：
 tip_canceled_upgrade=已取消升级！
 tip_completed_upgrade=升级已完成！
-tip_reboot_after_upgrade=升级已完成，正在重启系统，重启约需1~2分钟，请稍候……
+tip_reboot_after_upgrade=升级已完成，正在重启系统，重启约需1~3分钟，请稍候……
 confirm_cancel_upgrade=确认取消升级吗？
 please_wait_upload_complete=请等待文件上传完毕！
 please_upload_before_upgrade=请先上传升级文件！
@@ -1242,6 +1606,38 @@ ls_filter6=自定义频道
 ls_filter7=非自定义频道
 ls_filter8=有回看的频道
 ls_filter9=无回看的频道
+ls_filter10=用户添加频道
+ls_filter11=直播网关频道
+ls_filter12=有图标的频道
+ls_filter13=无图标的频道
+
+enabled_channel=已启用
+disabled_channel=未启用
+
+preset_channel=预置频道
+preset_channel_common=预置频道（常用）
+preset_channel_custom=预置频道（自定义）
+own_channel=自办频道
+
+has_epg_channel=有节目单
+no_epg_channel=无节目单
+
+has_icon_channel=有图标
+no_icon_channel=无图标
+
+has_savedays_channel=有回看
+no_savedays_channel=无回看
+
+from_itvgw_channel=网关频道
+from_user_channel=用户添加
+
+no_review=无回看
+no_icon=无图标
+
+force_receive=强制接收
+force_fragment=强制分片
+
+confirm_transcode_to_h264=H264转码会占用系统大量运算资源，若服务器性能不足，将会影响系统正常运行。确认开启吗？
 
 channel_type0=其它
 channel_type1=央视
@@ -1256,12 +1652,13 @@ channel_type9=游戏
 channel_type10=推荐
 all_channel_type=所有分类
 
-desc_live_source=1. 本系统支持HTTP、UDP、RTP、RTSP、RTMP格式节目源，支持单播输出或组播输出（非共享源），支持回看（非轮播）。<br>2. 回看功能需要硬盘支持<span class="need-admin">，<a class="link" href="{0}">点此配置存储磁盘</a></span>。占用硬盘大小视直播源码流而定，以8Mbps为例，每个频道每天约需占用80G。<br>3. 内网Web播放器只支持H.264+AAC编码的源，建议使用电脑客户端或APP播放。
-desc_live_source_no_record=1. 本系统支持HTTP、UDP、RTP、RTSP、RTMP格式节目源，支持单播输出或组播输出（非共享源）。<br>2. 内网Web播放器只支持H.264+AAC编码的源，建议使用电脑客户端或APP播放。
+desc_live_source=1. 本系统支持HTTP、UDP、RTP、RTSP、RTMP格式节目源，支持单播输出或组播输出（非共享源），支持回看（非轮播）。<br>2. 回看功能需要硬盘支持<span class="need-admin">，<a class="link" href="{0}">点此配置存储磁盘</a></span>。占用硬盘大小视直播源码流而定，以8Mbps为例，每个频道每天约需占用80G。<br>3. 网页播放器只支持H.264+AAC编码的源，建议使用APP或电脑客户端播放<span class="only-mq">，<a class="link" target="_blank" href="{1}">点此下载APP和电脑客户端</a></span>。
+desc_live_source_no_record=1. 本系统支持HTTP、UDP、RTP、RTSP、RTMP格式节目源，支持单播输出或组播输出（非共享源）。<br>2. 网页播放器只支持H.264+AAC编码的源，建议使用APP或电脑客户端播放<span class="only-mq">，<a class="link" target="_blank" href="{1}">点此下载APP和电脑客户端</a></span>。
 td_enable_live_cache=启用智能识别频道并加速：
 td_max_hls=最大启动的直播频道数量：
 tip_max_hls=（取决于内存大小，每个频道约需 100MB 内存）
-td_filter=筛选：
+filter=筛选
+td_filter=筛选:
 all_channel=所有频道
 add_channel=添加频道
 set_channel=修改频道
@@ -1269,15 +1666,19 @@ import_preset_channel=导入预置频道
 edits=批量编辑
 deletes=批量删除
 ctype_mgr=分类管理
+infotypes_mgr=简介类别
 import_data=导入数据
 export_data=导出数据
-tip_channel_search=输入频道名搜索
-custom_channel=自定义频道
+tip_channel_search=输入频道名等搜索
+custom_channel=自办频道
 shared_source=共享源
 privated_source=私有源
+privated_source1=私有源1
+privated_source2=私有源2
 warn_on_no_register_for_live=您未注册授权或授权已过期，功能不可用！
-warn_max_hls_limit=您启用的直播频道数量{0}已超过最大启动数量{1}，请重新配置或增加内存！
+warn_max_hls_limit=您启用的直播频道（不包括源地址下发）数量{0}已超过最大启动数量{1}，请重新配置或增加内存！
 warn_shared_source=【{0}】共享源请选择对应的频道ID！
+warn_shared_source_for_iptv_alm=<span class="hot">共享源必须开启应用层组播，否则无法使用！</span><a class="link need-reload" href="{0}">点此配置应用层组播</a>
 please_select_channel_for_del=请指定要删除的频道！
 confirm_del_channel=您确认删除以下频道吗？
 channel_operate=频道操作
@@ -1288,30 +1689,40 @@ channel_check=频道检测
 select_sat_source=选择卫星源
 select_multi_source=选择组播源
 select_vod_source=选择轮播源
-tip_channel_id=自定义频道无节目单；<a class="change-ccid">更改频道ID</a>会清空回看数据。
-title_channel_id=1. 自定义频道无节目单&#10;2. 更改频道ID，会清空回看数据
+set_channel_id=更改频道ID
+tip_channel_id=会清空回看数据。
+title_channel_id=更改频道ID，会清空回看数据
 tip_set_channel_id=4位数字 eg：<span class="hot">live1001</span>
 channel_type=频道分类
+channel_type_ext=扩展分类
+channel_type2=分类
 channel_icon=频道图标
+select_icon=选择图标
+select_preset_icon=选择预置图标
 source_type=源类型
 tip_source_type=若选择共享源，则必须配置频道ID
-privated_source1=私有源地址1
-privated_source2=私有源地址2
+privated_source_args=私有源参数
+keep_unchanged=保持不变
 tip_support_source=支持的私有源格式如下（下同）：
 format_as_m3u8=m3u8源
 change_ua=切换UA
 source_cast=源地址下发
+audio_video_sync=音视频同步
 tip_source_cast=只下发组播接收地址，系统不转发
-live_out_mult=组播输出
-live_out_mult2=组播输出（非共享源）
-live_out_unicast=单播输出
+live_out_mult=组播输出 (UDP)
+live_out_mult2=组播输出 (RTP)
+live_out_unicast=单播输出 (预读)
+live_out_proxy=单播输出 (不预读)
+live_out_proxy4=单播输出 (不预读，仅HTTP、RTSP源有效)
+auto_load=自动负载
 use_hit_ip=使用本机命中口
 tip_use_hit_ip=127.0.0.1表示本机命中口
 tip_live_out_mult=组播IP范围为224.0.0.0—239.255.255.255
 live_preload=数据预读
 tip_live_preload=若启用，系统会预先准备数据，频道秒开，但会一直占用外网带宽
-auto_get_port=自动计算
-tip_live_port=范围（8500-8999），不能与已有的重复
+auto_get_port=查找空闲端口
+tip_live_port=范围（8500-19999），不能与已有的重复
+warn_live_port=允许的端口范围为8500-19999
 live_source_rev_mode=接收方式
 live_source_rev_mode_vlc=使用V模式接收
 live_source_rev_mode_ffmpeg=使用F模式接收
@@ -1323,7 +1734,7 @@ live_save_days=回看天数
 tip_live_save_days=0-30天，<span class="hot">为0时将清空回看数据</span>，
 click_to_set_storage=点此配置存储磁盘
 live_sort_id=排序编号
-tip_live_sort_id=0-9999，值大的排在前面，为0时默认按名称排序
+tip_live_sort_id=0-100000，值大的排在前面，为0时默认按名称排序
 live_user_group_id=用户组编号
 tip_live_user_group_id=可选，多个之间用逗号隔开
 title_live_user_group_id=若设置了用户组，则只有符合该组的用户才能观看该频道。多个之间用逗号隔开。
@@ -1352,7 +1763,11 @@ edit_channels=批量编辑频道
 more_channel_type=不同分类
 please_select_export_data=请选择要导出的数据！
 live_export_as_hls=导出为内网播放格式
-tip_live_export=支持导出的格式。<br>支持导入的格式如下，每行一个频道，频道名称和源之间用逗号或空格分隔：
+live_export_has_encode=将结果编码后导出
+reset_live_source_port=重置频道端口
+live_source_start_port=起始端口
+tip_live_source_start_port=范围: [8501-10000]
+tip_live_export=支持的第三方格式如下，每行一个频道，频道名称和源之间用逗号或空格分隔：
 importing_data=正在导入数据，请稍候……
 imported_data=数据已导入！
 tip_live_imported_data=请配置正确的频道ID，然后保存配置！
@@ -1365,10 +1780,41 @@ please_select_import_data=请选择要导入的数据！
 channel_list=频道列表
 order_num=序号
 sort=排序
-tip_live_sort=先按分类排序，再按此值排序，值大的排在前面，为方便以后修改，建议以10为间隔排序，如10、20、30、40…
+tip_live_sort=先按分类排序，再按此值排序，值大的排在前面，范围0-100000，为方便以后修改，建议以10为间隔排序，如10、20、30、40…
 tip_channel_type_textarea=每行一个分类，分类长度一般为2-4个字。
 enable_live_cache=启用直播自动代理
 disable_live_cache=停用直播自动代理
+http_receive_dev=接收设备
+confirm_del_channel_type=确认删除该分类吗？
+confirm_reset_channel_type=确认重置为默认数据吗？
+no_channel_epg=无节目单
+custom_channel_epg=自定义
+
+desc_live_source_itv_cloud=1. 仅支持添加源地址下发频道。<br>2. 共享源需配合直播网关使用，请确保直播网关已开启应用层组播，并导入相关预置频道。
+host_gw_none=无iTV网关
+host_gw_iptv=iTV网关IP
+host_gw_router=加速路由IP
+td_iptv_host=iTV网关IP：
+sync_to_itv_cloud=同步到iTV云
+export_to_itv_cloud=导出到iTV云
+channel_from=来源
+channel_from_itvgw=直播网关
+channel_from_user=用户添加
+goto_itv_gw_to_sync_data=登录iTV网关同步频道数据
+tip_goto_itv_gw_to_sync_data=请登录iTV网关->直播->频道管理，选择任一方式将频道数据导入到iTV云。<br>1. 点击同步到iTV云。<br>2. 点击导出到iTV云，复制导出的数据，在此页面导入数据。
+
+transcode_to_h264=H264转码
+transcode_to_aac=AAC转码
+
+player_decodec=播放器解码方式
+tip_player_decodec=如果硬件型号不统一，请保持默认，仅对V500及以上播放器APP生效
+player_decodec0=默认(由播放器配置决定)
+player_decodec1=硬解1
+player_decodec2=硬解2
+player_decodec3=软解
+
+auto_refresh=自动刷新
+auto_refresh_in_seconds=每{0}秒刷新
 
 desc_live_satellite=1. 配置好卫星频点和频道，若不了解频点配置，可先选择预置频点然后进行微调。<br>2. 在频道管理中，选择源类型为私有源1或私有源2，再选择卫星源即可。
 td_muilt_ip=组播IP：
@@ -1414,7 +1860,7 @@ sort_by_channel_name=按频道名排序
 sort_by_muilt_addr=按组播地址排序
 sort_by_muilt_receive_dev=按组播接收设备排序
 sort_by_local_port=按本地端口排序
-desc_live_multicast=注：尽量不要在运营状态添加、编辑或删除组播源，可能会造成全部频道无数据。
+desc_live_multicast=1. 仅当组播源地址相同但端口不同时才需要在此处进行配置，其它情况可直接在频道管理里添加并选择对应接收设备。<br>2. 尽量不要在运营状态添加、编辑或删除组播源，可能会造成全部频道无数据。
 add_muilt_source=添加组播源
 set_muilt_source=编辑组播源
 reload_muilt_source=重载
@@ -1433,6 +1879,19 @@ warn_muilt_addr_format=组播地址格式不正确！必须是udp或rtp协议开
 please_select_muilt_source_for_del=请选择要删除的项！
 confirm_del_muilt_source=确认删除选择的项吗？
 
+root_folder=根目录
+tip_search_video_upload_mgr=在当前目录搜索
+video_files=视频文件
+video_ext_files={0}文件
+video_poster_files=图片文件
+video_info_files=简介文件
+video_other_files=其它文件
+upload_to_this_folder=上传到当前目录
+confirm_del_folder2=确认删除文件夹（{0}）吗？<span class="hot">该文件夹内的子文件夹和文件也将被一并删除！</span>
+confirm_del_file2=确认删除文件（{0}）吗？
+
+upload=上传
+upload_to=上传到
 latest_upload=最新上传
 file_upload=文件上传
 select_file_and_upload=选择文件并上传
@@ -1440,19 +1899,27 @@ select_folder_and_upload=选择文件夹并上传
 tip_drag_drop_upload=将文件拖拽到此区域上传
 td_upload_dir=上传目录：
 custom_dir=自定义
-please_input_upload_dir=请输入上传目录：
-desc_vod_settings=1. 点播功能需要硬盘支持<span class="need-admin">，<a class="link" href="{0}">点此配置存储磁盘</a></span>。本系统通过共享管理本地视频，大大简化操作。<br><div class="pl15">第1步：在资源管理器或运行中输入<span class="hot">\\本机IP</span>（如：<span class="hot">\\192.168.1.250</span>），确定然后输入密码进入，<a class="link" href="images/demo/open-share.png" target="_blank">点此查看示例</a>。<br>第2步：视频传到服务器后，在此处点击<span class="hot">扫描视频</span>生成点播和轮播数据（轮播数据建议放在upload之下2级目录，否则需要手动填写路径，如：<span class="hot">upload\电影\周星驰电影</span>）。</div>2. 内网Web播放器只支持H.264+AAC编码mp4文件，APP支持大部分常见格式（取决于硬件解码能力），如mp4、mkv、rmvb、avi等。
-td_vod_share_user=共享访问用户：
-td_vod_share_password=共享访问密码：
+please_input_upload_dir=多级目录之间用<span class="hot">/</span>分隔，eg: <span class="hot">轮播/电影/动作</span>：
+desc_vod_upload_mgr=本地视频功能需要硬盘支持<span class="need-admin">，<a class="link" href="{0}">点此配置存储磁盘</a></span>。轮播数据建议放在根目录之下2级目录，如：<span class="blue">根目录\轮播\轮播1</span>。<span class="hot">轮播仅支持H.264+AAC编码的mp4文件</span>。
+desc_vod_settings=本系统支持通过共享管理本地视频。可以在资源管理器或运行中输入<span class="hot">\\本机IP</span>（如：<span class="hot">\\192.168.1.250</span>），确定然后输入密码进入，<a class="link" href="images/demo/open-share.png" target="_blank">点此查看示例</a>。
+desc_vod_list=网页播放器只支持H.264+AAC编码的mp4文件，APP支持大部分常见格式（取决于硬件解码能力），如mp4、mkv、rmvb、avi等。
+enable_vod_share=启用共享访问
+vod_share_user=共享访问用户
+vod_share_password=共享访问密码
 tip_vod_share_password=若无需修改密码，可为空
 upload_video=上传视频
-scan_video=扫描视频
-scan_video_info=扫描简介
+del_video=删除视频
+scan_video=生成视频列表
+scan_video_info=扫描本地简介文件
+scan_video_config=扫描配置
+desc_scan_video_config=配置视频简介文件中对应的字段，<a class="link" href="{0}" target="_blank">点此查看示例</a>。
+td_video_root=扫描根目录：
+td_video_info_formats=简介格式：
 scanning_video=正在扫描视频，请稍候…
-scanning_video_info=正在扫描视频简介，请稍候…
+scanning_video_info=正在扫描本地简介文件，请稍候…
 scan_is_over=扫描已结束！
-desc_vod_upload_web=1. 建议优先使用共享上传。此处支持的上传格式为 <span class="hot">.avi,.f4v,.mkv,.mp4,.rm,.rmvb,.ts,.mpg,.jpg,.png,.txt</span><br>2. 上传完毕后点击<span class="hot">扫描视频</span>生效。
-vod_video_upload=点播视频上传
+desc_vod_upload_web=1. 支持的上传格式为 <span class="hot">{0}</span><br>2. 上传完毕后点击<span class="hot">{1}</span>生效。
+vod_video_upload=本地视频上传
 movie=电影
 tvplay=电视剧
 variety=综艺
@@ -1468,7 +1935,8 @@ video_name=视频名称
 file_size=文件大小
 play_count=播放次数
 category=类别
-cover_image=封面图
+cover_image=海报
+file_image=图片
 brief=简介
 tip_video_num={0}个视频
 has=有
@@ -1489,6 +1957,22 @@ how_to_get_doubanid=如何获取豆瓣编号
 all_video=所有视频
 please_ensure_one_sort_value=请至少填写一个排序值
 count=数量
+item_hot=推荐
+is_item_hot=是否推荐
+item_hot_filter1=推荐
+item_hot_filter0=其它
+vod_modules=模块开关
+vod_hotvideo=热门推荐
+vod_lastest=最新更新
+vod_top100=播放排行
+warn_video_not_matched_hit_ip=视频地址非本机IP，可能无法播放
+confirm_del_video_item=确认删除以下数据吗？服务器上视频、图片等文件也将一并删除，请谨慎操作！
+
+desc_video_task_scan_video_settings=定时扫描点播数据，并生成视频列表。如果点播文件变动较少，则无需自动扫描，建议<a class="link need-reload" href="{0}">手动生成视频列表</a>。
+enable_task_scan_video=启用定时扫描
+task_scan_video_type=定时扫描方式
+task_scan_video_time=定时扫描时间
+tip_task_time_scan_video=支持设置多个时间，每个时间相隔不得低于{0}分钟
 
 user_list=用户列表
 user_bind_mac=绑定网卡MAC
@@ -1505,11 +1989,11 @@ edits_live_user=批量编辑用户账号
 td_user_group=用户组：
 td_user_password=密码：
 tip_user_password=可选
-td_enable_user_mac_bind=启用MAC绑定：
-td_wireless_iface_mac=无线网卡MAC：
-td_wired_iface_mac=有线网卡MAC：
-td_user_exptime=到期时间：
-td_enable_user=启用账号：
+enable_user_mac_bind=启用MAC绑定
+wireless_iface_mac=无线网卡MAC
+wired_iface_mac=有线网卡MAC
+user_exptime=到期时间
+enable_user=启用账号
 tip_wireless_iface_mac=可选，盒子的无线网卡MAC
 tip_wired_iface_mac=可选，盒子的有线网卡MAC
 add_live_user=添加用户
@@ -1545,6 +2029,7 @@ lu_exp_filter4=未到期
 
 desc_live_user=1. 请先在用户组管理添加用户组并选择对应频道。用户组ID长度为5，如<span class="green">10000</span>；用户ID长度为6，如<span class="color4">100001</span>。<br>2. 使用网络机顶盒看电视时用于登录的用户名为用户组ID和用户ID的组合。例如：用户组ID为<span class="green">10000</span>，用户ID为<span class="color4">100001</span>，那么登录用户名为<span class="green">10000</span><span class="color4">100001</span><br>3. 默认用户账号为（<span class="green">10000</span><span class="color4">100001</span>），若系统检测到默认账号不存在，会自动创建默认账号。若不想启用该账号，您可以禁用该账号。
 clear_data=清空数据
+clean_data=清理数据
 tip_live_user_search=输入用户ID、MAC、备注搜索
 all_user_group=所有用户组
 all_user=所有用户
@@ -1556,7 +2041,6 @@ password=密码
 operator=操作员
 exptime_and_lastlogin=到期时间/最后在线
 enable_user_mac_bind=启用MAC绑定
-enable_user=启用账号
 warn_user_group_not_found=您尚未配置用户组！
 auto_add_nonexisting_user_group=自动添加不存在的用户组
 invalid_data_format=数据格式不正确！
@@ -1572,11 +2056,8 @@ please_select_user_group_for_del=请指定要删除的用户组！
 confirm_del_user_group=您确认删除以下用户组吗？
 deleting_user_group=正在删除用户组,请稍候…
 user_group_mgr=用户组管理
-td_user_group_id=用户组ID：
-tip_user_group_id=长度为5，添加后不允许修改
-td_user_group_name=用户组名称：
-td_select_apphome=选择APP桌面：
-td_channel_list=频道列表：
+tip_user_group_id=长度为5，不能重复
+select_apphome=选择APP桌面
 warn_user_group_exists=已存在相同的用户组ID！
 warn_please_select_channels=您尚未选择频道！
 
@@ -1592,36 +2073,102 @@ desc_live_operator=账号操作员有且仅有管理直播用户的权限，仅�
 add_live_operator=添加账号
 set_live_operator=修改账号
 tip_live_operator_search=输入用户名、备注搜索
+search_by_account2=按账号搜索
+search_by_group_code=按用户组ID搜索
+search_by_live_account=按直播账号搜索
+search_by_name=按名称搜索
+search_by_remark=按备注搜索
 search_by_mac=按MAC搜索
 search_by_ip=按IP搜索
 search_by_account=按用户账号搜索
 search_by_hotel_id=按酒店编号搜索
 search_by_room=按房间号搜索
+search_by_model=按设备型号搜索
+search_by_sys_ver=按系统版本搜索
+search_by_app_ver=按APP版本搜索
+search_by_device_tag=按设备标签搜索
 
 client_type_app=APP
-client_type_web=Web播放器
+client_type_web=网页播放器
 client_type_pc=PC客户端
-desc_client_list_for_itv=此功能需酒店APP在V52及以上且播放器APP在V168及以上。
-desc_client_list_for_live=此功能需小区APP在V360及以上且播放器APP在V168及以上。
+client_type_other=其它
 select_client_type=选择设备类型
-tip_client_list_search=输入MAC或账号搜索
+tip_client_list_search=输入MAC或账号
 device_type=设备类型
 device_model=设备型号
-live_account=用户账号
+device_box_id=设备码
+device_hw_id=硬件ID
+device_tag=设备标签
+select_device_tag=选择设备标签
+duer_sn=百度客控SN
+duer_mac=百度客控MAC
+speaker_sn=音箱序列号
+app_model=APP型号
+webiptv_ver=APP页面版本
+user_account=用户账号
 app_version=APP版本
 playing=正在播放
 logtime=存活时间
 client_list=设备列表
+iot_qrcode=客控二维码
+tip_iot_qrcode=打开微信小程序->秒开助手->我的，点击绑定电视，绑定后可通过小度音箱等语音控制该设备。
+bind_speaker=绑定音箱
+unbind=解绑
+tip_bind_hw_control=绑定语音遥控器后，可通过语音控制电视换台、调节音量等。<span class="only-mq"><a class="link" href="https://item.taobao.com/item.htm?spm=a21dvs.23580594.0.0.4fee645e2BXgaS&ft=t&id=739852918104" target="_blank">点此购买语音遥控器</a></span>
+bind_hw_control=绑定遥控
+hw_control_sn=遥控器序列号
+bind_hw_device2=绑定投屏
+hw_device2_sn=投屏序列号
+device_box_id_not_found=设备码不存在！
 please_select_client_for_del=请选择要删除的设备！
-confirm_del_client=确认删除以下设备吗？
+confirm_del_client=<span class="auto-hide">仅支持删除未使用或未占用授权的设备。</span>确认删除以下设备吗？
 del_client=删除设备
 deleting_client=正在删除设备，请稍候…
-confirm_clear_app_client=确认清空所有数据吗？
+confirm_clear_app_client=仅支持删除未使用或未占用授权的设备。确认清理数据吗？
+reboot_clients=重启
+confirm_reboot_clients=确认重启以下已连接的设备吗？
+confirm_reboot_all_clients=确认重启所有已连接的设备吗？
+poweroff_clients=关机
+confirm_poweroff_clients=确认关闭以下已连接的设备吗？
+confirm_poweroff_all_clients=确认关闭所有已连接的设备吗？
+turn_on_screen=开屏
+turn_off_screen=关屏
+volume=音量
+change_volume=调节音量
+text_change_volume=音量调到{0}
+confirm_turn_on_screens=确认打开以下已连接的设备屏幕吗？
+confirm_turn_on_all_screens=确认打开所有已连接的设备屏幕吗？
+confirm_turn_off_screens=确认关闭以下已连接的设备屏幕吗？
+confirm_turn_off_all_screens=确认关闭所有已连接的设备屏幕吗？
+confirm_change_volumes=确认调节以下已连接的设备音量吗？
+confirm_change_all_volumes=确认调节所有已连接的设备音量吗？
+
+desc_client_list=<span class="only-itv-local">1. 此处显示上报的终端列表，可能未包含所有设备，若某些情况下未上报或上报失败，则可能不会显示。<br>2. </span>重启和推送等功能需要固件支持且桌面APP版本在728及以上。
+push_type_app_upgrade=APP升级
+push_type_webiptv_upgrade=APP页面更新
+push_type_webiptv_upgrade2=APP页面更新（强制下载）
+push_data=推送{0}
+confirm_push_to_clients=确认推送{0}到以下已连接的设备吗？
+confirm_push_to_all_clients=确认推送{0}到所有已连接的设备吗？
+please_select_group=请选择要操作的用户组
+tip_import_clients=每行一个设备，MAC和房间号之间用空格分开，房间号可为空
+replace_device=更换设备
+tips_replace_device=请输入新设备MAC:
+desc_replace_device=每个设备每天允许更换的次数为{0}，当前剩余次数为{1}
+push_type_app_uninstall=APP卸载
+tip_app_uninstall=请输入要卸载的APP包名，每行一个APP eg: <span class="hot">net.android.test</span>
 
 sort_by_ip=按IP排序
 sort_by_mac=按MAC排序
 sort_by_room=按房间号排序
+sort_by_room_number=按房间号（数字）排序
 sort_by_logtime=按存活时间排序
+sort_by_intime=按入住时间排序
+sort_by_outtime=按离开时间排序
+sort_by_onlinetime=按在线时长排序
+sort_by_logintime=按登录时间排序
+
+desc_live_users=此处显示在指定时间内访问过直播的用户，此记录过期会自动清理。
 
 service=服务
 room_service=客房服务
@@ -1630,71 +2177,219 @@ select_image_and_upload=选择图片并上传
 select_bg_image=选择背景图片
 edit_config=编辑配置
 
-desc_oldapp_home_for_newapp=<span class="hot">此处仅支持小区APP在V400以下的版本，<a class="link need-reload" href="{0}">点此配置新版APP桌面</a>。</span><br>
-desc_oldapp_home=1. 此处可上传直播APP中使用的图片，<span class="hot">点击图片可调用APP程序、直播、点播或打开网址</span>。若是网址，请输入完整的地址（不能省略 http://），eg：<span class="hot">http://www.baidu.com</span><br>2. <span class="hot">单独修改APP名称或链接前必须先上传图片</span>。APP名称必须是<span class="hot">安装后的名称</span>（不是文件名）,若APP名称为<span class="hot">秒开本地影院</span>，则会调用秒开点播APP。<br>3. APP链接支持调用直播和点播资源（<span class="hot">需小区APP 311及以上且播放器APP 111及以上</span>），以<span class="hot">直播@</span>、<span class="hot">点播@</span>开头，如：<span class="hot">直播@CCTV1</span>、<span class="hot">点播@射雕英雄传</span>
+desc_oldapp_home_for_newapp=<span class="hot">此处仅支持APP在V400以下的版本，<a class="link need-reload" href="{0}">点此配置新版APP桌面</a>。</span><br>
+desc_oldapp_home=1. 此处可上传直播APP中使用的图片，<span class="hot">点击图片可调用APP程序、直播、点播或打开网址</span>。若是网址，请输入完整的地址（不能省略 http://），eg：<span class="hot">http://www.baidu.com</span><br>2. <span class="hot">单独修改APP名称或链接前必须先上传图片</span>。APP名称必须是<span class="hot">安装后的名称</span>（不是文件名）,若APP名称为<span class="hot"><span class="only-oem">#</span><span class="only-mq">秒开</span>本地影院</span>，则会调用点播APP。<br>3. APP链接支持调用直播和点播资源，以<span class="hot">直播@</span>、<span class="hot">点播@</span>开头，如：<span class="hot">直播@CCTV1</span>、<span class="hot">点播@射雕英雄传</span>
 carousel_images=轮播图片
 vod=点播
 carousel=轮播
 fixed_image1=固定图片1
 fixed_image2=固定图片2
-tip_carousel_image=建议的图片大小为：840x394（px），格式为png
-tip_fixed_image=建议的图片大小为：412x672（px），格式为png
-tip_live_vod_image=建议的图片大小为：404x246（px），格式为png
 successful_upload=上传成功！
 failed_upload=上传失败！
 please_input_app_name_or_link=请输入APP名称或链接：
 background=背景
 doc_library=文库
+
 digital_tv=数字电视
 private_wifi=私人WiFi
 net_vod=网络点播
+net_vod2=网络点播2
 hd_cinema=本地影院
 room_service=客房服务
-about_us=关于我们
+about_us=酒店介绍
+private_dlna=私密投屏
+multi_screen=多屏互动
 music_hall=音乐厅
 online_food=在线订餐
 background_music=背景音乐
+weather_forecast=天气预报
+world_time=世界时钟
+flight_inquiry=航班查询
+travel_schedule=行程安排
+hotel_message=酒店留言
+hotel_market=酒店超市
+tv_review=电视回看
+room_price_card=房价牌
+hotel_bills=酒店账单
+web_cast=网络直播
+movie_carousel=影视轮播
+about_other=其它介绍
+news_other=其它动态
+
+module_home=精彩推荐
+module_art=人文艺术
+module_yaduo_vip=亚朵会员
+module_intro=集团介绍
+module_poster=海报页面
+module_about3=便捷服务
+module_iservice=生活服务
+module_iabout=优惠活动
+
 usefull_for_app_first_run=仅对初次安装的APP生效
-desc_app_settings_general_for_iptv=天气城市配置需APP版本在V390及以上。
-desc_app_settings_general_for_itv=欢迎页支持播放背景音乐，只需将要播放的音乐传到共享根目录，并重命名为 bgm.mp3 即可，需APP版本在V100及以上。
+desc_app_settings_general_for_itv=
 main_module_config=主界面模块配置
-main_app_config=主界面APP配置
+main_app_config=桌面APP配置
 click_to_set_app_module_name=点此修改APP上的显示名称
-use_new_app_ui=使用新APP界面
+use_new_app_ui=使用新APP桌面
+use_new_player_ui=使用新播放界面
 tip_use_new_hotel_ui=需APP版本在V105及以上
 tip_use_new_app_home=需APP版本在V410及以上
+tip_use_new_player_ui=需APP版本在V427及以上
 auto_check_upgrade=自动检测更新
 auto_goto_live=自动进入直播
 disable_private_wifi=禁用私人WiFi
 def_enable_private_wifi=默认开启WiFi
-tip_def_enable_private_wifi=启动酒店APP自动开启私人WiFi
+hotel_name_with_room=名称附带房间号
+hide_module_bg=模块背景透明
+hide_module_ico=隐藏模块图标
+hide_welcome_page=隐藏欢迎页
+hide_welcome_logo=隐藏欢迎页LOGO
+hide_welcome_content=隐藏欢迎页内容
+tip_hide_welcome_content=勾选后用户将无法在APP上选择语言
+hide_home_logo=隐藏主页LOGO
+hide_home_hotel_info=隐藏主页酒店信息
+hide_home_images=隐藏主页图片
+hide_hotel_name=隐藏酒店名称
+hide_room_number=隐藏房间号
+hide_weather_info=隐藏天气信息
+hide_time_info=隐藏时间信息
+hide_operational_tips=隐藏操作提示
+show_pm25_info=显示PM2.5指数
+enable_screen_saver=启用屏保界面
+use_server_time_always=总是从服务器获取时间
+td_welcome_logo_display_mode=欢迎页LOGO：
+td_home_logo_display_mode=主页LOGO：
+hide_logo=不显示
+default_display=默认显示
+left_display=居左显示
+center_display=居中显示
+right_display=居右显示
+use_tv_signal=使用电视信号源
+tip_use_tv_signal=打开直播时直接跳转到电视信号源，仅支持部分电视
+hide_tv_epg=隐藏频道节目单
+tip_hide_tv_epg=有回看时仍显示节目单
+hide_channel_icon=隐藏频道图标
+hide_player_decodec_info=隐藏解码信息
+remember_last_channel=记忆上次频道
+tip_remember_last_channel=返回桌面后，窗口播放记忆的频道
+tip_def_enable_private_wifi=启动桌面APP自动开启私人WiFi
 td_password_for_app_config=登录配置密码：
 tip_password_for_hotel_app_config=0、1、2分别表示遥控器上、下、右键，左键表示清除
 tip_password_for_live_app_config=修改APP登录配置时输入的密码
 td_private_wifi_name=WiFi名称配置：
 tip_private_wifi_name=不超过16个字符，以@开头表示WiFi前缀，名称会自动加上房间号
 td_private_wifi_password=WiFi密码配置：
-tip_private_wifi_password=@表示随机密码，为空表示不设密码，密码长度为8-32位
+tip_private_wifi_password=@表示随机密码，以@开头表示WiFi前缀，为空表示不设密码，密码长度为8-32位
+td_default_wifi_name=外部WiFi名称：
+tip_default_wifi_name=以@开头表示WiFi前缀，名称会自动加上房间号
+td_default_wifi_password=外部WiFi密码：
+td_image_scroll_interval=图片轮播间隔：
+tip_image_scroll_interval=范围：[1-60]
 td_room_service_interval=服务提交间隔：
-tip_room_service_interval=点击酒店服务菜单的间隔（同类型），为0表示不限
-td_hotel_app_bottom_text=APP底部文字：
+tip_room_service_interval=范围：[0-86400]，点击酒店服务菜单的间隔（同类型），为0表示不限
+td_hotel_app_bottom_text=底部文字(中文)：
+td_hotel_app_bottom_text_en=底部文字(英文)：
 tip_hotel_app_bottom_text=比如：客服电话：88888888
+td_hotel_service_phone=酒店服务电话：
+tip_hotel_service_phone=比如：88888888
+td_welcome_sleep_time=欢迎页待机时间：
+tip_welcome_sleep_time=范围：[10-<span class="max-welcome-sleep-time">3600</span>]，在指定时间内无操作将跳转到主页，为0表示不跳转
 td_main_sleep_time=无操作跳转时间：
-tip_main_sleep_time=在指定时间内无操作将跳转到屏保界面
+td_window_player_decodec=窗口播放解码：
+tip_main_sleep_time=范围：[60-<span class="max-main-sleep-time">2592000</span>]，在指定时间内无操作将跳转到屏保界面
+td_host_pms=客房数据服务器：
+td_host_hvideo=酒店视频服务器：
 live_app_config=直播APP配置
 live_change_channel=上减下加换台
 enable_line_by_line_scan=启用逐行扫描
 enable_hardware_decode=启用硬件解码
 enable_sleep_detect=启用休眠检测
+enable_fullscreen_playback=强制全屏播放
 td_subtitle_bgcolor=字幕背景颜色：
 td_subtitle_color=字幕文本颜色：
 tip_preview_subtitle=字幕预览！The subtitle preview !
 td_def_live_channel=默认直播频道：
 tip_def_live_channel=如：<span class="hot">CCTV1</span>
 set_app_module_name=更改APP模块名称
-chinese_name=中文名称
+chinese_name=名称
 english_name=英文名称
+td_chinese_name=名称：
+td_english_name=英文名称：
 td_weather_city=天气城市配置：
+td_app_timezone=默认时区：
+td_def_volume=默认音量：
+tip_def_volume=范围[0-100]，为空表示不处理，需APP版本在V749及以上
+td_auto_jump_module=自动跳转模块：
+td_welcome_jump_no_h5app=无法访问APP页面时跳转：
+tip_welcome_jump_no_h5app=需APP版本在V536及以上
+td_welcome_jump_no_network=无法访问服务器时跳转：
+tip_welcome_jump_no_network=仅在欢迎页生效
+no_welcome_jump=不跳转
+webapp_host_mode=APP页面更新通道：
+webapp_host_beta=尝鲜通道（更新频率较快）
+webapp_host_release=发布通道（更新频率较慢，推荐）
+webapp_host_release2=发布通道（更新频率较慢）
+webapp_host_local=本机通道（更新频率较慢，推荐，适合本地或离线使用）
+webapp_host_stable=固定通道（更新频率非常慢，仅用于兼容部分老主题）
+webapp_host_custom=自定义通道（仅供专业人士使用）
+td_webapp_host=APP页面更新地址：
+tip_webapp_host=云端统一推送，无需更新APP，需APP版本在V576及以上
+enable_holiday_theme=启用春节主题
+tip_enable_holiday_theme=腊月二十三到正月十五
+enable_page_gray_scale=公祭日页面灰白显示
+tip_enable_page_gray_scale=需APP版本在V748及以上
+td_page_gray_scale_date=公祭日日期：
+tip_page_gray_scale_date=多个之间用逗号隔开，比如 9/18,12/13
+auto_modules_no_server=自动隐藏无效模块
+tip_auto_modules_no_server=服务器无法访问且未跳转指定模块
+td_player_decodec=播放解码方式：
+goto_live_for_num_key=按数字键时跳转直播频道
+keep_screen_wake_lock=始终保持设备唤醒
+disable_new_app_login=禁止新设备登录
+enable_welcome_speak=启用欢迎词语音播报
+tip_goto_live_for_num_key=需APP版本在V729及以上
+tip_keep_screen_wake_lock=需APP版本在V729及以上
+tip_enable_welcome_speak=需APP版本在V739及以上
+
+td_appdata_update_mode=APP数据更新方式：
+appdata_update_mode1=每次进入首页时更新
+appdata_update_mode2=首次进入首页时更新
+appdata_update_mode3=数据过期后更新
+appdata_update_mode5=网络变化时更新
+
+td_icon_mode=图标风格：
+icon_mode1=风格1
+icon_mode2=风格2
+
+td_webview_animation_mode=动画组件：
+webview_animation_mode1=组件1
+webview_animation_mode2=组件2
+
+td_device_boot_mode=设备上电模式：
+device_boot_mode1=默认开机
+device_boot_mode2=默认待机
+device_boot_mode3=记忆上次操作
+tip_device_boot_mode=仅部分电视或设备支持，需APP版本在V759及以上
+
+td_device_power_key_mode=遥控器电源键模式：
+power_key_mode1=待机模式
+power_key_mode2=关屏模式
+tip_power_key_mode=仅部分电视或设备支持，需APP版本在V759及以上
+
+player_decodec_view1=播放控件1
+player_decodec_view2=播放控件2
+iptv_app_theme0=老桌面
+iptv_app_theme1=新桌面
+
+dlna2_app_config=私密投屏APP配置
+td_dlna2_mode=投屏方式：
+td_dlna2_style=投屏风格：
+
+host_live_review=回看服务器
+tip_host_live_review=为空表示<span class="only-itv-local">本机</span><span class="only-itv-cloud">iTV网关地址</span>
+tip_channel_host_live_review=若无需对该频道配置单独的回看服务器，请留空
+
+desc_live_review_settings=1. 回看数据可存储在单独的服务器上（需播放器APP在V358及以上），要开启回看，请到回看服务器->频道管理设置回看天数。<br>2. 回看服务器上频道ID必须与直播服务器上频道ID一致。
 
 desc_app_settings_playing_ad=直播或点播播放时，在右下角显示图片广告（jpg、gif、png）。此功能需播放器APP在V170及以上。
 playing_ad_config=播放广告配置
@@ -1711,32 +2406,48 @@ td_ad_hide_intervavl=停顿时长：
 tip_ad_hide_intervavl=，不低于1，默认为10
 td_ad_image=广告图片：
 
-desc_app_home_list_for_oldapp=<span class="hot">此处仅支持小区APP在V410及以上的版本，<a class="link need-reload" href="{0}">点此配置老版APP桌面</a>。</span><br>
+desc_app_home_list_for_oldapp=<span class="hot">此处仅支持桌面APP在V410及以上的版本，<a class="link need-reload" href="{0}">点此配置老版APP桌面</a>。</span><br>
 desc_app_home_list=1. 一般只需创建1个APP桌面即可，若要实现权限管理，可创建多个桌面，然后在<a class="link" href="{0}">用户组管理</a>对用户组与桌面进行关联。对于未设置的用户组，将默认返回第1个桌面。<br>2. <span class="hot">请先在<a class="link need-reload" href="{1}">APP上传管理</a>和<a class="link need-reload" href="{2}">图片上传管理</a>上传相关APP和图片</span>，然后在此处选择图片和配置APP。显示效果以APP为准。
 desc_app_home_one=<span class="hot">请先在<a class="link need-reload" href="{1}">APP上传管理</a>和<a class="link need-reload" href="{2}">图片上传管理</a>上传相关APP和图片</span>，然后在此处选择图片和配置APP。显示效果以APP为准。
 add_app_home=添加桌面
 adding_app_home=正在添加桌面，请稍候…
 num_of_large_display={0}个大显示位
 num_of_small_display={0}个小显示位
+warn_num_of_display=大显示位和小显示位数量不能同时为0！
 click_to_select_logo=点此选择LOGO
 select_logo=选择LOGO
 custom_name=自定义名称
 custom_info=自定义信息
 app_home=桌面
 review=回看
+tv_signal=电视信号源
 live_channel=直播频道
 vod_channel=视频名称
+vod_tag=点播标签
 vod_category=点播分类
+vod_category2=点播分类(纯净模式)
 third_party_app=第三方APP
+open_app=打开APP
+video_url=视频网址
 website_link=网址链接
+qrcode=二维码
+qrcode_content=二维码内容
+episode_list=剧集列表
 all_apps=全部应用
 app_settings=应用设置
 system_settings=系统设置
+file_management=文件管理
+tip_tv_signal=需桌面APP版本在777及以上，仅支持部分电视
 tip_live_channel=例如：<span class="hot">CCTV1</span>
 tip_vod_channel=例如：<span class="hot">射雕英雄传</span>
+tip_vod_tag=例如：<span class="hot">VIP</span>
 tip_vod_category=例如：<span class="hot">电影</span>
-tip_website_link=请输入完整的网址，如<span class="hot">https://www.baidu.com</span>
+tip_open_app=此功能用于调用本机已安装的APP，请按格式填写APP包名及其它可选参数。
+tip_video_url=请输入视频网址，如<span class="hot">https://test.com/1.mp4</span>
+tip_website_link=请输入完整的网址，如<span class="hot">https://test.com</span>
+tip_qrcode_content=本模块将输入内容生成为二维码，支持房间号(<span class="blue">{#ROOM}</span>)等参数，如<br><span class="hot">https://test.com?mac=<span class="blue">{#MAC}</span>&room=<span class="blue">{#ROOM}</span></span>
 app_config=APP设置
+unknown_type=未知类型{0}
 td_app_type=类型：
 td_app_name_or_link=APP名称或链接：
 td_app_select=选择APP：
@@ -1758,10 +2469,14 @@ deleting_app_home=正在删除数据，请稍候…
 please_upload_images_before_select=<span class="hot">请先在<a class="link need-reload" href="{0}">图片上传管理</a>上传所需图片。</span>
 no_image=无图片
 no_app_name=请设置APP名称
+confirm_reset_home_app=确认重置吗？重置后，将清空该项配置。
 
-desc_app_upload_list=必须是.apk文件且不超过200MB，请保证系统盘有足够的空间。
+desc_app_upload_list=必须是.apk文件且不超过500MB，请保证系统盘有足够的空间。
 upload_app=上传APP
 app_name=APP名称
+app_package=包名
+app_vername=版本
+app_vercode=版本号
 file_name=文件名称
 td_file_name=文件名称：
 click_to_download=点此下载
@@ -1770,6 +2485,13 @@ please_select_app_for_del=请选择要删除的APP！
 confirm_del_app=确认删除以下APP吗？
 del_app=删除APP
 deleting_app=正在删除APP，请稍候…
+app_pkg=APP名称或包名
+app_pages=APP跳转页
+add_app_page=添加跳转页
+set_app_page=编辑跳转页
+app_page_act=跳转页类名
+app_page_args=参数
+file_not_found=文件不存在
 
 desc_image_upload_list=<span class="hot">1. 必须是.jpg、.png、.gif文件且不超过2MB。</span><br>2. APP桌面背景图片建议<span class="hot">1920x1080px</span>；logo图片建议<span class="hot">150x150px</span>；大显示位图片建议<span class="hot">571x800px</span>；小显示位图片建议<span class="hot">700x525px</span>。
 upload_image=上传图片
@@ -1777,14 +2499,29 @@ please_select_image_for_del=请选择要删除的图片！
 confirm_del_image=确认删除以下图片吗？
 del_image=删除图片
 deleting_image=正在删除图片，请稍候…
+image_not_uploaded=尚未上传图片
 
-desc_app_notify_list=<span class="hot">1. 此功能需小区APP在V342及以上或酒店APP在V44及以上。</span><br>2. 每条通知内容在100字以内。通知发布后一般约5秒生效，<a class="link need-reload" href="{0}">点此修改更新间隔</a>，但基于性能考虑，不建议将此值设的过小。
-desc_app_notify_list_own=<span class="hot">1. 此功能需小区APP在V342及以上或酒店APP在V44及以上。</span><br>2. 每条通知内容在100字以内。
-desc_app_notify_list_mq=<br>3. <a class="link" href="{0}" target="_blank">点此联系官方购买指定硬件</a>，提供一键紧急通知功能。
+desc_need_disk_storage=<span class="only-itv-local">此功能需要硬盘支持<span class="need-admin">，<a class="link" href="{1}">点此配置存储磁盘</a></span>。</span>
+desc_app_notify_length=每条通知内容在{3}字以内。
+desc_app_notify_app_ver=需APP版本在{4}及以上。
+desc_app_notify_list_mq=<a class="link" href="{0}" target="_blank">点此联系官方购买指定硬件</a>，提供一键紧急通知功能。
 scroll_notify=滚动通知
+image_notify=图片通知
+video_notify=视频通知
+live_notify=频道通知
 emergency_notify=紧急通知
-add_scroll_notify=添加滚动通知
-add_emergency_notify=添加紧急通知
+bgimage_notify=背景图片
+bgvideo_notify=背景视频
+welcome_notify=欢迎词
+add_scroll_notify=插播滚动通知
+add_image_notify=插播图片
+add_video_notify=插播视频
+add_live_notify=插播频道
+add_emergency_notify=插播紧急通知
+add_bgimage_notify=插播背景图片
+add_bgvideo_notify=插播背景视频
+add_welcome_notify=插播欢迎词
+add_notify=插播
 notify_type=通知类型
 room_num=房间号
 notify_content=通知内容
@@ -1793,6 +2530,7 @@ exptime2=有效期
 td_notify_type=通知类型：
 td_select_user_group=选择用户组：
 td_notify_content=通知内容：
+td_select_hotel=选择酒店：
 td_room_num=房间号：
 tip_td_room_num=多个之间用逗号隔开，为空表示不限，如: <span class="hot">201-205,301</span>
 td_effective_time=生效时间：
@@ -1803,6 +2541,33 @@ please_select_notify_for_del=请选择要删除的通知！
 confirm_del_notify=确认删除吗？
 del_notify=删除通知
 deleting_notify=正在删除通知，请稍候…
+all_notify_type=所有类型
+click_to_play=点此播放
+click_to_view=点此查看
+please_upload_notify_video=请先上传视频！
+please_upload_notify_image=请先上传图片！
+play_video=播放视频
+select_video=选择视频
+td_loop_playback=循环播放：
+text_loop_playback=在规定时间内循环播放
+td_show_count=播放次数：
+tip_show_count=[0-100]，为0表示循环播放
+td_video_level=播放级别：
+tip_video_level=在指定时间内值大的优先播放
+notify_exptime_mode0=已过期
+notify_exptime_mode1=正常
+notify_exptime_mode2=当前生效
+td_effective_mode=生效方式：
+td_tts_speak=TTS语音播报：
+internal_channel=内部频道
+external_channel=外部频道
+select_channel=选择频道
+playlink=播放链接
+preview_live_notify=插播频道预览
+td_notify_sort_id=排序编号：
+tip_notify_sort_id=0-100000，值大的排在前面，为0时按添加时间倒序排序
+td_state=状态：
+tip_added_notify_no_enable=添加成功，启用后生效！
 
 general_settings=通用配置
 td_notify_count=最大通知条数：
@@ -1827,25 +2592,31 @@ tip_notify_preview=通知预览！The notification preview !
 tip_scroll_notify_exptime=不得低于1秒，默认3600秒，未指定截止时间时生效
 tip_notify_scroll_speed=范围：1-9，值越大滚动越快，默认为2
 td_scroll_notify_show_interval=通知显示时长：
-tip_scroll_notify_show_interval=不低于1分钟，默认为1
+tip_scroll_notify_show_interval=不低于1分钟，默认为10
 td_scroll_notify_hide_interval=通知停顿时长：
 tip_scroll_notify_hide_interval=不低于1分钟，默认为1
+td_scroll_notify_show_mode=通知显示位置：
+notify_in_all_app=在所有APP里显示
+notify_in_main_app=仅在桌面APP里显示
+scroll_notify_in_top=在顶部显示
+scroll_notify_in_bottom=在底部显示
 
 tip_emergency_notify_add_interval=不得低于1秒，默认60秒
 tip_emergency_notify_font_size=范围：30-100，默认60
 tip_emergency_notify_exptime=不得低于1秒，默认600秒，未指定截止时间时生效
 tip_emergency_notify_def_content=100字以内
 
+desc_app_notify_cover_image=在此处可以配置APP上图片、视频、频道通知播放前的封面图。
+
 app_vod_mq=本地影院 <span class="mark">（需用户自备片源）</span>
 app_vod_vip=VIP影院 <span class="mark">（片源联系官方）</span>
 
-desc_app_upgrade_push0=<span class="hot">此处上传的APP名称（安装后的显示名称）要与自定义图片中设置的APP名称相对应</span>，当小区APP检测到客户机未安装相应APP时，会从此处下载并安装。
+desc_app_upgrade_push0=<span class="hot">此处上传的APP名称（安装后的显示名称）要与自定义图片中设置的APP名称相对应</span>，当客户机未安装相应APP时，会从此处下载并安装。
 desc_app_upgrade_push_for_dl=<a class="link" href="{0}" target="_blank">点此下载APP</a>，
-desc_app_upgrade_push1_for_itv=APP名称与版本号之间用下划线分隔，比如酒店APP_<span class="hot">24</span>.apk，在上传时，程序可自动获取规范命名APP的版本号。<br>
-desc_app_upgrade_push1_for_iptv=APP名称与版本号之间用下划线分隔，比如小区APP_<span class="hot">337</span>.apk，在上传时，程序可自动获取规范命名APP的版本号。<br>
+desc_app_upgrade_push1=APP名称与版本号之间用下划线分隔，比如APP_<span class="hot">560</span>.apk，在上传时，程序可自动获取规范命名APP的版本号。<br>
 desc_app_upgrade_push2=<span class="hot">APP支持在线配置</span>，选择推送或配置后，将自动从官网下载APP并写入到推送数据。<br>
-desc_app_upgrade_push3_for_itv=APP支持播放启动视频，只需将要播放的视频传到共享根目录，并重命名为 <span class="hot">hotel_start.mp4</span> 即可（<span class="hot">不得超过300MB，否则无法播放</span>）。
-desc_app_upgrade_push3_for_iptv=APP支持播放启动视频，只需将要播放的视频传到共享根目录，并重命名为 <span class="hot">start.mp4</span> 即可（<span class="hot">不得超过300MB，否则无法播放</span>）。
+desc_app_upgrade_push3_for_itv=
+desc_app_upgrade_push3_for_iptv=
 
 third_party_vod_app_config=第三方点播APP配置
 td_def_file=默认文件：
@@ -1856,71 +2627,152 @@ enable_force_update=启用强制更新
 app_upgrade_config_method=配置方式
 app_upgrade_config_by_push=在线配置
 app_upgrade_config_by_upload=本地上传
-hotel_app_upgrade=酒店APP推送
+hotel_app_upgrade=桌面APP
+hotel_p2p_app_upgrade=桌面APP（P2P）
+market_app_upgrade=超市APP
 td_current_version=当前版本：
-td_push_version=推送版本：
+td_push_version=推荐版本：
 push_app_checking=检测中
-push_app_log=推送日志：
-app_push=推送
+push_app_log=更新日志：
+app_push=拉取并保存
 td_upgrade_file=升级文件：
 how_to_get_app_ver=如何获取版本号
-player_app_upgrade=播放器APP推送
+player_app_upgrade=播放器APP
 select_hd_cinema=选择本地影院
-vod_vip_app_upgrade=VIP影院APP配置
+td_select_hd_cinema=选择本地影院：
+vod_vip_app_upgrade=VIP影院APP
 td_server_ip=服务器IP：
-net_vod_app_upgrade=网络视频APP配置
+td_server_host=服务器地址：
+td_vod_vip_account=VIP影院账号：
+td_vod_vip_passwd=VIP影院密码：
+tip_vod_ip=为空表示本机
+td_dlna_server_ip=投屏服务器IP：
+dlna_server=投屏服务器
+this_server=本机
+td_dlna_play_ip=本机播放侧IP：
+td_dlna_qrcode_ip=本机扫码侧IP：
+tip_dlna_server_ip=电视等播放设备通过此IP要能访问{0}，为空表示本机命中口
+tip_dlna_scan_ip=手机等扫码设备通过此IP要能访问{0}，为空将使用{0}播放侧IP
+net_vod_app_upgrade=网络视频APP
+netvod2_app_upgrade=网络视频2APP
+carousel_app_upgrade=影视轮播APP
+webcast_app_upgrade=网络直播APP
+music_app_upgrade=音乐APP
+helper_app_upgrade=桌面助手APP
+tts_app_upgrade=TTS语音引擎APP
 td_current_app=当前APP：
 td_config_app=配置APP：
 td_app_name=APP名称：
-music_app_upgrade=音乐APP配置
 config=配置
-iptv_app_upgrade=小区APP推送
-edu_app_upgrade=教学APP推送
-iptv_launcher_app_upgrade=小区APP（启动桌面）推送
+iptv_app_upgrade=桌面APP
+edu_app_upgrade=教学APP
+iptv_launcher_app_upgrade=桌面APP（带启动桌面）推送
 tip_app_upgrade_rweb=远程协助时不支持本地上传APP！
-please_set_hotel_app=请配置酒店APP！
+please_set_hotel_app=请配置桌面APP！
 please_set_player_app=请配置播放器APP！
 please_set_vip_vod_app=请配置VIP影院APP！
-please_set_iptv_app=请配置小区APP！
+please_set_iptv_app=请配置桌面APP！
 tip_has_app_upgrade=检测到您有版本更新，请升级！
 failed_check_file=文件校验失败
 app_downloaded=已完成
 app_downloading=下载中
 warn_failed_check_file=文件校验失败,请稍候重试！
 confirm_config_app_upgrade=确认配置 <span class="hot">{0}</span> 吗？确认后将从官网下载APP，并写入到推送数据。
-confirm_push_app_upgrade=确认推送 <span class="hot">{0}</span> 吗？确认后将从官网下载APP，并写入到推送数据。
+confirm_push_app_upgrade=确认更新 <span class="hot">{0}</span> 吗？确认后将从官网下载APP，并写入到推送数据。
 version=版本
-no_push_data=无推送数据
+no_push_data=无数据
 no_uploaded_file=尚未上传文件
 del_file=删除文件
 confirm_del_file=确认删除该文件吗？
 deleting_file=正在删除文件，请稍候…
 failed_get_app_push_data=数据获取失败
+added_to_download_queue=已添加到下载队列，请等待下载完成！
+live_app_upgrade=直播APP
+vod_app_upgrade=本地影院APP
+please_set_live_app=请配置直播APP！
+please_set_vod_app=请配置本地影院APP！
+tip_vod_app_upgrade=若播放器APP版本在V500及以上，需单独配置本地影院APP
+
+app_upgrade_type1=默认方案
+app_upgrade_type3=酒店方案
+app_upgrade_type4=所属人方案
+app_upgrade_type5=全局方案
+app_upgrade_type6=推荐方案
+app_upgrade_type9=禁用APP升级
+
+hotel_adpush_type1=默认方案
+hotel_adpush_type3=酒店方案
+hotel_adpush_type4=所属人方案
+hotel_adpush_type5=全局方案
+hotel_adpush_type9=禁用广告推送
+
+fee_modules_type1=默认方案
+fee_modules_type3=酒店方案
+fee_modules_type4=所属人方案
+fee_modules_type5=全局方案
+fee_modules_type9=禁用付费模块
+
+boot_video_time=启动视频播放时长
+sleep_images_time=屏保图片轮播间隔
+live_app_cover_time=直播APP启动图片播放时长
+vod_app_cover_time=点播APP启动图片播放时长
+vod_beforeplay_video_time=点播APP播放前广告时长
+market_app_cover_time=酒店超市APP启动图片播放时长
+
+in_seconds={0}秒
+with_range=范围 {0}-{1}
 
 hotel_mgr=酒店管理
-desc_hotel_welcome=若要APP对不同的房间显示不同的称呼，<a class="link show-desc-wl-param" href="images/demo/welcome_with_parameter.png" target="_blank">点此查看使用方法</a>，需酒店APP在V52及以上。
+desc_hotel_welcome=若要APP对不同的房间显示不同的称呼，<span class="only-itv-cloud">必须部署iTV网关，</span><a class="link show-desc-wl-param" href="images/demo/welcome_with_parameter.png" target="_blank">点此查看配置方法</a>。
 td_hotel_id=酒店编号：
 tip_hotel_id=不能重复，为空则自动生成酒店编号
 td_hotel_name=酒店名称：
 td_hotel_name_en=英文名称：
 td_hotel_area=所在地区：
 tip_hotel_area=用于显示天气
-td_hotel_welcome_cn=中文欢迎词：
+td_hotel_welcome_cn=欢迎词：
 td_hotel_welcome_en=英文欢迎词：
-td_hotel_welcome_fontsize=欢迎词字体大小：
-hotel_welcome_fontsizes=24-小号,36-标准,48-中号,72-大号
-tip_hotel_welcome=可嵌入变量以显示不同的称呼
+td_hotel_welcome_prefix_fontsize=固定标题字体字号：
+td_hotel_welcome_fontsize=欢迎词字体字号：
+td_hotel_manager_fontsize=签名字体字号：
+td_hotel_welcome_color=欢迎词文本颜色：
+default=默认
+hotel_welcome_fontsizes=20:20px,24:24px,28:28px,32:32px,36:36px,48:48px,64:64px,72:72px
+hotel_manager_prefix_fontsizes=20:20px,24:24px,28:28px,32:32px,36:36px,48:48px,64:64px,72:72px
+hotel_manager_name_fontsizes=36:36px,48:48px,72:72px,108:108px,144:144px,216:216px
+hotel_welcome_fontfamilys=normal:Normal,monospace:Monospace,sans:Sans,serif:Serif,custom1:Aero Matics,custom2:DINPro,D-DIN:D-DIN,YSBTH:优设标题黑
+hotel_manager_fontfamilys=normal:Normal,monospace:Monospace,sans:Sans,serif:Serif,custom1:Aero Matics,custom2:DINPro,D-DIN:D-DIN,custom3:草书符号,YSBTH:优设标题黑
+tip_hotel_welcome=可嵌入变量以显示不同的称呼<span class="only-itv-cloud">（须部署iTV网关）</span>
+td_hotel_welcome_box_bgcolor=底框背景色：
+td_hotel_welcome_box_bgopacity=底框背景透明度：
+td_hotel_manager_prefix=签名前缀：
+td_hotel_manager=负责人签名：
+hotel_manager_prefix_value=总经理：
 customer_name=客户名称
 customer_intime=入住时间
+customer_outtime=离开时间
 customer_gender=客户性别
-see_app_room_mgr=见APP房间管理
 please_select_city=请选择城市
+td_hotel_template=酒店模板：
+select_hotel_template=选择酒店模板
+def_hotel_data=默认数据
+td_hotel_star=酒店星级：
+no_hotel_star=不显示酒店星级
+hotel_star_name={0}星酒店
 
-desc_hotel_background=建议的图片大小为：<span class="hot">1920x1080（px），格式为png或jpg</span>。
+tip_theme_qrcode=酒店通用二维码，在主页(部分主题)和产品展示详情页显示。
 
-desc_hotel_service_menu=1. 需要酒店APP版本不低于19，酒店APP版本在18及以下的 <a class="link need-reload" href="{0}">点此配置菜单</a><br>2. 最多允许添加6个服务菜单。<a class="link set-name hide">点此可修改“{1}”名称</a>
+tip_recommended_images=建议的图片大小为：{1}x{2}（px），格式为jpg。
+tip_recommended_images_and_app_ver=需APP版本在{0}及以上。建议的图片大小为：{1}x{2}（px），格式为jpg。
+tip_invalid_size_image=比例不符合的图片可能显示变形或不全。
+
+desc_hotel_background=建议的图片大小为：1920x1080（px），格式为jpg。
+desc_hotel_background2=需APP版本在{0}及以上。建议的图片大小为：1920x1080（px），格式为jpg。
+desc_slide_image=需APP版本在{0}及以上。建议的图片大小为：732x476（px），格式为jpg。
+
+desc_hotel_service_menu=最多允许添加{0}个服务菜单。
 add_service_menu=添加服务菜单
-set_service_menu=添加服务菜单
+set_service_menu=编辑服务菜单
 the_menu_already_at_top=菜单 <span class="hot">{0}</span> 已在最上面！
 the_menu_already_at_bottom=菜单 <span class="hot">{0}</span> 已在最下面！
 
@@ -1937,32 +2789,45 @@ td_service_confirm=确认信息：
 td_service_confirm_en=英文确认：
 td_menu_notice=提示内容：
 td_menu_notice_en=英文提示：
-warn_service_menu_num=最多允许添加6个菜单！
+warn_service_menu_num=最多允许添加{0}个菜单！
 confirm_del_menu=您确认删除菜单 {0} 吗？
 confirm_del_menu2=该菜单下的子菜单会被一并删除。
+confirm_reset_menu=确认重置为默认数据吗？
+td_service_type=服务类型：
+td_item_management=物品管理：
+item_borrowing=物品借用
+other_service=其它服务
 
-desc_hotel_about_menu=1. 需要酒店APP版本不低于19，酒店APP版本在18及以下的 <a class="link need-reload" href="{0}">点此配置菜单</a><br>2. 最多允许添加6个一级菜单。每个一级菜单最多允许添加10个二级菜单。<a class="link set-name hide">点此可修改“关于我们”名称</a><br>3. 建议的图片大小为：<span class="hot">1920x1080（px），格式为png或jpg</span>。
+add_goods=添加物品
+set_goods=编辑物品
+del_goods=删除物品
+td_goods_name=物品名称：
+confirm_del_goods=确认删除该物品（{0}）吗？
+confirm_reset_goods=确认重置为默认数据吗？
+
+desc_hotel_about_menu=1. 最多允许添加{0}个一级菜单。每个一级菜单最多允许添加{1}个二级菜单。<br>2. 建议的图片大小为：<span class="hot">1920x1080（px），格式为jpg</span>。
 add_main_menu=添加主菜单
-set_main_menu=修改主菜单
+set_main_menu=编辑主菜单
 add_sub_menu=添加子菜单
-set_sub_menu=修改子菜单
+set_sub_menu=编辑子菜单
 main_menu=主菜单
 sub_menu=子菜单
 chane_about_us_name=更改“关于我们”名称
-upload=上传
 td_parent_menu=上级菜单：
 td_menu_desc=页面内容：
-td_menu_desc_en=英文内容：
+td_menu_content=详细内容：
 td_menu_images=页面图片：
-warn_main_menu_num=最多允许添加6个主菜单！
-warn_sub_menu_num=最多允许添加10个子菜单！
+td_menu_images_en=英文图片：
+td_menu_bgimages=背景图片：
+td_menu_bgimages_en=英文图片：
+warn_main_menu_num=最多允许添加{0}个主菜单！
+warn_sub_menu_num=最多允许添加{0}个子菜单！
 del_menu=删除菜单
+td_menu_open_type=点击菜单后打开：
 
-desc_hotel_menu=建议的图片大小为：<span class="hot">1920x1080（px），格式为png或jpg</span>。
-
-desc_hotel_food_menu=此功能需酒店APP在V52及以上。
+desc_hotel_food_menu=
 add_food=添加菜品
-set_food=修改菜品
+set_food=编辑菜品
 clear_food=清空菜品
 serving_time=供应时间
 tip_food_search=输入名称
@@ -1972,24 +2837,27 @@ td_food_images=图片：
 td_food_price=价格：
 td_serving_time=供应时间：
 td_food_sort_id=排序编号：
-tip_food_sort_id=0-10000，值小的排在前面
+tip_food_price=0-999999之间的整数
+tip_food_sort_id=0-100000，值小的排在前面
 td_food_desc=简介：
+td_english_desc=英文简介：
 please_select_food_for_del=请选择要删除的菜品！
 confirm_del_food=确认删除以下菜品吗？
 del_food=删除菜品
 deleting_food=正在删除菜品，请稍候…
 confirm_clear_food=确认清空所有菜品吗？
-clear_food=清空菜品
 clearing_food=正在清空菜品，请稍候…
 food_list=菜品列表
 td_select_money=选择月份：
+select_state=选择状态
 food_order_time=订单时间
 tip_food_order_search=输入房间号
 food_order_state0=待受理
 food_order_state1=已受理
 food_order_state2=已派送
+food_order_state5=已支付
 food_order_state8=已取消
-food_order_state9=已完成
+food_order_state9=已挂账
 orderid=订单号
 order_detail=订单详情
 order_money=订单金额
@@ -2008,16 +2876,32 @@ please_select_order_for_del=请选择要删除的订单！
 confirm_del_order=确认删除以下订单吗？
 del_order=删除订单
 deleting_order=正在删除订单，请稍候…
+select_food_type=选择分类
+food_type_id=编号
+confirm_del_food_type=确认删除该分类吗？
+
+td_goods_name=名称：
+add_goods=添加物品
+set_goods=修改物品
+
+tip_sort_id_asc=0-100000，值小的排在前面
+tip_sort_id_desc=0-100000，值大的排在前面
 
 desc_hotel_room_list=1. <span class="hot">APP绑定房间号后，会自动出现在此列表。</span><br>2. 若要在APP启动界面显示不同称呼，请<a class="link need-reload" href="{0}">在欢迎词中嵌入称呼变量</a>。
 tip_room_list_search=输入房间号
 click_to_update_intime=点此更新入住时间为当前时间
+click_to_update_outtime=点此更新离开时间为当前时间
 click_update=一键更新
 room_list=房间列表
 please_select_room_for_del=请选择要删除的房间！
-confirm_del_room_data=确认删除以下房间数据吗？
+confirm_del_room_data=确认删除以下房间数据吗（<span class="hot">此操作不会删除设备列表，要删除设备列表，请前往 <a class="link" href="{0}">用户->客户端列表</a> 删除</span>）？
 del_room_data=删除房间数据
-deleting_room_data=正在删除房间数据，请稍候…
+confirm_clear_room_data=确认清空房间数据吗（<span class="hot">此操作不会删除设备列表，要删除设备列表，请前往 <a class="link" href="{0}">用户->客户端列表</a> 删除</span>）？
+clear_room_data=清空房间数据
+
+desc_hotel_pms_blacklist=<span class="hot">只有在APP绑定房间号后，才可将该房间号添加到黑名单中。黑名单中的设备在指定的时间内不会从PMS查询客户信息。</span>
+add_room_in_blacklist=添加黑名单
+set_room_in_blacklist=编辑黑名单
 
 db_oracle=Oracle
 db_mysql=MySQL
@@ -2035,30 +2919,88 @@ td_prop_room=房间号字段名：
 td_prop_name=客户名称字段名：
 td_prop_gender=客户性别字段名：
 td_prop_intime=客户入住时间字段名：
-tip_db_host=必填,eg: <span class="green">127.0.0.1</span>
-tip_db_port=必填,eg: <span class="green">3306</span>
-tip_db_username=必填,eg: <span class="green">root</span>
-tip_db_password=必填,eg: <span class="green">admin</span>
-tip_db_name=必填,eg: <span class="green">hotel</span>
-tip_db_table_name=必填,eg: <span class="green">hospital</span>
-tip_db_prop_room=必填,eg: <span class="green">roomid</span>
-tip_db_prop_name=必填,eg: <span class="green">name</span>
-tip_db_prop_gender=可选,eg: <span class="green">gender</span>
-tip_db_prop_intime=可选,eg: <span class="green">intime</span>
+td_prop_outtime=客户退房时间字段名：
+tip_db_host=必填, eg: <span class="green">127.0.0.1</span>
+tip_db_port=必填 ,eg: <span class="green">3306</span>
+tip_db_username=必填, eg: <span class="green">root</span>
+tip_db_password=必填, eg: <span class="green">admin</span>
+tip_db_name=必填, eg: <span class="green">hotel</span>
+tip_db_table_name=必填, eg: <span class="green">user</span>
+tip_db_prop_room=必填, eg: <span class="green">roomid</span>
+tip_db_prop_name=必填, eg: <span class="green">name</span>
+tip_db_prop_gender=可选, eg: <span class="green">gender</span>
+tip_db_prop_intime=可选, eg: <span class="green">intime</span>
+tip_db_prop_outtime=可选, eg: <span class="green">outtime</span>
 test_db_conn=测试连接
 test_db_data=测试数据
 testing_db_conn=正在测试数据库连接，请稍候…
 successful_db_conn=连接成功！
 please_input_room_num=请输入房间号：
 getting_db_data=正在获取房间数据，请稍候…
+td_time_format=时间格式：
+date_format_default=标准时间字符串
+date_format_milliseconds=以毫秒表示的时间
+date_format_seconds=以秒表示的时间
+date_format_custom=自定义时间字符串
 
-warn_player_browser=您的浏览器版本过低，不支持在线播放，请使用谷歌内核（比如<a class="link" href="http://chrome.360.cn/" target="_blank">360</a>、<a class="link" href="http://ie.sogou.com/" target="_blank">搜狗</a>、<a class="link" href="http://browser.qq.com/" target="_blank">QQ</a>等浏览器极速模式）、<a class="link" href="https://www.mozilla.org/zh-CN/firefox/new/" target="_blank">火狐</a>、IE10及以上浏览器播放！
+td_pms_type=对接类型：
+pms_foxhis=西软云PMS API
+pms_foxhis_local=西软本地PMS API
+pms_zhuzher=住哲PMS API
+pms_ipms=绿云PMS API
+pms_ipms2=绿云PMS API v3
+pms_gsstar=捷信达云PMS API
+pms_tiane=金天鹅本地PMS API
+pms_tiane_cloud=金天鹅云PMS API
+pms_byh=别样红PMS API
+pms_eastreach=瑞通PMS API
+pms_sunshine_local=中煜本地PMS API
+pms_chenwei=臣维PMS API
+pms_luopan=罗盘PMS API
+pms_aohuhis=奥狐PMS API
+pms_yaduo=亚朵开放平台 API
+pms_wenshu=文殊智慧平台 API
+td_pms_api_url=接口地址：
+td_pms_api_headers=HTTP Headers：
+td_pms_api_appid=APP ID：
+td_pms_api_appkey=APP Key：
+td_pms_api_secret=密钥（Secret）：
+td_pms_api_ghotelid=集团代码：
+td_pms_api_hotelid=酒店代码：
+td_pms_api_ghotelid2=集团ID：
+td_pms_api_hotelid2=酒店ID：
+td_pms_api_channel=渠道代码：
+td_pms_api_method_login=登录方法名：
+td_pms_api_method_query_room=查询入住方法名：
+td_pms_api_ver=API版本：
+td_pms_api_account=账号：
+td_pms_api_password=密码：
+td_prop_lang=客户语言字段名：
+tip_db_prop_lang=可选, eg: <span class="green">lang</span>
+td_pms_lang_config=语言数据配置：
+td_pms_gender_config=称谓数据配置：
+customer_lang=客户语言
+td_prop_state=客房状态字段名：
+tip_db_prop_state=可选, eg: <span class="green">state</span>, 若该字段值为0则不显示住户信息
+td_pms_state_config=状态数据配置：
+td_pms_pro_settings=高级配置：
+tip_pms_pro_settings=此处配置仅供开发人员使用，一般无需配置
+customer_room_state=客房状态
+pms_room_state0=未入住
+pms_room_state1=入住中
+td_pms_http_timeout=请求超时时间：
+tip_pms_http_timeout=秒, [0-60], 为0表示使用默认超时时间
+td_pms_data_exptime=数据缓存时间：
+tip_pms_data_exptime=秒, [0-86400], 为0表示不启用缓存
+
+warn_player_browser=您的浏览器版本过低，不支持在线播放，请使用<a class="link" href="https://www.microsoft.com/zh-cn/edge/download" target="_blank">微软Edge</a>、Chrome或Chrome内核（比如<a class="link" href="https://browser.360.cn/ee/" target="_blank">360</a>、<a class="link" href="https://browser.qq.com/" target="_blank">QQ</a>等浏览器极速模式）、<a class="link" href="https://www.mozilla.org/zh-CN/firefox/new/" target="_blank">火狐</a>、IE11及以上浏览器播放！
 warn_player_rweb=远程协助时不支持播放。
 warn_player_invalid_format=您的浏览器不支持播放该格式。
-please_input_live_account=请输入直播账号
+please_input_live_account=请输入直播账号，为空表示使用默认账号
 error_live_account=登录账号不正确，请重新输入
 error_live_account_mac=账号与设备MAC不匹配，请重新输入
 error_live_account_expired=账号已过期，请重新输入
+error_sn_num_limit=登录的终端数量已超过授权终端数
 click_to_set_user_account=点此配置直播账号
 error_load_playlist_logon_limit=直播列表加载失败，该账号已达最大登录人数，请换个账号重试！
 error_load_playlist=直播列表加载失败！
@@ -2076,34 +3018,37 @@ account_ok=正常
 account_disabled=已禁用
 account_locked=已锁定
 account_realname=客户姓名
-account_tel=手机号
+account_tel=用户账号
 account_qq=QQ号码
 account_email=邮箱
 
-desc_account_list=1. 手机号可<a class="link" target="_blank" href="{0}">登录Web后台</a>并管理用户账号（需配置用户组权限），<span class="hot">直播账号用于Web播放器直播或小区APP、酒店APP登录。</span><br>2. <span class="hot">导入Excel</span>功能可批量添加或更新账号。
-desc_account_list_for_doc=1. 手机号可<a class="link" target="_blank" href="{0}">登录Web后台</a>并管理用户账号（需配置用户组权限），<span class="hot">请使用手机号+密码登录APP</span>，<span class="hot">直播账号用于Web播放器直播。<br>2. <span class="hot">导入Excel</span>功能可批量添加或更新账号。
+desc_account_list=1. 个人账号可<a class="link" target="_blank" href="{0}">登录Web后台</a>并管理（需配置用户组权限），<span class="hot">直播账号用于网页播放器或APP登录。</span><br>2. <span class="hot">导入Excel</span>功能可批量添加或更新账号。
+desc_account_list_for_doc=1. 个人账号可<a class="link" target="_blank" href="{0}">登录Web后台</a>并管理（需配置用户组权限），<span class="hot">请使用手机号+密码登录APP</span>，<span class="hot">直播账号用于网页播放器直播。<br>2. <span class="hot">导入Excel</span>功能可批量添加或更新账号。
+desc_account_list_for_other=1. 个人账号可<a class="link" target="_blank" href="{0}">登录Web后台</a>并管理（需配置用户组权限）。<br>2. <span class="hot">导入Excel</span>功能可批量添加或更新账号。
 add_account=添加账号
 set_account=修改账号
 tip_search_account=输入手机号、姓名、备注等
 account_status=账号状态
-account_name_and_tel=姓名/手机号
+account_name_and_tel=姓名/账号
 account_group_and_live=用户组/直播账号
 live_account=直播账号
+td_live_account=直播账号：
 parent_account=上级账号
 account_hotel=管理的酒店
 account_detail=账号信息
 td_account_realname=客户姓名：
-td_account_tel=手机号：
+td_account_tel=用户账号：
+tip_account_tel=手机号或邮箱
 td_parent_account=上级账号：
 td_account_hotel=选择管理的酒店：
 select_hotel=选择酒店
 td_account_password=登录密码：
 td_reset_password=重置密码：
-td_account_max_live_login=最大直播登录人数：
-td_account_live_exptime=直播到期时间：
+td_account_max_live_login=最大登录人数：
+td_account_live_exptime=到期时间：
 td_account_status=账号状态：
 tip_account_password=若无需修改密码，请留空
-tip_account_password_empty=默认为手机号后6位
+tip_account_password_empty=默认为用户账号后6位
 tip_account_max_live_login=为0表示不限
 tip_account_hotel=仅用于后台管理，以使不同的账号管理不同的酒店，请先在用户组中配置权限。
 tip_account_live_exptime=为空表示不限时间
@@ -2114,28 +3059,29 @@ disable_account=禁用账号
 confirm_enable_account=确认启用账号 - {0} 吗？
 confirm_disable_account=确认禁用账号 - {0} 吗？
 auto_get_live_account=自动计算
+current_account_statistics=已开通账号数量: {0}
 
 account_level=用户级别
 channels=频道
-td_account_level=用户级别：
 tip_account_level=用户级别：1-99
-td_drive_def_size=网盘初始容量：
+drive_def_size=网盘初始容量
 tip_drive_def_size=单位:MB
-td_drive_upload_file_size=允许上传文件的大小：
+drive_upload_file_size=允许上传文件的大小
 tip_drive_upload_file_size=-1表示无限,单位:MB
-td_drive_folders_count=允许拥有的文件夹数量：
+drive_folders_count=允许拥有的文件夹数量
 tip_drive_folders_count=-1表示无限
-td_drive_files_count=允许拥有的文件数量：
+drive_files_count=允许拥有的文件数量
 tip_drive_files_count=-1表示无限
-td_drive_public_folders_count=允许公开的文件夹数量：
+drive_public_folders_count=允许公开的文件夹数量
 tip_drive_public_folders_count=-1表示无限
-td_drive_public_files_count=允许公开的文件数量：
+drive_public_files_count=允许公开的文件数量
 tip_drive_public_files_count=-1表示无限
-td_drive_upload_file_format=允许上传的文件类型
+drive_upload_file_format=允许上传的文件类型
 tip_drive_upload_file_format=多个之间用逗号隔开，如：<span class="green">.zip,.doc,.rar</span>，为<span class="green">*</span>表示不限
 warn_account_level_exists=用户级别不能重复！
 warn_account_name_exists=用户组名称不能重复！
-td_grants_list=权限列表：
+warn_account_code_exists=用户组ID不能重复！
+grants_list=权限列表
 grants_mgr=权限管理
 all_grants=所有权限
 channels_mgr=频道管理
@@ -2164,6 +3110,7 @@ file_acount=访问次数
 file_dcount=下载次数
 
 no_support_file_preview=不支持该文件预览
+add_file=添加文件
 upload_file=上传文件
 create_folder=新建文件夹
 create_text_file=新建文本文档
@@ -2263,12 +3210,13 @@ clearing_trash=正在清空回收站，请稍候…
 hotel=酒店
 all_hotels=所有酒店
 all_rooms=所有房间
-desc_hotel_list_mgr=本系统支持多酒店使用（需酒店APP在V110及以上）。
+desc_hotel_list_mgr=本系统支持多酒店使用。
 tip_hotel_list_search=输入酒店名称搜索
 add_hotel=添加酒店
 hotel_list=酒店列表
 hotel_num=编号
-hotel_name=名称
+hotel_name=酒店名称
+hotel_code=酒店代码
 enable_hotel=启用酒店
 change_hotel_name=修改酒店名称
 click_to_set_hotel_name=点此修改名称
@@ -2280,21 +3228,26 @@ confirm_del_hotel_data=确认删除以下酒店吗，<span class="hot">删除酒
 default_hotel=默认酒店
 hotel_and_rooms=酒店/房间号
 
-desc_account_level=1. 此处可以设置用户组和对应的频道。默认用户组为（<span class="green">10000</span>），若系统检测到默认用户组不存在，会自动创建默认用户组。<br>2. 用户只能管理低于自身级别的用户（需配置权限）。
+desc_account_level=1. 默认用户组为（<span class="green">10000</span>），若系统检测到默认用户组不存在，会自动创建默认用户组。<br>2. 用户只能管理低于自身级别的用户（需配置权限），二级用户级别高于一级用户，以此类推。
 import_excel=导入Excel
 export_excel=导出Excel
 vod_app_config=点播APP配置
 page_content=内容简介
 tip_third_party_app=此功能用于调用本机已安装的APP，请填写<span class="hot">安装后的APP名称</span>。
-current_account=当前账户
+select_account=选择账号
+current_account=当前账号
 warn_del_default_live_group=不允许删除默认用户组！
+
+new_app_login=新设备登录
+new_app_login_allow=允许
+new_app_login_disable=禁止
 
 vod_type=视频分类
 desc_vod_type=视频分类、子类名称不允许重复。
 add_vod_type=添加视频分类
 reset_vod_type=载入默认分类
 vod_sort_id=排序编号
-tip_vod_sort=大于1的整数,值小的排在前面
+tip_vod_sort=大于0的整数,值小的排在前面
 vod_type=分类
 detail=详细
 vod_type_name=分类名称
@@ -2367,76 +3320,192 @@ edition_name_mqliveedu=秒开多媒体教学系统
 confirm_switch_edition_noauth=切换到 <span class="color4">{0}</span>，<span class="hot">原有的授权会被清除，需要重新注册</span>，确认切换吗？
 confirm_switch_edition_authed=确认切换到 <span class="hot">{0}</span> 吗？
 
-desc_hotel_theme=配置酒店APP界面风格及模块。
+desc_hotel_theme=<span class="only-itv-local">天气预报、世界时钟等模块需APP版本在V210及以上。</span><span class="only-itv-cloud">酒店视频模块需iTV网关支持。</span>
 td_app_theme=界面风格：
 preview_theme=主题预览
+change_theme=更改主题
+change_skin=更改皮肤
 add_module=添加模块
 set_module=编辑模块
-module_icon=图标
+icon=图标
+td_icon=图标：
 module_type=模块类型
-hotel_app_theme0=主题1（APP版本在V80及以上）
-hotel_app_theme1=主题2（APP版本在V100及以上）
-hotel_app_theme2=主题3（APP版本在V130及以上）
+app_ver_for_hotel_theme=APP版本在{0}及以上
+unknown_app_theme=未知主题{0}
+hotel_app_theme0=质感主题1
+hotel_app_theme1=简约主题2
+hotel_app_theme2=时尚主题3
+hotel_app_theme3=典雅主题4
+hotel_app_theme4=现代主题5
+hotel_app_theme5=CTSETV
+hotel_app_theme6=SHR8
+hotel_app_theme7=清新主题
+hotel_app_theme8=医院绿色主题
+hotel_app_theme9=足浴主题
+hotel_app_theme10=监狱主题
+hotel_app_theme11=SLIDER
+hotel_app_theme12=学校主题
+hotel_app_theme13=清新社区
+hotel_app_theme14=简约自然
+hotel_app_theme15=智慧社区
+hotel_app_theme16=磁贴主题
+hotel_app_theme17=医院蓝色主题1
+hotel_app_theme18=医院蓝色主题2
+hotel_app_theme19=亚朵主题1
+hotel_app_theme20=亚朵主题2
+hotel_app_theme21=亚朵主题3
+hotel_app_theme22=锦江都城
+hotel_app_theme23=亚朵主题4
+hotel_app_theme24=邦诺主题
+hotel_app_theme25=马兰主题1
+hotel_app_theme26=马兰主题2
+hotel_app_theme27=时尚主题X
+hotel_app_theme28=逸扉主题
+self_switch=自行切换
+skin_gold=金色
+skin_blue=蓝色
+skin_dark=深色
+skin_light=浅色
+skin_gdtv=广电
+yaduo_qingju=轻居
+yaduo_sahe=萨和
+yaduo_yaduo=亚朵
+yaduo_yaduos=亚朵S
+yaduo_yaduox=亚朵X
+yaduo_athouse=A.T.HOUSE
+yaduo_zhotel=ZHOTEL
 module_builtin=内置模块
 module_custom=自定义模块
 confirm_del_module=确认删除模块( <span class="hot">{0}</span> ) 吗？
 please_select_app=请选择APP！
 please_upload_icon=请上传图标！
 change_logo=更改酒店LOGO
+change_qrcode=设置二维码图片
+change_slide_images=设置轮播图片
 change_background_image=更改背景图片
 change_header_bgcolor=更改头部背景色
 other_settings=其它设置
 header_bgcolor=头部背景色
+header_color=头部文本颜色
 header_bgopacity=头部背景透明度
+service_content_opacity=服务内容透明度
+about_content_opacity=简介内容透明度
+modules_bottom_margin=模块列表底部边距
+weather_area_mode=天气区域显示
+weather_area_mode1=显示文字和图片
+weather_area_mode2=仅显示图片
+weather_area_mode3=隐藏天气区域
+bgmask=背景蒙版
+page_bgmask=页面背景蒙版
+page_bgmask1=启用背景蒙版
+page_bgmask2=禁用背景蒙版
+page_bgmask3=禁用欢迎页背景蒙版
+page_bgmask4=禁用主页背景蒙版
+page_bgmask5=禁用欢迎页+主页背景蒙版
+page_bgmask6=禁用背景蒙版(自定义)
+bottom_text_color=底部文本颜色
 weather_background_image=天气背景图片
-tip_weather_background_image=建议的图片大小为：650x220（px），格式为png或jpg
 desc_hotel_logo=图片会自动缩放为合适的尺寸，具体以APP显示为准。
 confirm_del_hotel_logo=确认删除酒店LOGO吗？
-multi_screen=多屏互动
-dlna_app_upgrade=多屏互动APP配置
+confirm_del_hotel_qrcode=确认删除酒店二维码图片吗？
+dlna2_app_upgrade=私密投屏APP
+dlna_app_upgrade=多屏互动APP
 reset_modules=重置为默认模块
 confirm_reset_modules=确认重置吗？重置后，将恢复为默认模块。
+hotel_config=酒店配置
+hotel_logo=酒店LOGO
+change_hotel_config=更改酒店配置
+intro_menu=简介菜单
+intro_page=简介页面
+select_menu=选择菜单
+select_submenu=选择子菜单
+select_intro_menu=选择简介菜单
+select_item=选择项目
 
-desc_boot_video_settings=1. APP启动时可以播放一段视频，此功能需要硬盘支持<span class="need-admin">，<a class="link" href="{0}">点此配置存储磁盘</a></span>。格式为mp4且不得超过300MB，否则可能无法播放。<br>2. 启动视频更改或删除后，需要重启2次APP才会生效。
-upload_boot_video=上传启动视频
-del_boot_video=删除启动视频
-deleting_boot_video=正在删除启动视频，请稍候…
-confirm_del_boot_video=确认删除启动视频吗？删除后需要重启2次APP才会生效。
+home_notice_count=首页公告条数
+home_notice_font=首页公告字体
+home_notice_speed=公告滚动速度
+home_notice_fontsizes=14:14px,16:16px,18:18px,20:20px,24:24px,28:28px,32:32px,36:36px
+warn_home_notice_count_unlimit=公告条数过多可能造成加载缓慢及页面卡顿，确认设为不限数量吗？
+tip_home_notice_speed=值越大滚动越快，默认为{0}
+
+enter_confirm=进入前确认
+enter_confirm_tips=进入前需同意告知内容
+enter_confirm_bg=背景图片
+enter_confirm_text=告知内容
+enter_confirm_btn1=同意按钮文字
+enter_confirm_btn2=返回按钮文字
+
+set_home_image=设置主页图片
+home_image=主页图片{0}
+subpage_image=子页图片{0}
+set_products_poster=设置产品页介绍图
+confirm_del_hotel_qrcode=确认删除产品页介绍图吗？
+
+home_item_settings=配置
+
+desc_hotel_weather_config=配置当天天气情况，仅对马兰主题生效。
+weather_area=地区
+weather_cond=天气
+weather_tmp=温度
+
+desc_boot_sysvideo_settings=1. 系统启动时可以播放一段视频，<span class="only-itv-local">此功能需要硬盘支持<span class="need-admin">，<a class="link" href="{0}">点此配置存储磁盘</a></span>。</span>文件不得超过{1}，否则可能无法播放，仅对支持的固件生效。<br>2. 视频更改或删除后，需要重启2次APP才会生效。
+file_of_format={0} 文件
+
+desc_boot_video_settings=1. APP启动时可以播放一段视频，<span class="only-itv-local">此功能需要硬盘支持<span class="need-admin">，<a class="link" href="{0}">点此配置存储磁盘</a></span>。</span>格式为mp4且不得超过{1}，否则可能无法播放。<br>2. 视频更改或删除后，需要重启2次APP才会生效。
+deleting_video=正在删除视频，请稍候…
+confirm_del_video=确认删除视频吗？删除后需要重启2次APP才会生效。
+
+desc_background_video_settings=1. 需APP版本在{0}及以上，<span class="only-itv-local">此功能需要硬盘支持<span class="need-admin">，<a class="link" href="{0}">点此配置存储磁盘</a></span>。</span>格式为mp4且不得超过{1}，否则可能无法播放。<br>2. 视频更改或删除后，需要重启2次APP才会生效。
+enable_bgvideo=启用背景视频
+disable_bgvideo=禁用背景视频
+not_mute_play=正常播放
+mute_play=静音播放
+mute_after_play_count=播放{0}次后静音
+
+desc_room_price_video=<span class="only-itv-local">此功能需要硬盘支持<span class="need-admin">，<a class="link" href="{0}">点此配置存储磁盘</a></span>。</span>格式为mp4且不得超过{1}，否则可能无法播放。
+
+use_default_settings=使用默认设置
+use_welcome_settings=使用欢迎页设置
+use_home_settings=使用主页设置
 
 failed_play_audio=音频不存在或您的浏览器不支持播放该音频格式。
 failed_play_video=视频不存在或您的浏览器不支持播放该视频格式。
 
-desc_boot_logo_settings=设备启动时可以显示LOGO图片，此功能需要硬盘支持<span class="need-admin">，<a class="link" href="{0}">点此配置存储磁盘</a></span>。格式为JPG图片，仅对支持的固件（官方机顶盒或电视）生效。
+desc_boot_logo_settings=设备启动时可以显示LOGO图片，<span class="only-itv-local">此功能需要硬盘支持<span class="need-admin">，<a class="link" href="{0}">点此配置存储磁盘</a></span>。</span>建议的图片大小为1920x1080(px)，格式为JPG图片，<span class="get-mq-firmware">仅对支持的固件（官方机顶盒或电视）生效。</span>
 upload_boot_logo=上传开机LOGO
 del_boot_logo=删除开机LOGO
 deleting_boot_logo=正在删除开机LOGO，请稍候…
 confirm_del_boot_logo=确认删除开机LOGO吗？
 boot_logo_not_found=尚未上传图片
 
-desc_boot_animation_settings=设备启动时可以显示一段动画，此功能需要硬盘支持<span class="need-admin">，<a class="link" href="{0}">点此配置存储磁盘</a></span>。仅对支持的固件（官方机顶盒或电视）生效。
+desc_boot_animation_settings=设备启动时可以显示一段动画，<span class="only-itv-local">此功能需要硬盘支持<span class="need-admin">，<a class="link" href="{0}">点此配置存储磁盘</a></span>。</span><span class="get-mq-firmware">仅对支持的固件（官方机顶盒或电视）生效。</span>
 td_boot_animation_from=选择来源：
 td_boot_animation_width=显示宽度：
 td_boot_animation_height=显示高度：
 td_boot_animation_speed=帧速：
 td_boot_animation_time=时长：
+td_boot_animation_format=格式：
 td_boot_animation_count=播放次数：
 tip_boot_animation_count=0-10,为0表示循环播放
 tip_boot_animation_width=100-3840px
 tip_boot_animation_height=100-2160px
 tip_boot_animation_speed=1-30
-tip_boot_animation_time=截取的视频时长，1-10秒
+tip_boot_animation_time=截取的时长，{0}-{1}秒
 td_boot_animation_mp4=一个MP4文件（不超过50M）
 td_boot_animation_gif=一个GIF图片（不超过10M）
 td_boot_animation_jpg=多张JPG图片（单图片不超过1M）
 td_boot_animation_png=多张PNG图片（单图片不超过1M）
+click_download_file=点此下载文件
 build_boot_animation=生成开机动画
+del_boot_animation=删除开机动画
+confirm_del_boot_animation=确认删除开机动画文件吗？
 building_boot_animation=正在生成开机动画，请稍候…
 builded_boot_animation=开机动画已生成
-down_boot_animation=下载开机动画文件
+down_boot_animation=下载开机动画
 please_add_boot_animation_file=请先添加动画文件
 
-desc_app_config_mgr_for_itv=在此处配置APP服务器IP、账号、酒店编号、房间号等参数，需酒店APP在V156及以上。
-desc_app_config_mgr_for_live=在此处配置APP服务器IP、账号等参数，需小区APP在V406及以上。
+desc_client_login_config_mgr=
 clear_config=清空配置
 clearing_config=正在清空配置，请稍候…
 server_ip=服务器IP
@@ -2444,19 +3513,427 @@ hotel_id=酒店编号
 tip_current_live_account=当前直播账号：{0}
 tip_current_hotel_id=当前酒店编号：{0}
 tip_current_room=当前房间号：{0}
+please_select_app_config_for_del=请选择要删除的设备配置！
+confirm_del_app_config=确认删除以下设备配置吗？
+del_app_config=删除设备配置
+deleting_app_config=正在删除设备配置，请稍候…
 confirm_clear_app_config=确认清空所有配置吗？
+app_config_status=状态
+app_config_status_synced=已同步
+app_config_status_unsynced=未同步
+select_config_state=选择状态
 
-desc_background_music_settings=1. 欢迎页支持播放背景音乐，此功能需要硬盘支持<span class="need-admin">，<a class="link" href="{0}">点此配置存储磁盘</a></span>。格式为mp3文件。<br>2. 背景音乐更改或删除后，需要重进2次欢迎页才会生效。
+sip_call_number=SIP号码
+tip_sip_call_number=为空时默认为房间号
+
+app_theme=界面风格
+window_player_decodec=窗口播放解码
+live_decodec=直播解码
+vod_decodec=点播解码
+dlna2_decodec=私密投屏解码
+default_player_view=默认播放控件
+default_player_decodec=默认解码
+
+desc_background_music_settings=1. 欢迎页支持播放背景音乐，<span class="only-itv-local">此功能需要硬盘支持<span class="need-admin">，<a class="link" href="{0}">点此配置存储磁盘</a></span>。</span>格式为mp3文件。<br>2. 背景音乐更改或删除后，需要重进2次欢迎页才会生效。
 upload_background_music=上传背景音乐
 del_background_music=删除背景音乐
 deleting_background_music=正在删除背景音乐，请稍候…
 confirm_del_background_music=确认删除背景音乐吗？
+enable_bgm=启用背景音乐
 
 desc_app_ac_mgr=1. WiFi名称不超过16个字符，以@开头表示WiFi前缀，名称会自动加上房间号。<br>2. WiFi密码长度为8-32位，@表示随机密码，为空表示不设密码。
 wifi_name=WiFi名称
 wifi_passwd=WiFi密码
 wifi_state=启用WiFi
 
+desc_app_upgrade_wlist=1. <span class="hot">若启用升级白名单，则只有在白名单内的设备才会收到升级，黑名单优先级高于白名单</span>。<br>2. 白名单支持IP（<span class="mark">192.168.1.100</span>）、IP段（<span class="mark">192.168.1.100-192.168.2.100</span>）、MAC（<span class="mark">aa:bb:cc:dd:ee:ff</span>）、直播账号（<span class="mark">10000100001</span>），每行1条规则。
+enable_upgrade_wlist=启用升级白名单
+upgrade_wlist_rules=规则列表
+tip_upgrade_wlist_hotel=若勾选了酒店，则该酒店所有设备均可收到更新。
+
+desc_app_upgrade_blist=1. <span class="hot">若启用升级黑名单，则在黑名单内的设备不会收到升级，黑名单优先级高于白名单</span>。<br>2. 黑名单支持IP（<span class="mark">192.168.1.100</span>）、IP段（<span class="mark">192.168.1.100-192.168.2.100</span>）、MAC（<span class="mark">aa:bb:cc:dd:ee:ff</span>）、直播账号（<span class="mark">10000100001</span>），每行1条规则。
+enable_upgrade_blist=启用升级黑名单
+upgrade_blist_rules=规则列表
+tip_upgrade_blist_hotel=若勾选了酒店，则该酒店所有设备均不会收到更新。
+
+export_backup_types=要导出的项
+select_export_backup_types=请选择要导出的项
+
+iptv_alm=应用层组播服务器
+iptv_alm_running=应用层组播服务器运行中
+desc_iptv_alm_settings=建议独立线路接入<span class="need-admin">，<a class="link" href="{0}">点此配置上网口</a>，</span>并且下行带宽在100Mbps及以上。
+desc_iptv_alm_settings_for_itv_cloud=仅对支持应用层组播的APP生效，使用正常APP的无需进行此配置。
+join_iptv_alm=加入应用层组播
+iptv_alm_code=组播号
+tip_iptv_alm_code=若无需修改组播号请留空
+warn_iptv_alm_no_standalone_wan=<span class="hot">您非独立线路上网，应用层组播可能无法稳定使用。</span>确认继续吗？
+
+all_food=所有菜品
+td_food_type=类别：
+
+total_in=累计传入
+total_out=累计传出
+rate_in=传入速度
+rate_out=传出速度
+dropts_by_live_record=检测到由于回看磁盘写入慢导致丢包，请关闭部分频道的回看。
+
+desc_app_lang_list_mgr=
+app_lang_code=代码
+app_lang_name=名称
+app_lang_text=APP语言包
+enable_app_lang=启用语言
+add_app_lang=添加语言
+set_app_lang=编辑语言
+reset_app_lang=恢复默认
+warn_app_lang_code_already_exists=APP语言代码已存在！
+confirm_del_app_lang=确认删除该语言吗？
+confirm_reset_app_lang=确认恢复默认配置吗？
+td_app_lang=APP语言：
+td_hotel_welcome=欢迎词：
+module_name=模块名称
+online_food_config=在线订餐配置
+market_config=酒店超市配置
+td_currency_symbol=货币符号：
+use_cloud_hotel=使用iTV云数据
+tip_use_cloud_hotel=支持扫码支付
+td_cloud_account_tel=iTV云手机号：
+td_cloud_hotel_code=iTV云酒店代码：
+tip_cloud_hotel_code=<span class="only-itv-cloud">为空表示使用自身数据</span> eg: 36103140
+td_market_order_remark=订单备注：
+td_app_order_keeptime=订单保留时间：
+tip_market_order_remark=用于标记订单来源
+tip_app_order_keeptime=[0~43200]，APP上订单数据保留的时间
+td_itv_cloud_host=iTV云地址：
+
+price=价格
+add_room_price=添加房型价格
+set_room_price=编辑房型价格
+del_room_price=删除房型价格
+room_price_name_mgr=价格名称管理
+all_state=所有状态
+search_by_room_type_name=按房型名称
+room_price_display_type2=价格横向显示
+room_type_name=房型名称
+confirm_del_room_price=确认删除房型（{0}）价格吗？
+room_price_app_upgrade=房价牌APP
+
+select_icon=选择图标
+hotel_service_checkout=退房
+hotel_service_clean=清扫
+hotel_service_wash=洗衣
+hotel_service_borrow=物品借用
+
+hotel_about_menu01=酒店介绍
+hotel_about_menu02=客房展示
+hotel_about_menu03=特色小吃
+hotel_about_menu04=桑拿洗浴
+hotel_about_menu05=健身中心
+hotel_about_menu06=服务指南
+hotel_about_menu07=旅游景点
+hotel_about_menu08=优惠活动
+hotel_about_menu09=棋牌娱乐
+hotel_about_menu10=温馨提示
+hotel_about_menu11=消防指南
+hotel_about_menu12=多功能厅
+hotel_about_menu13=会员须知
+hotel_about_menu14=优惠信息
+
+resource_explorer=资源管理器
+please_select_item_for_del=请选择要删除的项！
+confirm_del_item=确认删除选择的项吗？
+click_to_rename=点此更改文件名称
+click_to_select_item=点此选择：{0}
+manage=管理
+hotel_user_resources=酒店用户资源
+my_resources=我的资源
+def_resources=通用资源
+error_mydisk_info=存储信息获取失败！
+
+hotel_products=产品展示
+all_hotel_products=所有商品
+hotel_products_level0=普通商品
+hotel_products_level1=推荐商品
+hotel_products_price=商品价格
+hotel_products_desc=商品介绍
+hotel_products_pic=封面图
+hotel_products_images=商品图片
+add_hotel_products=添加商品
+set_hotel_products=编辑商品
+unknown_hotel_products=未知商品{0}
+confirm_del_hotel_products=确认删除以下商品吗？
+confirm_clear_hotel_products=确认清空数据吗？
+del_hotel_products=删除商品
+clear_hotel_products=清空商品
+chinese_desc=简介
+english_desc=英文简介
+
+add_facility=添加设施
+set_facility=编辑设施
+facility_name=名称
+facility_info=内容
+facility_text1=楼层
+facility_text2=其它
+
+department=部门
+department_type=类别
+department_name=名称
+department_area=院区
+department_address=地址
+department_info=部门介绍
+department_images=图片
+add_hotel_department=添加部门
+set_hotel_department=编辑部门
+del_hotel_department=删除部门
+unknown_department_type=未知类别{0}
+unknown_department=未知{0}
+all_department_type=所有类别
+department_type_mgr=类别管理
+all_department=所有部门
+staff_list=职员列表
+
+staff_type=类别
+staff_name=姓名
+staff_title=职称
+staff_skill=专业专长
+staff_info=简介
+staff_photo=照片
+add_hotel_staff=添加职员
+set_hotel_staff=编辑职员
+del_hotel_staff=删除职员
+unknown_staff_type=未知类别{0}
+unknown_staff=未知{0}
+all_staff_type=所有类别
+staff_type_mgr=类别管理
+select_staff_type=选择类别
+please_add_department=请先添加科室！
+tip_staff_photo=建议的图片大小为：210x256（px），格式为jpg
+warn_staff_photo_not_found=请上传照片
+
+add_hotel_news=添加新闻
+set_hotel_news=编辑新闻
+del_hotel_news=删除新闻
+news_type=类别
+news_app_type=新闻内容
+news_name=名称
+news_info=内容
+news_images=图片
+unknown_news_type=未知类别{0}
+unknown_news=未知{0}
+all_news_type=所有类别
+news_type_mgr=类别管理
+please_add_news_type=请先添加类别！
+video_link=视频链接
+
+news_app_type_1=图文
+news_app_type_2=视频
+
+add_hotel_video=添加视频
+set_hotel_video=编辑视频
+del_hotel_video=删除视频
+hvideo_type=类别
+hvideo_subtype=子类别
+hvideo_name=名称
+hvideo_poster=封面图片
+unknown_hvideo_type=未知类别{0}
+unknown_hvideo=未知{0}
+all_hvideo_type=所有类别
+all_hvideo_subtype=所有子类别
+hvideo_type_mgr=类别管理
+please_add_hvideo_type=请先添加类别！
+
+subtype_mgr=子类别管理
+
+module_department=部门导航
+module_staff=职员介绍
+module_news=酒店动态
+module_vip=会员服务
+module_hvideo=酒店视频
+iot_control=客控管理
+
+home_video_type0=禁用桌面视频，显示轮播图
+home_video_type1=启用桌面视频，播放直播
+home_video_type2=启用桌面视频，播放视频
+
+warn_resource_subtype_is_null=资源类型不能为空
+warn_resource_subtype_invalid=资源类型不可用
+
+resource_image_boot_logo=开机LOGO
+resource_image_hotel_logo=酒店LOGO
+resource_image_hotel_bg=背景图片
+resource_image_module_ico=模块图标
+resource_image_module_bg=模块背景
+resource_image_slide_image=轮播图片
+resource_image_poster_image=海报图片
+resource_image_main_bg=主页背景
+resource_image_weather_bg=天气背景
+resource_image_home_image=主页图片
+resource_image_qrcode=二维码
+resource_image_service_ico=服务菜单图标
+resource_image_about_ico=简介菜单图标
+resource_image_about_page=简介页面图片
+resource_image_goods_ico=物品借用图标
+resource_image_food=酒店超市图片1
+resource_image_sales=酒店超市图片2
+resource_image_specialty=酒店超市图片3
+resource_image_notify=图片通知
+resource_image_playing_ad=播放广告
+resource_image_sleep_images=屏保图片
+resource_image_live_app_cover=直播APP启动图片
+resource_image_vod_app_cover=点播APP启动图片
+resource_image_market_app_cover=酒店超市APP启动图片
+resource_image_channel_ico=频道图标
+resource_image_live_channel_ad1=直播确定键切台广告
+resource_image_live_channel_ad2=直播上下键切台广告
+resource_image_itv_page_ad=酒店页面图片广告
+resource_image_room_price_bgimage=房价牌APP背景图片
+resource_image_notify_player_cover=通知播放封面图
+resource_image_hotel_products_poster=产品页面默认图
+resource_image_hotel_products_pic=产品封面图
+resource_image_hotel_products_image=产品轮播图
+resource_image_hotel_department_image=部门图片
+resource_image_hotel_staff_photo=职员照片
+resource_image_hotel_staff_image=职员图片
+resource_image_hotel_news_image=新闻图片
+resource_image_sales_goods_pic=小卖部物品图片
+resource_image_sales_goods_image=小卖部物品介绍
+resource_image_hotel_video_poster=酒店视频封面图
+resource_image_enter_confirm_bg=告知确认背景图
+
+resource_video_boot_video=启动视频
+resource_video_hotel_bg=背景视频
+resource_video_about_page=简介页面视频
+resource_video_news_info=新闻视频
+resource_video_notify=视频通知
+resource_video_room_price_video=房价牌广告
+resource_video_vod_beforeplay_video=点播播放前广告
+resource_video_itv_page_ad=酒店页面视频广告
+
+resource_music_hotel_bg=背景音乐
+
+resource_archive_boot_animation=开机动画
+resource_archive_hotel_backup=数据导入导出
+
+resource_app_module=主界面模块APP
+resource_app_upgrade=升级与推送APP
+
+extorderid=外部订单号
+buyer_email=付款账号
+paidtime=付款时间
+order_unpaid=未支付
+order_paid=已支付
+order_completed=已完成
+order_canceled=已取消
+order_deleted=已删除
+
+td_mango_video_price_day=原始包天价格：
+td_mango_video_price_add=新增价格：
+td_mango_video_price_day_real=实际包天价格：
+
+home_modules=主页模块
+all_modules=所有模块
+warn_no_modules=请至少选择一个模块！
+warn_no_video_types=请至少选择一个点播分类！
+
+scan_and_follow_weixin=扫码关注官方微信号
+
+other_app_config=其它配置
+enable_app_type_check=仅允许专用APP访问
+
+hotel_adpush_boot_logo=<span class="hot">注：<span class="get-mq-firmware">该功能仅官方固件支持。</span></span>
+hotel_adpush_boot_animation=<span class="hot">注：<span class="get-mq-firmware">该功能仅官方固件支持。</span></span>
+hotel_adpush_live_channel_ad1=<span class="hot">注：该配置仅对主题5生效。</span>
+hotel_adpush_live_channel_ad2=<span class="hot">注：该配置仅对主题5生效。</span>
+hotel_adpush_vod_beforeplay_video=<span class="hot">注：该配置仅对主题5生效。</span>
+hotel_adpush_itv_page=<span class="hot">注：该配置仅对{0}生效。</span>
+
+desc_app_task_settings=<span class="hot">注：<span class="get-mq-firmware">该功能需要固件支持，</span>且APP版本在V595及以上。</span>
+
+task_time_more=更多时间
+task_time_with_num=时间{0}
+task_weeks=每周重复
+warn_no_task_weeks=每周重复不能为空！
+
+desc_app_task_boot_settings=<span class="hot">注：该功能需要固件支持，且APP版本在V767及以上。</span>
+enable_task_boot=启用定时开机
+task_boot_type=定时开机方式
+task_boot_time=定时开机时间
+tip_task_time_boot=支持设置多个时间，开机后请在{0}分钟后再关机
+
+enable_task_shutdown=启用定时关机
+task_shutdown_type=定时关机方式
+task_shutdown_time=定时关机时间
+tip_task_time_shutdown=支持设置多个时间，关机后请在{0}分钟后再开机
+
+enable_task_reboot=启用定时重启
+task_reboot_type=定时重启方式
+task_reboot_time=定时重启时间
+tip_task_time_reboot=支持设置多个时间，每个时间相隔不得低于{0}分钟
+
+desc_app_task_screenon_settings=<span class="hot">注：该功能需要固件支持，且APP版本在V741及以上。</span>
+enable_task_screenon=启用定时开屏
+task_screenon_type=定时开屏方式
+task_screenon_time=定时开屏时间
+tip_task_time_screenon=支持设置多个时间，每个时间相隔不得低于{0}分钟
+
+desc_app_task_screenoff_settings=<span class="hot">注：该功能需要固件支持，且APP版本在V741及以上。</span>
+enable_task_screenoff=启用定时关屏
+task_screenoff_type=定时关屏方式
+task_screenoff_time=定时关屏时间
+tip_task_time_screenoff=支持设置多个时间，每个时间相隔不得低于{0}分钟
+
+scheduled_task=计划任务
+use_global_settings=使用全局设置
+
+desc_app_uninstall_mgr=1. 终端上线时向设备下发APP卸载指令，该功能需要固件支持且桌面APP版本在728及以上。<br>2. 请输入要卸载的APP包名，<a class="link" href="{0}" target="_blank">点此下载APK信息提取工具</a>，每行一个APP eg: <span class="blue">net.android.test 备注名</span>
+app_uninstall=APP卸载
+
+online_time=上线时间
+offline_time=离线时间
+onlined_time=在线时长
+client_online_records=在线记录
+first_online_time=首次上线时间
+last_offline_time=最后离线时间
+day_online_time=当天在线时长
+total_online_time=总计在线时长
+client_online_number=在线数量: {0}
+client_online_avg_time=平均在线时长: {0}
+click_to_view_online_records=点此查看在线记录
+
+select_onlined_time=选择在线时长
+less_in_minutes={0}分钟以内
+less_in_hours={0}小时以内
+greater_in_minutes={0}分钟以上
+greater_in_hours={0}小时以上
+online_in_hours={0}小时在线
+warn_enddate1=截止日期不得小于开始日期且不得超过开始日期30天
+
+client_online_number_chart=在线数量趋势图
+client_online_time_chart=平均在线时长趋势图
+
+host_rweb=外部访问地址
+webiptv_local_source=APP本机通道来源
+host_epg=节目单服务器
+host_weather=天气数据服务器
+host_video_info=视频信息服务器
+host_hw_device=语音遥控授权服务器
+host_hw_device2=乐播投屏授权服务器
+api_epg=节目单API地址
+api_weather=天气数据API地址
+api_video_info=视频信息API地址
+enable_udp_server_config=APP自动发现服务器
+use_app_ip_first=优先使用APP上报的IP
+use_app_parameter_first=优先使用APP传递的参数
+enable_fixed_mode=APP使用固定的MAC
+allow_hotplay_app_login=允许私密投屏APP登录
+enable_strict_sn_num_check=启用严格授权数量检查
+enable_web_player_auth=进入Web播放器需要登录
+web_player_default_account=Web播放器默认直播账号
+disable_web_player_port80=停用非管理端口Web播放器
+enable_debug_mode=启用调试模式
+app_client_auto_clear=终端列表自动清理
+app_client_no_clear=不清理
+app_client_auto_clear_days=存活时间超过{0}天
+ 
 player_play=播放
 player_pause=暂停
 player_progress=进度
@@ -2500,6 +3977,7 @@ account_grant_14=删除用户组
 account_grant_15=用户组列表
 account_grant_16=修改用户组权限
 account_grant_17=修改用户组频道
+account_grant_18=查看所有用户组
 
 account_grant_21=查看所有文件夹详细
 account_grant_22=添加文件夹
@@ -2538,19 +4016,33 @@ account_grant_64=删除通知
 account_grant_65=通知列表
 account_grant_66=配置播放广告
 account_grant_67=配置启动视频
+account_grant_68=审核通知
 
 account_grant_71=管理点播分类
 account_grant_72=管理点播列表
+account_grant_73=添加点播剧集
+account_grant_74=删除点播剧集
 
-account_grant_p1=用户管理页面
+account_grant_141=终端列表
+account_grant_142=终端配置管理
+account_grant_143=终端应用卸载
+account_grant_144=在线统计分析
+
+account_grant_p1=用户页面
 account_grant_p2=直播视频页面
 account_grant_p3=点播视频页面
 account_grant_p4=文库管理页面
 account_grant_p5=日志管理页面
-account_grant_p6=酒店配置页面
+account_grant_p6=APP配置页面
 account_grant_p7=点播管理页面
 account_grant_p8=个人中心页面
-account_grant_p9=广告发布页面
+account_grant_p9=插播管理页面
+account_grant_p10=超市管理页面
+account_grant_p11=订单页面
+account_grant_p12=APP升级页面
+account_grant_p13=资源管理页面
+account_grant_p14=广告管理页面
+account_grant_p15=小卖部管理页面
 
 account_grant_type1=页面查看
 account_grant_type2=用户账号
@@ -2561,6 +4053,8 @@ account_grant_type6=文库分享
 account_grant_type7=酒店配置
 account_grant_type8=点播管理
 account_grant_type9=广告发布
+account_grant_type10=内容插播
+account_grant_type11=终端管理
 
 errcode1=参数错误！
 errcode2=会话超时！

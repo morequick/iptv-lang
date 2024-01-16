@@ -198,7 +198,7 @@ function exec_txtsync(source_path, dest_path, output_path, mode) {
     var key = row.slice(0, i), value = row.slice(i + 1).replace(/\r$/, '');
 
     if (with_source) output.push('#' + row);
-    output.push(key + '=' + (LANG[key] || value));
+    output.push(key + '=' + (LANG[key] != undefined ? LANG[key] : value));
   });
 
   fs.writeFileSync(output_fullpath, output.join('\n'), 'utf-8');
@@ -298,12 +298,85 @@ function exec_txtjoin(source_dir, output_path) {
   log('\n合并完成！\n');
 }
 
+/**
+ * 以来源txt语言包为基础,检测未翻译的项目
+ * @param {string} source_path 
+ * @param {string} dest_path 
+ * @param {string} output_path 
+ */
+function exec_txttodo(source_dir, dest_path, output_path) {
+  if (!source_dir) return log('参数错误: 未指定来源目录');
+  if (!dest_path) return log('参数错误: 未指定目标txt文件路径');
+  if (!output_path) return log('参数错误: 未指定输出路径');
+
+  var source_fulldir = join_path(ROOT, source_dir);
+  if (!fs.existsSync(source_fulldir)) return log('来源目录不存在: ' + source_fulldir);
+
+  var dest_fullpath = join_path(ROOT, dest_path),
+    output_fullpath = join_path(ROOT, output_path);
+
+  if (!fs.existsSync(dest_fullpath)) return log('目标txt文件不存在: ' + dest_fullpath);
+
+  log('来源目录: ' + source_fulldir);
+  log('目标路径: ' + dest_fullpath);
+  log('输出路径: ' + output_fullpath);
+  log('');
+
+  var text_dest = fs.readFileSync(dest_fullpath) + '',
+    LANG = {},
+    output = [];
+
+  text_dest.split('\n').forEach(function (row) {
+    if (!row || row.startsWith("#")) return;
+
+    var i = row.indexOf("=");
+    if (i != -1) LANG[row.slice(0, i)] = row.slice(i + 1).replace(/\r$/, '');
+  });
+
+  fs.readdirSync(source_fulldir).forEach(function (filename) {
+    if (!filename || !filename.endsWith('.txt')) return;
+
+    var fullname = path.join(source_fulldir, filename);
+
+    log('读取文件: ' + fullname);
+
+    var output_for_file = [];
+
+    var text = fs.readFileSync(fullname) + '';
+    text.split('\n').forEach(function (row, n) {
+      if (!row || row.startsWith("#")) return;
+
+      var i = row.indexOf("=");
+      if (i == -1) return;
+
+      var key = row.slice(0, i), value = row.slice(i + 1).replace(/\r$/, '');
+      if (value && value == LANG[key] && /[\u4e00-\u9fa5]/.test(value)) {
+        var line = n + 1;
+        output_for_file.push(('     ' + line).slice(-5) + '   ' + key + '=' + value);
+      }
+    });
+
+    if (output_for_file.length > 0) {
+      output.push(filename + '\n-------------------------------------------------------------');
+      output = output.concat(output_for_file);
+      output.push('\n');
+    }
+  });
+
+  if (output.length <= 0) output.push('无未翻译项目');
+
+  fs.writeFileSync(output_fullpath, output.join('\n'), 'utf-8');
+
+  log('\n检测完成！\n');
+}
+
 var map_action = {
   'txt2js': exec_txt2js,
   'js2txt': exec_js2txt,
   'txtsync': exec_txtsync,
   'txtsplit': exec_txtsplit,
-  'txtjoin': exec_txtjoin
+  'txtjoin': exec_txtjoin,
+  'txttodo': exec_txttodo
 };
 
 function init() {

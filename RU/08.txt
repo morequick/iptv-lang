@@ -1,0 +1,573 @@
+
+#td_mango_video_price_day=原始包天价格：
+td_mango_video_price_day=Первоначальная ежедневная цена:
+#td_mango_video_price_add=新增价格：
+td_mango_video_price_add=Добавить цену:
+#td_mango_video_price_day_real=实际包天价格：
+td_mango_video_price_day_real=Фактическая ежедневная цена:
+
+#home_modules=主页模块
+home_modules=Домашние модули
+#all_modules=所有模块
+all_modules=Все модули
+#warn_no_modules=请至少选择一个模块！
+warn_no_modules=Пожалуйста, выберите хотя бы один модуль!
+#warn_no_video_types=请至少选择一个点播分类！
+warn_no_video_types=Пожалуйста, выберите хотя бы одну категорию по запросу!
+
+#scan_and_follow_weixin=扫码关注官方微信号
+scan_and_follow_weixin=Сканируйте QR-код, чтобы следовать официальному идентификатору WeChat
+
+#other_app_config=其它配置
+other_app_config=Другая конфигурация
+#enable_app_type_check=仅允许专用APP访问
+enable_app_type_check=Разрешить доступ только к выделенному приложению
+
+#hotel_adpush_boot_logo=<span class="hot">注：<span class="get-mq-firmware">该功能仅官方固件支持。</span></span>
+hotel_adpush_boot_logo=<span class="hot">注：<span class="get-mq-firmware">该功能仅官方固件支持。</span></span>"hot">Примечание: <span class="get-mq-firmware">Эта функция поддерживается только официальной прошивкой. </span></span>
+#hotel_adpush_boot_animation=<span class="hot">注：<span class="get-mq-firmware">该功能仅官方固件支持。</span></span>
+hotel_adpush_boot_animation=<span class="hot">Примечание: <span class="get-mq-firmware">Эта функция поддерживается только официальной прошивкой. </span></span>
+#hotel_adpush_live_channel_ad1=<span class="hot">注：该配置仅对主题5生效。</span>
+hotel_adpush_live_channel_ad1=<span class="hot">Примечание. Эта конфигурация действует только для темы 5. </span>
+#hotel_adpush_live_channel_ad2=<span class="hot">注：该配置仅对主题5生效。</span>
+hotel_adpush_live_channel_ad2=<span class="hot">Примечание. Эта конфигурация действует только для темы 5.</span>
+#hotel_adpush_vod_beforeplay_video=<span class="hot">注：该配置仅对主题5生效。</span>
+hotel_adpush_vod_beforeplay_video=<span class="hot">Примечание. Эта конфигурация действует только для темы 5. </span>
+#hotel_adpush_itv_page=<span class="hot">注：该配置仅对{0}生效。</span>
+hotel_adpush_itv_page=<span class="hot">"hot">Примечание. Эта конфигурация вступает в силу только для {0}. </span>
+
+#desc_app_task_settings=<span class="hot">注：<span class="get-mq-firmware">该功能需要固件支持，</span>且APP版本在V595及以上。</span>
+desc_app_task_settings=<span class="hot">Примечание: <span class="get-mq-firmware">Эта функция требует поддержки встроенного ПО</span>, а версия приложения — V595 и выше. </span>
+
+#task_time_more=更多时间
+task_time_more=Больше времени
+#task_time_with_num=时间{0}
+task_time_with_num=Время{0}
+#task_weeks=每周重复
+task_weeks=Повторять каждую неделю
+#warn_no_task_weeks=每周重复不能为空！
+warn_no_task_weeks=Еженедельные повторы не могут быть пустыми！
+
+#desc_app_task_boot_settings=<span class="hot">注：该功能需要固件支持，且APP版本在V767及以上。</span>
+desc_app_task_boot_settings=<span class="hot">Примечание. Для этой функции требуется поддержка встроенного ПО, а версия приложения — V767 и выше. </span>
+#enable_task_boot=启用定时开机
+enable_task_boot=Включить загрузку по расписанию
+#task_boot_type=定时开机方式
+task_boot_type=Режим запланированной загрузки
+#task_boot_time=定时开机时间
+task_boot_time=Запланированное время загрузки
+#tip_task_time_boot=支持设置多个时间，开机后请在{0}分钟后再关机
+tip_task_time_boot=Поддерживает несколько настроек. Подождите {0} минут, прежде чем выключаться после загрузки.
+
+#enable_task_shutdown=启用定时关机
+enable_task_shutdown=Включить запланированное выключение
+#task_shutdown_type=定时关机方式
+task_shutdown_type=Режим запланированного выключения
+#task_shutdown_time=定时关机时间
+task_shutdown_time=Запланированное время выключения
+#tip_task_time_shutdown=支持设置多个时间，关机后请在{0}分钟后再开机
+tip_task_time_shutdown=Поддерживает несколько настроек. После выключения включите его снова через {0} минут.
+
+#enable_task_reboot=启用定时重启
+enable_task_reboot=Включить запланированную перезагрузку
+#task_reboot_type=定时重启方式
+task_reboot_type=Режим запланированного перезапуска
+#task_reboot_time=定时重启时间
+task_reboot_time=Запланированное время перезапуска
+#tip_task_time_reboot=支持设置多个时间，每个时间相隔不得低于{0}分钟
+tip_task_time_reboot=Поддерживает многократную настройку, интервал между каждым разом не должен быть менее {0} минут
+
+#desc_app_task_screenon_settings=<span class="hot">注：该功能需要固件支持，且APP版本在V741及以上。</span>
+desc_app_task_screenon_settings=<span class="hot">Примечание. Для этой функции требуется поддержка встроенного ПО, а версия приложения — V741 и выше. </span>
+#enable_task_screenon=启用定时开屏
+enable_task_screenon=Включить отключение экрана по расписанию
+#task_screenon_type=定时开屏方式
+task_screenon_type=Режим отключения экрана по времени
+#task_screenon_time=定时开屏时间
+task_screenon_time=Запланированное время выключения экрана
+#tip_task_time_screenon=支持设置多个时间，每个时间相隔不得低于{0}分钟
+tip_task_time_screenon=Поддерживает несколько настроек, интервал между каждым разом не должен быть меньше {0} минут
+
+#desc_app_task_screenoff_settings=<span class="hot">注：该功能需要固件支持，且APP版本在V741及以上。</span>
+desc_app_task_screenoff_settings=<span class="hot">注：该功能需要固件支持，且APP版本在V741及以上。</span>
+#enable_task_screenoff=启用定时关屏
+enable_task_screenoff=启用定时关屏
+#task_screenoff_type=定时关屏方式
+task_screenoff_type=定时关屏方式
+#task_screenoff_time=定时关屏时间
+task_screenoff_time=定时关屏时间
+#tip_task_time_screenoff=支持设置多个时间，每个时间相隔不得低于{0}分钟
+tip_task_time_screenoff=支持设置多个时间，每个时间相隔不得低于{0}分钟
+
+#scheduled_task=计划任务
+scheduled_task=Запланированная задача
+#use_global_settings=使用全局设置
+use_global_settings=Использовать глобальные настройки
+
+#desc_app_uninstall_mgr=1. 终端上线时向设备下发APP卸载指令，该功能需要固件支持且桌面APP版本在728及以上。<br>2. 请输入要卸载的APP包名，<a class="link" href="{0}" target="_blank">点此下载APK信息提取工具</a>，每行一个APP eg: <span class="blue">net.android.test 备注名</span>
+desc_app_uninstall_mgr=1. Когда терминал подключается к сети, на устройство отправляется команда удаления приложения. Для этой функции требуется поддержка прошивки, а версия настольного приложения 728 или выше. <br>2. Введите имя пакета приложения, который необходимо удалить, <a class="link" href="{0}" target="_blank">Нажмите здесь, чтобы загрузить инструмент извлечения информации APK</a>, один Приложение на строку, например: <span class="blue">имя комментария net.android.test</span>
+#app_uninstall=APP卸载
+app_uninstall=Удалить приложение
+
+#online_time=上线时间
+online_time=Время онлайн
+#offline_time=离线时间
+offline_time=Время в автономном режиме
+#onlined_time=在线时长
+onlined_time=Время онлайн
+#client_online_records=在线记录
+client_online_records= Интернет-записи
+#first_online_time=首次上线时间
+first_online_time=Первое время онлайн
+#last_offline_time=最后离线时间
+last_offline_time=Время последнего оффлайна
+#day_online_time=当天在线时长
+day_online_time= Время онлайн в тот день
+#total_online_time=总计在线时长
+total_online_time=Общее время онлайн
+#client_online_number=在线数量: {0}
+client_online_number=Сетевой номер: {0}
+#client_online_avg_time=平均在线时长: {0}
+client_online_avg_time=Среднее время онлайн: {0}
+#click_to_view_online_records=点此查看在线记录
+click_to_view_online_records=Нажмите здесь, чтобы просмотреть онлайн-записи
+
+#select_onlined_time=选择在线时长
+select_onlined_time=Выбрать время онлайн
+#less_in_minutes={0}分钟以内
+less_in_minutes=В течение {0} минут
+#less_in_hours={0}小时以内
+less_in_hours=В течение {0} часов
+#greater_in_minutes={0}分钟以上
+greater_in_minutes=Более {0} минут
+#greater_in_hours={0}小时以上
+greater_in_hours=Более {0} часов
+#online_in_hours={0}小时在线
+online_in_hours={0} часов онлайн
+#warn_enddate1=截止日期不得小于开始日期且不得超过开始日期30天
+warn_enddate1=Дата окончания не должна быть меньше даты начала и не должна превышать 30 дней от даты начала.
+
+#client_online_number_chart=在线数量趋势图
+client_online_number_chart=Интернет-диаграмма трендов чисел
+#client_online_time_chart=平均在线时长趋势图
+client_online_time_chart=Диаграмма трендов среднего онлайн-времени
+
+#host_rweb=外部访问地址
+host_rweb=Внешний адрес доступа
+#webiptv_local_source=APP本机通道来源
+webiptv_local_source=Источник локального канала приложения
+#host_epg=节目单服务器
+host_epg=Программный сервер
+#host_weather=天气数据服务器
+host_weather=Сервер данных о погоде
+#host_video_info=视频信息服务器
+host_video_info=Сервер видеоинформации
+#host_hw_device=语音遥控授权服务器
+host_hw_device=Сервер авторизации голосового дистанционного управления
+#host_hw_device2=乐播投屏授权服务器
+host_hw_device2=乐播投屏授权服务器
+#api_epg=节目单API地址
+api_epg=Адрес API программы
+#api_weather=天气数据API地址
+api_weather=Адрес API данных о погоде
+#api_video_info=视频信息API地址
+api_video_info= Адрес API информации о видео
+#enable_udp_server_config=APP自动发现服务器
+enable_udp_server_config=Приложение автоматически обнаруживает сервер
+#use_app_ip_first=优先使用APP上报的IP
+use_app_ip_first=Сначала используйте IP-адрес, указанный приложением
+#use_app_parameter_first=优先使用APP传递的参数
+use_app_parameter_first=Установить приоритет использования параметров, передаваемых приложением
+#enable_fixed_mode=APP使用固定的MAC
+enable_fixed_mode=Приложение использует фиксированный MAC-адрес
+#allow_hotplay_app_login=允许私密投屏APP登录
+allow_hotplay_app_login=Разрешить вход в приватное приложение для скринкастинга
+#enable_strict_sn_num_check=启用严格授权数量检查
+enable_strict_sn_num_check=Включить строгую проверку номера авторизации
+#enable_web_player_auth=进入Web播放器需要登录
+enable_web_player_auth=Для входа в веб-плеер необходим вход
+#web_player_default_account=Web播放器默认直播账号
+web_player_default_account=Учетная запись прямой трансляции веб-плеера по умолчанию
+#disable_web_player_port80=停用非管理端口Web播放器
+disable_web_player_port80=Отключить веб-плеер неадминистративного порта
+#enable_debug_mode=启用调试模式
+enable_debug_mode=Включить режим отладки
+#app_client_auto_clear=终端列表自动清理
+app_client_auto_clear=Список терминалов автоматически очищается
+#app_client_no_clear=不清理
+app_client_no_clear=Без очистки
+#app_client_auto_clear_days=存活时间超过{0}天
+app_client_auto_clear_days=Жив более {0} дней
+ 
+#player_play=播放
+player_play=воспроизвести 
+#player_pause=暂停
+player_pause=Пауза
+#player_progress=进度
+player_progress=Прогресс
+#player_duration=时长
+player_duration=Продолжительность
+#song_list=歌单
+song_list=Список песен
+#prev_song=上一曲
+prev_song=Предыдущая песня
+#next_song=下一曲
+next_song=Следующая песня
+#scan_song=扫描音乐
+scan_song=Сканировать музыку
+#player_close=关闭
+player_close=Закрыть
+
+#mejs.download-file=下载文件
+mejs.download-file=Загрузить файл
+#mejs.install-flash=您正在使用未启用或安装Flash播放器的浏览器。请打开您的Flash Player插件，或从https://get.adobe.com/flashplayer/下载最新版本
+mejs.install-flash=Вы используете браузер, в котором не включен или не установлен Flash player. Откройте плагин Flash Player или загрузите последнюю версию с https://get.adobe.com/flashplayer/.
+#mejs.fullscreen=全屏
+mejs.fullscreen=Полноэкранный режим
+#mejs.play=播放
+mejs.play=Играть
+#mejs.pause=暂停
+mejs.pause=Пауза
+#mejs.time-slider=时间滑动棒
+mejs.time-slider=Ползунок времени
+#mejs.time-help-text=使用作/右箭头快进1秒,使用上/下箭头快进10秒。
+mejs.time-help-text=。Используйте стрелки вверх/вниз для перемотки вперед на 1 секунду и стрелки вверх/вниз для перемотки вперед на 10 секунд.
+#mejs.live-broadcast=现场直播
+mejs.live-broadcast=Прямая трансляция
+#mejs.volume-help-text=使用上/下箭头提高或降低音量。
+mejs.volume-help-text= Используйте стрелки вверх/вниз, чтобы увеличить или уменьшить громкость.
+#mejs.unmute=取消静音
+mejs.unmute=Включить звук
+#mejs.mute=静音
+mejs.mute=Без звука
+#mejs.volume-slider=音量选择键
+mejs.volume-slider=Клавиша выбора громкости
+#mejs.video-player=视频播放器
+mejs.video-player=Видеоплеер
+#mejs.audio-player=音频播放器
+mejs.audio-player=Аудиоплеер
+#mejs.captions-subtitles=字幕/标题
+mejs.captions-subtitles=Субтитры/титры
+#mejs.captions-chapters=章节
+mejs.captions-chapters= Главы
+#mejs.none=无
+mejs.none=Нет
+
+#account_grant_1=查看所有账号详细
+account_grant_1=Просмотреть все данные учетной записи
+#account_grant_2=添加账号
+account_grant_2=Добавить учетный запись
+#account_grant_3=修改所有账号
+account_grant_3=Изменить все учетные записи
+#account_grant_4=删除所有账号
+account_grant_4=Удалить все учетные записи
+#account_grant_5=所有账号列表
+account_grant_5=Список всех учетных записей
+#account_grant_6=修改直播配置
+account_grant_6=Изменить конфигурацию прямой трансляции
+#account_grant_7=修改个人信息
+account_grant_7=Изменить личную информацию
+
+#account_grant_11=查看用户组详细
+account_grant_11=Просмотр сведений о группах пользователей
+#account_grant_12=添加用户组
+account_grant_12=Добавить группы пользователей
+#account_grant_13=修改用户组
+account_grant_13=Модифицировать группы пользователей
+#account_grant_14=删除用户组
+account_grant_14=Удалить группы пользователей
+#account_grant_15=用户组列表
+account_grant_15=Список групп пользователей
+#account_grant_16=修改用户组权限
+account_grant_16=Модифицировать права доступа к группам пользователей
+#account_grant_17=修改用户组频道
+account_grant_17=Модифицировать каналы групп пользователей
+#account_grant_18=查看所有用户组
+account_grant_18=Просмотреть все группы пользователей
+
+#account_grant_21=查看所有文件夹详细
+account_grant_21=Просмотреть все сведения о папке
+#account_grant_22=添加文件夹
+account_grant_22=Добавить папку
+#account_grant_23=修改所有文件夹
+account_grant_23=Изменить все папки
+#account_grant_24=删除所有文件夹
+account_grant_24=Удалить все папки
+#account_grant_25=所有文件夹列表
+account_grant_25=Список всех папок
+#account_grant_26=上传文件夹
+account_grant_26=Загрузить папку
+#account_grant_27=移动所有文件夹
+account_grant_27= Переместить все папки
+#account_grant_28=公开所有文件夹
+account_grant_28=Общедоступные все папки
+#account_grant_29=重命名所有文件夹
+account_grant_29=Переименуйте все папки
+
+#account_grant_31=查看所有文件详细
+account_grant_31=Просмотреть все сведения о файле
+#account_grant_32=添加文件
+account_grant_32= Добавить файл
+#account_grant_33=修改所有文件
+account_grant_33=Изменить все файлы
+#account_grant_34=删除所有文件
+account_grant_34=Удалить все файлы
+#account_grant_35=所有文件列表
+account_grant_35=Все файлы
+#account_grant_36=上传文件
+account_grant_36=Загрузить файлы
+#account_grant_37=移动所有文件
+account_grant_37=Переместить все файлы
+#account_grant_38=公开所有文件
+account_grant_38=Публиковать все файлы
+#account_grant_39=重命名所有文件
+account_grant_39=Переименуйте все файлы
+#account_grant_40=编辑所有文件
+account_grant_40=Редактировать все файлы
+
+#account_grant_41=创建文库分享
+account_grant_41=Создать общий доступ к библиотеке
+#account_grant_44=删除所有文库分享
+account_grant_44=Удалить все общие ресурсы библиотеки
+#account_grant_45=所有文库分享列表
+account_grant_45=Список общего доступа ко всем библиотекам
+
+#account_grant_51=查看所有酒店详细
+account_grant_51=Просмотреть всю информацию об отеле
+#account_grant_52=添加酒店
+account_grant_52=Добавить отель
+#account_grant_53=修改酒店配置
+account_grant_53=Изменить конфигурацию отеля
+#account_grant_54=删除酒店
+account_grant_54=Удалить отель
+#account_grant_55=所有酒店列表
+account_grant_55=Список всех отелей
+
+#account_grant_62=添加通知
+account_grant_62= Добавить уведомление
+#account_grant_63=修改通知
+account_grant_63=Уведомление об изменении
+#account_grant_64=删除通知
+account_grant_64=Удалить уведомление
+#account_grant_65=通知列表
+account_grant_65=Список уведомлений
+#account_grant_66=配置播放广告
+account_grant_66=Настроить воспроизведение рекламы
+#account_grant_67=配置启动视频
+account_grant_67=Настроить стартовое видео
+#account_grant_68=审核通知
+account_grant_68=Уведомление об аудите
+
+#account_grant_71=管理点播分类
+account_grant_71=Управление категориями по запросу
+#account_grant_72=管理点播列表
+account_grant_72=Управление списком по требованию
+#account_grant_73=添加点播剧集
+account_grant_73=Добавить эпизоды по запросу
+#account_grant_74=删除点播剧集
+account_grant_74=Удалить эпизоды по требованию
+
+#account_grant_141=终端列表
+account_grant_141=Список терминалов
+#account_grant_142=终端配置管理
+account_grant_142=Управление конфигурацией терминала
+#account_grant_143=终端应用卸载
+account_grant_143=Удаление приложения терминала
+#account_grant_144=在线统计分析
+account_grant_144=Статистический анализ онлайн
+
+#account_grant_p1=用户页面
+account_grant_p1=Страница пользователя
+#account_grant_p2=直播视频页面
+account_grant_p2=Страница с живым видео
+#account_grant_p3=点播视频页面
+account_grant_p3=Страница видео по запросу
+#account_grant_p4=文库管理页面
+account_grant_p4=Страница управления библиотекой
+#account_grant_p5=日志管理页面
+account_grant_p5=Страница управления журналами
+#account_grant_p6=APP配置页面
+account_grant_p6=Страница конфигурации приложения
+#account_grant_p7=点播管理页面
+account_grant_p7=Страница управления по требованию
+#account_grant_p8=个人中心页面
+account_grant_p8=Страница личного центра
+#account_grant_p9=插播管理页面
+account_grant_p9=Вставить страницу управления
+#account_grant_p10=超市管理页面
+account_grant_p10=Страница управления супермаркетом
+#account_grant_p11=订单页面
+account_grant_p11=Страница заказа
+#account_grant_p12=APP升级页面
+account_grant_p12=Страница обновления приложения
+#account_grant_p13=资源管理页面
+account_grant_p13=Страница управления ресурсами
+#account_grant_p14=广告管理页面
+account_grant_p14=Страница управления рекламой
+#account_grant_p15=小卖部管理页面
+account_grant_p15=Страница управления магазином
+
+#account_grant_type1=页面查看
+account_grant_type1=Проверка страницы
+#account_grant_type2=用户账号
+account_grant_type2=Учетная запись пользователя
+#account_grant_type3=用户组
+account_grant_type3=Группа пользователей
+#account_grant_type4=文件夹操作
+account_grant_type4=Операции с папками
+#account_grant_type5=文件操作
+account_grant_type5=Операции с файлами
+#account_grant_type6=文库分享
+account_grant_type6=Общий доступ к библиотеке
+#account_grant_type7=酒店配置
+account_grant_type7=Конфигурация отеля
+#account_grant_type8=点播管理
+account_grant_type8=Управление по требованию
+#account_grant_type9=广告发布
+account_grant_type9=Рекламный выпуск
+#account_grant_type10=内容插播
+account_grant_type10=Вставка контента
+#account_grant_type11=终端管理
+account_grant_type11=Управление терминалом
+
+#errcode1=参数错误！
+errcode1=Ошибка параметра!
+#errcode2=会话超时！
+errcode2=Тайм-аут сеанса истек!
+#errcode3=未登录！
+errcode3=Не авторизован!
+#errcode4=sql 执行失败(发生错误)！
+errcode4=Выполнение sql не удалось (произошла ошибка)!
+#errcode5=没有权限！
+errcode5=Нет разрешения!
+#errcode6=尚未支持！
+errcode6=Пока не поддерживается!
+#errcode7=未知错误！
+errcode7=Неизвестная ошибка!
+#errcode8=内部错误！
+errcode8=Внутренняя ошибка!
+#errcode9=资源不存在！
+errcode9=Ресурс не существует!
+#errcode10=JSON解析失败！
+errcode10=Ошибка анализа JSON!
+#errcode11=api不存在！
+errcode11=API не существует!
+#errcode12=http请求失败！
+errcode12=http-запрос не выполнен!
+#errcode13=http请求超时！
+errcode13=Тайм-аут HTTP-запроса истек!
+#errcode14=非法请求！
+errcode14=Незаконный запрос!
+#errcode15=签名验证失败！
+errcode15=Проверка подписи не удалась!
+#errcode16=时间异常！
+errcode16=Исключение по времени!
+#errcode17=请求过于频繁！
+errcode17=Слишком частые запросы!
+#errcode18=无数据！
+errcode18=Нет данных!
+#errcode19=api数据不可用！
+errcode19=Данные API недоступны!
+
+#errcode21=无上传数据！
+errcode21=Нет данных для загрузки!
+#errcode22=上传文件过大！
+errcode22=Слишком большой файл!
+#errcode23=不允许的上传格式！
+errcode23=Запрещенный формат загрузки!
+#errcode24=无匹配的数据或无权限！
+errcode24=Нет подходящих данных или нет разрешений!
+
+#errcode25=数据不可用！
+errcode25=Данные недоступны!
+#errcode26=数据库不可用！
+errcode26=База данных недоступна!
+#errcode27=文件读取错误！
+errcode27=Ошибка чтения файла!
+#errcode28=文件写入错误！
+errcode28=Ошибка записи файла!
+#errcode29=文件拷贝错误！
+errcode29=Ошибка копирования файла!
+#errcode30=文件移动错误！
+errcode30=Ошибка перемещения файла!
+
+#errcode31=账号未激活！
+errcode31=Учетный запис не активирован 
+#errcode32=账号已被锁定！
+errcode32=Аккаунт заблокирован!
+#errcode33=账号已被禁用！
+errcode33=Аккаунт отключен!
+#errcode34=账号已存在！
+errcode34=Аккаунт уже существует!
+#errcode35=账号状态未定义！
+errcode35=Статус аккаунта не определен!
+#errcode36=账号不存在！
+errcode36=Аккаунт не существует!
+#errcode37=账号余额无变化！
+errcode37=Баланс аккаунта не изменился!
+#errcode38=账号余额查询失败！
+errcode38=Ошибка запроса баланса аккаунта!
+#errcode39=账号余额不足！
+errcode39=Свободное место в учетном записе недостаточно 
+#errcode40=连续登录失败次数过多！
+errcode40=Слишком много неудачных попыток входа в систему!
+#errcode41=用户名或密码错误！
+errcode41=Hеправильное имя пользователя или пароль!
+
+#errcode51=平台(UserAgent)已存在！
+errcode51=Платформа (UserAgent) уже существует!
+#errcode52=平台数据不存在！
+errcode52=Данные платформы не существуют!
+
+#errcode161=用户组不存在！
+errcode161=Группа пользователей не существует!
+#errcode162=用户组已存在！
+errcode162=Группа пользователей уже существует!
+#errcode163=用户组编号不能重复！
+errcode163=Номера групп пользователей не могут дублироваться!
+
+#errcode201=点播数据加载失败！
+errcode201=Не удалось загрузить данные по требованию!
+#errcode202=点播目录不存在！
+errcode202=Видеофайл должен находиться во вторичном каталоге!
+#errcode203=视频类型或名称不存在！
+errcode203=Тип или название видео не существует!
+#errcode204=视频文件必须位于二级目录！
+errcode204=Видеофайлы должны находиться во вторичном каталоге!
+
+#errcode301=通知添加失败！
+errcode301=Не удалось добавить уведомление!
+
+#errcode401=不允许取消订单！
+errcode401=Разделения не существует!
+
+#errcode501=分享不存在！
+errcode501=Совместного использования не существует!
+#errcode502=提取码不正确！
+errcode502=Код извлечения неверен!
+#errcode503=分享已过期！
+errcode503=Срок доступа истек!
+#errcode504=文库文件夹不存在！
+errcode504=Папка библиотеки не существует!
+#errcode505=文库文件不存在！
+errcode505=Файл библиотеки не существует!
+#errcode506=不支持编辑该类型的文件！
+errcode506=Редактирование файлов этого типа не поддерживается!
+#errcode507=名称不可用,不能包含 \/:*?"<>|
+errcode507=Имя недоступно и не может содержать \/:*?"<>|
+
+#errcode601=数据存储目录不存在
+errcode601=Каталог хранения данных не существует
+#errcode602=酒店不存在
+errcode602=Отеля не существует
+#errcode603=酒店图片上传失败
+errcode603=Не удалось загрузить изображение отеля
+#errcode604=酒店已被禁用
+errcode604=Отели были запрещены
+#errcode605=酒店编号已存在
+errcode605=Номер отеля уже существует
+
+#errcode801=Redis数据库错误
+errcode801=Ошибки базы данных Redis
+#errcode802=授权模块不存在
+errcode802=Модуль авторизации не существует
